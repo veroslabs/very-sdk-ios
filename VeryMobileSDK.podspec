@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
 
   s.vendored_frameworks = 'VeryMobileSDK.xcframework', 'PalmAPI.xcframework'
+  s.dependency 'lottie-ios', '~> 4.4'
 
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 arm64',
