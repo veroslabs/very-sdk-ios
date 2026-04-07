@@ -132,6 +132,14 @@
 		<data>
 		xpd4yBb2GmudDNZS+MtvqlV6Yi8=
 		</data>
+		<key>LottiePrivacyInfo.bundle/Info.plist</key>
+		<data>
+		7A4Rc0YdPx1zeOIWeYQ14VxYUx8=
+		</data>
+		<key>LottiePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		9slhmTZYKDmos4efk+3YOXYOQXo=
+		</data>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
 		4c1Z1kvfr5sRFhOicRwZkCFoljU=
@@ -710,6 +718,20 @@
 			<key>hash2</key>
 			<data>
 			/KOAbNzryGfcbO6NTULtroXbfESYXr09/OsWFxa5C6g=
+			</data>
+		</dict>
+		<key>LottiePrivacyInfo.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UgEJigS+KDGBFIeN98c3R7gQqB/I69EjOO9eBqQH9WU=
+			</data>
+		</dict>
+		<key>LottiePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ENpn8heCTwGSiOwyirq8KQqwOZxS6b53ok1JQzkTfaI=
 			</data>
 		</dict>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
