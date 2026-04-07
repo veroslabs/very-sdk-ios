@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'VeryMobileSDK'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Very Mobile SDK - Palm biometrics verification for iOS'
   s.description      = <<-DESC
   VeryMobileSDK provides palm biometrics verification for iOS applications.
