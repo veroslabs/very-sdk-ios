@@ -1,0 +1,109 @@
+/* Very Mobile SDK Localization - Filipino */
+/* NOTE: This file contains English placeholder text. Please translate all strings to Filipino. */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "Move your hand left";
+"status.moveHandRight" = "Move your hand right";
+"status.moveHandUp" = "Move your hand up";
+"status.moveHandDown" = "Move your hand down";
+"status.moveHandCloser" = "Bring your hand closer";
+"status.moveHandFarther" = "Move your hand back a bit";
+"status.rotateHandUpward" = "Tilt your hand toward you";
+"status.rotateHandParallel" = "Keep your hand flat";
+"status.flipHandOver" = "Ilagay ang palad sa harap ng camera";
+"status.spreadFingers" = "Open your hand wide";
+"status.straightenFingers" = "Straighten your fingers";
+"status.spreadThumb" = "Move your thumb out to the side";
+"status.straightenThumb" = "Straighten your thumb";
+"status.brightenHand" = "Find a brighter spot";
+"status.darkenHand" = "Try moving out of direct light";
+"status.focusHand" = "Hold still for a moment";
+"status.keepStill" = "Hold still";
+"status.showGesture" = "Show gesture";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "Scan Your Right Palm";
+"scan.scanYourLeftPalm" = "Scan Your Left Palm";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "Tapos na ang unang kamay";
+"switchPalm.proceedToSwitchHand" = "Ngayon i-scan ang iyong ibang kamay.";
+
+
+/* Auth View Controller */
+"auth.cancel" = "Cancel";
+"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
+"auth.termsOfService" = "Terms of Service";
+"auth.privacyPolicy" = "Privacy Policy";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "I-set up ang iyong palm scan";
+"workthrough.subtitle" = "Mag-scan ng apat na beses para i-set up. Pagkatapos, mag-scan ng isang beses.";
+"workthrough.getStarted" = "Magsimula";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "Hindi namin makumpleto ang iyong pagpaparehistro. Pakisubukan muli.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "Hindi namin ma-verify ang iyong palad. Pakisubukan muli.";
+"error.5006" = "May nangyaring mali. Pakisubukan muli.";
+"error.5007" = "Nag-expire na ang iyong session. Pakisubukan muli.";
+"error.5008" = "May nangyaring mali. Pakikontak ang support.";
+"error.5009" = "May nangyaring mali. Pakikontak ang support.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "May nangyaring mali. Pakisubukan muli.";
+"error.9001" = "Para ma-scan ang iyong palad, pakipayagan ang access sa camera sa settings ng iyong telepono.";
+"error.9002" = "Hindi namin makumpleto ang pag-scan. Pakisubukan muli.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "Error sa network. Pakisuri ang iyong koneksyon sa internet at subukan muli.";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "Na-verify na ang iyong palad.";
+"scan.successRegistered" = "Na-set up na ang palm biometrics.";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "naglo-load…";
+"common.success" = "Tagumpay";
+"common.error" = "Error";
+"common.done" = "Tapos na";
+"common.tryAgain" = "Subukan muli";
+"common.cancel" = "Kanselahin";
+"common.continue" = "Magpatuloy";
+
+/* Scan Status */
+"scan.positionLeftHand" = "I-scan ang kaliwang palad";
+"scan.positionLeftHandAgain" = "I-scan muli ang kaliwang palad";
+"scan.positionRightHand" = "I-scan ang kanang palad";
+"scan.positionRightHandAgain" = "Malapit na — huling pag-scan";
+"scan.showGesture" = "Ipakita ang galaw";
+"scan.connectDots" = "Ikonekta ang mga tuldok";
+"scan.almostDone" = "Halos tapos na";
+"scan.registeringPalms" = "Inirerehistro ang mga palad";
+"scan.verifyingPalm" = "Vine-verify ang palad";
+"scan.successTitleVerified" = "Na-verify";
+"scan.successTitleRegistered" = "Nairehistro ang mga palad";
+"scan.successVerified" = "Na-verify na ang iyong palad.";
+"scan.successRegistered" = "Maaari ka nang mag-verify gamit ang iyong mga palad.";
+
+/* Email Verification */
+"email.continueWithEmail" = "Ilagay ang iyong email";
+"email.verifyYourEmail" = "I-verify ang iyong email";
+"email.sentCodeTo" = "Ipinadala ang code sa";
+"email.resendCode" = "Ipadala muli ang code";
+"email.invalidCode" = "Di-wastong verification code. Pakisubukan muli.";
+"email.placeholder" = "Email address";
+"consent.tip3" = "Ang scan ng iyong palad ay ginagamit lamang upang i-verify ang iyong pagkakakilanlan—tanggalin ang iyong data anumang oras";
+"switchPalm.scanOtherHand" = "I-scan ang ibang kamay";
+"error.palmLinkedToEmail" = "Ang iyong palad ay naka-link sa %@";
+"scan.errorTitle" = "Hindi namin ma-verify ang iyong palad";
+"common.tryAgainMessage" = "Mangyaring subukan ulit.";
+"auth.errorTitle" = "Hindi kami makapagpatuloy sa susunod na hakbang.";

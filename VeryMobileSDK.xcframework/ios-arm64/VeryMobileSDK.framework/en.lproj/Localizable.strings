@@ -1,0 +1,163 @@
+/* Very Mobile SDK Localization - English */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "Move your hand left";
+"status.moveHandRight" = "Move your hand right";
+"status.moveHandUp" = "Move your hand up";
+"status.moveHandDown" = "Move your hand down";
+"status.moveHandCloser" = "Bring your hand closer";
+"status.moveHandFarther" = "Move your hand back a bit";
+"status.rotateHandUpward" = "Tilt your hand toward you";
+"status.rotateHandParallel" = "Keep your hand flat";
+"status.flipHandOver" = "Place palm in front of camera";
+"status.spreadFingers" = "Open your hand wide";
+"status.straightenFingers" = "Straighten your fingers";
+"status.spreadThumb" = "Move your thumb out to the side";
+"status.straightenThumb" = "Straighten your thumb";
+"status.brightenHand" = "Find a brighter spot";
+"status.darkenHand" = "Try moving out of direct light";
+"status.focusHand" = "Hold still for a moment";
+"status.keepStill" = "Hold still";
+"status.showGesture" = "Show gesture";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "Scan Your Right Palm";
+"scan.scanYourLeftPalm" = "Scan Your Left Palm";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "First hand complete";
+"switchPalm.proceedToSwitchHand" = "Now scan your other hand.";
+"switchPalm.scanOtherHand" = "Scan other hand";
+
+/* Auth View Controller */
+"auth.cancel" = "Cancel";
+"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
+"auth.termsOfService" = "Terms of Service";
+"auth.privacyPolicy" = "Privacy Policy";
+
+/* Consent UI */
+"consent.verifyIdentityTitle" = "%@ uses VeryAI for palm verification";
+"consent.verifyIdentitySubtitle" = "%@ uses VeryAI to confirm you're human.";
+"consent.tip1" = "Create account by scanning both palms";
+"consent.tip2" = "%@ will have access to limited [verification data]";
+"consent.tip3" = "Your palm scan is only used to verify your identity—delete your data at any time";
+"consent.startVerification" = "Start verification";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "Set up your palm scan";
+"workthrough.subtitle" = "Scan four times to set up. After that, scan once.";
+"workthrough.getStarted" = "Get started";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "loading…";
+"common.success" = "Success";
+"common.error" = "Error";
+"common.done" = "Done";
+"common.tryAgain" = "Try Again";
+"common.cancel" = "Cancel";
+"common.continue" = "Continue";
+"common.tryAgainMessage" = "Please try again.";
+"error.palmLinkedToEmail" = "Your palm is linked to %@";
+"scan.errorTitle" = "We couldn't verify your palm";
+"auth.errorTitle" = "We couldn't proceed to the next step.";
+
+/* Scan Status */
+"scan.positionLeftHand" = "Scan left palm";
+"scan.positionLeftHandAgain" = "Nice—keep going";
+"scan.positionRightHand" = "Scan right palm";
+"scan.positionRightHandAgain" = "Almost done—last scan";
+"scan.showGesture" = "Show gesture";
+"scan.connectDots" = "Connect the dots";
+"scan.almostDone" = "Almost done";
+"scan.registeringPalms" = "Registering palms";
+"scan.verifyingPalm" = "Verifying palm";
+"scan.successTitleVerified" = "Verified";
+"scan.successTitleRegistered" = "Palms registered";
+"scan.successVerified" = "Your palm has been verified.";
+"scan.successRegistered" = "You can now verify using your palms.";
+
+/* Email Verification */
+"email.continueWithEmail" = "Enter your email";
+"email.verifyYourEmail" = "Verify your email";
+"email.sentCodeTo" = "Code sent to";
+"email.resendCode" = "Resend code";
+"email.invalidCode" = "Invalid verification code. Please try again.";
+"email.placeholder" = "Email address";
+
+/* API Error Codes (message for each code) */
+"error.1001" = "Something went wrong. Please try again.";
+"error.1002" = "We couldn't verify your palm. Please try again.";
+"error.1003" = "We couldn't verify your palm. Please try again.";
+"error.1004" = "Something went wrong. Please try again.";
+"error.1005" = "Something went wrong. Please try again.";
+"error.1006" = "Something went wrong. Please try again.";
+"error.1007" = "We couldn't verify your palm. Please try again.";
+"error.1008" = "We couldn't verify your palm. Please try again.";
+"error.1009" = "We couldn't verify your palm. Please try again.";
+"error.1010" = "We couldn't verify your palm. Please try again.";
+"error.1011" = "Something went wrong. Please try again.";
+"error.1012" = "Something went wrong. Please try again.";
+"error.1013" = "Something went wrong. Please try again.";
+"error.1014" = "Something went wrong. Please try again.";
+"error.1015" = "Something went wrong. Please try again.";
+"error.1016" = "Something went wrong. Please try again.";
+"error.1017" = "Something went wrong. Please try again.";
+"error.1018" = "Something went wrong. Please try again.";
+"error.1019" = "Both palms are required.";
+"error.1020" = "Something went wrong. Please try again.";
+"error.1021" = "Something went wrong. Please try again.";
+"error.1022" = "Something went wrong. Please try again.";
+"error.1023" = "Something went wrong. Please try again.";
+"error.1024" = "Something went wrong. Please try again.";
+"error.1025" = "Something went wrong. Please try again.";
+"error.1026" = "Something went wrong. Please try again.";
+"error.1027" = "Something went wrong. Please try again.";
+"error.1028" = "Something went wrong. Please try again.";
+"error.1029" = "Something went wrong. Please try again.";
+"error.1030" = "Your session has expired. Please try again.";
+"error.1031" = "Something went wrong. Please try again.";
+"error.1032" = "We couldn't find your account. Please try again.";
+"error.1033" = "We couldn't find your account. Please try again.";
+"error.1034" = "We couldn't find your account. Please try again.";
+"error.1035" = "User palms not found.";
+"error.1036" = "Review not found.";
+"error.1037" = "We couldn't verify your palm. Please try again.";
+"error.1038" = "We couldn't verify your palm. Please try again.";
+"error.1039" = "We couldn't verify your palm. Please try again.";
+"error.1040" = "We couldn't sign you in. Your email may not be registered yet, or your credentials may be incorrect.";
+"error.2001" = "Something went wrong. Please try again.";
+"error.2002" = "We couldn't find your account. Please try again.";
+"error.2003" = "Invalid username.";
+"error.2004" = "Email already in use.";
+"error.2005" = "No pending email change.";
+"error.2006" = "Invalid verification code.";
+"error.2007" = "Verification code expired.";
+"error.2008" = "Verification rate limit exceeded.";
+"error.2009" = "We couldn't find your account. Please try again.";
+"error.2010" = "Review not found.";
+"error.2011" = "Something went wrong. Please try again.";
+"error.3000" = "Something went wrong. Please try again.";
+"error.4000" = "Something went wrong. Please try again.";
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "We couldn't complete your registration. Please try again.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "We couldn't verify your palm. Please try again.";
+"error.5006" = "Something went wrong. Please try again.";
+"error.5007" = "Your session has expired. Please try again.";
+"error.5008" = "Something went wrong. Please contact support.";
+"error.5009" = "Something went wrong. Please contact support.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "Something went wrong. Please try again.";
+"error.9001" = "To scan your palm, please allow camera access in your phone's settings.";
+"error.9002" = "We couldn't complete the scan. Please try again.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "Network error. Please check your internet connection and try again.";

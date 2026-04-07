@@ -1,0 +1,109 @@
+/* Very Mobile SDK Localization - Sinhala */
+/* NOTE: This file contains English placeholder text. Please translate all strings to Sinhala. */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "Move your hand left";
+"status.moveHandRight" = "Move your hand right";
+"status.moveHandUp" = "Move your hand up";
+"status.moveHandDown" = "Move your hand down";
+"status.moveHandCloser" = "Bring your hand closer";
+"status.moveHandFarther" = "Move your hand back a bit";
+"status.rotateHandUpward" = "Tilt your hand toward you";
+"status.rotateHandParallel" = "Keep your hand flat";
+"status.flipHandOver" = "කැමරාව ඉදිරියේ අත්ල තබන්න";
+"status.spreadFingers" = "Open your hand wide";
+"status.straightenFingers" = "Straighten your fingers";
+"status.spreadThumb" = "Move your thumb out to the side";
+"status.straightenThumb" = "Straighten your thumb";
+"status.brightenHand" = "Find a brighter spot";
+"status.darkenHand" = "Try moving out of direct light";
+"status.focusHand" = "Hold still for a moment";
+"status.keepStill" = "Hold still";
+"status.showGesture" = "Show gesture";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "Scan Your Right Palm";
+"scan.scanYourLeftPalm" = "Scan Your Left Palm";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "පළමු අත සම්පූර්ණ";
+"switchPalm.proceedToSwitchHand" = "දැන් ඔබේ අනෙක් අත ස්කෑන් කරන්න.";
+
+
+/* Auth View Controller */
+"auth.cancel" = "Cancel";
+"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
+"auth.termsOfService" = "Terms of Service";
+"auth.privacyPolicy" = "Privacy Policy";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "ඔබේ අත්ල ස්කෑන් සකසන්න";
+"workthrough.subtitle" = "සැකසීමට හතර වාරයක් ස්කෑන් කරන්න. ඉන්පසු, එක වරක් ස්කෑන් කරන්න.";
+"workthrough.getStarted" = "ආරම්භ කරන්න";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "ඔබගේ ලියාපදිංචිය සම්පූර්ණ කිරීමට නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "ඔබගේ අත්ල තහවුරු කිරීමට නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.";
+"error.5006" = "යම් දෝෂයක් සිදු විය. කරුණාකර නැවත උත්සාහ කරන්න.";
+"error.5007" = "ඔබගේ සැසිය කල් ඉකුත් වී ඇත. කරුණාකර නැවත උත්සාහ කරන්න.";
+"error.5008" = "යම් දෝෂයක් සිදු විය. කරුණාකර සහාය සේවාව අමතන්න.";
+"error.5009" = "යම් දෝෂයක් සිදු විය. කරුණාකර සහාය සේවාව අමතන්න.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "යම් දෝෂයක් සිදු විය. කරුණාකර නැවත උත්සාහ කරන්න.";
+"error.9001" = "ඔබගේ අත්ල ස්කෑන් කිරීමට, ඔබගේ දුරකථන සැකසීම් තුළ කැමරා ප්‍රවේශයට අවසර දෙන්න.";
+"error.9002" = "ස්කෑන් කිරීම සම්පූර්ණ කිරීමට නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "ජාල දෝෂයකි. කරුණාකර ඔබේ අන්තර්ජාල සම්බන්ධතාවය පරීක්ෂා කර නැවත උත්සාහ කරන්න.";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "ඔබේ අත්ල සත්‍යාපනය කරන ලදී.";
+"scan.successRegistered" = "අත්ල ජීවමිතිය දැන් සකසා ඇත.";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "පූරණය වෙමින්…";
+"common.success" = "සාර්ථකයි";
+"common.error" = "දෝෂයක්";
+"common.done" = "හරි";
+"common.tryAgain" = "නැවත උත්සාහ කරන්න";
+"common.cancel" = "අවලංගු කරන්න";
+"common.continue" = "ඉදිරියට";
+
+/* Scan Status */
+"scan.positionLeftHand" = "වම් අත්ල ස්කෑන් කරන්න";
+"scan.positionLeftHandAgain" = "වම් අත්ල නැවත ස්කෑන් කරන්න";
+"scan.positionRightHand" = "දකුණු අත්ල ස්කෑන් කරන්න";
+"scan.positionRightHandAgain" = "අවසානයට ළඟයි — අවසාන ස්කෑනය";
+"scan.showGesture" = "අභිනය පෙන්වන්න";
+"scan.connectDots" = "ලක්ෂ්‍ය සම්බන්ධ කරන්න";
+"scan.almostDone" = "බොහෝ දුරට සම්පූර්ණයි";
+"scan.registeringPalms" = "අත්ල ලියාපදිංචි කරමින්";
+"scan.verifyingPalm" = "අත්ල සත්‍යාපනය කරමින්";
+"scan.successTitleVerified" = "සත්‍යාපිතයි";
+"scan.successTitleRegistered" = "අත්ල ලියාපදිංචි විය";
+"scan.successVerified" = "ඔබේ අත්ල සත්‍යාපනය විය.";
+"scan.successRegistered" = "දැන් ඔබට ඔබේ අත්ල භාවිතයෙන් සත්‍යාපනය කළ හැක.";
+
+/* Email Verification */
+"email.continueWithEmail" = "ඔබගේ ඊමේල් ඇතුළත් කරන්න";
+"email.verifyYourEmail" = "ඔබගේ ඊමේල් සත්‍යාපනය කරන්න";
+"email.sentCodeTo" = "කේතය යවන ලදී";
+"email.resendCode" = "කේතය නැවත යවන්න";
+"email.invalidCode" = "වලංගු නොවන සත්‍යාපන කේතයකි. කරුණාකර නැවත උත්සාහ කරන්න.";
+"email.placeholder" = "ඊමේල් ලිපිනය";
+"consent.tip3" = "ඔබේ අතේ ස්කෑනය ඔබගේ අනන්‍යතාව තහවුරු කිරීමට පමණක් භාවිතා වේ—ඕනෑම වේලාවක ඔබේ දත්ත මකන්න";
+"switchPalm.scanOtherHand" = "අනෙක් අත ස්කෑන් කරන්න";
+"error.palmLinkedToEmail" = "ඔබේ අත්ල %@ සමඟ සම්බන්ධ වී ඇත";
+"scan.errorTitle" = "ඔබේ අත තහවුරු කිරීමට නොහැකි විය";
+"common.tryAgainMessage" = "කරුණාකර නැවත උත්සාහ කරන්න.";
+"auth.errorTitle" = "ඊළඟ පියවරට යාමට නොහැකි විය.";

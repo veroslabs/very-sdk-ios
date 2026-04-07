@@ -1,0 +1,109 @@
+/* Very Mobile SDK Localization - Czech */
+/* NOTE: This file contains English placeholder text. Please translate all strings to Czech. */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "Move your hand left";
+"status.moveHandRight" = "Move your hand right";
+"status.moveHandUp" = "Move your hand up";
+"status.moveHandDown" = "Move your hand down";
+"status.moveHandCloser" = "Bring your hand closer";
+"status.moveHandFarther" = "Move your hand back a bit";
+"status.rotateHandUpward" = "Tilt your hand toward you";
+"status.rotateHandParallel" = "Keep your hand flat";
+"status.flipHandOver" = "Umístěte dlaň před kameru";
+"status.spreadFingers" = "Open your hand wide";
+"status.straightenFingers" = "Straighten your fingers";
+"status.spreadThumb" = "Move your thumb out to the side";
+"status.straightenThumb" = "Straighten your thumb";
+"status.brightenHand" = "Find a brighter spot";
+"status.darkenHand" = "Try moving out of direct light";
+"status.focusHand" = "Hold still for a moment";
+"status.keepStill" = "Hold still";
+"status.showGesture" = "Show gesture";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "Scan Your Right Palm";
+"scan.scanYourLeftPalm" = "Scan Your Left Palm";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "První ruka dokončena";
+"switchPalm.proceedToSwitchHand" = "Nyní naskenujte svou druhou ruku.";
+
+
+/* Auth View Controller */
+"auth.cancel" = "Cancel";
+"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
+"auth.termsOfService" = "Terms of Service";
+"auth.privacyPolicy" = "Privacy Policy";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "Nastavte sken dlaně";
+"workthrough.subtitle" = "Naskenujte čtyřikrát pro nastavení. Poté skenujte jednou.";
+"workthrough.getStarted" = "Začít";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "Nepodařilo se dokončit vaši registraci. Zkuste to prosím znovu.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "Nepodařilo se ověřit vaši dlaň. Zkuste to prosím znovu.";
+"error.5006" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.5007" = "Vaše relace vypršela. Zkuste to prosím znovu.";
+"error.5008" = "Něco se pokazilo. Kontaktujte prosím podporu.";
+"error.5009" = "Něco se pokazilo. Kontaktujte prosím podporu.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.9001" = "Pro naskenování dlaně prosím povolte přístup k fotoaparátu v nastavení telefonu.";
+"error.9002" = "Skenování se nepodařilo dokončit. Zkuste to prosím znovu.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "Chyba sítě. Zkontrolujte připojení k internetu a zkuste to znovu.";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "Vaše dlaň byla ověřena.";
+"scan.successRegistered" = "Biometrie dlaně byla nastavena.";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "načítání…";
+"common.success" = "Úspěch";
+"common.error" = "Chyba";
+"common.done" = "Hotovo";
+"common.tryAgain" = "Zkusit znovu";
+"common.cancel" = "Zrušit";
+"common.continue" = "Pokračovat";
+
+/* Scan Status */
+"scan.positionLeftHand" = "Naskenujte levou dlaň";
+"scan.positionLeftHandAgain" = "Naskenujte levou dlaň znovu";
+"scan.positionRightHand" = "Naskenujte pravou dlaň";
+"scan.positionRightHandAgain" = "Téměř hotovo — poslední skenování";
+"scan.showGesture" = "Ukažte gesto";
+"scan.connectDots" = "Spojte body";
+"scan.almostDone" = "Skoro hotovo";
+"scan.registeringPalms" = "Registrace dlaní";
+"scan.verifyingPalm" = "Ověřování dlaně";
+"scan.successTitleVerified" = "Ověřeno";
+"scan.successTitleRegistered" = "Dlaně zaregistrovány";
+"scan.successVerified" = "Vaše dlaň byla ověřena.";
+"scan.successRegistered" = "Nyní můžete ověřovat pomocí svých dlaní.";
+
+/* Email Verification */
+"email.continueWithEmail" = "Zadejte svůj e-mail";
+"email.verifyYourEmail" = "Ověřte svůj e-mail";
+"email.sentCodeTo" = "Kód odeslán na";
+"email.resendCode" = "Znovu odeslat kód";
+"email.invalidCode" = "Neplatný ověřovací kód. Zkuste to prosím znovu.";
+"email.placeholder" = "E-mailová adresa";
+"consent.tip3" = "Sken vaší dlaně slouží pouze k ověření vaší totožnosti—svá data můžete kdykoli smazat";
+"switchPalm.scanOtherHand" = "Skenovat druhou ruku";
+"error.palmLinkedToEmail" = "Vaše dlaň je propojena s %@";
+"scan.errorTitle" = "Nepodařilo se ověřit vaši dlaň";
+"common.tryAgainMessage" = "Zkuste to prosím znovu.";
+"auth.errorTitle" = "Nepodařilo se pokračovat na další krok.";

@@ -1,0 +1,107 @@
+/* Very Mobile SDK Localization - Turkish */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "Elinizi sola hareket ettirin";
+"status.moveHandRight" = "Elinizi sağa hareket ettirin";
+"status.moveHandUp" = "Elinizi yukarı hareket ettirin";
+"status.moveHandDown" = "Elinizi aşağı hareket ettirin";
+"status.moveHandCloser" = "Elinizi yaklaştırın";
+"status.moveHandFarther" = "Elinizi biraz geri çekin";
+"status.rotateHandUpward" = "Elinizi kendinize doğru eğin";
+"status.rotateHandParallel" = "Elinizi düz tutun";
+"status.flipHandOver" = "Avucunuzu kameranın önüne yerleştirin";
+"status.spreadFingers" = "Elinizi açın";
+"status.straightenFingers" = "Parmaklarınızı düzeltin";
+"status.spreadThumb" = "Başparmağınızı yana doğru hareket ettirin";
+"status.straightenThumb" = "Başparmağınızı düzeltin";
+"status.brightenHand" = "Daha aydınlık bir yer bulun";
+"status.darkenHand" = "Doğrudan ışıktan kaçının";
+"status.focusHand" = "Bir an hareketsiz durun";
+"status.keepStill" = "Hareketsiz durun";
+"status.showGesture" = "Jest göster";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "Sağ avucunuzu tarayın";
+"scan.scanYourLeftPalm" = "Sol avucunuzu tarayın";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "İlk el tamamlandı";
+"switchPalm.proceedToSwitchHand" = "Şimdi diğer elinizi tarayın.";
+
+/* Auth View Controller */
+"auth.cancel" = "İptal";
+"auth.termsText" = "Devam ederek Hizmet Şartlarımızı ve Gizlilik Politikamızı kabul etmiş olursunuz.";
+"auth.termsOfService" = "Hizmet Şartları";
+"auth.privacyPolicy" = "Gizlilik Politikası";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "Avuç içi taramanızı ayarlayın";
+"workthrough.subtitle" = "Ayarlamak için dört kez tarayın. Sonra bir kez tarayın.";
+"workthrough.getStarted" = "Başla";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "Kaydınızı tamamlayamadık. Lütfen tekrar deneyin.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "Avuç içinizi doğrulayamadık. Lütfen tekrar deneyin.";
+"error.5006" = "Bir hata oluştu. Lütfen tekrar deneyin.";
+"error.5007" = "Oturumunuzun süresi doldu. Lütfen tekrar deneyin.";
+"error.5008" = "Bir hata oluştu. Lütfen destekle iletişime geçin.";
+"error.5009" = "Bir hata oluştu. Lütfen destekle iletişime geçin.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "Bir hata oluştu. Lütfen tekrar deneyin.";
+"error.9001" = "Avuç içinizi taramak için telefonunuzun ayarlarından kamera erişimine izin verin.";
+"error.9002" = "Tarama tamamlanamadı. Lütfen tekrar deneyin.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "Ağ hatası. İnternet bağlantınızı kontrol edin ve tekrar deneyin.";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "Avuç içiniz doğrulandı.";
+"scan.successRegistered" = "Avuç içi biyometrisi ayarlandı.";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "yükleniyor…";
+"common.success" = "Başarılı";
+"common.error" = "Hata";
+"common.done" = "Tamam";
+"common.tryAgain" = "Tekrar Dene";
+"common.cancel" = "İptal";
+"common.continue" = "Devam";
+
+/* Scan Status */
+"scan.positionLeftHand" = "Sol avuç içini tarayın";
+"scan.positionLeftHandAgain" = "Sol avuç içini tekrar tarayın";
+"scan.positionRightHand" = "Sağ avuç içini tarayın";
+"scan.positionRightHandAgain" = "Neredeyse bitti — son tarama";
+"scan.showGesture" = "Jesti gösterin";
+"scan.connectDots" = "Noktaları birleştirin";
+"scan.almostDone" = "Neredeyse bitti";
+"scan.registeringPalms" = "Avuç içleri kaydediliyor";
+"scan.verifyingPalm" = "Avuç içi doğrulanıyor";
+"scan.successTitleVerified" = "Doğrulandı";
+"scan.successTitleRegistered" = "Avuç içleri kaydedildi";
+"scan.successVerified" = "Avuç içiniz doğrulandı.";
+"scan.successRegistered" = "Artık avuç içlerinizi kullanarak doğrulama yapabilirsiniz.";
+
+/* Email Verification */
+"email.continueWithEmail" = "E-postanızı girin";
+"email.verifyYourEmail" = "E-postanızı doğrulayın";
+"email.sentCodeTo" = "Kod gönderildi";
+"email.resendCode" = "Kodu tekrar gönder";
+"email.invalidCode" = "Geçersiz doğrulama kodu. Lütfen tekrar deneyin.";
+"email.placeholder" = "E-posta adresi";
+"consent.tip3" = "Avuç içi taramanız yalnızca kimliğinizi doğrulamak için kullanılır—verilerinizi istediğiniz zaman silin";
+"switchPalm.scanOtherHand" = "Diğer eli tara";
+"error.palmLinkedToEmail" = "Avuç içiniz %@ ile bağlantılı";
+"scan.errorTitle" = "Avuç içinizi doğrulayamadık";
+"common.tryAgainMessage" = "Lütfen tekrar deneyin.";
+"auth.errorTitle" = "Bir sonraki adıma geçemedik.";

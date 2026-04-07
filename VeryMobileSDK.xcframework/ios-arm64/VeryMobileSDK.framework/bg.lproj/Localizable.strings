@@ -1,0 +1,109 @@
+/* Very Mobile SDK Localization - Bulgarian */
+/* NOTE: This file contains English placeholder text. Please translate all strings to Bulgarian. */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "Move your hand left";
+"status.moveHandRight" = "Move your hand right";
+"status.moveHandUp" = "Move your hand up";
+"status.moveHandDown" = "Move your hand down";
+"status.moveHandCloser" = "Bring your hand closer";
+"status.moveHandFarther" = "Move your hand back a bit";
+"status.rotateHandUpward" = "Tilt your hand toward you";
+"status.rotateHandParallel" = "Keep your hand flat";
+"status.flipHandOver" = "Поставете дланта пред камерата";
+"status.spreadFingers" = "Open your hand wide";
+"status.straightenFingers" = "Straighten your fingers";
+"status.spreadThumb" = "Move your thumb out to the side";
+"status.straightenThumb" = "Straighten your thumb";
+"status.brightenHand" = "Find a brighter spot";
+"status.darkenHand" = "Try moving out of direct light";
+"status.focusHand" = "Hold still for a moment";
+"status.keepStill" = "Hold still";
+"status.showGesture" = "Show gesture";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "Scan Your Right Palm";
+"scan.scanYourLeftPalm" = "Scan Your Left Palm";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "Първата ръка е завършена";
+"switchPalm.proceedToSwitchHand" = "Сега сканирайте другата си ръка.";
+
+
+/* Auth View Controller */
+"auth.cancel" = "Cancel";
+"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
+"auth.termsOfService" = "Terms of Service";
+"auth.privacyPolicy" = "Privacy Policy";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "Настройте сканирането на дланта";
+"workthrough.subtitle" = "Сканирайте четири пъти за настройка. След това сканирайте веднъж.";
+"workthrough.getStarted" = "Започнете";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "Не успяхме да завършим регистрацията ви. Моля, опитайте отново.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "Не успяхме да потвърдим дланта ви. Моля, опитайте отново.";
+"error.5006" = "Нещо се обърка. Моля, опитайте отново.";
+"error.5007" = "Сесията ви е изтекла. Моля, опитайте отново.";
+"error.5008" = "Нещо се обърка. Моля, свържете се с поддръжката.";
+"error.5009" = "Нещо се обърка. Моля, свържете се с поддръжката.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "Нещо се обърка. Моля, опитайте отново.";
+"error.9001" = "За да сканирате дланта си, моля, разрешете достъп до камерата в настройките на телефона.";
+"error.9002" = "Не успяхме да завършим сканирането. Моля, опитайте отново.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "Мрежова грешка. Моля, проверете интернет връзката си и опитайте отново.";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "Дланта ви е потвърдена.";
+"scan.successRegistered" = "Биометрията на дланта е настроена.";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "зареждане…";
+"common.success" = "Успех";
+"common.error" = "Грешка";
+"common.done" = "Готово";
+"common.tryAgain" = "Опитайте отново";
+"common.cancel" = "Отказ";
+"common.continue" = "Продължи";
+
+/* Scan Status */
+"scan.positionLeftHand" = "Сканирайте лявата длан";
+"scan.positionLeftHandAgain" = "Сканирайте лявата длан отново";
+"scan.positionRightHand" = "Сканирайте дясната длан";
+"scan.positionRightHandAgain" = "Почти готово — последно сканиране";
+"scan.showGesture" = "Покажете жест";
+"scan.connectDots" = "Свържете точките";
+"scan.almostDone" = "Почти готово";
+"scan.registeringPalms" = "Регистриране на длани";
+"scan.verifyingPalm" = "Потвърждаване на длан";
+"scan.successTitleVerified" = "Потвърдено";
+"scan.successTitleRegistered" = "Длани регистрирани";
+"scan.successVerified" = "Дланта ви е потвърдена.";
+"scan.successRegistered" = "Вече можете да се верифицирате с дланите си.";
+
+/* Email Verification */
+"email.continueWithEmail" = "Въведете вашия имейл";
+"email.verifyYourEmail" = "Потвърдете вашия имейл";
+"email.sentCodeTo" = "Кодът е изпратен на";
+"email.resendCode" = "Изпрати кода отново";
+"email.invalidCode" = "Невалиден код за потвърждение. Моля, опитайте отново.";
+"email.placeholder" = "Имейл адрес";
+"consent.tip3" = "Сканирането на дланта ви се използва само за потвърждаване на самоличността ви—изтрийте данните си по всяко време";
+"switchPalm.scanOtherHand" = "Сканирайте другата ръка";
+"error.palmLinkedToEmail" = "Дланта ви е свързана с %@";
+"scan.errorTitle" = "Не можахме да проверим вашата длан";
+"common.tryAgainMessage" = "Моля, опитайте отново.";
+"auth.errorTitle" = "Не можахме да продължим към следващата стъпка.";

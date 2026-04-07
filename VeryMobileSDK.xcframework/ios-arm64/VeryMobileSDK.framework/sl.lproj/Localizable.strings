@@ -1,0 +1,109 @@
+/* Very Mobile SDK Localization - Slovenian */
+/* NOTE: This file contains English placeholder text. Please translate all strings to Slovenian. */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "Move your hand left";
+"status.moveHandRight" = "Move your hand right";
+"status.moveHandUp" = "Move your hand up";
+"status.moveHandDown" = "Move your hand down";
+"status.moveHandCloser" = "Bring your hand closer";
+"status.moveHandFarther" = "Move your hand back a bit";
+"status.rotateHandUpward" = "Tilt your hand toward you";
+"status.rotateHandParallel" = "Keep your hand flat";
+"status.flipHandOver" = "Položite dlan pred kamero";
+"status.spreadFingers" = "Open your hand wide";
+"status.straightenFingers" = "Straighten your fingers";
+"status.spreadThumb" = "Move your thumb out to the side";
+"status.straightenThumb" = "Straighten your thumb";
+"status.brightenHand" = "Find a brighter spot";
+"status.darkenHand" = "Try moving out of direct light";
+"status.focusHand" = "Hold still for a moment";
+"status.keepStill" = "Hold still";
+"status.showGesture" = "Show gesture";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "Scan Your Right Palm";
+"scan.scanYourLeftPalm" = "Scan Your Left Palm";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "Prva roka je končana";
+"switchPalm.proceedToSwitchHand" = "Sedaj skenirajte svojo drugo roko.";
+
+
+/* Auth View Controller */
+"auth.cancel" = "Cancel";
+"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
+"auth.termsOfService" = "Terms of Service";
+"auth.privacyPolicy" = "Privacy Policy";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "Nastavite skeniranje dlani";
+"workthrough.subtitle" = "Za nastavitev skenirajte štirikrat. Nato skenirajte enkrat.";
+"workthrough.getStarted" = "Začni";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "Vaše registracije ni bilo mogoče dokončati. Poskusite znova.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "Vaše dlani ni bilo mogoče preveriti. Poskusite znova.";
+"error.5006" = "Prišlo je do napake. Poskusite znova.";
+"error.5007" = "Vaša seja je potekla. Poskusite znova.";
+"error.5008" = "Prišlo je do napake. Obrnite se na podporo.";
+"error.5009" = "Prišlo je do napake. Obrnite se na podporo.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "Prišlo je do napake. Poskusite znova.";
+"error.9001" = "Za skeniranje dlani dovolite dostop do kamere v nastavitvah telefona.";
+"error.9002" = "Skeniranja ni bilo mogoče dokončati. Poskusite znova.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "Napaka omrežja. Preverite internetno povezavo in poskusite znova.";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "Vaša dlan je bila preverjena.";
+"scan.successRegistered" = "Biometrija dlani je bila nastavljena.";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "nalaganje…";
+"common.success" = "Uspeh";
+"common.error" = "Napaka";
+"common.done" = "Končano";
+"common.tryAgain" = "Poskusite znova";
+"common.cancel" = "Prekliči";
+"common.continue" = "Nadaljuj";
+
+/* Scan Status */
+"scan.positionLeftHand" = "Skenirajte levo dlan";
+"scan.positionLeftHandAgain" = "Skenirajte levo dlan znova";
+"scan.positionRightHand" = "Skenirajte desno dlan";
+"scan.positionRightHandAgain" = "Skoraj končano — zadnje skeniranje";
+"scan.showGesture" = "Pokažite gesto";
+"scan.connectDots" = "Povežite pike";
+"scan.almostDone" = "Skoraj končano";
+"scan.registeringPalms" = "Registriranje dlani";
+"scan.verifyingPalm" = "Preverjanje dlani";
+"scan.successTitleVerified" = "Preverjeno";
+"scan.successTitleRegistered" = "Dlani registrirane";
+"scan.successVerified" = "Vaša dlan je bila preverjena.";
+"scan.successRegistered" = "Zdaj se lahko preverjate s svojimi dlanmi.";
+
+/* Email Verification */
+"email.continueWithEmail" = "Vnesite svoj e-poštni naslov";
+"email.verifyYourEmail" = "Potrdite svoj e-poštni naslov";
+"email.sentCodeTo" = "Koda poslana na";
+"email.resendCode" = "Znova pošlji kodo";
+"email.invalidCode" = "Neveljavna potrditvena koda. Poskusite znova.";
+"email.placeholder" = "E-poštni naslov";
+"consent.tip3" = "Skeniranje vaše dlani se uporablja samo za preverjanje vaše identitete—kadarkoli izbrišite svoje podatke";
+"switchPalm.scanOtherHand" = "Skeniraj drugo roko";
+"error.palmLinkedToEmail" = "Vaša dlan je povezana z %@";
+"scan.errorTitle" = "Nismo mogli preveriti vaše dlani";
+"common.tryAgainMessage" = "Poskusite ponovno.";
+"auth.errorTitle" = "Nismo mogli nadaljevati na naslednji korak.";

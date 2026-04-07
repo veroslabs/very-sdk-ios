@@ -1,0 +1,107 @@
+/* Very Mobile SDK Localization - Japanese */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "手を左に動かしてください";
+"status.moveHandRight" = "手を右に動かしてください";
+"status.moveHandUp" = "手を上に動かしてください";
+"status.moveHandDown" = "手を下に動かしてください";
+"status.moveHandCloser" = "手を近づけてください";
+"status.moveHandFarther" = "手を少し後ろに動かしてください";
+"status.rotateHandUpward" = "手を手前に傾けてください";
+"status.rotateHandParallel" = "手のひらを平らにしてください";
+"status.flipHandOver" = "カメラの前に手のひらを置いてください";
+"status.spreadFingers" = "指を広げてください";
+"status.straightenFingers" = "指を伸ばしてください";
+"status.spreadThumb" = "親指を横に動かしてください";
+"status.straightenThumb" = "親指を伸ばしてください";
+"status.brightenHand" = "もっと明るい場所を探してください";
+"status.darkenHand" = "直射日光を避けてください";
+"status.focusHand" = "少しの間じっとしてください";
+"status.keepStill" = "じっとしていてください";
+"status.showGesture" = "ジェスチャーを表示";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "右手のひらをスキャン";
+"scan.scanYourLeftPalm" = "左手のひらをスキャン";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "最初の手が完了しました";
+"switchPalm.proceedToSwitchHand" = "もう一方の手をスキャンしてください。";
+
+/* Auth View Controller */
+"auth.cancel" = "キャンセル";
+"auth.termsText" = "続行することで、利用規約およびプライバシーポリシーに同意したことになります。";
+"auth.termsOfService" = "利用規約";
+"auth.privacyPolicy" = "プライバシーポリシー";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "手のひらスキャンを設定";
+"workthrough.subtitle" = "設定のため4回スキャンしてください。その後は1回スキャンです。";
+"workthrough.getStarted" = "開始";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "登録を完了できませんでした。もう一度お試しください。";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "手のひらを認証できませんでした。もう一度お試しください。";
+"error.5006" = "問題が発生しました。もう一度お試しください。";
+"error.5007" = "セッションの有効期限が切れました。もう一度お試しください。";
+"error.5008" = "問題が発生しました。サポートにお問い合わせください。";
+"error.5009" = "問題が発生しました。サポートにお問い合わせください。";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "問題が発生しました。もう一度お試しください。";
+"error.9001" = "手のひらをスキャンするには、スマートフォンの設定でカメラへのアクセスを許可してください。";
+"error.9002" = "スキャンを完了できませんでした。もう一度お試しください。";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "ネットワークエラー。インターネット接続を確認して、もう一度お試しください。";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "手のひらが認証されました。";
+"scan.successRegistered" = "手のひらの生体認証が設定されました。";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "読み込み中…";
+"common.success" = "成功";
+"common.error" = "エラー";
+"common.done" = "完了";
+"common.tryAgain" = "再試行";
+"common.cancel" = "キャンセル";
+"common.continue" = "続ける";
+
+/* Scan Status */
+"scan.positionLeftHand" = "左手のひらをスキャン";
+"scan.positionLeftHandAgain" = "左手のひらを再度スキャン";
+"scan.positionRightHand" = "右手のひらをスキャン";
+"scan.positionRightHandAgain" = "もう少しです——最後のスキャン";
+"scan.showGesture" = "ジェスチャーを表示";
+"scan.connectDots" = "点をつなげる";
+"scan.almostDone" = "もう少しです";
+"scan.registeringPalms" = "手のひらを登録中";
+"scan.verifyingPalm" = "手のひらを認証中";
+"scan.successTitleVerified" = "認証完了";
+"scan.successTitleRegistered" = "手のひら登録完了";
+"scan.successVerified" = "手のひらが認証されました。";
+"scan.successRegistered" = "手のひらで認証できるようになりました。";
+
+/* Email Verification */
+"email.continueWithEmail" = "メールアドレスを入力";
+"email.verifyYourEmail" = "メールを確認";
+"email.sentCodeTo" = "コード送信先";
+"email.resendCode" = "コードを再送信";
+"email.invalidCode" = "認証コードが無効です。もう一度お試しください。";
+"email.placeholder" = "メールアドレス";
+"consent.tip3" = "手のひらスキャンはお客様の本人確認のみに使用されます—いつでもデータを削除できます";
+"switchPalm.scanOtherHand" = "もう一方の手をスキャン";
+"error.palmLinkedToEmail" = "手のひらは %@ に紐付けられています";
+"scan.errorTitle" = "手のひらを確認できませんでした";
+"common.tryAgainMessage" = "もう一度お試しください。";
+"auth.errorTitle" = "次のステップに進めませんでした。";

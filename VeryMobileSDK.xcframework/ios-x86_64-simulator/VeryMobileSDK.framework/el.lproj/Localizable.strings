@@ -1,0 +1,109 @@
+/* Very Mobile SDK Localization - Greek */
+/* NOTE: This file contains English placeholder text. Please translate all strings to Greek. */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "Move your hand left";
+"status.moveHandRight" = "Move your hand right";
+"status.moveHandUp" = "Move your hand up";
+"status.moveHandDown" = "Move your hand down";
+"status.moveHandCloser" = "Bring your hand closer";
+"status.moveHandFarther" = "Move your hand back a bit";
+"status.rotateHandUpward" = "Tilt your hand toward you";
+"status.rotateHandParallel" = "Keep your hand flat";
+"status.flipHandOver" = "Τοποθετήστε την παλάμη μπροστά στην κάμερα";
+"status.spreadFingers" = "Open your hand wide";
+"status.straightenFingers" = "Straighten your fingers";
+"status.spreadThumb" = "Move your thumb out to the side";
+"status.straightenThumb" = "Straighten your thumb";
+"status.brightenHand" = "Find a brighter spot";
+"status.darkenHand" = "Try moving out of direct light";
+"status.focusHand" = "Hold still for a moment";
+"status.keepStill" = "Hold still";
+"status.showGesture" = "Show gesture";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "Scan Your Right Palm";
+"scan.scanYourLeftPalm" = "Scan Your Left Palm";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "Το πρώτο χέρι ολοκληρώθηκε";
+"switchPalm.proceedToSwitchHand" = "Τώρα σαρώστε το άλλο χέρι σας.";
+
+
+/* Auth View Controller */
+"auth.cancel" = "Cancel";
+"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
+"auth.termsOfService" = "Terms of Service";
+"auth.privacyPolicy" = "Privacy Policy";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "Ρυθμίστε τη σάρωση παλάμης";
+"workthrough.subtitle" = "Σαρώστε τέσσερις φορές για ρύθμιση. Μετά σαρώστε μία φορά.";
+"workthrough.getStarted" = "Ξεκινήστε";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "Δεν ήταν δυνατή η ολοκλήρωση της εγγραφής σας. Παρακαλώ δοκιμάστε ξανά.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "Δεν ήταν δυνατή η επαλήθευση της παλάμης σας. Παρακαλώ δοκιμάστε ξανά.";
+"error.5006" = "Κάτι πήγε στραβά. Παρακαλώ δοκιμάστε ξανά.";
+"error.5007" = "Η συνεδρία σας έληξε. Παρακαλώ δοκιμάστε ξανά.";
+"error.5008" = "Κάτι πήγε στραβά. Παρακαλώ επικοινωνήστε με την υποστήριξη.";
+"error.5009" = "Κάτι πήγε στραβά. Παρακαλώ επικοινωνήστε με την υποστήριξη.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "Κάτι πήγε στραβά. Παρακαλώ δοκιμάστε ξανά.";
+"error.9001" = "Για να σαρώσετε την παλάμη σας, επιτρέψτε την πρόσβαση στην κάμερα στις ρυθμίσεις του τηλεφώνου σας.";
+"error.9002" = "Δεν ήταν δυνατή η ολοκλήρωση της σάρωσης. Παρακαλώ δοκιμάστε ξανά.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "Σφάλμα δικτύου. Ελέγξτε τη σύνδεσή σας στο διαδίκτυο και δοκιμάστε ξανά.";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "Η παλάμη σας επαληθεύτηκε.";
+"scan.successRegistered" = "Τα βιομετρικά παλάμης έχουν ρυθμιστεί.";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "φόρτωση…";
+"common.success" = "Επιτυχία";
+"common.error" = "Σφάλμα";
+"common.done" = "Ολοκληρώθηκε";
+"common.tryAgain" = "Δοκιμάστε ξανά";
+"common.cancel" = "Ακύρωση";
+"common.continue" = "Συνέχεια";
+
+/* Scan Status */
+"scan.positionLeftHand" = "Σαρώστε την αριστερή παλάμη";
+"scan.positionLeftHandAgain" = "Σαρώστε την αριστερή παλάμη ξανά";
+"scan.positionRightHand" = "Σαρώστε τη δεξιά παλάμη";
+"scan.positionRightHandAgain" = "Σχεδόν έτοιμο — τελευταία σάρωση";
+"scan.showGesture" = "Δείξτε τη χειρονομία";
+"scan.connectDots" = "Ενώστε τα σημεία";
+"scan.almostDone" = "Σχεδόν έτοιμο";
+"scan.registeringPalms" = "Εγγραφή παλαμών";
+"scan.verifyingPalm" = "Επαλήθευση παλάμης";
+"scan.successTitleVerified" = "Επαληθεύτηκε";
+"scan.successTitleRegistered" = "Παλάμες καταχωρήθηκαν";
+"scan.successVerified" = "Η παλάμη σας επαληθεύτηκε.";
+"scan.successRegistered" = "Μπορείτε πλέον να επαληθεύεστε χρησιμοποιώντας τις παλάμες σας.";
+
+/* Email Verification */
+"email.continueWithEmail" = "Εισάγετε το email σας";
+"email.verifyYourEmail" = "Επαληθεύστε το email σας";
+"email.sentCodeTo" = "Ο κωδικός εστάλη στο";
+"email.resendCode" = "Επανάληψη αποστολής κωδικού";
+"email.invalidCode" = "Μη έγκυρος κωδικός επαλήθευσης. Παρακαλώ δοκιμάστε ξανά.";
+"email.placeholder" = "Διεύθυνση email";
+"consent.tip3" = "Η σάρωση παλάμης σας χρησιμοποιείται μόνο για την επαλήθευση της ταυτότητάς σας—διαγράψτε τα δεδομένα σας ανά πάσα στιγμή";
+"switchPalm.scanOtherHand" = "Σαρώστε το άλλο χέρι";
+"error.palmLinkedToEmail" = "Η παλάμη σας είναι συνδεδεμένη με %@";
+"scan.errorTitle" = "Δεν ήμασταν σε θέση να επαληθεύσουμε την παλάμη σας";
+"common.tryAgainMessage" = "Παρακαλώ δοκιμάστε ξανά.";
+"auth.errorTitle" = "Δεν ήταν δυνατή η μετάβαση στο επόμενο βήμα.";

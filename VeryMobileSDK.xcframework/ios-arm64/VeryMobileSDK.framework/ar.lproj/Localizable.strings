@@ -1,0 +1,107 @@
+/* Very Mobile SDK Localization - Arabic */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "حرّك يدك إلى اليسار";
+"status.moveHandRight" = "حرّك يدك إلى اليمين";
+"status.moveHandUp" = "حرّك يدك إلى الأعلى";
+"status.moveHandDown" = "حرّك يدك إلى الأسفل";
+"status.moveHandCloser" = "قرّب يدك";
+"status.moveHandFarther" = "أبعد يدك قليلاً";
+"status.rotateHandUpward" = "امِل يدك نحوك";
+"status.rotateHandParallel" = "أبقِ يدك مسطحة";
+"status.flipHandOver" = "ضع راحة يدك أمام الكاميرا";
+"status.spreadFingers" = "افتح يدك جيداً";
+"status.straightenFingers" = "قوّم أصابعك";
+"status.spreadThumb" = "حرّك إبهامك إلى الجانب";
+"status.straightenThumb" = "قوّم إبهامك";
+"status.brightenHand" = "ابحث عن مكان أوضح";
+"status.darkenHand" = "تجنّب الضوء المباشر";
+"status.focusHand" = "ابق ثابتاً لحظة";
+"status.keepStill" = "ابق ثابتاً";
+"status.showGesture" = "أظهر الإيماءة";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "امسح راحة اليد اليمنى";
+"scan.scanYourLeftPalm" = "امسح راحة اليد اليسرى";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "تم إكمال اليد الأولى";
+"switchPalm.proceedToSwitchHand" = "الآن امسح يدك الأخرى.";
+
+/* Auth View Controller */
+"auth.cancel" = "إلغاء";
+"auth.termsText" = "بالمتابعة، أنت توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا.";
+"auth.termsOfService" = "شروط الخدمة";
+"auth.privacyPolicy" = "سياسة الخصوصية";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "إعداد مسح كف يدك";
+"workthrough.subtitle" = "امسح أربع مرات للإعداد. بعد ذلك، امسح مرة واحدة.";
+"workthrough.getStarted" = "ابدأ";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "لم نتمكن من إكمال تسجيلك. يرجى المحاولة مرة أخرى.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "لم نتمكن من التحقق من بصمة كفك. يرجى المحاولة مرة أخرى.";
+"error.5006" = "حدث خطأ ما. يرجى المحاولة مرة أخرى.";
+"error.5007" = "انتهت صلاحية جلستك. يرجى المحاولة مرة أخرى.";
+"error.5008" = "حدث خطأ ما. يرجى التواصل مع الدعم.";
+"error.5009" = "حدث خطأ ما. يرجى التواصل مع الدعم.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "حدث خطأ ما. يرجى المحاولة مرة أخرى.";
+"error.9001" = "لمسح كفك، يرجى السماح بالوصول إلى الكاميرا في إعدادات هاتفك.";
+"error.9002" = "لم نتمكن من إكمال المسح. يرجى المحاولة مرة أخرى.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "خطأ في الشبكة. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "تم التحقق من كف يدك.";
+"scan.successRegistered" = "تم إعداد بصمة الكف الآن.";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "جارٍ التحميل…";
+"common.success" = "نجاح";
+"common.error" = "خطأ";
+"common.done" = "تم";
+"common.tryAgain" = "حاول مجددًا";
+"common.cancel" = "إلغاء";
+"common.continue" = "متابعة";
+
+/* Scan Status */
+"scan.positionLeftHand" = "امسح كف اليد اليسرى";
+"scan.positionLeftHandAgain" = "امسح كف اليد اليسرى مرة أخرى";
+"scan.positionRightHand" = "امسح كف اليد اليمنى";
+"scan.positionRightHandAgain" = "أوشكت على الانتهاء — المسح الأخير";
+"scan.showGesture" = "أظهر الإيماءة";
+"scan.connectDots" = "صل النقاط";
+"scan.almostDone" = "أوشك على الانتهاء";
+"scan.registeringPalms" = "جارٍ تسجيل الكفوف";
+"scan.verifyingPalm" = "جارٍ التحقق من الكف";
+"scan.successTitleVerified" = "تم التحقق";
+"scan.successTitleRegistered" = "تم تسجيل الكفوف";
+"scan.successVerified" = "تم التحقق من كفك.";
+"scan.successRegistered" = "يمكنك الآن التحقق باستخدام كفوفك.";
+
+/* Email Verification */
+"email.continueWithEmail" = "أدخل بريدك الإلكتروني";
+"email.verifyYourEmail" = "تحقق من بريدك الإلكتروني";
+"email.sentCodeTo" = "تم إرسال الرمز إلى";
+"email.resendCode" = "إعادة إرسال الرمز";
+"email.invalidCode" = "رمز التحقق غير صالح. يرجى المحاولة مرة أخرى.";
+"email.placeholder" = "البريد الإلكتروني";
+"consent.tip3" = "مسح راحة يدك يُستخدم فقط للتحقق من هويتك—احذف بياناتك في أي وقت";
+"switchPalm.scanOtherHand" = "امسح اليد الأخرى";
+"error.palmLinkedToEmail" = "كف يدك مرتبط بـ %@";
+"scan.errorTitle" = "لم تتمكن من التحقق من راحة يدك";
+"common.tryAgainMessage" = "يرجى المحاولة مرة أخرى.";
+"auth.errorTitle" = "لم نتمكن من المتابعة إلى الخطوة التالية.";

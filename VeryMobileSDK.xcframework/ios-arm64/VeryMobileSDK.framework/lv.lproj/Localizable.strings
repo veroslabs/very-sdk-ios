@@ -1,0 +1,109 @@
+/* Very Mobile SDK Localization - Latvian */
+/* NOTE: This file contains English placeholder text. Please translate all strings to Latvian. */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "Move your hand left";
+"status.moveHandRight" = "Move your hand right";
+"status.moveHandUp" = "Move your hand up";
+"status.moveHandDown" = "Move your hand down";
+"status.moveHandCloser" = "Bring your hand closer";
+"status.moveHandFarther" = "Move your hand back a bit";
+"status.rotateHandUpward" = "Tilt your hand toward you";
+"status.rotateHandParallel" = "Keep your hand flat";
+"status.flipHandOver" = "Novietojiet plaukstu kameras priekšā";
+"status.spreadFingers" = "Open your hand wide";
+"status.straightenFingers" = "Straighten your fingers";
+"status.spreadThumb" = "Move your thumb out to the side";
+"status.straightenThumb" = "Straighten your thumb";
+"status.brightenHand" = "Find a brighter spot";
+"status.darkenHand" = "Try moving out of direct light";
+"status.focusHand" = "Hold still for a moment";
+"status.keepStill" = "Hold still";
+"status.showGesture" = "Show gesture";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "Scan Your Right Palm";
+"scan.scanYourLeftPalm" = "Scan Your Left Palm";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "Pirmā roka pabeigta";
+"switchPalm.proceedToSwitchHand" = "Tagad skenējiet savu otru roku.";
+
+
+/* Auth View Controller */
+"auth.cancel" = "Cancel";
+"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
+"auth.termsOfService" = "Terms of Service";
+"auth.privacyPolicy" = "Privacy Policy";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "Iestatiet plaukstas skenēšanu";
+"workthrough.subtitle" = "Skenējiet četras reizes iestatīšanai. Pēc tam skenējiet vienu reizi.";
+"workthrough.getStarted" = "Sākt";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "Mēs nevarējām pabeigt jūsu reģistrāciju. Lūdzu, mēģiniet vēlreiz.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "Mēs nevarējām verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
+"error.5006" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.5007" = "Jūsu sesija ir beigusies. Lūdzu, mēģiniet vēlreiz.";
+"error.5008" = "Kaut kas nogāja greizi. Lūdzu, sazinieties ar atbalsta dienestu.";
+"error.5009" = "Kaut kas nogāja greizi. Lūdzu, sazinieties ar atbalsta dienestu.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.9001" = "Lai skenētu plaukstu, lūdzu, atļaujiet piekļuvi kamerai tālruņa iestatījumos.";
+"error.9002" = "Mēs nevarējām pabeigt skenēšanu. Lūdzu, mēģiniet vēlreiz.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "Tīkla kļūda. Lūdzu, pārbaudiet interneta savienojumu un mēģiniet vēlreiz.";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "Jūsu plauksta ir verificēta.";
+"scan.successRegistered" = "Plaukstas biometrija ir iestatīta.";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "ielādē…";
+"common.success" = "Veiksmīgi";
+"common.error" = "Kļūda";
+"common.done" = "Gatavs";
+"common.tryAgain" = "Mēģināt vēlreiz";
+"common.cancel" = "Atcelt";
+"common.continue" = "Turpināt";
+
+/* Scan Status */
+"scan.positionLeftHand" = "Skenējiet kreiso plaukstu";
+"scan.positionLeftHandAgain" = "Skenējiet kreiso plaukstu vēlreiz";
+"scan.positionRightHand" = "Skenējiet labo plaukstu";
+"scan.positionRightHandAgain" = "Gandrīz gatavs — pēdējā skenēšana";
+"scan.showGesture" = "Parādiet žestu";
+"scan.connectDots" = "Savienojiet punktus";
+"scan.almostDone" = "Gandrīz gatavs";
+"scan.registeringPalms" = "Plaukstu reģistrēšana";
+"scan.verifyingPalm" = "Plaukstas verificēšana";
+"scan.successTitleVerified" = "Verificēts";
+"scan.successTitleRegistered" = "Plaukstas reģistrētas";
+"scan.successVerified" = "Jūsu plauksta ir verificēta.";
+"scan.successRegistered" = "Tagad varat verificēt, izmantojot savas plaukstas.";
+
+/* Email Verification */
+"email.continueWithEmail" = "Ievadiet savu e-pastu";
+"email.verifyYourEmail" = "Apstipriniet savu e-pastu";
+"email.sentCodeTo" = "Kods nosūtīts uz";
+"email.resendCode" = "Nosūtīt kodu vēlreiz";
+"email.invalidCode" = "Nederīgs verifikācijas kods. Lūdzu, mēģiniet vēlreiz.";
+"email.placeholder" = "E-pasta adrese";
+"consent.tip3" = "Jūsu plaukstas skenēšana tiek izmantota tikai jūsu identitātes pārbaudei—dzēsiet savus datus jebkurā laikā";
+"switchPalm.scanOtherHand" = "Skenēt otru roku";
+"error.palmLinkedToEmail" = "Jūsu plauksta ir saistīta ar %@";
+"scan.errorTitle" = "Mēs nevarējām pārbaudīt jūsu plaukstu";
+"common.tryAgainMessage" = "Lūdzu, mēģiniet vēlreiz.";
+"auth.errorTitle" = "Nevarējām pāriet uz nākamo soli.";

@@ -1,0 +1,109 @@
+/* Very Mobile SDK Localization - Azerbaijani */
+/* NOTE: This file contains English placeholder text. Please translate all strings to Azerbaijani. */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "Move your hand left";
+"status.moveHandRight" = "Move your hand right";
+"status.moveHandUp" = "Move your hand up";
+"status.moveHandDown" = "Move your hand down";
+"status.moveHandCloser" = "Bring your hand closer";
+"status.moveHandFarther" = "Move your hand back a bit";
+"status.rotateHandUpward" = "Tilt your hand toward you";
+"status.rotateHandParallel" = "Keep your hand flat";
+"status.flipHandOver" = "Ovucunuzu kameranın qarşısına qoyun";
+"status.spreadFingers" = "Open your hand wide";
+"status.straightenFingers" = "Straighten your fingers";
+"status.spreadThumb" = "Move your thumb out to the side";
+"status.straightenThumb" = "Straighten your thumb";
+"status.brightenHand" = "Find a brighter spot";
+"status.darkenHand" = "Try moving out of direct light";
+"status.focusHand" = "Hold still for a moment";
+"status.keepStill" = "Hold still";
+"status.showGesture" = "Show gesture";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "Scan Your Right Palm";
+"scan.scanYourLeftPalm" = "Scan Your Left Palm";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "Birinci əl tamamlandı";
+"switchPalm.proceedToSwitchHand" = "İndi digər əlinizi skan edin.";
+
+
+/* Auth View Controller */
+"auth.cancel" = "Cancel";
+"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
+"auth.termsOfService" = "Terms of Service";
+"auth.privacyPolicy" = "Privacy Policy";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "Ovuc skanını qur";
+"workthrough.subtitle" = "Qurmaq üçün dörd dəfə skan edin. Sonra bir dəfə skan edin.";
+"workthrough.getStarted" = "Başla";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "Qeydiyyatınızı tamamlaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "Ovucunuzu doğrulaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.5006" = "Xəta baş verdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.5007" = "Seansınızın müddəti bitib. Zəhmət olmasa, yenidən cəhd edin.";
+"error.5008" = "Xəta baş verdi. Zəhmət olmasa, dəstək xidməti ilə əlaqə saxlayın.";
+"error.5009" = "Xəta baş verdi. Zəhmət olmasa, dəstək xidməti ilə əlaqə saxlayın.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "Xəta baş verdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.9001" = "Ovucunuzu skan etmək üçün telefonunuzun parametrlərindən kameraya icazə verin.";
+"error.9002" = "Skanı tamamlaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "Şəbəkə xətası. İnternet bağlantınızı yoxlayın və yenidən cəhd edin.";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "Ovucunuz doğrulandı.";
+"scan.successRegistered" = "Ovuc biometrikası quruldu.";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "yüklənir…";
+"common.success" = "Uğurlu";
+"common.error" = "Xəta";
+"common.done" = "Hazır";
+"common.tryAgain" = "Yenidən cəhd edin";
+"common.cancel" = "Ləğv et";
+"common.continue" = "Davam et";
+
+/* Scan Status */
+"scan.positionLeftHand" = "Sol ovucu skan edin";
+"scan.positionLeftHandAgain" = "Sol ovucu yenidən skan edin";
+"scan.positionRightHand" = "Sağ ovucu skan edin";
+"scan.positionRightHandAgain" = "Demək olar ki, bitdi — son skan";
+"scan.showGesture" = "Jesti göstərin";
+"scan.connectDots" = "Nöqtələri birləşdirin";
+"scan.almostDone" = "Demək olar ki hazırdır";
+"scan.registeringPalms" = "Ovuclar qeydiyyat olunur";
+"scan.verifyingPalm" = "Ovuc doğrulanır";
+"scan.successTitleVerified" = "Təsdiqləndi";
+"scan.successTitleRegistered" = "Ovuclar qeydiyyatdan keçdi";
+"scan.successVerified" = "Ovucunuz təsdiqləndi.";
+"scan.successRegistered" = "İndi ovuclarınızla təsdiqləyə bilərsiniz.";
+
+/* Email Verification */
+"email.continueWithEmail" = "E-poçtunuzu daxil edin";
+"email.verifyYourEmail" = "E-poçtunuzu təsdiqləyin";
+"email.sentCodeTo" = "Kod göndərildi";
+"email.resendCode" = "Kodu yenidən göndər";
+"email.invalidCode" = "Yanlış təsdiq kodu. Zəhmət olmasa, yenidən cəhd edin.";
+"email.placeholder" = "E-poçt ünvanı";
+"consent.tip3" = "Ovuc iziniz yalnız kimliyinizi təsdiqləmək üçün istifadə olunur—məlumatlarınızı istənilən vaxt silin";
+"switchPalm.scanOtherHand" = "Digər əli skan et";
+"error.palmLinkedToEmail" = "Ovucunuz %@ ilə bağlıdır";
+"scan.errorTitle" = "Ovucunuzu doğrulaya bilmədik";
+"common.tryAgainMessage" = "Zəhmət olmasa yenidən cəhd edin.";
+"auth.errorTitle" = "Növbəti addıma keçə bilmədik.";

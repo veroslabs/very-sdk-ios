@@ -1,0 +1,177 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VeryMobileSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
+import AVKit
+import CommonCrypto
+import CoreText
+import Foundation
+import Lottie
+import ObjectiveC
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum VeryPresentationStyle : Swift.Int {
+  case modal = 0
+  case push = 1
+  case embed = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum VeryScanMode : Swift.Int {
+  case anyPalm = 0
+  case bothPalms = 1
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum VeryLivenessMode : Swift.Int {
+  case gesture = 1
+  case touch = 4
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class VeryScanPalmModel : ObjectiveC.NSObject {
+  @objc final public let data: Swift.String
+  @objc final public let sidedness: Swift.String
+  @objc public init(data: Swift.String, sidedness: Swift.String)
+  @objc deinit
+}
+@objc public class VeryScanResult : ObjectiveC.NSObject {
+  @objc final public let palmModels: [VeryMobileSDK.VeryScanPalmModel]
+  @objc final public let error: Swift.String?
+  @objc final public let errorMessage: Swift.String?
+  @objc public var isSuccess: Swift.Bool {
+    @objc get
+  }
+  @objc public init(palmModels: [VeryMobileSDK.VeryScanPalmModel] = [], error: Swift.String? = nil, errorMessage: Swift.String? = nil)
+  @objc deinit
+}
+@objc public enum VeryErrorType : Swift.Int {
+  case cameraPermissionDenied = 9001
+  case captureFailed = 9002
+  case sessionExpired = 9003
+  case userCanceled = 9004
+  case timeout = 9006
+  case verificationFailed = 5005
+  case enrollmentFailed = 5003
+  case verificationExhausted = 5004
+  case serverError = 0
+  public static func from(_ code: Swift.String?) -> VeryMobileSDK.VeryErrorType?
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class VeryConfig : ObjectiveC.NSObject {
+  @objc public var sdkKey: Swift.String
+  @objc public var userId: Swift.String?
+  @objc public var language: Swift.String?
+  @objc public var themeMode: Swift.String
+  @objc public var baseUrl: Swift.String?
+  @objc public var livenessMode: VeryMobileSDK.VeryLivenessMode
+  @objc override dynamic public init()
+  @objc public init(sdkKey: Swift.String, userId: Swift.String? = nil, language: Swift.String? = nil, themeMode: Swift.String = "dark", baseUrl: Swift.String? = nil, livenessMode: VeryMobileSDK.VeryLivenessMode = .touch)
+  @objc deinit
+}
+@objc public class VeryResult : ObjectiveC.NSObject {
+  @objc final public let code: Swift.String
+  @objc final public let userId: Swift.String
+  @objc final public let signedToken: Swift.String?
+  @objc final public let error: Swift.String?
+  @objc final public let errorMessage: Swift.String?
+  @objc public var isSuccess: Swift.Bool {
+    @objc get
+  }
+  @objc public var errorType: VeryMobileSDK.VeryErrorType {
+    @objc get
+  }
+  @objc public init(code: Swift.String, userId: Swift.String, signedToken: Swift.String? = nil, error: Swift.String? = nil, errorMessage: Swift.String? = nil)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class VeryMobileSDK : ObjectiveC.NSObject {
+  @objc public static func authenticate(from viewController: UIKit.UIViewController, config: VeryMobileSDK.VeryConfig, presentationStyle: VeryMobileSDK.VeryPresentationStyle = .modal, completion: @escaping (VeryMobileSDK.VeryResult) -> Swift.Void)
+  @objc public static func startPalmVerification(from viewController: UIKit.UIViewController, presentationStyle: VeryMobileSDK.VeryPresentationStyle = .modal, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
+  @objc public static func scan(from viewController: UIKit.UIViewController, mode: VeryMobileSDK.VeryScanMode, nonce: Swift.String? = nil, allowAudit: Swift.Bool = false, language: Swift.String? = nil, themeMode: Swift.String = "dark", livenessMode: VeryMobileSDK.VeryLivenessMode = .touch, presentationStyle: VeryMobileSDK.VeryPresentationStyle = .modal, completion: @escaping (VeryMobileSDK.VeryScanResult) -> Swift.Void)
+  @objc public static func completeScan(success: Swift.Bool, errorMessage: Swift.String? = nil)
+  @objc public static func isVerificationSuccess(_ result: Swift.Bool) -> Swift.Bool
+  @objc public static func isVerificationCancelled(_ result: Swift.Bool) -> Swift.Bool
+  @available(*, deprecated, renamed: "isSupported")
+  @objc public static func isSupport() -> Swift.Bool
+  @objc public static func isSupported() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct NV21Frame {
+  public let data: Foundation.Data
+  public let width: Swift.Int
+  public let height: Swift.Int
+  public let frameId: Swift.UInt64
+}
+public enum CameraFlashMode {
+  case off
+  case torch
+  case auto
+  public static func == (a: VeryMobileSDK.CameraFlashMode, b: VeryMobileSDK.CameraFlashMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct CameraAdjustmentState {
+  public let isAdjustingFocus: Swift.Bool
+  public let isAdjustingExposure: Swift.Bool
+  public var isAdjusted: Swift.Bool {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class CameraPreviewView : UIKit.UIView, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
+  @_Concurrency.MainActor @preconcurrency final public var dropFramesDuringCameraAdjustment: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency final public var adjustmentState: VeryMobileSDK.CameraAdjustmentState {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func layoutSubviews()
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override final public func didMoveToWindow()
+  @_Concurrency.MainActor @preconcurrency final public func pauseCamera()
+  @_Concurrency.MainActor @preconcurrency final public func resumeCamera()
+  @_Concurrency.MainActor @preconcurrency final public func getCurrentFrameImage() -> UIKit.UIImage?
+  @_Concurrency.MainActor @preconcurrency final public func getCurrentFrameNV21() -> VeryMobileSDK.NV21Frame?
+  @_Concurrency.MainActor @preconcurrency final public func captureHiresPhoto(completion: @escaping (Foundation.Data?) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc final public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: (any Swift.Error)?)
+  @_Concurrency.MainActor @preconcurrency final public func refocus()
+  @_Concurrency.MainActor @preconcurrency final public func resetAutofocus()
+  @_Concurrency.MainActor @preconcurrency final public func setFlashMode(_ mode: VeryMobileSDK.CameraFlashMode)
+  @_Concurrency.MainActor @preconcurrency final public func enableTorch()
+  @_Concurrency.MainActor @preconcurrency final public func turnOffTorch()
+  @_Concurrency.MainActor @preconcurrency final public func handleFlashRequest(_ flashRequest: Swift.Int32)
+  @_Concurrency.MainActor @preconcurrency final public func setZoom(_ factor: CoreFoundation.CGFloat)
+  @_Concurrency.MainActor @preconcurrency @objc final public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
+extension VeryMobileSDK.VeryPresentationStyle : Swift.Equatable {}
+extension VeryMobileSDK.VeryPresentationStyle : Swift.Hashable {}
+extension VeryMobileSDK.VeryPresentationStyle : Swift.RawRepresentable {}
+extension VeryMobileSDK.VeryScanMode : Swift.Equatable {}
+extension VeryMobileSDK.VeryScanMode : Swift.Hashable {}
+extension VeryMobileSDK.VeryScanMode : Swift.RawRepresentable {}
+extension VeryMobileSDK.VeryLivenessMode : Swift.Equatable {}
+extension VeryMobileSDK.VeryLivenessMode : Swift.Hashable {}
+extension VeryMobileSDK.VeryLivenessMode : Swift.RawRepresentable {}
+extension VeryMobileSDK.VeryErrorType : Swift.Equatable {}
+extension VeryMobileSDK.VeryErrorType : Swift.Hashable {}
+extension VeryMobileSDK.VeryErrorType : Swift.RawRepresentable {}
+extension VeryMobileSDK.CameraFlashMode : Swift.Equatable {}
+extension VeryMobileSDK.CameraFlashMode : Swift.Hashable {}

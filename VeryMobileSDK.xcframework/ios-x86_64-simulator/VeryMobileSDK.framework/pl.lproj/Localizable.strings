@@ -1,0 +1,107 @@
+/* Very Mobile SDK Localization - Polish */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "Przesuń dłoń w lewo";
+"status.moveHandRight" = "Przesuń dłoń w prawo";
+"status.moveHandUp" = "Przesuń dłoń w górę";
+"status.moveHandDown" = "Przesuń dłoń w dół";
+"status.moveHandCloser" = "Przybliż dłoń";
+"status.moveHandFarther" = "Cofnij dłoń trochę";
+"status.rotateHandUpward" = "Przechyl dłoń w swoją stronę";
+"status.rotateHandParallel" = "Trzymaj dłoń płasko";
+"status.flipHandOver" = "Umieść dłoń przed kamerą";
+"status.spreadFingers" = "Otwórz dłoń szeroko";
+"status.straightenFingers" = "Wyprostuj palce";
+"status.spreadThumb" = "Odsuń kciuk na bok";
+"status.straightenThumb" = "Wyprostuj kciuk";
+"status.brightenHand" = "Znajdź jaśniejsze miejsce";
+"status.darkenHand" = "Unikaj bezpośredniego światła";
+"status.focusHand" = "Pozostań nieruchomo przez chwilę";
+"status.keepStill" = "Pozostań nieruchomo";
+"status.showGesture" = "Pokaż gest";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "Skanuj prawą dłoń";
+"scan.scanYourLeftPalm" = "Skanuj lewą dłoń";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "Pierwsza ręka ukończona";
+"switchPalm.proceedToSwitchHand" = "Teraz zeskanuj swoją drugą rękę.";
+
+/* Auth View Controller */
+"auth.cancel" = "Anuluj";
+"auth.termsText" = "Kontynuując, zgadzasz się z naszymi Warunkami świadczenia usług i Polityką prywatności.";
+"auth.termsOfService" = "Warunki świadczenia usług";
+"auth.privacyPolicy" = "Polityka prywatności";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "Skonfiguruj skan dłoni";
+"workthrough.subtitle" = "Zeskanuj cztery razy, aby skonfigurować. Potem skanuj raz.";
+"workthrough.getStarted" = "Rozpocznij";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "Nie udało się dokończyć rejestracji. Spróbuj ponownie.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "Nie udało się zweryfikować dłoni. Spróbuj ponownie.";
+"error.5006" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.5007" = "Twoja sesja wygasła. Spróbuj ponownie.";
+"error.5008" = "Coś poszło nie tak. Skontaktuj się z pomocą techniczną.";
+"error.5009" = "Coś poszło nie tak. Skontaktuj się z pomocą techniczną.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.9001" = "Aby zeskanować dłoń, zezwól na dostęp do aparatu w ustawieniach telefonu.";
+"error.9002" = "Nie udało się dokończyć skanowania. Spróbuj ponownie.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "Błąd sieci. Sprawdź połączenie z internetem i spróbuj ponownie.";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "Twoja dłoń została zweryfikowana.";
+"scan.successRegistered" = "Biometria dłoni została skonfigurowana.";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "ładowanie…";
+"common.success" = "Sukces";
+"common.error" = "Błąd";
+"common.done" = "Gotowe";
+"common.tryAgain" = "Spróbuj ponownie";
+"common.cancel" = "Anuluj";
+"common.continue" = "Kontynuuj";
+
+/* Scan Status */
+"scan.positionLeftHand" = "Zeskanuj lewą dłoń";
+"scan.positionLeftHandAgain" = "Zeskanuj lewą dłoń ponownie";
+"scan.positionRightHand" = "Zeskanuj prawą dłoń";
+"scan.positionRightHandAgain" = "Prawie gotowe — ostatnie skanowanie";
+"scan.showGesture" = "Pokaż gest";
+"scan.connectDots" = "Połącz kropki";
+"scan.almostDone" = "Prawie gotowe";
+"scan.registeringPalms" = "Rejestrowanie dłoni";
+"scan.verifyingPalm" = "Weryfikowanie dłoni";
+"scan.successTitleVerified" = "Zweryfikowano";
+"scan.successTitleRegistered" = "Dłonie zarejestrowane";
+"scan.successVerified" = "Twoja dłoń została zweryfikowana.";
+"scan.successRegistered" = "Możesz teraz weryfikować się za pomocą swoich dłoni.";
+
+/* Email Verification */
+"email.continueWithEmail" = "Wpisz swój email";
+"email.verifyYourEmail" = "Zweryfikuj swój email";
+"email.sentCodeTo" = "Kod wysłano do";
+"email.resendCode" = "Wyślij kod ponownie";
+"email.invalidCode" = "Nieprawidłowy kod weryfikacyjny. Spróbuj ponownie.";
+"email.placeholder" = "Adres e-mail";
+"consent.tip3" = "Skan dłoni służy wyłącznie do weryfikacji Twojej tożsamości—usuń swoje dane w dowolnym momencie";
+"switchPalm.scanOtherHand" = "Skanuj drugą rękę";
+"error.palmLinkedToEmail" = "Twoja dłoń jest powiązana z %@";
+"scan.errorTitle" = "Nie mogliśmy zweryfikować Twojej dłoni";
+"common.tryAgainMessage" = "Spróbuj ponownie.";
+"auth.errorTitle" = "Nie udało się przejść do następnego kroku.";

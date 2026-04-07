@@ -1,0 +1,109 @@
+/* Very Mobile SDK Localization - English (India) */
+/* NOTE: This file contains English placeholder text. Please translate all strings to English (India). */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "Move your hand left";
+"status.moveHandRight" = "Move your hand right";
+"status.moveHandUp" = "Move your hand up";
+"status.moveHandDown" = "Move your hand down";
+"status.moveHandCloser" = "Bring your hand closer";
+"status.moveHandFarther" = "Move your hand back a bit";
+"status.rotateHandUpward" = "Tilt your hand toward you";
+"status.rotateHandParallel" = "Keep your hand flat";
+"status.flipHandOver" = "Place palm in front of camera";
+"status.spreadFingers" = "Open your hand wide";
+"status.straightenFingers" = "Straighten your fingers";
+"status.spreadThumb" = "Move your thumb out to the side";
+"status.straightenThumb" = "Straighten your thumb";
+"status.brightenHand" = "Find a brighter spot";
+"status.darkenHand" = "Try moving out of direct light";
+"status.focusHand" = "Hold still for a moment";
+"status.keepStill" = "Hold still";
+"status.showGesture" = "Show gesture";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "Scan Your Right Palm";
+"scan.scanYourLeftPalm" = "Scan Your Left Palm";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "First hand complete";
+"switchPalm.proceedToSwitchHand" = "Now scan your other hand.";
+
+
+/* Auth View Controller */
+"auth.cancel" = "Cancel";
+"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
+"auth.termsOfService" = "Terms of Service";
+"auth.privacyPolicy" = "Privacy Policy";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "Set up your palm scan";
+"workthrough.subtitle" = "Scan four times to set up. After that, scan once.";
+"workthrough.getStarted" = "Get started";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "We couldn't complete your registration. Please try again.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "We couldn't verify your palm. Please try again.";
+"error.5006" = "Something went wrong. Please try again.";
+"error.5007" = "Your session has expired. Please try again.";
+"error.5008" = "Something went wrong. Please contact support.";
+"error.5009" = "Something went wrong. Please contact support.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "Something went wrong. Please try again.";
+"error.9001" = "To scan your palm, please allow camera access in your phone's settings.";
+"error.9002" = "We couldn't complete the scan. Please try again.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "Network error. Please check your internet connection and try again.";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "Your palm has been verified.";
+"scan.successRegistered" = "Palm biometrics have now been set up.";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "loading…";
+"common.success" = "Success";
+"common.error" = "Error";
+"common.done" = "Done";
+"common.tryAgain" = "Try Again";
+"common.cancel" = "Cancel";
+"common.continue" = "Continue";
+
+/* Scan Status */
+"scan.positionLeftHand" = "Scan left palm";
+"scan.positionLeftHandAgain" = "Nice—keep going";
+"scan.positionRightHand" = "Scan right palm";
+"scan.positionRightHandAgain" = "Almost done—last scan";
+"scan.showGesture" = "Show gesture";
+"scan.connectDots" = "Connect the dots";
+"scan.almostDone" = "Almost done";
+"scan.registeringPalms" = "Registering palms";
+"scan.verifyingPalm" = "Verifying palm";
+"scan.successTitleVerified" = "Verified";
+"scan.successTitleRegistered" = "Palms registered";
+"scan.successVerified" = "Your palm has been verified.";
+"scan.successRegistered" = "You can now verify using your palms.";
+
+/* Email Verification */
+"email.continueWithEmail" = "Enter your email";
+"email.verifyYourEmail" = "Verify your email";
+"email.sentCodeTo" = "Code sent to";
+"email.resendCode" = "Resend code";
+"email.invalidCode" = "Invalid verification code. Please try again.";
+"email.placeholder" = "Email address";
+"consent.tip3" = "Your palm scan is only used to verify your identity—delete your data at any time";
+"switchPalm.scanOtherHand" = "Scan other hand";
+"error.palmLinkedToEmail" = "Your palm is linked to %@";
+"scan.errorTitle" = "We couldn't verify your palm";
+"common.tryAgainMessage" = "Please try again.";
+"auth.errorTitle" = "We couldn't proceed to the next step.";

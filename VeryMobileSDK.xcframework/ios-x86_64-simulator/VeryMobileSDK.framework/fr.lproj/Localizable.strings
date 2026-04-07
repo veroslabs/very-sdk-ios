@@ -1,0 +1,107 @@
+/* Very Mobile SDK Localization - French */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "Déplacez la main vers la gauche";
+"status.moveHandRight" = "Déplacez la main vers la droite";
+"status.moveHandUp" = "Déplacez la main vers le haut";
+"status.moveHandDown" = "Déplacez la main vers le bas";
+"status.moveHandCloser" = "Rapprochez la main";
+"status.moveHandFarther" = "Reculez un peu la main";
+"status.rotateHandUpward" = "Inclinez la main vers vous";
+"status.rotateHandParallel" = "Gardez la main à plat";
+"status.flipHandOver" = "Placez la paume devant la caméra";
+"status.spreadFingers" = "Ouvrez bien la main";
+"status.straightenFingers" = "Tendez les doigts";
+"status.spreadThumb" = "Écartez le pouce sur le côté";
+"status.straightenThumb" = "Tendez le pouce";
+"status.brightenHand" = "Trouvez un endroit plus lumineux";
+"status.darkenHand" = "Évitez la lumière directe";
+"status.focusHand" = "Restez immobile un instant";
+"status.keepStill" = "Restez immobile";
+"status.showGesture" = "Afficher le geste";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "Scannez votre paume droite";
+"scan.scanYourLeftPalm" = "Scannez votre paume gauche";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "Première main terminée";
+"switchPalm.proceedToSwitchHand" = "Scannez maintenant votre autre main.";
+
+/* Auth View Controller */
+"auth.cancel" = "Annuler";
+"auth.termsText" = "En continuant, vous acceptez nos Conditions d'utilisation et notre Politique de confidentialité.";
+"auth.termsOfService" = "Conditions d'utilisation";
+"auth.privacyPolicy" = "Politique de confidentialité";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "Configurez votre scan de paume";
+"workthrough.subtitle" = "Scannez quatre fois pour configurer. Ensuite, scannez une fois.";
+"workthrough.getStarted" = "Commencer";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "Nous n'avons pas pu terminer votre inscription. Veuillez réessayer.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "Nous n'avons pas pu vérifier votre paume. Veuillez réessayer.";
+"error.5006" = "Une erreur s'est produite. Veuillez réessayer.";
+"error.5007" = "Votre session a expiré. Veuillez réessayer.";
+"error.5008" = "Une erreur s'est produite. Veuillez contacter le support.";
+"error.5009" = "Une erreur s'est produite. Veuillez contacter le support.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "Une erreur s'est produite. Veuillez réessayer.";
+"error.9001" = "Pour scanner votre paume, veuillez autoriser l'accès à la caméra dans les paramètres de votre téléphone.";
+"error.9002" = "Nous n'avons pas pu terminer le scan. Veuillez réessayer.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "Erreur réseau. Veuillez vérifier votre connexion internet et réessayer.";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "Votre paume a été vérifiée.";
+"scan.successRegistered" = "La biométrie palmaire est maintenant configurée.";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "chargement…";
+"common.success" = "Succès";
+"common.error" = "Erreur";
+"common.done" = "Terminé";
+"common.tryAgain" = "Réessayer";
+"common.cancel" = "Annuler";
+"common.continue" = "Continuer";
+
+/* Scan Status */
+"scan.positionLeftHand" = "Scannez la paume gauche";
+"scan.positionLeftHandAgain" = "Scannez la paume gauche à nouveau";
+"scan.positionRightHand" = "Scannez la paume droite";
+"scan.positionRightHandAgain" = "Presque terminé — dernier scan";
+"scan.showGesture" = "Montrez le geste";
+"scan.connectDots" = "Reliez les points";
+"scan.almostDone" = "Presque terminé";
+"scan.registeringPalms" = "Enregistrement des paumes";
+"scan.verifyingPalm" = "Vérification de la paume";
+"scan.successTitleVerified" = "Vérifié";
+"scan.successTitleRegistered" = "Paumes enregistrées";
+"scan.successVerified" = "Votre paume a été vérifiée.";
+"scan.successRegistered" = "Vous pouvez maintenant vérifier en utilisant vos paumes.";
+
+/* Email Verification */
+"email.continueWithEmail" = "Entrez votre e-mail";
+"email.verifyYourEmail" = "Vérifiez votre e-mail";
+"email.sentCodeTo" = "Code envoyé à";
+"email.resendCode" = "Renvoyer le code";
+"email.invalidCode" = "Code de vérification invalide. Veuillez réessayer.";
+"email.placeholder" = "Adresse e-mail";
+"consent.tip3" = "Le scan de votre paume n'est utilisé que pour vérifier votre identité—supprimez vos données à tout moment";
+"switchPalm.scanOtherHand" = "Scanner l'autre main";
+"error.palmLinkedToEmail" = "Votre paume est liée à %@";
+"scan.errorTitle" = "Nous n'avons pas pu vérifier votre paume";
+"common.tryAgainMessage" = "Veuillez réessayer.";
+"auth.errorTitle" = "Nous n'avons pas pu passer à l'étape suivante.";

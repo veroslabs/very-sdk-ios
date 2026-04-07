@@ -1,0 +1,109 @@
+/* Very Mobile SDK Localization - Lao */
+/* NOTE: This file contains English placeholder text. Please translate all strings to Lao. */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "Move your hand left";
+"status.moveHandRight" = "Move your hand right";
+"status.moveHandUp" = "Move your hand up";
+"status.moveHandDown" = "Move your hand down";
+"status.moveHandCloser" = "Bring your hand closer";
+"status.moveHandFarther" = "Move your hand back a bit";
+"status.rotateHandUpward" = "Tilt your hand toward you";
+"status.rotateHandParallel" = "Keep your hand flat";
+"status.flipHandOver" = "ວາງຝາມືຢູ່ໜ້າກ້ອງ";
+"status.spreadFingers" = "Open your hand wide";
+"status.straightenFingers" = "Straighten your fingers";
+"status.spreadThumb" = "Move your thumb out to the side";
+"status.straightenThumb" = "Straighten your thumb";
+"status.brightenHand" = "Find a brighter spot";
+"status.darkenHand" = "Try moving out of direct light";
+"status.focusHand" = "Hold still for a moment";
+"status.keepStill" = "Hold still";
+"status.showGesture" = "Show gesture";
+
+/* Scan View Controller */
+"scan.scanYourRightPalm" = "Scan Your Right Palm";
+"scan.scanYourLeftPalm" = "Scan Your Left Palm";
+"scan.scanEitherPalm" = "Verify with palm";
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "ມືທຳອິດສຳເລັດ";
+"switchPalm.proceedToSwitchHand" = "ຕອນນີ້ສະແກນມືອື່ນຂອງທ່ານ.";
+
+
+/* Auth View Controller */
+"auth.cancel" = "Cancel";
+"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
+"auth.termsOfService" = "Terms of Service";
+"auth.privacyPolicy" = "Privacy Policy";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "ຕັ້ງຄ່າການສະແກນຝາມືຂອງທ່ານ";
+"workthrough.subtitle" = "ສະແກນສີ່ຄັ້ງເພື່ອຕັ້ງຄ່າ. ຫຼັງຈາກນັ້ນ, ສະແກນໜຶ່ງຄັ້ງ.";
+"workthrough.getStarted" = "ເລີ່ມຕົ້ນ";
+
+/* Error Messages */
+"error.5001" = "Session has expired.";
+"error.5002" = "Session not found or already consumed.";
+"error.5003" = "ພວກເຮົາບໍ່ສາມາດສຳເລັດການລົງທະບຽນຂອງທ່ານ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
+"error.5004" = "All verification attempts have been used.";
+"error.5005" = "ພວກເຮົາບໍ່ສາມາດຢືນຢັນຝ່າມືຂອງທ່ານໄດ້. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
+"error.5006" = "ມີບາງຢ່າງຜິດພາດ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
+"error.5007" = "ເຊດຊັນຂອງທ່ານໝົດອາຍຸແລ້ວ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
+"error.5008" = "ມີບາງຢ່າງຜິດພາດ. ກະລຸນາຕິດຕໍ່ຝ່າຍສະໜັບສະໜູນ.";
+"error.5009" = "ມີບາງຢ່າງຜິດພາດ. ກະລຸນາຕິດຕໍ່ຝ່າຍສະໜັບສະໜູນ.";
+"error.5010" = "Account review was permanently rejected.";
+"error.5011" = "Account enrollment is still under review.";
+"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
+"error.5013" = "Too many requests, please try again later.";
+"error.5014" = "ມີບາງຢ່າງຜິດພາດ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
+"error.9001" = "ເພື່ອສະແກນຝ່າມືຂອງທ່ານ, ກະລຸນາອະນຸຍາດການເຂົ້າເຖິງກ້ອງຖ່າຍຮູບໃນການຕັ້ງຄ່າໂທಲະສັບຂອງທ່ານ.";
+"error.9002" = "ພວກເຮົາບໍ່ສາມາດສຳເລັດການສະແກນ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
+"error.9003" = "Session expired. Please try again.";
+"error.9004" = "User cancelled.";
+"error.9005" = "An unknown error occurred.";
+"error.9006" = "Request timed out.";
+"error.9007" = "ຂໍ້ຜິດພາດເຄືອຂ່າຍ. ກະລຸນາກວດສອບການເຊື່ອມຕໍ່ອິນເຕີເນັດຂອງທ່ານ ແລະລອງໃໝ່.";
+
+/* Success Bottom Sheet Messages */
+"scan.successVerified" = "ຝ່າມືຂອງທ່ານໄດ້ຮັບການຢືນຢັນແລ້ວ.";
+"scan.successRegistered" = "ການກວດສອບລາຍມືໄດ້ຖືກຕັ້ງຄ່າແລ້ວ.";
+
+/* Common UI */
+"common.poweredBy" = "Powered by";
+"common.loading" = "ກຳລັງໂຫລດ…";
+"common.success" = "ສຳເລັດ";
+"common.error" = "ຜິດພາດ";
+"common.done" = "ແລ້ວ";
+"common.tryAgain" = "ລອງໃໝ່";
+"common.cancel" = "ຍົກເລີກ";
+"common.continue" = "ສືບຕໍ່";
+
+/* Scan Status */
+"scan.positionLeftHand" = "ສະແກນຝາມືຊ້າຍ";
+"scan.positionLeftHandAgain" = "ສະແກນຝາມືຊ້າຍອີກຄັ້ງ";
+"scan.positionRightHand" = "ສະແກນຝາມືຂວາ";
+"scan.positionRightHandAgain" = "ເກືອບສຳເລັດ — ການສະແກນຄັ້ງສຸດທ້າຍ";
+"scan.showGesture" = "ສະແດງທ່າທາງ";
+"scan.connectDots" = "ເຊື່ອಮຈຸດ";
+"scan.almostDone" = "ເກືອບສຳເລັດແລ້ວ";
+"scan.registeringPalms" = "ກຳລັງລົງທະບຽນຝາມື";
+"scan.verifyingPalm" = "ກຳລັງຢືນຢັນຝາມື";
+"scan.successTitleVerified" = "ຢືນຢັນແລ້ວ";
+"scan.successTitleRegistered" = "ຝາມືລົງທະບຽນແລ້ວ";
+"scan.successVerified" = "ຝາມືຂອງທ່ານຖືກຢືນຢັນແລ້ວ.";
+"scan.successRegistered" = "ຕອນນີ້ທ່ານສາມາດຢືນຢັນໂດຍໃຊ້ຝາມືຂອງທ່ານ.";
+
+/* Email Verification */
+"email.continueWithEmail" = "ປ້ອນອີເມວຂອງທ່ານ";
+"email.verifyYourEmail" = "ຢືນຢັນອີເມວຂອງທ່ານ";
+"email.sentCodeTo" = "ລະຫັດສົ່ງໄປທີ່";
+"email.resendCode" = "ສົ່ງລະຫັດໃໝ່";
+"email.invalidCode" = "ລະຫັດຢືນຢັນບໍ່ຖືກຕ້ອງ. ກະລຸນາລອງໃໝ່.";
+"email.placeholder" = "ທີ່ຢູ່ອີເມວ";
+"consent.tip3" = "ການສະແກນຝ່າມືຂອງທ່ານໃຊ້ເພື່ອຢືນຢັນຕົວຕົນຂອງທ່ານເທົ່ານັ້ນ—ລຶບຂໍ້ມູນຂອງທ່ານໄດ້ທຸກເວລາ";
+"switchPalm.scanOtherHand" = "ສະແກນມືອື່ນ";
+"error.palmLinkedToEmail" = "ຝາມືຂອງທ່ານເຊື່ອມຕໍ່ກັບ %@";
+"scan.errorTitle" = "ພວກເຮົາບໍ່ສາມາດກວດສອບຝ່າມືຂອງທ່ານໄດ້";
+"common.tryAgainMessage" = "ກະລຸນາລອງໃໝ່.";
+"auth.errorTitle" = "ພວກເຮົາບໍ່ສາມາດດຳເນີນໄປຂັ້ນຕອນຕໍ່ໄປໄດ້.";
