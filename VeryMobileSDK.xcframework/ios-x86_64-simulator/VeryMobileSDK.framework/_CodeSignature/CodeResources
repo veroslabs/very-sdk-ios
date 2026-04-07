@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/VeryMobileSDK-Swift.h</key>
 		<data>
-		wdBWh1aZE7ktTj/Snl7CRZEltvI=
+		KxKMDcfB85tecP4FJFvrQqJ3VfU=
 		</data>
 		<key>Images/auth-logo.png</key>
 		<data>
@@ -130,11 +130,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jNeXDWfDpaCYtKI53Luy651cR7I=
+		1jNyXkY9kAopST44+fifAaFacwM=
 		</data>
 		<key>LottiePrivacyInfo.bundle/Info.plist</key>
 		<data>
-		5NotWfvVW/bdUyLTmY119cwB0+M=
+		zMKB0d+p5mUPDv4g/GioSnd1NwA=
 		</data>
 		<key>LottiePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -146,19 +146,19 @@
 		</data>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6mX8WrutDZ8EbmRb7fprbeLnNPc=
+		cjNNmeXeEkmtiLpztS7hWMrvcn4=
 		</data>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ZZKEfR7GcKQhsnffUrHxu+Qm4AY=
+		RBOWE4mhNRFnAKhnwX6Lb2KuWug=
 		</data>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6mX8WrutDZ8EbmRb7fprbeLnNPc=
+		cjNNmeXeEkmtiLpztS7hWMrvcn4=
 		</data>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mKXI04SCq2h2bNtyWNpbHsHJ9n4=
+		vMA5FyxgA2Dfx4ikM8e7LExC+uc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -528,7 +528,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1L/9H2XTOvZiUvf4R9ysYIrXcf788CTv6SoMo4qJdN8=
+			RhL+k35v6D8pzC5+igrcH2jIdBCJrnlaq4DEdnB/PFY=
 			</data>
 		</dict>
 		<key>Images/auth-logo.png</key>
@@ -724,7 +724,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ACS0gxQmTxNviaIc9YHjK51kYKnXO3GD3kod+PLWH/c=
+			XGiuLXRgKOgFa3xy96rcq25aZTEEb5ysWBMmWKh8efU=
 			</data>
 		</dict>
 		<key>LottiePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
@@ -745,28 +745,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			02DZwKmEnRtaJ7EY34P8Eh28ZqkbE8PcUBXZOnxUUvg=
+			fXoD01X5qdIVAH67VzJCoE0hf2gj56JDDrTKIHze3qM=
 			</data>
 		</dict>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EAnlyWzQ8persn+dnQzos/qGKxMfXKbCyvaFCgSUSnE=
+			2wvHyt47MFvrvzSbAaJeJRPKPWTT3waP9AokcYh0A4A=
 			</data>
 		</dict>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			02DZwKmEnRtaJ7EY34P8Eh28ZqkbE8PcUBXZOnxUUvg=
+			fXoD01X5qdIVAH67VzJCoE0hf2gj56JDDrTKIHze3qM=
 			</data>
 		</dict>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7uJ6a3P9JYfSEpCFhHlNU5u/ZusfauYcwJklNL7vgP4=
+			57DeXRgcoTrp3p3O5boWaIk5Z9zAAuCKXV95fjmWw3Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
