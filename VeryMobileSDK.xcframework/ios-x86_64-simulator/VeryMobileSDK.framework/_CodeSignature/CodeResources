@@ -142,7 +142,7 @@
 		</data>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		4c1Z1kvfr5sRFhOicRwZkCFoljU=
+		FHx0A3w4cRCsohrMXThTLh4hix8=
 		</data>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SFjDasMpv2X6UzSKxcknRhdaZVk=
+		iu8HS6fxZgJrQSoDihrg7ApLVT0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -738,7 +738,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XludMfw70acjE8jhRXYj0OEgeGUEXVkaAJh8VgGtvu8=
+			mayypweeJ9SlAEGi8lsA8SnfCm6wGixrSANlr6TbIlk=
 			</data>
 		</dict>
 		<key>Modules/VeryMobileSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -766,7 +766,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7lL7QXY8MsI4reqT7nXLxLLJ5h5/2W6nHuNR4wisyeA=
+			PsE6coHL3gsg1sgYK30apVuDoT+Dfq5/2QQeGCKpsLE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

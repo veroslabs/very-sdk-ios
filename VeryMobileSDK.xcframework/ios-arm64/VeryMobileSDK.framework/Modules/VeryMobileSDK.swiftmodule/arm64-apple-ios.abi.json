@@ -5580,6 +5580,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VeryMobileSDK"
+      },
+      {
+        "kind": "Import",
         "name": "ObjectiveC",
         "printedName": "ObjectiveC",
         "declKind": "Import",
@@ -6355,21 +6362,21 @@
     {
       "filePath": "\/Users\/yan\/Desktop\/very\/very-mobile-sdk\/ios\/Classes\/ui\/BottomStatusView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3722,
+      "offset": 2686,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/yan\/Desktop\/very\/very-mobile-sdk\/ios\/Classes\/ui\/BottomStatusView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3755,
+      "offset": 2719,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yan\/Desktop\/very\/very-mobile-sdk\/ios\/Classes\/ui\/BottomStatusView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3820,
+      "offset": 2784,
       "length": 1,
       "value": "0"
     },
@@ -6943,7 +6950,7 @@
     {
       "filePath": "\/Users\/yan\/Desktop\/very\/very-mobile-sdk\/ios\/Classes\/vc\/ConsentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45435,
+      "offset": 45004,
       "length": 2,
       "value": "56"
     },
@@ -7664,14 +7671,14 @@
     {
       "filePath": "\/Users\/yan\/Desktop\/very\/very-mobile-sdk\/ios\/Classes\/utils\/Utils.swift",
       "kind": "IntegerLiteral",
-      "offset": 75,
+      "offset": 2208,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yan\/Desktop\/very\/very-mobile-sdk\/ios\/Classes\/utils\/Utils.swift",
       "kind": "FloatLiteral",
-      "offset": 150,
+      "offset": 2283,
       "length": 3,
       "value": "1.0"
     }
