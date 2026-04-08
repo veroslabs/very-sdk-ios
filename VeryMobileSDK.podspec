@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '13.0'
   s.swift_version    = '5.0'
 
-  s.vendored_frameworks = 'VeryMobileSDK.xcframework', 'PalmAPI.xcframework'
+  s.vendored_frameworks = 'VeryMobileSDK.xcframework', 'PalmAPISaas.xcframework'
 
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 arm64',
