@@ -48,13 +48,13 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 @objc public class VeryScanResult : ObjectiveC.NSObject {
-  @objc final public let palmModels: [VeryMobileSDK.VeryScanPalmModel]
+  @objc final public let palmModels: [VeryScanPalmModel]
   @objc final public let error: Swift.String?
   @objc final public let errorMessage: Swift.String?
   @objc public var isSuccess: Swift.Bool {
     @objc get
   }
-  @objc public init(palmModels: [VeryMobileSDK.VeryScanPalmModel] = [], error: Swift.String? = nil, errorMessage: Swift.String? = nil)
+  @objc public init(palmModels: [VeryScanPalmModel] = [], error: Swift.String? = nil, errorMessage: Swift.String? = nil)
   @objc deinit
 }
 @objc public enum VeryErrorType : Swift.Int {
@@ -67,7 +67,7 @@ import _SwiftConcurrencyShims
   case enrollmentFailed = 5003
   case verificationExhausted = 5004
   case serverError = 0
-  public static func from(_ code: Swift.String?) -> VeryMobileSDK.VeryErrorType?
+  public static func from(_ code: Swift.String?) -> VeryErrorType?
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -80,9 +80,9 @@ import _SwiftConcurrencyShims
   @objc public var language: Swift.String?
   @objc public var themeMode: Swift.String
   @objc public var baseUrl: Swift.String?
-  @objc public var livenessMode: VeryMobileSDK.VeryLivenessMode
+  @objc public var livenessMode: VeryLivenessMode
   @objc override dynamic public init()
-  @objc public init(sdkKey: Swift.String, userId: Swift.String? = nil, language: Swift.String? = nil, themeMode: Swift.String = "dark", baseUrl: Swift.String? = nil, livenessMode: VeryMobileSDK.VeryLivenessMode = .touch)
+  @objc public init(sdkKey: Swift.String, userId: Swift.String? = nil, language: Swift.String? = nil, themeMode: Swift.String = "dark", baseUrl: Swift.String? = nil, livenessMode: VeryLivenessMode = .touch)
   @objc deinit
 }
 @objc public class VeryResult : ObjectiveC.NSObject {
@@ -94,16 +94,16 @@ import _SwiftConcurrencyShims
   @objc public var isSuccess: Swift.Bool {
     @objc get
   }
-  @objc public var errorType: VeryMobileSDK.VeryErrorType {
+  @objc public var errorType: VeryErrorType {
     @objc get
   }
   @objc public init(code: Swift.String, userId: Swift.String, signedToken: Swift.String? = nil, error: Swift.String? = nil, errorMessage: Swift.String? = nil)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class VeryMobileSDK : ObjectiveC.NSObject {
-  @objc public static func authenticate(from viewController: UIKit.UIViewController, config: VeryMobileSDK.VeryConfig, presentationStyle: VeryMobileSDK.VeryPresentationStyle = .modal, completion: @escaping (VeryMobileSDK.VeryResult) -> Swift.Void)
-  @objc public static func startPalmVerification(from viewController: UIKit.UIViewController, presentationStyle: VeryMobileSDK.VeryPresentationStyle = .modal, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
-  @objc public static func scan(from viewController: UIKit.UIViewController, mode: VeryMobileSDK.VeryScanMode, nonce: Swift.String? = nil, allowAudit: Swift.Bool = false, language: Swift.String? = nil, themeMode: Swift.String = "dark", livenessMode: VeryMobileSDK.VeryLivenessMode = .touch, presentationStyle: VeryMobileSDK.VeryPresentationStyle = .modal, completion: @escaping (VeryMobileSDK.VeryScanResult) -> Swift.Void)
+  @objc public static func authenticate(from viewController: UIKit.UIViewController, config: VeryConfig, presentationStyle: VeryPresentationStyle = .modal, completion: @escaping (VeryResult) -> Swift.Void)
+  @objc public static func startPalmVerification(from viewController: UIKit.UIViewController, presentationStyle: VeryPresentationStyle = .modal, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
+  @objc public static func scan(from viewController: UIKit.UIViewController, mode: VeryScanMode, nonce: Swift.String? = nil, allowAudit: Swift.Bool = false, language: Swift.String? = nil, themeMode: Swift.String = "dark", livenessMode: VeryLivenessMode = .touch, presentationStyle: VeryPresentationStyle = .modal, completion: @escaping (VeryScanResult) -> Swift.Void)
   @objc public static func completeScan(success: Swift.Bool, errorMessage: Swift.String? = nil)
   @objc public static func isVerificationSuccess(_ result: Swift.Bool) -> Swift.Bool
   @objc public static func isVerificationCancelled(_ result: Swift.Bool) -> Swift.Bool
@@ -123,7 +123,7 @@ public enum CameraFlashMode {
   case off
   case torch
   case auto
-  public static func == (a: VeryMobileSDK.CameraFlashMode, b: VeryMobileSDK.CameraFlashMode) -> Swift.Bool
+  public static func == (a: CameraFlashMode, b: CameraFlashMode) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
@@ -138,7 +138,7 @@ public struct CameraAdjustmentState {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class CameraPreviewView : UIKit.UIView, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
   @_Concurrency.MainActor @preconcurrency final public var dropFramesDuringCameraAdjustment: Swift.Bool
-  @_Concurrency.MainActor @preconcurrency final public var adjustmentState: VeryMobileSDK.CameraAdjustmentState {
+  @_Concurrency.MainActor @preconcurrency final public var adjustmentState: CameraAdjustmentState {
     get
   }
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
@@ -148,29 +148,29 @@ public struct CameraAdjustmentState {
   @_Concurrency.MainActor @preconcurrency final public func pauseCamera()
   @_Concurrency.MainActor @preconcurrency final public func resumeCamera()
   @_Concurrency.MainActor @preconcurrency final public func getCurrentFrameImage() -> UIKit.UIImage?
-  @_Concurrency.MainActor @preconcurrency final public func getCurrentFrameNV21() -> VeryMobileSDK.NV21Frame?
+  @_Concurrency.MainActor @preconcurrency final public func getCurrentFrameNV21() -> NV21Frame?
   @_Concurrency.MainActor @preconcurrency final public func captureHiresPhoto(completion: @escaping (Foundation.Data?) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency @objc final public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: (any Swift.Error)?)
   @_Concurrency.MainActor @preconcurrency final public func refocus()
   @_Concurrency.MainActor @preconcurrency final public func resetAutofocus()
-  @_Concurrency.MainActor @preconcurrency final public func setFlashMode(_ mode: VeryMobileSDK.CameraFlashMode)
+  @_Concurrency.MainActor @preconcurrency final public func setFlashMode(_ mode: CameraFlashMode)
   @_Concurrency.MainActor @preconcurrency final public func enableTorch()
   @_Concurrency.MainActor @preconcurrency final public func turnOffTorch()
   @_Concurrency.MainActor @preconcurrency final public func handleFlashRequest(_ flashRequest: Swift.Int32)
   @_Concurrency.MainActor @preconcurrency final public func setZoom(_ factor: CoreFoundation.CGFloat)
   @_Concurrency.MainActor @preconcurrency @objc final public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
 }
-extension VeryMobileSDK.VeryPresentationStyle : Swift.Equatable {}
-extension VeryMobileSDK.VeryPresentationStyle : Swift.Hashable {}
-extension VeryMobileSDK.VeryPresentationStyle : Swift.RawRepresentable {}
-extension VeryMobileSDK.VeryScanMode : Swift.Equatable {}
-extension VeryMobileSDK.VeryScanMode : Swift.Hashable {}
-extension VeryMobileSDK.VeryScanMode : Swift.RawRepresentable {}
-extension VeryMobileSDK.VeryLivenessMode : Swift.Equatable {}
-extension VeryMobileSDK.VeryLivenessMode : Swift.Hashable {}
-extension VeryMobileSDK.VeryLivenessMode : Swift.RawRepresentable {}
-extension VeryMobileSDK.VeryErrorType : Swift.Equatable {}
-extension VeryMobileSDK.VeryErrorType : Swift.Hashable {}
-extension VeryMobileSDK.VeryErrorType : Swift.RawRepresentable {}
-extension VeryMobileSDK.CameraFlashMode : Swift.Equatable {}
-extension VeryMobileSDK.CameraFlashMode : Swift.Hashable {}
+extension VeryPresentationStyle : Swift.Equatable {}
+extension VeryPresentationStyle : Swift.Hashable {}
+extension VeryPresentationStyle : Swift.RawRepresentable {}
+extension VeryScanMode : Swift.Equatable {}
+extension VeryScanMode : Swift.Hashable {}
+extension VeryScanMode : Swift.RawRepresentable {}
+extension VeryLivenessMode : Swift.Equatable {}
+extension VeryLivenessMode : Swift.Hashable {}
+extension VeryLivenessMode : Swift.RawRepresentable {}
+extension VeryErrorType : Swift.Equatable {}
+extension VeryErrorType : Swift.Hashable {}
+extension VeryErrorType : Swift.RawRepresentable {}
+extension CameraFlashMode : Swift.Equatable {}
+extension CameraFlashMode : Swift.Hashable {}

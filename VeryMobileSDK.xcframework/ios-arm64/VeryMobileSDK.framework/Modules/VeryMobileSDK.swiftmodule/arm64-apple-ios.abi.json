@@ -7677,14 +7677,14 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/Utils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2208,
+      "offset": 2256,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/Utils.swift",
       "kind": "FloatLiteral",
-      "offset": 2283,
+      "offset": 2331,
       "length": 3,
       "value": "1.0"
     }
