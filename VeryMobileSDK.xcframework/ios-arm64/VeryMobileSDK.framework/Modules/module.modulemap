@@ -1,4 +1,0 @@
-framework module VeryMobileSDK {
-  header "VeryMobileSDK-Swift.h"
-  requires objc
-}

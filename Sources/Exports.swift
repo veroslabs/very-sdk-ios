@@ -1,1 +1,1 @@
-@_exported import VeryMobileSDK
+@_exported import VerySDK
