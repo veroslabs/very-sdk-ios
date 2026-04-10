@@ -6668,7 +6668,7 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ConsentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 47956,
+      "offset": 50719,
       "length": 2,
       "value": "56"
     },
@@ -6815,42 +6815,56 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2758,
+      "offset": 2823,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2904,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2785,
+      "offset": 2931,
       "length": 6,
       "value": "\"dark\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2858,
+      "offset": 3004,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12136,
+      "offset": 3064,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12595,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25153,
+      "offset": 26129,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29656,
+      "offset": 30632,
       "length": 2,
       "value": "56"
     },
