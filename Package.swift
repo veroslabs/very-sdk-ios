@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "VerySDK", targets: ["VerySDKWrapper"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.4.0"),
+        .package(url: "https://github.com/airbnb/lottie-spm.git", exact: "4.4.3"),
     ],
     targets: [
         .target(
