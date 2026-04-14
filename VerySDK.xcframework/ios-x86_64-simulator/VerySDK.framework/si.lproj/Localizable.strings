@@ -45,7 +45,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "ඔබගේ ලියාපදිංචිය සම්පූර්ණ කිරීමට නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "ඔබගේ අත්ල තහවුරු කිරීමට නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.";
 "error.5006" = "යම් දෝෂයක් සිදු විය. කරුණාකර නැවත උත්සාහ කරන්න.";

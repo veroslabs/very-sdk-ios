@@ -43,7 +43,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "لم نتمكن من إكمال تسجيلك. يرجى المحاولة مرة أخرى.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "لم نتمكن من التحقق من بصمة كفك. يرجى المحاولة مرة أخرى.";
 "error.5006" = "حدث خطأ ما. يرجى المحاولة مرة أخرى.";

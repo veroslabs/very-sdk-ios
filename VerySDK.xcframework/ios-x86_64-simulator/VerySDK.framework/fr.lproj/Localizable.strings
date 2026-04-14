@@ -43,7 +43,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "Nous n'avons pas pu terminer votre inscription. Veuillez réessayer.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "Nous n'avons pas pu vérifier votre paume. Veuillez réessayer.";
 "error.5006" = "Une erreur s'est produite. Veuillez réessayer.";

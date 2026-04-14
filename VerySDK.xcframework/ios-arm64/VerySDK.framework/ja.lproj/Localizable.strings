@@ -43,7 +43,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "登録を完了できませんでした。もう一度お試しください。";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "手のひらを認証できませんでした。もう一度お試しください。";
 "error.5006" = "問題が発生しました。もう一度お試しください。";

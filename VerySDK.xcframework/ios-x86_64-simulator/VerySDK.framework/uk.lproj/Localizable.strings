@@ -43,7 +43,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "Не вдалося завершити реєстрацію. Будь ласка, спробуйте ще раз.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "Не вдалося підтвердити вашу долоню. Будь ласка, спробуйте ще раз.";
 "error.5006" = "Щось пішло не так. Будь ласка, спробуйте ще раз.";

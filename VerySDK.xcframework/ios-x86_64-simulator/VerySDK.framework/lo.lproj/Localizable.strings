@@ -45,7 +45,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "ພວກເຮົາບໍ່ສາມາດສຳເລັດການລົງທະບຽນຂອງທ່ານ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "ພວກເຮົາບໍ່ສາມາດຢືນຢັນຝ່າມືຂອງທ່ານໄດ້. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
 "error.5006" = "ມີບາງຢ່າງຜິດພາດ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";

@@ -122,7 +122,7 @@
 "error.4000" = "出了点问题，请重试。";
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "无法完成注册，请重试。";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "无法验证您的掌纹，请重试。";
 "error.5006" = "出了点问题，请重试。";

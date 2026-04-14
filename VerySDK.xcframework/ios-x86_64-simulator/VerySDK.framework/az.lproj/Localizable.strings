@@ -45,7 +45,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "Qeydiyyatınızı tamamlaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "Ovucunuzu doğrulaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
 "error.5006" = "Xəta baş verdi. Zəhmət olmasa, yenidən cəhd edin.";

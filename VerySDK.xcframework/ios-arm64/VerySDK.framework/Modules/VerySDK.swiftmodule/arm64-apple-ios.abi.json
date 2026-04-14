@@ -6093,8 +6093,29 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/AdjustmentHintView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3165,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/AdjustmentHintView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3169,
+      "offset": 3215,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/AdjustmentHintView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3385,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/AdjustmentHintView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3590,
       "length": 1,
       "value": "0"
     },
@@ -6569,8 +6590,15 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/SwitchPalmView.swift",
+      "kind": "FloatLiteral",
+      "offset": 678,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/SwitchPalmView.swift",
       "kind": "StringLiteral",
-      "offset": 472,
+      "offset": 711,
       "length": 6,
       "value": "\"dark\""
     },
@@ -6668,7 +6696,7 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ConsentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 52765,
+      "offset": 53135,
       "length": 2,
       "value": "56"
     },
@@ -6759,112 +6787,112 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1554,
+      "offset": 1770,
       "length": 20,
       "value": "\"com.very.palm.scan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1626,
+      "offset": 1842,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2136,
+      "offset": 2352,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2179,
+      "offset": 2395,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2357,
+      "offset": 2573,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2602,
+      "offset": 2818,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2639,
+      "offset": 2855,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2675,
+      "offset": 2891,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2823,
+      "offset": 3039,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2904,
+      "offset": 3120,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2931,
+      "offset": 3147,
       "length": 6,
       "value": "\"dark\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3004,
+      "offset": 3220,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3064,
+      "offset": 3280,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12595,
+      "offset": 12979,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26129,
+      "offset": 30483,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 30632,
+      "offset": 34986,
       "length": 2,
       "value": "56"
     },
@@ -7929,8 +7957,8 @@
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKError.swift",
       "kind": "Dictionary",
       "offset": 4905,
-      "length": 3972,
-      "value": "[(\"1001\", \"Internal server error\"), (\"1002\", \"Palm scan\/match failure\"), (\"1003\", \"Palm model verification failed\"), (\"1004\", \"Failed to process palm model\"), (\"1005\", \"Failed to process palm match results\"), (\"1006\", \"Failed to get duplicated palm model ID\"), (\"1007\", \"Failed to verify palm model\"), (\"1008\", \"Failed to match main palm model\"), (\"1009\", \"Failed to match secondary palm model\"), (\"1010\", \"No matching palm ID found in match results\"), (\"1011\", \"Nonce is required\"), (\"1012\", \"Invalid or expired nonce\"), (\"1013\", \"Failed to verify nonce\"), (\"1014\", \"Failed to decode nonce\"), (\"1015\", \"Nonces must be the same\"), (\"1016\", \"Invalid request\"), (\"1017\", \"Missing required field\"), (\"1018\", \"No fields to update\"), (\"1019\", \"Both palms are required\"), (\"1020\", \"External user ID and client ID are required\"), (\"1021\", \"Identity commitment is required\"), (\"1022\", \"OAuth authorization request ID and client ID are required\"), (\"1023\", \"Invalid mode\"), (\"1024\", \"Refresh token is required\"), (\"1025\", \"Request body cannot be empty\"), (\"1026\", \"Failed to marshal review status\"), (\"1027\", \"Failed to marshal user\"), (\"1028\", \"Failed to marshal review\"), (\"1029\", \"User ID not found in JWT\"), (\"1030\", \"Invalid or expired token\"), (\"1031\", \"Resource not found\"), (\"1032\", \"User not found\"), (\"1033\", \"User not found by palm ID\"), (\"1034\", \"User not found with provided external ID and client ID\"), (\"1035\", \"User palms not found\"), (\"1036\", \"Review not found\"), (\"1037\", \"Palm model does not match any registered palm for this user\"), (\"1038\", \"Palm model does not match the user associated with the external ID\"), (\"1039\", \"No matching user found\"), (\"1040\", \"We couldn't sign you in. Your email may not be registered yet, or your credentials may be incorrect. Please check and try again.\"), (\"2001\", \"Internal server error\"), (\"2002\", \"User not found\"), (\"2003\", \"Invalid username\"), (\"2004\", \"Email already in use\"), (\"2005\", \"No pending email change\"), (\"2006\", \"Invalid verification code\"), (\"2007\", \"Verification code expired\"), (\"2008\", \"Verification rate limit exceeded\"), (\"2009\", \"User palm not found\"), (\"2010\", \"Review not found\"), (\"2011\", \"Invalid request\"), (\"3000\", \"Palm Matching Service internal server error\"), (\"4000\", \"Connect Service internal server error\"), (\"5001\", \"Session has expired\"), (\"5002\", \"Session not found or already consumed\"), (\"5003\", \"Enrollment failed: palm model storage or processing error\"), (\"5004\", \"All verification attempts have been used\"), (\"5005\", \"Palm verification failed: no match found\"), (\"5006\", \"Nonce is invalid or has already been consumed\"), (\"5007\", \"Nonce has expired\"), (\"5008\", \"Invalid SDK API key\"), (\"5009\", \"SDK API key has been revoked\"), (\"5010\", \"Account review was permanently rejected\"), (\"5011\", \"Account enrollment is still under review\"), (\"5012\", \"Re-enrollment is only allowed when review status is rejected\"), (\"5013\", \"Too many requests, please try again later\"), (\"5014\", \"Palm model data is malformed or corrupt\"), (\"9001\", \"Camera permission is required to scan your palm.\"), (\"9002\", \"Failed to capture palm data.\"), (\"9003\", \"Session expired. Please try again.\"), (\"9004\", \"User cancelled.\"), (\"9005\", \"An unknown error occurred.\"), (\"9006\", \"Request timed out.\"), (\"9007\", \"Network error. Please check your internet connection and try again.\")]"
+      "length": 3932,
+      "value": "[(\"1001\", \"Internal server error\"), (\"1002\", \"Palm scan\/match failure\"), (\"1003\", \"Palm model verification failed\"), (\"1004\", \"Failed to process palm model\"), (\"1005\", \"Failed to process palm match results\"), (\"1006\", \"Failed to get duplicated palm model ID\"), (\"1007\", \"Failed to verify palm model\"), (\"1008\", \"Failed to match main palm model\"), (\"1009\", \"Failed to match secondary palm model\"), (\"1010\", \"No matching palm ID found in match results\"), (\"1011\", \"Nonce is required\"), (\"1012\", \"Invalid or expired nonce\"), (\"1013\", \"Failed to verify nonce\"), (\"1014\", \"Failed to decode nonce\"), (\"1015\", \"Nonces must be the same\"), (\"1016\", \"Invalid request\"), (\"1017\", \"Missing required field\"), (\"1018\", \"No fields to update\"), (\"1019\", \"Both palms are required\"), (\"1020\", \"External user ID and client ID are required\"), (\"1021\", \"Identity commitment is required\"), (\"1022\", \"OAuth authorization request ID and client ID are required\"), (\"1023\", \"Invalid mode\"), (\"1024\", \"Refresh token is required\"), (\"1025\", \"Request body cannot be empty\"), (\"1026\", \"Failed to marshal review status\"), (\"1027\", \"Failed to marshal user\"), (\"1028\", \"Failed to marshal review\"), (\"1029\", \"User ID not found in JWT\"), (\"1030\", \"Invalid or expired token\"), (\"1031\", \"Resource not found\"), (\"1032\", \"User not found\"), (\"1033\", \"User not found by palm ID\"), (\"1034\", \"User not found with provided external ID and client ID\"), (\"1035\", \"User palms not found\"), (\"1036\", \"Review not found\"), (\"1037\", \"Palm model does not match any registered palm for this user\"), (\"1038\", \"Palm model does not match the user associated with the external ID\"), (\"1039\", \"No matching user found\"), (\"1040\", \"We couldn't sign you in. Your email may not be registered yet, or your credentials may be incorrect. Please check and try again.\"), (\"2001\", \"Internal server error\"), (\"2002\", \"User not found\"), (\"2003\", \"Invalid username\"), (\"2004\", \"Email already in use\"), (\"2005\", \"No pending email change\"), (\"2006\", \"Invalid verification code\"), (\"2007\", \"Verification code expired\"), (\"2008\", \"Verification rate limit exceeded\"), (\"2009\", \"User palm not found\"), (\"2010\", \"Review not found\"), (\"2011\", \"Invalid request\"), (\"3000\", \"Palm Matching Service internal server error\"), (\"4000\", \"Connect Service internal server error\"), (\"5001\", \"Session has expired\"), (\"5002\", \"Session not found or already consumed\"), (\"5003\", \"Please try again.\"), (\"5004\", \"All verification attempts have been used\"), (\"5005\", \"Palm verification failed: no match found\"), (\"5006\", \"Nonce is invalid or has already been consumed\"), (\"5007\", \"Nonce has expired\"), (\"5008\", \"Invalid SDK API key\"), (\"5009\", \"SDK API key has been revoked\"), (\"5010\", \"Account review was permanently rejected\"), (\"5011\", \"Account enrollment is still under review\"), (\"5012\", \"Re-enrollment is only allowed when review status is rejected\"), (\"5013\", \"Too many requests, please try again later\"), (\"5014\", \"Palm model data is malformed or corrupt\"), (\"9001\", \"Camera permission is required to scan your palm.\"), (\"9002\", \"Failed to capture palm data.\"), (\"9003\", \"Session expired. Please try again.\"), (\"9004\", \"User cancelled.\"), (\"9005\", \"An unknown error occurred.\"), (\"9006\", \"Request timed out.\"), (\"9007\", \"Network error. Please check your internet connection and try again.\")]"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/SDKExitHandler.swift",

@@ -45,7 +45,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "Не успяхме да завършим регистрацията ви. Моля, опитайте отново.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "Не успяхме да потвърдим дланта ви. Моля, опитайте отново.";
 "error.5006" = "Нещо се обърка. Моля, опитайте отново.";

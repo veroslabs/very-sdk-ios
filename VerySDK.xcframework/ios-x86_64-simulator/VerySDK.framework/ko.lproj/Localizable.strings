@@ -43,7 +43,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "등록을 완료할 수 없습니다. 다시 시도해 주세요.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "손바닥을 인증할 수 없습니다. 다시 시도해 주세요.";
 "error.5006" = "문제가 발생했습니다. 다시 시도해 주세요.";

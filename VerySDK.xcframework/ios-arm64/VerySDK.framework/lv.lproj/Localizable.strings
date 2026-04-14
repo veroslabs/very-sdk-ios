@@ -45,7 +45,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "Mēs nevarējām pabeigt jūsu reģistrāciju. Lūdzu, mēģiniet vēlreiz.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "Mēs nevarējām verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
 "error.5006" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";

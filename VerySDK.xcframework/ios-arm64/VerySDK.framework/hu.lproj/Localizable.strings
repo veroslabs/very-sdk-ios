@@ -45,7 +45,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "Nem sikerült befejezni a regisztrációt. Kérjük, próbálja újra.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "Nem sikerült ellenőrizni a tenyerét. Kérjük, próbálja újra.";
 "error.5006" = "Hiba történt. Kérjük, próbálja újra.";

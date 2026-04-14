@@ -43,7 +43,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "We konden uw registratie niet voltooien. Probeer het opnieuw.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "We konden uw handpalm niet verifiëren. Probeer het opnieuw.";
 "error.5006" = "Er is iets misgegaan. Probeer het opnieuw.";

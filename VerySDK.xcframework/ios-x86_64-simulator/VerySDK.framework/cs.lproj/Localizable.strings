@@ -45,7 +45,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "Nepodařilo se dokončit vaši registraci. Zkuste to prosím znovu.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "Nepodařilo se ověřit vaši dlaň. Zkuste to prosím znovu.";
 "error.5006" = "Něco se pokazilo. Zkuste to prosím znovu.";

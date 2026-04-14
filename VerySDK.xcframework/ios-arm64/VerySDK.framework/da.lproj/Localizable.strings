@@ -45,7 +45,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "Vi kunne ikke fuldføre din registrering. Prøv venligst igen.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "Vi kunne ikke bekræfte din håndflade. Prøv venligst igen.";
 "error.5006" = "Noget gik galt. Prøv venligst igen.";

@@ -43,7 +43,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "Chúng tôi không thể hoàn tất đăng ký của bạn. Vui lòng thử lại.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "Chúng tôi không thể xác minh lòng bàn tay của bạn. Vui lòng thử lại.";
 "error.5006" = "Đã xảy ra lỗi. Vui lòng thử lại.";

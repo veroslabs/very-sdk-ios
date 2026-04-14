@@ -45,7 +45,7 @@
 /* Error Messages */
 "error.5001" = "Session has expired.";
 "error.5002" = "Session not found or already consumed.";
-"error.5003" = "We couldn't complete your registration. Please try again.";
+"error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "We couldn't verify your palm. Please try again.";
 "error.5006" = "Something went wrong. Please try again.";
