@@ -99,6 +99,7 @@
 "email.verifyYourEmail" = "Zweryfikuj swój email";
 "email.sentCodeTo" = "Kod wysłano do";
 "email.resendCode" = "Wyślij kod ponownie";
+"email.resendInSeconds" = "Wyślij ponownie za %@ s";
 "email.invalidCode" = "Nieprawidłowy kod weryfikacyjny. Spróbuj ponownie.";
 "email.placeholder" = "Adres e-mail";
 "consent.tip3" = "Skan dłoni służy wyłącznie do weryfikacji Twojej tożsamości—usuń swoje dane w dowolnym momencie";

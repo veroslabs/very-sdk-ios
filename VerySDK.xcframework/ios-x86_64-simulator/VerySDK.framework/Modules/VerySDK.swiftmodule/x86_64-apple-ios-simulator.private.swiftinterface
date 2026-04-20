@@ -78,11 +78,10 @@ import _SwiftConcurrencyShims
   @objc public var userId: Swift.String?
   @objc public var language: Swift.String?
   @objc public var themeMode: Swift.String
-  @objc public var baseUrl: Swift.String?
   @objc public var livenessMode: VeryLivenessMode
   @objc public var debugLogging: Swift.Bool
   @objc override dynamic public init()
-  @objc public init(sdkKey: Swift.String, userId: Swift.String? = nil, language: Swift.String? = nil, themeMode: Swift.String = "dark", baseUrl: Swift.String? = nil, livenessMode: VeryLivenessMode = .touch, debugLogging: Swift.Bool = false)
+  @objc public init(sdkKey: Swift.String, userId: Swift.String? = nil, language: Swift.String? = nil, themeMode: Swift.String = "dark", livenessMode: VeryLivenessMode = .touch, debugLogging: Swift.Bool = false)
   @objc deinit
 }
 @objc public class VeryResult : ObjectiveC.NSObject {

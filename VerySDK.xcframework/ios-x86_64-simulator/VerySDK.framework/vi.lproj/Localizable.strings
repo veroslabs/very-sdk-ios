@@ -99,6 +99,7 @@
 "email.verifyYourEmail" = "Xác minh email của bạn";
 "email.sentCodeTo" = "Mã đã gửi đến";
 "email.resendCode" = "Gửi lại mã";
+"email.resendInSeconds" = "Gửi lại sau %@ giây";
 "email.invalidCode" = "Mã xác minh không hợp lệ. Vui lòng thử lại.";
 "email.placeholder" = "Địa chỉ email";
 "consent.tip3" = "Quét lòng bàn tay của bạn chỉ được dùng để xác minh danh tính—xóa dữ liệu của bạn bất cứ lúc nào";

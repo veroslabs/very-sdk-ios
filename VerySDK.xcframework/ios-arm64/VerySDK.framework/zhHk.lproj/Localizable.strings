@@ -101,6 +101,7 @@
 "email.verifyYourEmail" = "驗證您的電郵";
 "email.sentCodeTo" = "驗證碼已發送至";
 "email.resendCode" = "重新發送";
+"email.resendInSeconds" = "%@ 秒後重新發送";
 "email.invalidCode" = "驗證碼無效，請重試。";
 "email.placeholder" = "電郵地址";
 "consent.tip3" = "您的掌紋掃描僅用於驗證您的身份—隨時刪除您的數據";

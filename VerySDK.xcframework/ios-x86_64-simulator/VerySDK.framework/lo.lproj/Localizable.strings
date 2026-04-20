@@ -101,6 +101,7 @@
 "email.verifyYourEmail" = "ຢືນຢັນອີເມວຂອງທ່ານ";
 "email.sentCodeTo" = "ລະຫັດສົ່ງໄປທີ່";
 "email.resendCode" = "ສົ່ງລະຫັດໃໝ່";
+"email.resendInSeconds" = "ສົ່ງໃໝ່ໃນ %@ ວິນາທີ";
 "email.invalidCode" = "ລະຫັດຢືນຢັນບໍ່ຖືກຕ້ອງ. ກະລຸນາລອງໃໝ່.";
 "email.placeholder" = "ທີ່ຢູ່ອີເມວ";
 "consent.tip3" = "ການສະແກນຝ່າມືຂອງທ່ານໃຊ້ເພື່ອຢືນຢັນຕົວຕົນຂອງທ່ານເທົ່ານັ້ນ—ລຶບຂໍ້ມູນຂອງທ່ານໄດ້ທຸກເວລາ";

@@ -101,6 +101,7 @@
 "email.verifyYourEmail" = "Potrdite svoj e-poštni naslov";
 "email.sentCodeTo" = "Koda poslana na";
 "email.resendCode" = "Znova pošlji kodo";
+"email.resendInSeconds" = "Ponovno pošlji čez %@ s";
 "email.invalidCode" = "Neveljavna potrditvena koda. Poskusite znova.";
 "email.placeholder" = "E-poštni naslov";
 "consent.tip3" = "Skeniranje vaše dlani se uporablja samo za preverjanje vaše identitete—kadarkoli izbrišite svoje podatke";

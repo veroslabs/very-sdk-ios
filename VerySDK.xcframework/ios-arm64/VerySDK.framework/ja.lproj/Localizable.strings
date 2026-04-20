@@ -99,6 +99,7 @@
 "email.verifyYourEmail" = "メールを確認";
 "email.sentCodeTo" = "コード送信先";
 "email.resendCode" = "コードを再送信";
+"email.resendInSeconds" = "%@秒後に再送信";
 "email.invalidCode" = "認証コードが無効です。もう一度お試しください。";
 "email.placeholder" = "メールアドレス";
 "consent.tip3" = "手のひらスキャンはお客様の本人確認のみに使用されます—いつでもデータを削除できます";

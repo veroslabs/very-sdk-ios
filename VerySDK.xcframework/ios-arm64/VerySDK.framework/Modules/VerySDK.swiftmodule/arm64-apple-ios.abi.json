@@ -2309,124 +2309,6 @@
           },
           {
             "kind": "Var",
-            "name": "baseUrl",
-            "printedName": "baseUrl",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@VerySDK@objc(cs)VeryConfig(py)baseUrl",
-            "mangledName": "$s7VerySDK0A6ConfigC7baseUrlSSSgvp",
-            "moduleName": "VerySDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@VerySDK@objc(cs)VeryConfig(im)baseUrl",
-                "mangledName": "$s7VerySDK0A6ConfigC7baseUrlSSSgvg",
-                "moduleName": "VerySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@VerySDK@objc(cs)VeryConfig(im)setBaseUrl:",
-                "mangledName": "$s7VerySDK0A6ConfigC7baseUrlSSSgvs",
-                "moduleName": "VerySDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7VerySDK0A6ConfigC7baseUrlSSSgvM",
-                "mangledName": "$s7VerySDK0A6ConfigC7baseUrlSSSgvM",
-                "moduleName": "VerySDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "livenessMode",
             "printedName": "livenessMode",
             "children": [
@@ -2444,7 +2326,8 @@
             "declAttributes": [
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2640,7 +2523,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(sdkKey:userId:language:themeMode:baseUrl:livenessMode:debugLogging:)",
+            "printedName": "init(sdkKey:userId:language:themeMode:livenessMode:debugLogging:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2693,21 +2576,6 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "VeryLivenessMode",
                 "printedName": "VerySDK.VeryLivenessMode",
                 "hasDefaultArg": true,
@@ -2722,10 +2590,10 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@VerySDK@objc(cs)VeryConfig(im)initWithSdkKey:userId:language:themeMode:baseUrl:livenessMode:debugLogging:",
-            "mangledName": "$s7VerySDK0A6ConfigC6sdkKey6userId8language9themeMode7baseUrl08livenessJ012debugLoggingACSS_SSSgAKSSAkA0a8LivenessJ0OSbtcfc",
+            "usr": "c:@M@VerySDK@objc(cs)VeryConfig(im)initWithSdkKey:userId:language:themeMode:livenessMode:debugLogging:",
+            "mangledName": "$s7VerySDK0A6ConfigC6sdkKey6userId8language9themeMode08livenessJ012debugLoggingACSS_SSSgAJSSAA0a8LivenessJ0OSbtcfc",
             "moduleName": "VerySDK",
-            "objc_name": "initWithSdkKey:userId:language:themeMode:baseUrl:livenessMode:debugLogging:",
+            "objc_name": "initWithSdkKey:userId:language:themeMode:livenessMode:debugLogging:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -5342,6 +5210,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VerySDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5886,21 +5761,21 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 4283,
+      "offset": 4133,
       "length": 6,
       "value": "\"dark\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "BooleanLiteral",
-      "offset": 4401,
+      "offset": 4219,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/Models.swift",
       "kind": "StringLiteral",
-      "offset": 4935,
+      "offset": 4722,
       "length": 10,
       "value": "\"VerySDK.VeryResult\""
     },
@@ -6124,42 +5999,42 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "StringLiteral",
-      "offset": 316,
+      "offset": 321,
       "length": 29,
       "value": "\"https:\/\/api.very.org\/v1\/sdk\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 538,
+      "offset": 543,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "StringLiteral",
-      "offset": 2051,
+      "offset": 2056,
       "length": 13,
       "value": "\"VerySDK-Api\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 3235,
+      "offset": 3240,
       "length": 5,
       "value": "-1001"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 3293,
+      "offset": 3298,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VeryApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 3833,
+      "offset": 3838,
       "length": 5,
       "value": "-1009"
     },
@@ -6187,14 +6062,14 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VerySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 4998,
+      "offset": 4818,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/VerySDK.swift",
       "kind": "StringLiteral",
-      "offset": 5066,
+      "offset": 4886,
       "length": 6,
       "value": "\"dark\""
     },
@@ -6810,7 +6685,21 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ConsentViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 45932,
+      "offset": 44489,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ConsentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 44533,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ConsentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 46977,
       "length": 2,
       "value": "56"
     },
@@ -6873,7 +6762,7 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/EmailVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 991,
+      "offset": 1075,
       "length": 2,
       "value": "\"\""
     },
@@ -6992,21 +6881,21 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13429,
+      "offset": 13568,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37727,
+      "offset": 38461,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42230,
+      "offset": 42964,
       "length": 2,
       "value": "56"
     },
@@ -8101,6 +7990,20 @@
       "offset": 430,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/EmailCodeCooldown.swift",
+      "kind": "IntegerLiteral",
+      "offset": 137,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/EmailCodeCooldown.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/Utils.swift",

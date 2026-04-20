@@ -101,6 +101,7 @@
 "email.verifyYourEmail" = "Verificați-vă emailul";
 "email.sentCodeTo" = "Cod trimis la";
 "email.resendCode" = "Retrimiteți codul";
+"email.resendInSeconds" = "Retrimite în %@ s";
 "email.invalidCode" = "Cod de verificare invalid. Vă rugăm să încercați din nou.";
 "email.placeholder" = "Adresă de email";
 "consent.tip3" = "Scanarea palmei dvs. este utilizată doar pentru a vă verifica identitatea—ștergeți datele oricând";

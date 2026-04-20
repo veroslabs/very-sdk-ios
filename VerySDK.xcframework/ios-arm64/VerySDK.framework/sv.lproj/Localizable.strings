@@ -99,6 +99,7 @@
 "email.verifyYourEmail" = "Verifiera din e-post";
 "email.sentCodeTo" = "Kod skickad till";
 "email.resendCode" = "Skicka kod igen";
+"email.resendInSeconds" = "Skicka igen om %@ s";
 "email.invalidCode" = "Ogiltig verifieringskod. Försök igen.";
 "email.placeholder" = "E-postadress";
 "consent.tip3" = "Din handflatteskanningen används bara för att verifiera din identitet—radera dina uppgifter när som helst";

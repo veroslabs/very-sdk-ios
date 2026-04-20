@@ -179,6 +179,7 @@
 "email.verifyYourEmail" = "验证您的邮箱";
 "email.sentCodeTo" = "验证码已发送至";
 "email.resendCode" = "重新发送";
+"email.resendInSeconds" = "%@秒后重新发送";
 "email.invalidCode" = "验证码无效，请重试。";
 "email.placeholder" = "邮箱地址";
 "switchPalm.scanOtherHand" = "扫描另一只手";

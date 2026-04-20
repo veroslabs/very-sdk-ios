@@ -101,6 +101,7 @@
 "email.verifyYourEmail" = "ඔබගේ ඊමේල් සත්‍යාපනය කරන්න";
 "email.sentCodeTo" = "කේතය යවන ලදී";
 "email.resendCode" = "කේතය නැවත යවන්න";
+"email.resendInSeconds" = "%@ කින් නැවත යවන්න";
 "email.invalidCode" = "වලංගු නොවන සත්‍යාපන කේතයකි. කරුණාකර නැවත උත්සාහ කරන්න.";
 "email.placeholder" = "ඊමේල් ලිපිනය";
 "consent.tip3" = "ඔබේ අතේ ස්කෑනය ඔබගේ අනන්‍යතාව තහවුරු කිරීමට පමණක් භාවිතා වේ—ඕනෑම වේලාවක ඔබේ දත්ත මකන්න";

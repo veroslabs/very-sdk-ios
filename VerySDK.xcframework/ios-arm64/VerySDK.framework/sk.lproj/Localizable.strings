@@ -101,6 +101,7 @@
 "email.verifyYourEmail" = "Overte svoj e-mail";
 "email.sentCodeTo" = "Kód odoslaný na";
 "email.resendCode" = "Znova odoslať kód";
+"email.resendInSeconds" = "Odoslať znova o %@ s";
 "email.invalidCode" = "Neplatný overovací kód. Skúste to prosím znova.";
 "email.placeholder" = "E-mailová adresa";
 "consent.tip3" = "Skenovanie vašej dlane sa používa iba na overenie vašej identity—vymažte svoje údaje kedykoľvek";

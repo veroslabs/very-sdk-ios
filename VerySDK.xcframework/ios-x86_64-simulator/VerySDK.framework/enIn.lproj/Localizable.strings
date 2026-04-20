@@ -101,6 +101,7 @@
 "email.verifyYourEmail" = "Verify your email";
 "email.sentCodeTo" = "Code sent to";
 "email.resendCode" = "Resend code";
+"email.resendInSeconds" = "Resend in %@s";
 "email.invalidCode" = "Invalid verification code. Please try again.";
 "email.placeholder" = "Email address";
 "consent.tip3" = "Your palm scan is only used to verify your identity—delete your data at any time";

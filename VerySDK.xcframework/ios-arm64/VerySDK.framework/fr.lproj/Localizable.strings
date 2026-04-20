@@ -99,6 +99,7 @@
 "email.verifyYourEmail" = "Vérifiez votre e-mail";
 "email.sentCodeTo" = "Code envoyé à";
 "email.resendCode" = "Renvoyer le code";
+"email.resendInSeconds" = "Renvoyer dans %@ s";
 "email.invalidCode" = "Code de vérification invalide. Veuillez réessayer.";
 "email.placeholder" = "Adresse e-mail";
 "consent.tip3" = "Le scan de votre paume n'est utilisé que pour vérifier votre identité—supprimez vos données à tout moment";

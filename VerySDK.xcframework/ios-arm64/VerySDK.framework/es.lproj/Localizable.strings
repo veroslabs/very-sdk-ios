@@ -99,6 +99,7 @@
 "email.verifyYourEmail" = "Verifica tu correo electrónico";
 "email.sentCodeTo" = "Código enviado a";
 "email.resendCode" = "Reenviar código";
+"email.resendInSeconds" = "Reenviar en %@ s";
 "email.invalidCode" = "Código de verificación inválido. Inténtalo de nuevo.";
 "email.placeholder" = "Correo electrónico";
 "consent.tip3" = "El escaneo de tu palma solo se usa para verificar tu identidad—elimina tus datos en cualquier momento";

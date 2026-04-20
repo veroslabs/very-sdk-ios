@@ -85,6 +85,7 @@
 "email.verifyYourEmail" = "Verify your email";
 "email.sentCodeTo" = "Code sent to";
 "email.resendCode" = "Resend code";
+"email.resendInSeconds" = "Resend in %@s";
 "email.invalidCode" = "Invalid verification code. Please try again.";
 "email.placeholder" = "Email address";
 

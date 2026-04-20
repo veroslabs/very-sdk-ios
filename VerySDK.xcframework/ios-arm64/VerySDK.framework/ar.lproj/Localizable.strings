@@ -99,6 +99,7 @@
 "email.verifyYourEmail" = "تحقق من بريدك الإلكتروني";
 "email.sentCodeTo" = "تم إرسال الرمز إلى";
 "email.resendCode" = "إعادة إرسال الرمز";
+"email.resendInSeconds" = "إعادة الإرسال خلال %@ ثانية";
 "email.invalidCode" = "رمز التحقق غير صالح. يرجى المحاولة مرة أخرى.";
 "email.placeholder" = "البريد الإلكتروني";
 "consent.tip3" = "مسح راحة يدك يُستخدم فقط للتحقق من هويتك—احذف بياناتك في أي وقت";

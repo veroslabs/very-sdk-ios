@@ -101,6 +101,7 @@
 "email.verifyYourEmail" = "Erősítse meg az e-mail címét";
 "email.sentCodeTo" = "Kód elküldve ide";
 "email.resendCode" = "Kód újraküldése";
+"email.resendInSeconds" = "Újraküldés %@ mp múlva";
 "email.invalidCode" = "Érvénytelen ellenőrző kód. Kérjük, próbálja újra.";
 "email.placeholder" = "E-mail cím";
 "consent.tip3" = "A tenyérszkenned csak a személyazonosságod ellenőrzésére szolgál—törölheted adataidat bármikor";

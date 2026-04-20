@@ -101,6 +101,7 @@
 "email.verifyYourEmail" = "Apstipriniet savu e-pastu";
 "email.sentCodeTo" = "Kods nosūtīts uz";
 "email.resendCode" = "Nosūtīt kodu vēlreiz";
+"email.resendInSeconds" = "Sūtīt atkārtoti pēc %@ s";
 "email.invalidCode" = "Nederīgs verifikācijas kods. Lūdzu, mēģiniet vēlreiz.";
 "email.placeholder" = "E-pasta adrese";
 "consent.tip3" = "Jūsu plaukstas skenēšana tiek izmantota tikai jūsu identitātes pārbaudei—dzēsiet savus datus jebkurā laikā";

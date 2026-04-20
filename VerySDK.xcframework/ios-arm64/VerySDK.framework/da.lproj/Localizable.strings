@@ -101,6 +101,7 @@
 "email.verifyYourEmail" = "Bekræft din e-mail";
 "email.sentCodeTo" = "Kode sendt til";
 "email.resendCode" = "Send kode igen";
+"email.resendInSeconds" = "Send igen om %@ s";
 "email.invalidCode" = "Ugyldig bekræftelseskode. Prøv igen.";
 "email.placeholder" = "E-mailadresse";
 "consent.tip3" = "Dit håndfladeaftryk bruges kun til at bekræfte din identitet—slet dine data når som helst";

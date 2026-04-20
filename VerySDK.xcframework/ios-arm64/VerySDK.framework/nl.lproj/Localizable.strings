@@ -99,6 +99,7 @@
 "email.verifyYourEmail" = "Bevestig uw e-mail";
 "email.sentCodeTo" = "Code verzonden naar";
 "email.resendCode" = "Code opnieuw verzenden";
+"email.resendInSeconds" = "Opnieuw verzenden over %@ s";
 "email.invalidCode" = "Ongeldige verificatiecode. Probeer het opnieuw.";
 "email.placeholder" = "E-mailadres";
 "consent.tip3" = "Uw handscan wordt alleen gebruikt om uw identiteit te verifiëren—verwijder uw gegevens op elk gewenst moment";

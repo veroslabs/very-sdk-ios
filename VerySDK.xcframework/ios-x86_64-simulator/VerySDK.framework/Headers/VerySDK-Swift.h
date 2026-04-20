@@ -334,8 +334,6 @@ SWIFT_CLASS("_TtC7VerySDK10VeryConfig")
 @property (nonatomic, copy) NSString * _Nullable userId;
 @property (nonatomic, copy) NSString * _Nullable language;
 @property (nonatomic, copy) NSString * _Nonnull themeMode;
-/// Override the API base URL (defaults to production). Use for staging/testing.
-@property (nonatomic, copy) NSString * _Nullable baseUrl;
 @property (nonatomic) enum VeryLivenessMode livenessMode;
 /// Enable verbose SDK logging. Off by default — turning on will print API
 /// request/response bodies (containing session tokens, emails, etc.) to the
@@ -344,7 +342,7 @@ SWIFT_CLASS("_TtC7VerySDK10VeryConfig")
 /// Default initializer for Objective-C compatibility
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 /// Convenience initializer with all parameters
-- (nonnull instancetype)initWithSdkKey:(NSString * _Nonnull)sdkKey userId:(NSString * _Nullable)userId language:(NSString * _Nullable)language themeMode:(NSString * _Nonnull)themeMode baseUrl:(NSString * _Nullable)baseUrl livenessMode:(enum VeryLivenessMode)livenessMode debugLogging:(BOOL)debugLogging OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithSdkKey:(NSString * _Nonnull)sdkKey userId:(NSString * _Nullable)userId language:(NSString * _Nullable)language themeMode:(NSString * _Nonnull)themeMode livenessMode:(enum VeryLivenessMode)livenessMode debugLogging:(BOOL)debugLogging OBJC_DESIGNATED_INITIALIZER;
 @end
 
 /// High-level error categories for partner-facing error handling.

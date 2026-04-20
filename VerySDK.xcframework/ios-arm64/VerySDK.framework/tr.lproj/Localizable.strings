@@ -99,6 +99,7 @@
 "email.verifyYourEmail" = "E-postanızı doğrulayın";
 "email.sentCodeTo" = "Kod gönderildi";
 "email.resendCode" = "Kodu tekrar gönder";
+"email.resendInSeconds" = "%@ sn sonra yeniden gönder";
 "email.invalidCode" = "Geçersiz doğrulama kodu. Lütfen tekrar deneyin.";
 "email.placeholder" = "E-posta adresi";
 "consent.tip3" = "Avuç içi taramanız yalnızca kimliğinizi doğrulamak için kullanılır—verilerinizi istediğiniz zaman silin";

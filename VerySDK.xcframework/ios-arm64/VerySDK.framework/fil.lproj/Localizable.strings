@@ -101,6 +101,7 @@
 "email.verifyYourEmail" = "I-verify ang iyong email";
 "email.sentCodeTo" = "Ipinadala ang code sa";
 "email.resendCode" = "Ipadala muli ang code";
+"email.resendInSeconds" = "I-resend sa %@ s";
 "email.invalidCode" = "Di-wastong verification code. Pakisubukan muli.";
 "email.placeholder" = "Email address";
 "consent.tip3" = "Ang scan ng iyong palad ay ginagamit lamang upang i-verify ang iyong pagkakakilanlan—tanggalin ang iyong data anumang oras";

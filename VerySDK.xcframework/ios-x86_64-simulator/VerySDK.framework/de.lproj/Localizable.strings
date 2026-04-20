@@ -99,6 +99,7 @@
 "email.verifyYourEmail" = "E-Mail bestätigen";
 "email.sentCodeTo" = "Code gesendet an";
 "email.resendCode" = "Code erneut senden";
+"email.resendInSeconds" = "Erneut senden in %@ s";
 "email.invalidCode" = "Ungültiger Bestätigungscode. Bitte versuchen Sie es erneut.";
 "email.placeholder" = "E-Mail-Adresse";
 "consent.tip3" = "Ihr Handflächen-Scan dient nur zur Bestätigung Ihrer Identität—löschen Sie Ihre Daten jederzeit";

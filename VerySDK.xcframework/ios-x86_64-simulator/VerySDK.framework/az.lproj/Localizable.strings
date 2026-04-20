@@ -101,6 +101,7 @@
 "email.verifyYourEmail" = "E-poçtunuzu təsdiqləyin";
 "email.sentCodeTo" = "Kod göndərildi";
 "email.resendCode" = "Kodu yenidən göndər";
+"email.resendInSeconds" = "%@ saniyə sonra təkrar göndər";
 "email.invalidCode" = "Yanlış təsdiq kodu. Zəhmət olmasa, yenidən cəhd edin.";
 "email.placeholder" = "E-poçt ünvanı";
 "consent.tip3" = "Ovuc iziniz yalnız kimliyinizi təsdiqləmək üçün istifadə olunur—məlumatlarınızı istənilən vaxt silin";

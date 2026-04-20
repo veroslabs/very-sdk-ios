@@ -101,6 +101,7 @@
 "email.verifyYourEmail" = "ایمیل خود را تأیید کنید";
 "email.sentCodeTo" = "کد ارسال شد به";
 "email.resendCode" = "ارسال مجدد کد";
+"email.resendInSeconds" = "ارسال مجدد در %@ ثانیه";
 "email.invalidCode" = "کد تأیید نامعتبر است. لطفاً دوباره تلاش کنید.";
 "email.placeholder" = "آدرس ایمیل";
 "consent.tip3" = "اسکن کف دست شما فقط برای تأیید هویت شما استفاده می‌شود—داده‌های خود را هر زمان حذف کنید";
