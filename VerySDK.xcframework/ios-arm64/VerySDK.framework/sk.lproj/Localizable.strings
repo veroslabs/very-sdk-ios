@@ -108,7 +108,7 @@
 "email.resendInSeconds" = "Odoslať znova o %@ s";
 "email.invalidCode" = "Neplatný overovací kód. Skúste to prosím znova.";
 "email.placeholder" = "E-mailová adresa";
-"consent.tip3" = "Skenovanie vašej dlane sa používa iba na overenie vašej identity—vymažte svoje údaje kedykoľvek";
+"consent.tip3" = "Skenovanie vašej dlane sa používa iba na overenie vašej identity — vymažte svoje údaje kedykoľvek";
 "switchPalm.scanOtherHand" = "Skenuj druhú ruku";
 "error.palmLinkedToEmail" = "Vaša dlaň je prepojená s %@";
 "scan.errorTitle" = "Nemohli sme overiť vašu dlaň";

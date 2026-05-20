@@ -106,7 +106,7 @@
 "email.resendInSeconds" = "Kirim ulang dalam %@ d";
 "email.invalidCode" = "Kode verifikasi tidak valid. Silakan coba lagi.";
 "email.placeholder" = "Alamat email";
-"consent.tip3" = "Pemindaian telapak tangan Anda hanya digunakan untuk memverifikasi identitas Anda—hapus data Anda kapan saja";
+"consent.tip3" = "Pemindaian telapak tangan Anda hanya digunakan untuk memverifikasi identitas Anda — hapus data Anda kapan saja";
 "switchPalm.scanOtherHand" = "Pindai tangan lainnya";
 "error.palmLinkedToEmail" = "Telapak tangan Anda terhubung ke %@";
 "scan.errorTitle" = "Kami tidak dapat memverifikasi telapak tangan Anda";

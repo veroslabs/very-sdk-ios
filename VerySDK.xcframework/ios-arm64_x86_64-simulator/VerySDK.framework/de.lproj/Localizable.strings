@@ -106,7 +106,7 @@
 "email.resendInSeconds" = "Erneut senden in %@ s";
 "email.invalidCode" = "Ungültiger Bestätigungscode. Bitte versuchen Sie es erneut.";
 "email.placeholder" = "E-Mail-Adresse";
-"consent.tip3" = "Ihr Handflächen-Scan dient nur zur Bestätigung Ihrer Identität—löschen Sie Ihre Daten jederzeit";
+"consent.tip3" = "Ihr Handflächen-Scan dient nur zur Bestätigung Ihrer Identität — löschen Sie Ihre Daten jederzeit";
 "switchPalm.scanOtherHand" = "Andere Hand scannen";
 "error.palmLinkedToEmail" = "Ihre Handfläche ist mit %@ verknüpft";
 "scan.errorTitle" = "Wir konnten deine Handfläche nicht überprüfen";

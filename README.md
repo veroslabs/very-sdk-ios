@@ -81,7 +81,19 @@ android {
 pod 'VeryAILiveness/Bundled'
 ```
 
-For Android `org.very:liveness`, drop a matching `libPalmAPISaas.so` into your **app's** `src/main/jniLibs/<abi>/`. AGP merges it into the APK and the SDK picks it up automatically — no build flag.
+For Android `org.very:liveness`, add the companion `sdk-native-bundle` artifact:
+
+```gradle
+dependencies {
+    implementation 'org.very:liveness:X.Y.Z'
+    // Drops libPalmAPISaas.so for both ABIs into your APK (+18 MB per ABI).
+    implementation 'org.very:sdk-native-bundle:X.Y.Z'
+}
+```
+
+> **Don't combine `org.very:sdk-native-bundle` with `org.very:sdk`** — the full SDK already bundles the same `.so`, and adding both produces a jniLibs merge conflict at AGP packaging time.
+
+Alternatively, drop a matching `libPalmAPISaas.so` into your **app's** `src/main/jniLibs/<abi>/` manually — AGP merges it into the APK and the SDK picks it up automatically.
 
 **CDN endpoints** (allowlist if your network restricts egress):
 

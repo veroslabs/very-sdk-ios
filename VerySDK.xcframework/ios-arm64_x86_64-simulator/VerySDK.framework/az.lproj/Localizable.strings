@@ -108,7 +108,7 @@
 "email.resendInSeconds" = "%@ saniyə sonra təkrar göndər";
 "email.invalidCode" = "Yanlış təsdiq kodu. Zəhmət olmasa, yenidən cəhd edin.";
 "email.placeholder" = "E-poçt ünvanı";
-"consent.tip3" = "Ovuc iziniz yalnız kimliyinizi təsdiqləmək üçün istifadə olunur—məlumatlarınızı istənilən vaxt silin";
+"consent.tip3" = "Ovuc iziniz yalnız kimliyinizi təsdiqləmək üçün istifadə olunur — məlumatlarınızı istənilən vaxt silin";
 "switchPalm.scanOtherHand" = "Digər əli skan et";
 "error.palmLinkedToEmail" = "Ovucunuz %@ ilə bağlıdır";
 "scan.errorTitle" = "Ovucunuzu doğrulaya bilmədik";

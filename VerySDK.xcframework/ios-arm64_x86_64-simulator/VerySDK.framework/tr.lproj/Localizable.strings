@@ -106,7 +106,7 @@
 "email.resendInSeconds" = "%@ sn sonra yeniden gönder";
 "email.invalidCode" = "Geçersiz doğrulama kodu. Lütfen tekrar deneyin.";
 "email.placeholder" = "E-posta adresi";
-"consent.tip3" = "Avuç içi taramanız yalnızca kimliğinizi doğrulamak için kullanılır—verilerinizi istediğiniz zaman silin";
+"consent.tip3" = "Avuç içi taramanız yalnızca kimliğinizi doğrulamak için kullanılır — verilerinizi istediğiniz zaman silin";
 "switchPalm.scanOtherHand" = "Diğer eli tara";
 "error.palmLinkedToEmail" = "Avuç içiniz %@ ile bağlantılı";
 "scan.errorTitle" = "Avuç içinizi doğrulayamadık";

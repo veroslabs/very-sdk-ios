@@ -108,7 +108,7 @@
 "email.resendInSeconds" = "Ponovno pošlji čez %@ s";
 "email.invalidCode" = "Neveljavna potrditvena koda. Poskusite znova.";
 "email.placeholder" = "E-poštni naslov";
-"consent.tip3" = "Skeniranje vaše dlani se uporablja samo za preverjanje vaše identitete—kadarkoli izbrišite svoje podatke";
+"consent.tip3" = "Skeniranje vaše dlani se uporablja samo za preverjanje vaše identitete — kadarkoli izbrišite svoje podatke";
 "switchPalm.scanOtherHand" = "Skeniraj drugo roko";
 "error.palmLinkedToEmail" = "Vaša dlan je povezana z %@";
 "scan.errorTitle" = "Nismo mogli preveriti vaše dlani";

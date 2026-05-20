@@ -83,9 +83,9 @@
 
 /* Scan Status */
 "scan.positionLeftHand" = "Scan left palm";
-"scan.positionLeftHandAgain" = "Nice—keep going";
+"scan.positionLeftHandAgain" = "Nice — keep going";
 "scan.positionRightHand" = "Scan right palm";
-"scan.positionRightHandAgain" = "Almost done—last scan";
+"scan.positionRightHandAgain" = "Almost done — last scan";
 "scan.defaultStatus" = "Scan Your Hand";
 "scan.defaultStatusEnroll" = "Scan your first hand";
 "scan.showGesture" = "Show gesture";
@@ -107,7 +107,7 @@
 "email.resendInSeconds" = "Resend in %@s";
 "email.invalidCode" = "Invalid verification code. Please try again.";
 "email.placeholder" = "Email address";
-"consent.tip3" = "Your palm scan is only used to verify your identity—delete your data at any time";
+"consent.tip3" = "Your palm scan is only used to verify your identity — delete your data at any time";
 "switchPalm.scanOtherHand" = "Scan other hand";
 "error.palmLinkedToEmail" = "Your palm is linked to %@";
 "scan.errorTitle" = "We couldn't verify your palm";

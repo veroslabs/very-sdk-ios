@@ -108,7 +108,7 @@
 "email.resendInSeconds" = "Send igen om %@ s";
 "email.invalidCode" = "Ugyldig bekræftelseskode. Prøv igen.";
 "email.placeholder" = "E-mailadresse";
-"consent.tip3" = "Dit håndfladeaftryk bruges kun til at bekræfte din identitet—slet dine data når som helst";
+"consent.tip3" = "Dit håndfladeaftryk bruges kun til at bekræfte din identitet — slet dine data når som helst";
 "switchPalm.scanOtherHand" = "Skan anden hånd";
 "error.palmLinkedToEmail" = "Din håndflade er knyttet til %@";
 "scan.errorTitle" = "Vi kunne ikke bekræfte din hånd";

@@ -108,7 +108,7 @@
 "email.resendInSeconds" = "I-resend sa %@ s";
 "email.invalidCode" = "Di-wastong verification code. Pakisubukan muli.";
 "email.placeholder" = "Email address";
-"consent.tip3" = "Ang scan ng iyong palad ay ginagamit lamang upang i-verify ang iyong pagkakakilanlan—tanggalin ang iyong data anumang oras";
+"consent.tip3" = "Ang scan ng iyong palad ay ginagamit lamang upang i-verify ang iyong pagkakakilanlan — tanggalin ang iyong data anumang oras";
 "switchPalm.scanOtherHand" = "I-scan ang ibang kamay";
 "error.palmLinkedToEmail" = "Ang iyong palad ay naka-link sa %@";
 "scan.errorTitle" = "Hindi namin ma-verify ang iyong palad";

@@ -108,7 +108,7 @@
 "email.resendInSeconds" = "Sūtīt atkārtoti pēc %@ s";
 "email.invalidCode" = "Nederīgs verifikācijas kods. Lūdzu, mēģiniet vēlreiz.";
 "email.placeholder" = "E-pasta adrese";
-"consent.tip3" = "Jūsu plaukstas skenēšana tiek izmantota tikai jūsu identitātes pārbaudei—dzēsiet savus datus jebkurā laikā";
+"consent.tip3" = "Jūsu plaukstas skenēšana tiek izmantota tikai jūsu identitātes pārbaudei — dzēsiet savus datus jebkurā laikā";
 "switchPalm.scanOtherHand" = "Skenēt otru roku";
 "error.palmLinkedToEmail" = "Jūsu plauksta ir saistīta ar %@";
 "scan.errorTitle" = "Mēs nevarējām pārbaudīt jūsu plaukstu";

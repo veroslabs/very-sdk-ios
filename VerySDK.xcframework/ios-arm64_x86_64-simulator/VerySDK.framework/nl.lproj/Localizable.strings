@@ -106,7 +106,7 @@
 "email.resendInSeconds" = "Opnieuw verzenden over %@ s";
 "email.invalidCode" = "Ongeldige verificatiecode. Probeer het opnieuw.";
 "email.placeholder" = "E-mailadres";
-"consent.tip3" = "Uw handscan wordt alleen gebruikt om uw identiteit te verifiëren—verwijder uw gegevens op elk gewenst moment";
+"consent.tip3" = "Uw handscan wordt alleen gebruikt om uw identiteit te verifiëren — verwijder uw gegevens op elk gewenst moment";
 "switchPalm.scanOtherHand" = "Andere hand scannen";
 "error.palmLinkedToEmail" = "Uw handpalm is gekoppeld aan %@";
 "scan.errorTitle" = "We konden je handpalm niet verifiëren";

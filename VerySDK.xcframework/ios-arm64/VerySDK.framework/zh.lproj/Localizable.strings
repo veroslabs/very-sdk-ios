@@ -58,7 +58,7 @@
 "consent.verifyIdentitySubtitle" = "%@ 使用 VeryAI 确认您是真人。";
 "consent.tip1" = "扫描双掌创建账户。只需扫描一次即可重新验证";
 "consent.tip2" = "%@ will have access to limited [verification data]";
-"consent.tip3" = "Biometric technology is used to verify your identity—delete your data at any time";
+"consent.tip3" = "Biometric technology is used to verify your identity — delete your data at any time";
 "consent.startVerification" = "开始验证";
 
 /* WorkThrough View Controller */

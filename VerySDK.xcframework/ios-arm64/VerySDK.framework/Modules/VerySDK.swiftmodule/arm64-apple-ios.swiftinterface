@@ -142,29 +142,30 @@ public struct CameraAdjustmentState {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class CameraPreviewView : UIKit.UIView, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
-  @_Concurrency.MainActor(unsafe) final public var dropFramesDuringCameraAdjustment: Swift.Bool
-  @_Concurrency.MainActor(unsafe) final public var adjustmentState: CameraAdjustmentState {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class CameraPreviewView : UIKit.UIView, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
+  @_Concurrency.MainActor(unsafe) public var dropFramesDuringCameraAdjustment: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var adjustmentState: CameraAdjustmentState {
     get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc override final public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override final public func didMoveToWindow()
-  @_Concurrency.MainActor(unsafe) final public func pauseCamera()
-  @_Concurrency.MainActor(unsafe) final public func resumeCamera()
-  @_Concurrency.MainActor(unsafe) final public func getCurrentFrameImage() -> UIKit.UIImage?
-  @_Concurrency.MainActor(unsafe) final public func getCurrentFrameNV21() -> NV21Frame?
-  @_Concurrency.MainActor(unsafe) final public func captureHiresPhoto(completion: @escaping (Foundation.Data?) -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) @objc final public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: (any Swift.Error)?)
-  @_Concurrency.MainActor(unsafe) final public func refocus()
-  @_Concurrency.MainActor(unsafe) final public func resetAutofocus()
-  @_Concurrency.MainActor(unsafe) final public func setFlashMode(_ mode: CameraFlashMode)
-  @_Concurrency.MainActor(unsafe) final public func enableTorch()
-  @_Concurrency.MainActor(unsafe) final public func turnOffTorch()
-  @_Concurrency.MainActor(unsafe) final public func handleFlashRequest(_ flashRequest: Swift.Int32)
-  @_Concurrency.MainActor(unsafe) final public func setZoom(_ factor: CoreFoundation.CGFloat)
-  @_Concurrency.MainActor(unsafe) @objc final public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didMoveToWindow()
+  @_Concurrency.MainActor(unsafe) open func pauseCamera()
+  @_Concurrency.MainActor(unsafe) open func resumeCamera()
+  @_Concurrency.MainActor(unsafe) public func getCurrentFrameImage() -> UIKit.UIImage?
+  @_Concurrency.MainActor(unsafe) open func setNeededSide(_ side: Swift.Int32)
+  @_Concurrency.MainActor(unsafe) open func getCurrentFrameNV21() -> NV21Frame?
+  @_Concurrency.MainActor(unsafe) open func captureHiresPhoto(completion: @escaping (Foundation.Data?) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: (any Swift.Error)?)
+  @_Concurrency.MainActor(unsafe) open func refocus()
+  @_Concurrency.MainActor(unsafe) public func resetAutofocus()
+  @_Concurrency.MainActor(unsafe) open func setFlashMode(_ mode: CameraFlashMode)
+  @_Concurrency.MainActor(unsafe) open func enableTorch()
+  @_Concurrency.MainActor(unsafe) open func turnOffTorch()
+  @_Concurrency.MainActor(unsafe) open func handleFlashRequest(_ flashRequest: Swift.Int32)
+  @_Concurrency.MainActor(unsafe) open func setZoom(_ factor: CoreFoundation.CGFloat)
+  @_Concurrency.MainActor(unsafe) @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
 }
 extension VeryPresentationStyle : Swift.Equatable {}
 extension VeryPresentationStyle : Swift.Hashable {}

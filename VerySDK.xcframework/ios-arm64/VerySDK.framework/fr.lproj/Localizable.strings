@@ -106,7 +106,7 @@
 "email.resendInSeconds" = "Renvoyer dans %@ s";
 "email.invalidCode" = "Code de vérification invalide. Veuillez réessayer.";
 "email.placeholder" = "Adresse e-mail";
-"consent.tip3" = "Le scan de votre paume n'est utilisé que pour vérifier votre identité—supprimez vos données à tout moment";
+"consent.tip3" = "Le scan de votre paume n'est utilisé que pour vérifier votre identité — supprimez vos données à tout moment";
 "switchPalm.scanOtherHand" = "Scanner l'autre main";
 "error.palmLinkedToEmail" = "Votre paume est liée à %@";
 "scan.errorTitle" = "Nous n'avons pas pu vérifier votre paume";
