@@ -120,6 +120,14 @@
 "accountRestricted.message" = "Am detectat activitate care ar putea încălca termenii noștri de utilizare. Contul dvs. a fost restricționat în timp ce îl analizăm.\n\nDacă credeți că aceasta este o eroare, contactați echipa noastră de asistență.";
 "accountRestricted.getInTouch" = "Contactați-ne";
 "accountRestricted.cancel" = "Anulează";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Creați un cont scanând ambele palme. Reverificați cu o singură scanare";
 "error.6001" = "Nu s-a putut conecta. Verifică conexiunea la internet și încearcă din nou.";
 "error.6002" = "Răspunsul a durat prea mult. Verifică conexiunea și încearcă din nou.";

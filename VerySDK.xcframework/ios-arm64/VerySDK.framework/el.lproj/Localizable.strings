@@ -120,6 +120,14 @@
 "accountRestricted.message" = "Εντοπίσαμε δραστηριότητα που ενδέχεται να παραβιάζει τους όρους χρήσης μας. Ο λογαριασμός σας έχει περιοριστεί κατά τη διάρκεια της εξέτασης.\n\nΕάν πιστεύετε ότι πρόκειται για σφάλμα, επικοινωνήστε με την ομάδα υποστήριξής μας.";
 "accountRestricted.getInTouch" = "Επικοινωνήστε μαζί μας";
 "accountRestricted.cancel" = "Ακύρωση";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Δημιουργήστε λογαριασμό σαρώνοντας και τις δύο παλάμες. Επαληθεύστε ξανά με μία μόνο σάρωση";
 "error.6001" = "Δεν ήταν δυνατή η σύνδεση. Ελέγξτε τη σύνδεσή σας στο Internet και προσπαθήστε ξανά.";
 "error.6002" = "Η απάντηση καθυστέρησε πολύ. Ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά.";

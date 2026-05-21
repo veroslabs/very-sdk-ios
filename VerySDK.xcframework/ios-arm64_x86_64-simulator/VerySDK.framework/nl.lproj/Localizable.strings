@@ -118,6 +118,14 @@
 "accountRestricted.message" = "We hebben activiteit gedetecteerd die mogelijk in strijd is met onze servicevoorwaarden. Uw account is beperkt terwijl we het onderzoeken.\n\nAls u denkt dat dit een fout is, neem dan contact op met ons ondersteuningsteam.";
 "accountRestricted.getInTouch" = "Neem contact op";
 "accountRestricted.cancel" = "Annuleren";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Maak een account aan door beide handpalmen te scannen. Herverifieer met slechts één scan";
 "error.6001" = "Kan geen verbinding maken. Controleer je internetverbinding en probeer het opnieuw.";
 "error.6002" = "Het duurde te lang om een reactie te krijgen. Controleer je verbinding en probeer het opnieuw.";

@@ -197,6 +197,14 @@
 "accountRestricted.message" = "我们检测到可能违反服务条款的活动。在审核期间，您的账户已被限制。\n\n如果您认为这是一个错误，请联系我们的支持团队。";
 "accountRestricted.getInTouch" = "联系我们";
 "accountRestricted.cancel" = "取消";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "error.6001" = "无法连接，请检查网络后重试。";
 "error.6002" = "响应超时，请检查网络后重试。";
 "error.6003" = "无法解析服务器地址，请检查网络或切换网络后重试。";

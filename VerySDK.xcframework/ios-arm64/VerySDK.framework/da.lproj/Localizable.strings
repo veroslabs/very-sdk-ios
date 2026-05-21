@@ -120,6 +120,14 @@
 "accountRestricted.message" = "Vi har registreret aktivitet, der kan overtræde vores servicevilkår. Din konto er blevet begrænset, mens vi gennemgår den.\n\nHvis du mener, dette er en fejl, kontakt venligst vores supportteam.";
 "accountRestricted.getInTouch" = "Kontakt os";
 "accountRestricted.cancel" = "Annuller";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Opret konto ved at scanne begge håndflader. Genbekræft med kun én scanning";
 "error.6001" = "Kunne ikke oprette forbindelse. Tjek din internetforbindelse, og prøv igen.";
 "error.6002" = "Det tog for lang tid at få et svar. Tjek din forbindelse, og prøv igen.";

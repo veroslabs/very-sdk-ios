@@ -118,6 +118,14 @@
 "accountRestricted.message" = "Detectamos atividade que pode violar nossos termos de serviço. Sua conta foi restrita enquanto a analisamos.\n\nSe você acredita que isso é um erro, entre em contato com nossa equipe de suporte.";
 "accountRestricted.getInTouch" = "Entre em contato";
 "accountRestricted.cancel" = "Cancelar";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Crie uma conta escaneando ambas as palmas. Reverifique com apenas uma leitura";
 "error.6001" = "Não foi possível conectar. Verifique sua conexão com a internet e tente novamente.";
 "error.6002" = "Demorou muito para obter uma resposta. Verifique sua conexão e tente novamente.";

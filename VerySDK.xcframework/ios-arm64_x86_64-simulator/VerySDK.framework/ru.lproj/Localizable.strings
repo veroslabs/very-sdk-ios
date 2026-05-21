@@ -118,6 +118,14 @@
 "accountRestricted.message" = "Мы обнаружили активность, которая может нарушать наши условия использования. Ваш аккаунт ограничен на время проверки.\n\nЕсли вы считаете, что это ошибка, свяжитесь с нашей службой поддержки.";
 "accountRestricted.getInTouch" = "Связаться с нами";
 "accountRestricted.cancel" = "Отмена";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Создайте аккаунт, отсканировав обе ладони. Повторная проверка — всего одно сканирование";
 "error.6001" = "Не удалось подключиться. Проверьте подключение к интернету и повторите попытку.";
 "error.6002" = "Ответ занял слишком много времени. Проверьте подключение и повторите попытку.";

@@ -120,6 +120,14 @@
 "accountRestricted.message" = "Открихме активност, която може да нарушава нашите условия за ползване. Акаунтът ви е ограничен, докато го преглеждаме.\n\nАко смятате, че това е грешка, свържете се с нашия екип за поддръжка.";
 "accountRestricted.getInTouch" = "Свържете се с нас";
 "accountRestricted.cancel" = "Отказ";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Създайте акаунт, като сканирате двете си длани. Повторна проверка само с едно сканиране";
 "error.6001" = "Неуспешно свързване. Проверете интернет връзката си и опитайте отново.";
 "error.6002" = "Отговорът отнема твърде много време. Проверете връзката си и опитайте отново.";

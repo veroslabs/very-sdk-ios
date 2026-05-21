@@ -120,6 +120,14 @@
 "accountRestricted.message" = "Nakakita kami ng aktibidad na maaaring lumabag sa aming mga tuntunin ng serbisyo. Ang iyong account ay pinaghihigpitan habang sinusuri namin ito.\n\nKung sa tingin mo ito ay isang pagkakamali, makipag-ugnayan sa aming support team.";
 "accountRestricted.getInTouch" = "Makipag-ugnayan";
 "accountRestricted.cancel" = "Kanselahin";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Gumawa ng account sa pamamagitan ng pag-scan ng dalawang palad. Muling i-verify sa isang scan lang";
 "error.6001" = "Hindi makakonekta. Tingnan ang iyong internet at subukan muli.";
 "error.6002" = "Napakatagal bago makakuha ng sagot. Tingnan ang iyong koneksyon at subukan muli.";

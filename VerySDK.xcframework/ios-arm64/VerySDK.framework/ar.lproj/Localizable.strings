@@ -118,6 +118,14 @@
 "accountRestricted.message" = "اكتشفنا نشاطًا قد ينتهك شروط الخدمة الخاصة بنا. تم تقييد حسابك أثناء مراجعتنا له.\n\nإذا كنت تعتقد أن هذا خطأ، تواصل مع فريق الدعم لدينا.";
 "accountRestricted.getInTouch" = "تواصل معنا";
 "accountRestricted.cancel" = "إلغاء";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "أنشئ حسابك بمسح كلتا راحتيك. أعد التحقق بمسح واحد فقط";
 "error.6001" = "تعذّر الاتصال. تحقق من اتصالك بالإنترنت وأعد المحاولة.";
 "error.6002" = "استغرقت الاستجابة وقتًا طويلاً. تحقق من اتصالك وأعد المحاولة.";

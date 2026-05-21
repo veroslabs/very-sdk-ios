@@ -120,6 +120,14 @@
 "accountRestricted.message" = "Xidmət şərtlərimizi poza biləcək fəaliyyət aşkar etdik. Hesabınız araşdırılarkən məhdudlaşdırılıb.\n\nBunun səhv olduğunu düşünürsünüzsə, dəstək komandamızla əlaqə saxlayın.";
 "accountRestricted.getInTouch" = "Əlaqə saxlayın";
 "accountRestricted.cancel" = "Ləğv et";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Hər iki ovucunuzu skan edərək hesab yaradın. Yalnız bir skan ilə yenidən doğrulayın";
 "error.6001" = "Bağlantı qurulmadı. İnternet bağlantınızı yoxlayın və yenidən cəhd edin.";
 "error.6002" = "Cavab almaq çox uzun çəkdi. Bağlantınızı yoxlayın və yenidən cəhd edin.";

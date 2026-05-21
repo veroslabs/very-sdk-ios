@@ -120,6 +120,14 @@
 "accountRestricted.message" = "Mēs esam konstatējuši darbību, kas var pārkāpt mūsu pakalpojumu noteikumus. Jūsu konts ir ierobežots, kamēr mēs to pārskatām.\n\nJa uzskatāt, ka tā ir kļūda, sazinieties ar mūsu atbalsta komandu.";
 "accountRestricted.getInTouch" = "Sazināties ar mums";
 "accountRestricted.cancel" = "Atcelt";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Izveidojiet kontu, skenējot abas plaukstas. Atkārtota verifikācija tikai ar vienu skenēšanu";
 "error.6001" = "Neizdevās izveidot savienojumu. Pārbaudiet interneta savienojumu un mēģiniet vēlreiz.";
 "error.6002" = "Atbilde ilga pārāk ilgi. Pārbaudiet savienojumu un mēģiniet vēlreiz.";

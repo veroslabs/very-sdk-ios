@@ -118,6 +118,14 @@
 "accountRestricted.message" = "利用規約に違反する可能性のあるアクティビティが検出されました。確認中のため、アカウントが制限されています。\n\nこれが誤りだと思われる場合は、サポートチームにお問い合わせください。";
 "accountRestricted.getInTouch" = "お問い合わせ";
 "accountRestricted.cancel" = "キャンセル";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "両方の手のひらをスキャンしてアカウントを作成。再認証は片方のスキャンだけでOK";
 "error.6001" = "接続できませんでした。インターネット接続を確認して、もう一度お試しください。";
 "error.6002" = "応答に時間がかかりすぎました。接続を確認して、もう一度お試しください。";

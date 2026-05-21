@@ -120,6 +120,14 @@
 "accountRestricted.message" = "Zistili sme aktivitu, ktorá môže porušovať naše podmienky služby. Váš účet bol obmedzený, kým ho preveríme.\n\nAk si myslíte, že ide o chybu, kontaktujte náš tím podpory.";
 "accountRestricted.getInTouch" = "Kontaktujte nás";
 "accountRestricted.cancel" = "Zrušiť";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Vytvorte účet naskenovaním oboch dlaní. Opätovné overenie jedným skenovaním";
 "error.6001" = "Nepodarilo sa pripojiť. Skontrolujte pripojenie na internet a skúste to znova.";
 "error.6002" = "Odpoveď trvala príliš dlho. Skontrolujte pripojenie a skúste to znova.";

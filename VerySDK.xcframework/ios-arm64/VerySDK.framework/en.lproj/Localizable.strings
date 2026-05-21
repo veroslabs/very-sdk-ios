@@ -97,6 +97,14 @@
 "accountRestricted.getInTouch" = "Get in touch";
 "accountRestricted.cancel" = "Cancel";
 
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
+
 /* API Error Codes (message for each code) */
 "error.1001" = "Something went wrong. Please try again.";
 "error.1002" = "We couldn't verify your palm. Please try again.";

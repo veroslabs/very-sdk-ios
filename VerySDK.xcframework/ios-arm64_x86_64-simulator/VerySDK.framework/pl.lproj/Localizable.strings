@@ -118,6 +118,14 @@
 "accountRestricted.message" = "Wykryliśmy aktywność, która może naruszać nasze warunki korzystania z usługi. Twoje konto zostało ograniczone na czas weryfikacji.\n\nJeśli uważasz, że to błąd, skontaktuj się z naszym zespołem wsparcia.";
 "accountRestricted.getInTouch" = "Skontaktuj się z nami";
 "accountRestricted.cancel" = "Anuluj";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Utwórz konto, skanując obie dłonie. Ponowna weryfikacja jednym skanem";
 "error.6001" = "Nie można połączyć. Sprawdź połączenie z internetem i spróbuj ponownie.";
 "error.6002" = "Odpowiedź trwała zbyt długo. Sprawdź połączenie i spróbuj ponownie.";

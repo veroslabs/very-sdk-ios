@@ -118,6 +118,14 @@
 "accountRestricted.message" = "Chúng tôi đã phát hiện hoạt động có thể vi phạm điều khoản dịch vụ của chúng tôi. Tài khoản của bạn đã bị hạn chế trong khi chúng tôi xem xét.\n\nNếu bạn cho rằng đây là lỗi, vui lòng liên hệ đội ngũ hỗ trợ của chúng tôi.";
 "accountRestricted.getInTouch" = "Liên hệ với chúng tôi";
 "accountRestricted.cancel" = "Hủy";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Tạo tài khoản bằng cách quét cả hai lòng bàn tay. Xác minh lại chỉ với một lần quét";
 "error.6001" = "Không thể kết nối. Hãy kiểm tra kết nối internet và thử lại.";
 "error.6002" = "Mất quá nhiều thời gian để nhận phản hồi. Hãy kiểm tra kết nối và thử lại.";

@@ -120,6 +120,14 @@
 "accountRestricted.message" = "Біз қызмет көрсету шарттарын бұзуы мүмкін әрекетті анықтадық. Тексеру кезінде аккаунтыңыз шектелді.\n\nЕгер бұл қате деп ойласаңыз, қолдау тобымызбен хабарласыңыз.";
 "accountRestricted.getInTouch" = "Бізбен байланысу";
 "accountRestricted.cancel" = "Бас тарту";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Екі алақанды сканерлеп тіркелгі жасаңыз. Тек бір сканерлеумен қайта растаңыз";
 "error.6001" = "Қосылу мүмкін болмады. Интернет байланысын тексеріп, қайталап көріңіз.";
 "error.6002" = "Жауап алу ұзақ уақытты қажет етті. Байланысты тексеріп, қайталап көріңіз.";

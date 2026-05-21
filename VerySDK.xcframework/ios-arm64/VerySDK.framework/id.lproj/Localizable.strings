@@ -118,6 +118,14 @@
 "accountRestricted.message" = "Kami mendeteksi aktivitas yang mungkin melanggar ketentuan layanan kami. Akun Anda telah dibatasi sementara kami meninjaunya.\n\nJika Anda yakin ini adalah kesalahan, hubungi tim dukungan kami.";
 "accountRestricted.getInTouch" = "Hubungi kami";
 "accountRestricted.cancel" = "Batal";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Buat akun dengan memindai kedua telapak tangan. Verifikasi ulang cukup dengan satu pemindaian";
 "error.6001" = "Tidak dapat terhubung. Periksa koneksi internet Anda dan coba lagi.";
 "error.6002" = "Butuh waktu terlalu lama untuk menerima respons. Periksa koneksi Anda dan coba lagi.";

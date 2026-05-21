@@ -120,6 +120,14 @@
 "accountRestricted.message" = "我們偵測到可能違反服務條款嘅活動。喺審核期間，您嘅賬戶已被限制。\n\n如果您認為呢個係錯誤，請聯絡我哋嘅支援團隊。";
 "accountRestricted.getInTouch" = "聯絡我哋";
 "accountRestricted.cancel" = "取消";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "掃描雙掌建立帳戶。只需掃描一次即可重新驗證";
 "error.6001" = "無法連接，請檢查網絡後重試。";
 "error.6002" = "回應超時，請檢查網絡後重試。";

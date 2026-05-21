@@ -118,6 +118,14 @@
 "accountRestricted.message" = "Hizmet koşullarımızı ihlal edebilecek bir etkinlik tespit ettik. Hesabınız inceleme sürecinde kısıtlanmıştır.\n\nBunun bir hata olduğunu düşünüyorsanız, destek ekibimizle iletişime geçin.";
 "accountRestricted.getInTouch" = "Bize ulaşın";
 "accountRestricted.cancel" = "İptal";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "Her iki avucunuzu tarayarak hesap oluşturun. Tek bir tarama ile yeniden doğrulayın";
 "error.6001" = "Bağlanılamadı. İnternet bağlantınızı kontrol edip tekrar deneyin.";
 "error.6002" = "Yanıt çok uzun sürdü. Bağlantınızı kontrol edip tekrar deneyin.";

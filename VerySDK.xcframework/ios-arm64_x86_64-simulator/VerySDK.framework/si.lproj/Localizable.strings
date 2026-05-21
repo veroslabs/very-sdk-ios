@@ -120,6 +120,14 @@
 "accountRestricted.message" = "අපගේ සේවා කොන්දේසි උල්ලංඝනය කළ හැකි ක්‍රියාකාරකම් අපි හඳුනාගෙන ඇත. අපි එය සමාලෝචනය කරන අතරතුර ඔබේ ගිණුම සීමා කර ඇත.\n\nමෙය වැරදියක් යැයි ඔබ විශ්වාස කරන්නේ නම්, අපගේ සහාය කණ්ඩායම හා සම්බන්ධ වන්න.";
 "accountRestricted.getInTouch" = "අප හා සම්බන්ධ වන්න";
 "accountRestricted.cancel" = "අවලංගු කරන්න";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "Something went wrong";
+"livenessError.message" = "We couldn't complete the liveness check. Please try again.";
+"livenessError.timeoutTitle" = "Verification timed out";
+"livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.retry" = "Retry";
+"livenessError.close" = "Close";
 "consent.tip1" = "අත්ල දෙකම ස්කෑන් කර ගිණුමක් සාදන්න. එක් ස්කෑන් එකකින් නැවත තහවුරු කරන්න";
 "error.6001" = "සම්බන්ධ විය නොහැකි විය. ඔබේ අන්තර්ජාල සම්බන්ධතාවය පරීක්ෂා කර නැවත උත්සාහ කරන්න.";
 "error.6002" = "පිළිතුරක් ලබා ගැනීමට ඕනෑවට වඩා කාලය ගතවිය. ඔබේ සම්බන්ධතාවය පරීක්ෂා කර නැවත උත්සාහ කරන්න.";
