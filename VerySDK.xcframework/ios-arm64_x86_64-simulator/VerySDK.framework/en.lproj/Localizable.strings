@@ -18,12 +18,8 @@
 "status.darkenHand" = "Try moving out of direct light";
 "status.focusHand" = "Hold still for a moment";
 "status.keepStill" = "Hold still";
-"status.showGesture" = "Show gesture";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scan Your Right Palm";
-"scan.scanYourLeftPalm" = "Scan Your Left Palm";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "First hand complete";
@@ -51,18 +47,10 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "loading…";
 "common.retrying" = "Retrying…";
-"common.success" = "Success";
-"common.error" = "Error";
 "common.done" = "Done";
-"common.tryAgain" = "Try Again";
-"common.cancel" = "Cancel";
 "common.continue" = "Continue";
-"common.tryAgainMessage" = "Please try again.";
 "error.palmLinkedToEmail" = "Your palm is linked to %@";
-"scan.errorTitle" = "We couldn't verify your palm";
-"auth.errorTitle" = "We couldn't proceed to the next step.";
 
 /* Scan Status */
 "scan.positionLeftHand" = "Scan left palm";
@@ -88,7 +76,6 @@
 "email.sentCodeTo" = "Code sent to";
 "email.resendCode" = "Resend code";
 "email.resendInSeconds" = "Resend in %@s";
-"email.invalidCode" = "Invalid verification code. Please try again.";
 "email.placeholder" = "Email address";
 
 /* Account Restricted */

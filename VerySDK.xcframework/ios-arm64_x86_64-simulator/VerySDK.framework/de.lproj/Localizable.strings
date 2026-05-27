@@ -18,12 +18,8 @@
 "status.darkenHand" = "Vermeiden Sie direktes Licht";
 "status.focusHand" = "Halten Sie einen Moment still";
 "status.keepStill" = "Halten Sie still";
-"status.showGesture" = "Geste zeigen";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scannen Sie Ihre rechte Handfläche";
-"scan.scanYourLeftPalm" = "Scannen Sie Ihre linke Handfläche";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Erste Hand abgeschlossen";
@@ -71,13 +67,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "Laden…";
 "common.retrying" = "Erneuter Versuch…";
-"common.success" = "Erfolg";
-"common.error" = "Fehler";
 "common.done" = "Fertig";
-"common.tryAgain" = "Erneut versuchen";
-"common.cancel" = "Abbrechen";
 "common.continue" = "Weiter";
 
 /* Scan Status */
@@ -104,14 +95,10 @@
 "email.sentCodeTo" = "Code gesendet an";
 "email.resendCode" = "Code erneut senden";
 "email.resendInSeconds" = "Erneut senden in %@ s";
-"email.invalidCode" = "Ungültiger Bestätigungscode. Bitte versuchen Sie es erneut.";
 "email.placeholder" = "E-Mail-Adresse";
 "consent.tip3" = "Ihr Handflächen-Scan dient nur zur Bestätigung Ihrer Identität — löschen Sie Ihre Daten jederzeit";
 "switchPalm.scanOtherHand" = "Andere Hand scannen";
 "error.palmLinkedToEmail" = "Ihre Handfläche ist mit %@ verknüpft";
-"scan.errorTitle" = "Wir konnten deine Handfläche nicht überprüfen";
-"common.tryAgainMessage" = "Bitte versuche es erneut.";
-"auth.errorTitle" = "Wir konnten nicht mit dem nächsten Schritt fortfahren.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Konto eingeschränkt";
@@ -170,3 +157,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Verifizierung starten";
+"consent.tip2" = "%@ erhält Zugriff auf begrenzte [Verifizierungsdaten]";
+"consent.verifyIdentitySubtitle" = "%@ nutzt VeryAI, um zu bestätigen, dass Sie ein Mensch sind.";
+"consent.verifyIdentityTitle" = "%@ nutzt VeryAI zur Handflächenverifizierung";
+"error.1001" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1002" = "Wir konnten Ihre Handfläche nicht verifizieren. Bitte versuchen Sie es erneut.";
+"error.1003" = "Wir konnten Ihre Handfläche nicht verifizieren. Bitte versuchen Sie es erneut.";
+"error.1004" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1005" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1006" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1007" = "Wir konnten Ihre Handfläche nicht verifizieren. Bitte versuchen Sie es erneut.";
+"error.1008" = "Wir konnten Ihre Handfläche nicht verifizieren. Bitte versuchen Sie es erneut.";
+"error.1009" = "Wir konnten Ihre Handfläche nicht verifizieren. Bitte versuchen Sie es erneut.";
+"error.1010" = "Wir konnten Ihre Handfläche nicht verifizieren. Bitte versuchen Sie es erneut.";
+"error.1011" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1012" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1013" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1014" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1015" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1016" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1017" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1018" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1019" = "Beide Handflächen sind erforderlich.";
+"error.1020" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1021" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1022" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1023" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1024" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1025" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1026" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1027" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1028" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1029" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1030" = "Ihre Sitzung ist abgelaufen. Bitte versuchen Sie es erneut.";
+"error.1031" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.1032" = "Wir konnten Ihr Konto nicht finden. Bitte versuchen Sie es erneut.";
+"error.1033" = "Wir konnten Ihr Konto nicht finden. Bitte versuchen Sie es erneut.";
+"error.1034" = "Wir konnten Ihr Konto nicht finden. Bitte versuchen Sie es erneut.";
+"error.1035" = "Handflächen des Benutzers nicht gefunden.";
+"error.1036" = "Überprüfung nicht gefunden.";
+"error.1037" = "Wir konnten Ihre Handfläche nicht verifizieren. Bitte versuchen Sie es erneut.";
+"error.1038" = "Wir konnten Ihre Handfläche nicht verifizieren. Bitte versuchen Sie es erneut.";
+"error.1039" = "Wir konnten Ihre Handfläche nicht verifizieren. Bitte versuchen Sie es erneut.";
+"error.1040" = "Wir konnten Sie nicht anmelden. Möglicherweise ist Ihre E-Mail-Adresse noch nicht registriert oder Ihre Anmeldedaten sind falsch.";
+"error.2001" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.2002" = "Wir konnten Ihr Konto nicht finden. Bitte versuchen Sie es erneut.";
+"error.2003" = "Ungültiger Benutzername.";
+"error.2004" = "E-Mail-Adresse wird bereits verwendet.";
+"error.2005" = "Keine ausstehende E-Mail-Änderung.";
+"error.2006" = "Ungültiger Verifizierungscode.";
+"error.2007" = "Verifizierungscode abgelaufen.";
+"error.2008" = "Limit für Verifizierungsversuche überschritten.";
+"error.2009" = "Wir konnten Ihr Konto nicht finden. Bitte versuchen Sie es erneut.";
+"error.2010" = "Überprüfung nicht gefunden.";
+"error.2011" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.3000" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.4000" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.6107" = "Zeitüberschreitung bei der Lebenderkennung. Bitte versuchen Sie es erneut.";

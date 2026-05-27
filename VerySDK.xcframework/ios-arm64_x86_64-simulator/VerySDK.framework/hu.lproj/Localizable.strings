@@ -19,12 +19,8 @@
 "status.darkenHand" = "Try moving out of direct light";
 "status.focusHand" = "Hold still for a moment";
 "status.keepStill" = "Hold still";
-"status.showGesture" = "Show gesture";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scan Your Right Palm";
-"scan.scanYourLeftPalm" = "Scan Your Left Palm";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Első kéz befejezve";
@@ -73,13 +69,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "betöltés…";
 "common.retrying" = "Újrapróbálkozás…";
-"common.success" = "Sikeres";
-"common.error" = "Hiba";
 "common.done" = "Kész";
-"common.tryAgain" = "Próbálja újra";
-"common.cancel" = "Mégse";
 "common.continue" = "Folytatás";
 
 /* Scan Status */
@@ -106,14 +97,10 @@
 "email.sentCodeTo" = "Kód elküldve ide";
 "email.resendCode" = "Kód újraküldése";
 "email.resendInSeconds" = "Újraküldés %@ mp múlva";
-"email.invalidCode" = "Érvénytelen ellenőrző kód. Kérjük, próbálja újra.";
 "email.placeholder" = "E-mail cím";
 "consent.tip3" = "A tenyérszkenned csak a személyazonosságod ellenőrzésére szolgál — törölheted adataidat bármikor";
 "switchPalm.scanOtherHand" = "Másik kéz beolvasása";
 "error.palmLinkedToEmail" = "A tenyered a következőhöz van kapcsolva: %@";
-"scan.errorTitle" = "Nem tudtuk ellenőrizni a tenyerét";
-"common.tryAgainMessage" = "Kérjük, próbálja újra.";
-"auth.errorTitle" = "Nem tudtunk továbblépni a következő lépésre.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Fiók korlátozva";
@@ -172,3 +159,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Ellenőrzés indítása";
+"consent.tip2" = "A(z) %@ korlátozott [ellenőrzési adatokhoz] fér hozzá";
+"consent.verifyIdentitySubtitle" = "A(z) %@ a VeryAI-t használja annak megerősítésére, hogy ember vagy.";
+"consent.verifyIdentityTitle" = "A(z) %@ a VeryAI-t használja a tenyér ellenőrzéséhez";
+"error.1001" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1002" = "Nem sikerült ellenőriznünk a tenyeredet. Kérjük, próbáld újra.";
+"error.1003" = "Nem sikerült ellenőriznünk a tenyeredet. Kérjük, próbáld újra.";
+"error.1004" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1005" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1006" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1007" = "Nem sikerült ellenőriznünk a tenyeredet. Kérjük, próbáld újra.";
+"error.1008" = "Nem sikerült ellenőriznünk a tenyeredet. Kérjük, próbáld újra.";
+"error.1009" = "Nem sikerült ellenőriznünk a tenyeredet. Kérjük, próbáld újra.";
+"error.1010" = "Nem sikerült ellenőriznünk a tenyeredet. Kérjük, próbáld újra.";
+"error.1011" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1012" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1013" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1014" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1015" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1016" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1017" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1018" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1019" = "Mindkét tenyér megadása kötelező.";
+"error.1020" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1021" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1022" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1023" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1024" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1025" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1026" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1027" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1028" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1029" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1030" = "A munkameneted lejárt. Kérjük, próbáld újra.";
+"error.1031" = "Hiba történt. Kérjük, próbáld újra.";
+"error.1032" = "Nem találtuk a fiókodat. Kérjük, próbáld újra.";
+"error.1033" = "Nem találtuk a fiókodat. Kérjük, próbáld újra.";
+"error.1034" = "Nem találtuk a fiókodat. Kérjük, próbáld újra.";
+"error.1035" = "A felhasználó tenyerei nem találhatók.";
+"error.1036" = "Az ellenőrzés nem található.";
+"error.1037" = "Nem sikerült ellenőriznünk a tenyeredet. Kérjük, próbáld újra.";
+"error.1038" = "Nem sikerült ellenőriznünk a tenyeredet. Kérjük, próbáld újra.";
+"error.1039" = "Nem sikerült ellenőriznünk a tenyeredet. Kérjük, próbáld újra.";
+"error.1040" = "Nem sikerült bejelentkeztetnünk. Lehet, hogy az e-mail-címed még nincs regisztrálva, vagy a hitelesítő adataid hibásak.";
+"error.2001" = "Hiba történt. Kérjük, próbáld újra.";
+"error.2002" = "Nem találtuk a fiókodat. Kérjük, próbáld újra.";
+"error.2003" = "Érvénytelen felhasználónév.";
+"error.2004" = "Ez az e-mail-cím már használatban van.";
+"error.2005" = "Nincs függőben lévő e-mail-módosítás.";
+"error.2006" = "Érvénytelen ellenőrző kód.";
+"error.2007" = "Az ellenőrző kód lejárt.";
+"error.2008" = "Túllépted az ellenőrzési korlátot.";
+"error.2009" = "Nem találtuk a fiókodat. Kérjük, próbáld újra.";
+"error.2010" = "Az ellenőrzés nem található.";
+"error.2011" = "Hiba történt. Kérjük, próbáld újra.";
+"error.3000" = "Hiba történt. Kérjük, próbáld újra.";
+"error.4000" = "Hiba történt. Kérjük, próbáld újra.";
+"error.6107" = "Az élőségvizsgálat időtúllépést okozott. Kérjük, próbáld újra.";

@@ -18,12 +18,8 @@
 "status.darkenHand" = "Evite a luz direta";
 "status.focusHand" = "Fique parado um momento";
 "status.keepStill" = "Fique parado";
-"status.showGesture" = "Mostre o gesto";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Escaneie sua palma direita";
-"scan.scanYourLeftPalm" = "Escaneie sua palma esquerda";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Primeira mão concluída";
@@ -71,13 +67,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "carregando…";
 "common.retrying" = "Tentando novamente…";
-"common.success" = "Sucesso";
-"common.error" = "Erro";
 "common.done" = "Concluído";
-"common.tryAgain" = "Tentar novamente";
-"common.cancel" = "Cancelar";
 "common.continue" = "Continuar";
 
 /* Scan Status */
@@ -104,14 +95,10 @@
 "email.sentCodeTo" = "Código enviado para";
 "email.resendCode" = "Reenviar código";
 "email.resendInSeconds" = "Reenviar em %@ s";
-"email.invalidCode" = "Código de verificação inválido. Tente novamente.";
 "email.placeholder" = "Endereço de e-mail";
 "consent.tip3" = "O escaneamento da sua palma é usado apenas para verificar sua identidade — exclua seus dados a qualquer momento";
 "switchPalm.scanOtherHand" = "Digitalizar outra mão";
 "error.palmLinkedToEmail" = "Sua palma está vinculada a %@";
-"scan.errorTitle" = "Não conseguimos verificar sua palma";
-"common.tryAgainMessage" = "Tente novamente.";
-"auth.errorTitle" = "Não foi possível prosseguir para a próxima etapa.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Conta restrita";
@@ -170,3 +157,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Iniciar verificação";
+"consent.tip2" = "A %@ terá acesso a [dados de verificação] limitados";
+"consent.verifyIdentitySubtitle" = "A %@ usa a VeryAI para confirmar que é humano.";
+"consent.verifyIdentityTitle" = "A %@ usa a VeryAI para verificação da palma da mão";
+"error.1001" = "Algo correu mal. Tente novamente.";
+"error.1002" = "Não foi possível verificar a sua palma. Tente novamente.";
+"error.1003" = "Não foi possível verificar a sua palma. Tente novamente.";
+"error.1004" = "Algo correu mal. Tente novamente.";
+"error.1005" = "Algo correu mal. Tente novamente.";
+"error.1006" = "Algo correu mal. Tente novamente.";
+"error.1007" = "Não foi possível verificar a sua palma. Tente novamente.";
+"error.1008" = "Não foi possível verificar a sua palma. Tente novamente.";
+"error.1009" = "Não foi possível verificar a sua palma. Tente novamente.";
+"error.1010" = "Não foi possível verificar a sua palma. Tente novamente.";
+"error.1011" = "Algo correu mal. Tente novamente.";
+"error.1012" = "Algo correu mal. Tente novamente.";
+"error.1013" = "Algo correu mal. Tente novamente.";
+"error.1014" = "Algo correu mal. Tente novamente.";
+"error.1015" = "Algo correu mal. Tente novamente.";
+"error.1016" = "Algo correu mal. Tente novamente.";
+"error.1017" = "Algo correu mal. Tente novamente.";
+"error.1018" = "Algo correu mal. Tente novamente.";
+"error.1019" = "São necessárias ambas as palmas.";
+"error.1020" = "Algo correu mal. Tente novamente.";
+"error.1021" = "Algo correu mal. Tente novamente.";
+"error.1022" = "Algo correu mal. Tente novamente.";
+"error.1023" = "Algo correu mal. Tente novamente.";
+"error.1024" = "Algo correu mal. Tente novamente.";
+"error.1025" = "Algo correu mal. Tente novamente.";
+"error.1026" = "Algo correu mal. Tente novamente.";
+"error.1027" = "Algo correu mal. Tente novamente.";
+"error.1028" = "Algo correu mal. Tente novamente.";
+"error.1029" = "Algo correu mal. Tente novamente.";
+"error.1030" = "A sua sessão expirou. Tente novamente.";
+"error.1031" = "Algo correu mal. Tente novamente.";
+"error.1032" = "Não foi possível encontrar a sua conta. Tente novamente.";
+"error.1033" = "Não foi possível encontrar a sua conta. Tente novamente.";
+"error.1034" = "Não foi possível encontrar a sua conta. Tente novamente.";
+"error.1035" = "Palmas do utilizador não encontradas.";
+"error.1036" = "Análise não encontrada.";
+"error.1037" = "Não foi possível verificar a sua palma. Tente novamente.";
+"error.1038" = "Não foi possível verificar a sua palma. Tente novamente.";
+"error.1039" = "Não foi possível verificar a sua palma. Tente novamente.";
+"error.1040" = "Não foi possível iniciar sessão. O seu e-mail pode ainda não estar registado ou as suas credenciais podem estar incorretas.";
+"error.2001" = "Algo correu mal. Tente novamente.";
+"error.2002" = "Não foi possível encontrar a sua conta. Tente novamente.";
+"error.2003" = "Nome de utilizador inválido.";
+"error.2004" = "E-mail já em utilização.";
+"error.2005" = "Nenhuma alteração de e-mail pendente.";
+"error.2006" = "Código de verificação inválido.";
+"error.2007" = "Código de verificação expirado.";
+"error.2008" = "Limite de tentativas de verificação excedido.";
+"error.2009" = "Não foi possível encontrar a sua conta. Tente novamente.";
+"error.2010" = "Análise não encontrada.";
+"error.2011" = "Algo correu mal. Tente novamente.";
+"error.3000" = "Algo correu mal. Tente novamente.";
+"error.4000" = "Algo correu mal. Tente novamente.";
+"error.6107" = "A verificação de vivacidade expirou. Tente novamente.";

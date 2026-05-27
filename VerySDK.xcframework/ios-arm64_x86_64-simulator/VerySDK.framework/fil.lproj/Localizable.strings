@@ -19,12 +19,8 @@
 "status.darkenHand" = "Try moving out of direct light";
 "status.focusHand" = "Hold still for a moment";
 "status.keepStill" = "Hold still";
-"status.showGesture" = "Show gesture";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scan Your Right Palm";
-"scan.scanYourLeftPalm" = "Scan Your Left Palm";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Tapos na ang unang kamay";
@@ -73,13 +69,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "naglo-load…";
 "common.retrying" = "Sinusubukan muli…";
-"common.success" = "Tagumpay";
-"common.error" = "Error";
 "common.done" = "Tapos na";
-"common.tryAgain" = "Subukan muli";
-"common.cancel" = "Kanselahin";
 "common.continue" = "Magpatuloy";
 
 /* Scan Status */
@@ -106,14 +97,10 @@
 "email.sentCodeTo" = "Ipinadala ang code sa";
 "email.resendCode" = "Ipadala muli ang code";
 "email.resendInSeconds" = "I-resend sa %@ s";
-"email.invalidCode" = "Di-wastong verification code. Pakisubukan muli.";
 "email.placeholder" = "Email address";
 "consent.tip3" = "Ang scan ng iyong palad ay ginagamit lamang upang i-verify ang iyong pagkakakilanlan — tanggalin ang iyong data anumang oras";
 "switchPalm.scanOtherHand" = "I-scan ang ibang kamay";
 "error.palmLinkedToEmail" = "Ang iyong palad ay naka-link sa %@";
-"scan.errorTitle" = "Hindi namin ma-verify ang iyong palad";
-"common.tryAgainMessage" = "Mangyaring subukan ulit.";
-"auth.errorTitle" = "Hindi kami makapagpatuloy sa susunod na hakbang.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Pinaghihigpitan ang account";
@@ -172,3 +159,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Simulan ang pag-verify";
+"consent.tip2" = "Magkakaroon ang %@ ng limitadong access sa [data ng pag-verify]";
+"consent.verifyIdentitySubtitle" = "Ginagamit ng %@ ang VeryAI para kumpirmahing tao ka.";
+"consent.verifyIdentityTitle" = "Ginagamit ng %@ ang VeryAI para sa pag-verify ng palad";
+"error.1001" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1002" = "Hindi namin na-verify ang iyong palad. Pakisubukan ulit.";
+"error.1003" = "Hindi namin na-verify ang iyong palad. Pakisubukan ulit.";
+"error.1004" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1005" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1006" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1007" = "Hindi namin na-verify ang iyong palad. Pakisubukan ulit.";
+"error.1008" = "Hindi namin na-verify ang iyong palad. Pakisubukan ulit.";
+"error.1009" = "Hindi namin na-verify ang iyong palad. Pakisubukan ulit.";
+"error.1010" = "Hindi namin na-verify ang iyong palad. Pakisubukan ulit.";
+"error.1011" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1012" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1013" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1014" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1015" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1016" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1017" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1018" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1019" = "Kailangan ang parehong palad.";
+"error.1020" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1021" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1022" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1023" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1024" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1025" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1026" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1027" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1028" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1029" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1030" = "Nag-expire na ang iyong session. Pakisubukan ulit.";
+"error.1031" = "May nangyaring mali. Pakisubukan ulit.";
+"error.1032" = "Hindi namin nahanap ang iyong account. Pakisubukan ulit.";
+"error.1033" = "Hindi namin nahanap ang iyong account. Pakisubukan ulit.";
+"error.1034" = "Hindi namin nahanap ang iyong account. Pakisubukan ulit.";
+"error.1035" = "Hindi nahanap ang mga palad ng user.";
+"error.1036" = "Hindi nahanap ang review.";
+"error.1037" = "Hindi namin na-verify ang iyong palad. Pakisubukan ulit.";
+"error.1038" = "Hindi namin na-verify ang iyong palad. Pakisubukan ulit.";
+"error.1039" = "Hindi namin na-verify ang iyong palad. Pakisubukan ulit.";
+"error.1040" = "Hindi ka namin na-sign in. Maaaring hindi pa nakarehistro ang iyong email, o mali ang iyong mga kredensyal.";
+"error.2001" = "May nangyaring mali. Pakisubukan ulit.";
+"error.2002" = "Hindi namin nahanap ang iyong account. Pakisubukan ulit.";
+"error.2003" = "Di-wastong username.";
+"error.2004" = "Ginagamit na ang email.";
+"error.2005" = "Walang nakabinbing pagbabago ng email.";
+"error.2006" = "Di-wastong verification code.";
+"error.2007" = "Nag-expire na ang verification code.";
+"error.2008" = "Lumampas sa limitasyon ng pag-verify.";
+"error.2009" = "Hindi namin nahanap ang iyong account. Pakisubukan ulit.";
+"error.2010" = "Hindi nahanap ang review.";
+"error.2011" = "May nangyaring mali. Pakisubukan ulit.";
+"error.3000" = "May nangyaring mali. Pakisubukan ulit.";
+"error.4000" = "May nangyaring mali. Pakisubukan ulit.";
+"error.6107" = "Nag-time out ang liveness check. Pakisubukan ulit.";

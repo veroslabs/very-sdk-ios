@@ -18,12 +18,8 @@
 "status.darkenHand" = "Unikaj bezpośredniego światła";
 "status.focusHand" = "Pozostań nieruchomo przez chwilę";
 "status.keepStill" = "Pozostań nieruchomo";
-"status.showGesture" = "Pokaż gest";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Skanuj prawą dłoń";
-"scan.scanYourLeftPalm" = "Skanuj lewą dłoń";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Pierwsza ręka ukończona";
@@ -71,13 +67,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "ładowanie…";
 "common.retrying" = "Ponawianie…";
-"common.success" = "Sukces";
-"common.error" = "Błąd";
 "common.done" = "Gotowe";
-"common.tryAgain" = "Spróbuj ponownie";
-"common.cancel" = "Anuluj";
 "common.continue" = "Kontynuuj";
 
 /* Scan Status */
@@ -104,14 +95,10 @@
 "email.sentCodeTo" = "Kod wysłano do";
 "email.resendCode" = "Wyślij kod ponownie";
 "email.resendInSeconds" = "Wyślij ponownie za %@ s";
-"email.invalidCode" = "Nieprawidłowy kod weryfikacyjny. Spróbuj ponownie.";
 "email.placeholder" = "Adres e-mail";
 "consent.tip3" = "Skan dłoni służy wyłącznie do weryfikacji Twojej tożsamości — usuń swoje dane w dowolnym momencie";
 "switchPalm.scanOtherHand" = "Skanuj drugą rękę";
 "error.palmLinkedToEmail" = "Twoja dłoń jest powiązana z %@";
-"scan.errorTitle" = "Nie mogliśmy zweryfikować Twojej dłoni";
-"common.tryAgainMessage" = "Spróbuj ponownie.";
-"auth.errorTitle" = "Nie udało się przejść do następnego kroku.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Konto ograniczone";
@@ -170,3 +157,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Rozpocznij weryfikację";
+"consent.tip2" = "%@ uzyska dostęp do ograniczonych [danych weryfikacyjnych]";
+"consent.verifyIdentitySubtitle" = "%@ korzysta z VeryAI, aby potwierdzić, że jesteś człowiekiem.";
+"consent.verifyIdentityTitle" = "%@ korzysta z VeryAI do weryfikacji dłoni";
+"error.1001" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1002" = "Nie udało się zweryfikować Twojej dłoni. Spróbuj ponownie.";
+"error.1003" = "Nie udało się zweryfikować Twojej dłoni. Spróbuj ponownie.";
+"error.1004" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1005" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1006" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1007" = "Nie udało się zweryfikować Twojej dłoni. Spróbuj ponownie.";
+"error.1008" = "Nie udało się zweryfikować Twojej dłoni. Spróbuj ponownie.";
+"error.1009" = "Nie udało się zweryfikować Twojej dłoni. Spróbuj ponownie.";
+"error.1010" = "Nie udało się zweryfikować Twojej dłoni. Spróbuj ponownie.";
+"error.1011" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1012" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1013" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1014" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1015" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1016" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1017" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1018" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1019" = "Wymagane są obie dłonie.";
+"error.1020" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1021" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1022" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1023" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1024" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1025" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1026" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1027" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1028" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1029" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1030" = "Twoja sesja wygasła. Spróbuj ponownie.";
+"error.1031" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.1032" = "Nie udało się znaleźć Twojego konta. Spróbuj ponownie.";
+"error.1033" = "Nie udało się znaleźć Twojego konta. Spróbuj ponownie.";
+"error.1034" = "Nie udało się znaleźć Twojego konta. Spróbuj ponownie.";
+"error.1035" = "Nie znaleziono dłoni użytkownika.";
+"error.1036" = "Nie znaleziono recenzji.";
+"error.1037" = "Nie udało się zweryfikować Twojej dłoni. Spróbuj ponownie.";
+"error.1038" = "Nie udało się zweryfikować Twojej dłoni. Spróbuj ponownie.";
+"error.1039" = "Nie udało się zweryfikować Twojej dłoni. Spróbuj ponownie.";
+"error.1040" = "Nie udało się Cię zalogować. Twój adres e-mail może nie być jeszcze zarejestrowany lub dane logowania mogą być nieprawidłowe.";
+"error.2001" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.2002" = "Nie udało się znaleźć Twojego konta. Spróbuj ponownie.";
+"error.2003" = "Nieprawidłowa nazwa użytkownika.";
+"error.2004" = "Ten adres e-mail jest już używany.";
+"error.2005" = "Brak oczekujących zmian adresu e-mail.";
+"error.2006" = "Nieprawidłowy kod weryfikacyjny.";
+"error.2007" = "Kod weryfikacyjny wygasł.";
+"error.2008" = "Przekroczono limit prób weryfikacji.";
+"error.2009" = "Nie udało się znaleźć Twojego konta. Spróbuj ponownie.";
+"error.2010" = "Nie znaleziono recenzji.";
+"error.2011" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.3000" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.4000" = "Coś poszło nie tak. Spróbuj ponownie.";
+"error.6107" = "Upłynął limit czasu kontroli żywotności. Spróbuj ponownie.";

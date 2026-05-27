@@ -18,12 +18,8 @@
 "status.darkenHand" = "Hindari cahaya langsung";
 "status.focusHand" = "Tetaplah diam sebentar";
 "status.keepStill" = "Tetaplah diam";
-"status.showGesture" = "Tampilkan gerakan";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Pindai telapak tangan kanan";
-"scan.scanYourLeftPalm" = "Pindai telapak tangan kiri";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Tangan pertama selesai";
@@ -71,13 +67,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "memuat…";
 "common.retrying" = "Mencoba lagi…";
-"common.success" = "Berhasil";
-"common.error" = "Kesalahan";
 "common.done" = "Selesai";
-"common.tryAgain" = "Coba lagi";
-"common.cancel" = "Batal";
 "common.continue" = "Lanjutkan";
 
 /* Scan Status */
@@ -104,14 +95,10 @@
 "email.sentCodeTo" = "Kode dikirim ke";
 "email.resendCode" = "Kirim ulang kode";
 "email.resendInSeconds" = "Kirim ulang dalam %@ d";
-"email.invalidCode" = "Kode verifikasi tidak valid. Silakan coba lagi.";
 "email.placeholder" = "Alamat email";
 "consent.tip3" = "Pemindaian telapak tangan Anda hanya digunakan untuk memverifikasi identitas Anda — hapus data Anda kapan saja";
 "switchPalm.scanOtherHand" = "Pindai tangan lainnya";
 "error.palmLinkedToEmail" = "Telapak tangan Anda terhubung ke %@";
-"scan.errorTitle" = "Kami tidak dapat memverifikasi telapak tangan Anda";
-"common.tryAgainMessage" = "Silakan coba lagi.";
-"auth.errorTitle" = "Kami tidak dapat melanjutkan ke langkah berikutnya.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Akun dibatasi";
@@ -170,3 +157,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Mulai verifikasi";
+"consent.tip2" = "%@ akan memiliki akses ke [data verifikasi] terbatas";
+"consent.verifyIdentitySubtitle" = "%@ menggunakan VeryAI untuk memastikan Anda manusia.";
+"consent.verifyIdentityTitle" = "%@ menggunakan VeryAI untuk verifikasi telapak tangan";
+"error.1001" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1002" = "Kami tidak dapat memverifikasi telapak tangan Anda. Silakan coba lagi.";
+"error.1003" = "Kami tidak dapat memverifikasi telapak tangan Anda. Silakan coba lagi.";
+"error.1004" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1005" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1006" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1007" = "Kami tidak dapat memverifikasi telapak tangan Anda. Silakan coba lagi.";
+"error.1008" = "Kami tidak dapat memverifikasi telapak tangan Anda. Silakan coba lagi.";
+"error.1009" = "Kami tidak dapat memverifikasi telapak tangan Anda. Silakan coba lagi.";
+"error.1010" = "Kami tidak dapat memverifikasi telapak tangan Anda. Silakan coba lagi.";
+"error.1011" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1012" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1013" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1014" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1015" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1016" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1017" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1018" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1019" = "Kedua telapak tangan diperlukan.";
+"error.1020" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1021" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1022" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1023" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1024" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1025" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1026" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1027" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1028" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1029" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1030" = "Sesi Anda telah berakhir. Silakan coba lagi.";
+"error.1031" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.1032" = "Kami tidak dapat menemukan akun Anda. Silakan coba lagi.";
+"error.1033" = "Kami tidak dapat menemukan akun Anda. Silakan coba lagi.";
+"error.1034" = "Kami tidak dapat menemukan akun Anda. Silakan coba lagi.";
+"error.1035" = "Telapak tangan pengguna tidak ditemukan.";
+"error.1036" = "Tinjauan tidak ditemukan.";
+"error.1037" = "Kami tidak dapat memverifikasi telapak tangan Anda. Silakan coba lagi.";
+"error.1038" = "Kami tidak dapat memverifikasi telapak tangan Anda. Silakan coba lagi.";
+"error.1039" = "Kami tidak dapat memverifikasi telapak tangan Anda. Silakan coba lagi.";
+"error.1040" = "Kami tidak dapat memproses masuk Anda. Email Anda mungkin belum terdaftar, atau kredensial Anda mungkin salah.";
+"error.2001" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.2002" = "Kami tidak dapat menemukan akun Anda. Silakan coba lagi.";
+"error.2003" = "Nama pengguna tidak valid.";
+"error.2004" = "Email sudah digunakan.";
+"error.2005" = "Tidak ada perubahan email yang tertunda.";
+"error.2006" = "Kode verifikasi tidak valid.";
+"error.2007" = "Kode verifikasi telah kedaluwarsa.";
+"error.2008" = "Batas verifikasi terlampaui.";
+"error.2009" = "Kami tidak dapat menemukan akun Anda. Silakan coba lagi.";
+"error.2010" = "Tinjauan tidak ditemukan.";
+"error.2011" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.3000" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.4000" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.6107" = "Pemeriksaan keaktifan habis waktu. Silakan coba lagi.";

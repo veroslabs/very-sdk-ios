@@ -18,12 +18,8 @@
 "status.darkenHand" = "Doğrudan ışıktan kaçının";
 "status.focusHand" = "Bir an hareketsiz durun";
 "status.keepStill" = "Hareketsiz durun";
-"status.showGesture" = "Jest göster";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Sağ avucunuzu tarayın";
-"scan.scanYourLeftPalm" = "Sol avucunuzu tarayın";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "İlk el tamamlandı";
@@ -71,13 +67,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "yükleniyor…";
 "common.retrying" = "Yeniden deneniyor…";
-"common.success" = "Başarılı";
-"common.error" = "Hata";
 "common.done" = "Tamam";
-"common.tryAgain" = "Tekrar Dene";
-"common.cancel" = "İptal";
 "common.continue" = "Devam";
 
 /* Scan Status */
@@ -104,14 +95,10 @@
 "email.sentCodeTo" = "Kod gönderildi";
 "email.resendCode" = "Kodu tekrar gönder";
 "email.resendInSeconds" = "%@ sn sonra yeniden gönder";
-"email.invalidCode" = "Geçersiz doğrulama kodu. Lütfen tekrar deneyin.";
 "email.placeholder" = "E-posta adresi";
 "consent.tip3" = "Avuç içi taramanız yalnızca kimliğinizi doğrulamak için kullanılır — verilerinizi istediğiniz zaman silin";
 "switchPalm.scanOtherHand" = "Diğer eli tara";
 "error.palmLinkedToEmail" = "Avuç içiniz %@ ile bağlantılı";
-"scan.errorTitle" = "Avuç içinizi doğrulayamadık";
-"common.tryAgainMessage" = "Lütfen tekrar deneyin.";
-"auth.errorTitle" = "Bir sonraki adıma geçemedik.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Hesap kısıtlandı";
@@ -170,3 +157,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Doğrulamayı başlat";
+"consent.tip2" = "%@ sınırlı [doğrulama verilerine] erişebilecek";
+"consent.verifyIdentitySubtitle" = "%@, insan olduğunuzu doğrulamak için VeryAI kullanır.";
+"consent.verifyIdentityTitle" = "%@, avuç içi doğrulaması için VeryAI kullanır";
+"error.1001" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1002" = "Avuç içinizi doğrulayamadık. Lütfen tekrar deneyin.";
+"error.1003" = "Avuç içinizi doğrulayamadık. Lütfen tekrar deneyin.";
+"error.1004" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1005" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1006" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1007" = "Avuç içinizi doğrulayamadık. Lütfen tekrar deneyin.";
+"error.1008" = "Avuç içinizi doğrulayamadık. Lütfen tekrar deneyin.";
+"error.1009" = "Avuç içinizi doğrulayamadık. Lütfen tekrar deneyin.";
+"error.1010" = "Avuç içinizi doğrulayamadık. Lütfen tekrar deneyin.";
+"error.1011" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1012" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1013" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1014" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1015" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1016" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1017" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1018" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1019" = "Her iki avuç içi de gereklidir.";
+"error.1020" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1021" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1022" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1023" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1024" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1025" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1026" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1027" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1028" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1029" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1030" = "Oturumunuzun süresi doldu. Lütfen tekrar deneyin.";
+"error.1031" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.1032" = "Hesabınızı bulamadık. Lütfen tekrar deneyin.";
+"error.1033" = "Hesabınızı bulamadık. Lütfen tekrar deneyin.";
+"error.1034" = "Hesabınızı bulamadık. Lütfen tekrar deneyin.";
+"error.1035" = "Kullanıcının avuç içleri bulunamadı.";
+"error.1036" = "İnceleme bulunamadı.";
+"error.1037" = "Avuç içinizi doğrulayamadık. Lütfen tekrar deneyin.";
+"error.1038" = "Avuç içinizi doğrulayamadık. Lütfen tekrar deneyin.";
+"error.1039" = "Avuç içinizi doğrulayamadık. Lütfen tekrar deneyin.";
+"error.1040" = "Sizi oturum açtıramadık. E-posta adresiniz henüz kayıtlı olmayabilir veya kimlik bilgileriniz hatalı olabilir.";
+"error.2001" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.2002" = "Hesabınızı bulamadık. Lütfen tekrar deneyin.";
+"error.2003" = "Geçersiz kullanıcı adı.";
+"error.2004" = "E-posta adresi zaten kullanımda.";
+"error.2005" = "Bekleyen bir e-posta değişikliği yok.";
+"error.2006" = "Geçersiz doğrulama kodu.";
+"error.2007" = "Doğrulama kodunun süresi doldu.";
+"error.2008" = "Doğrulama hız sınırı aşıldı.";
+"error.2009" = "Hesabınızı bulamadık. Lütfen tekrar deneyin.";
+"error.2010" = "İnceleme bulunamadı.";
+"error.2011" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.3000" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.4000" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
+"error.6107" = "Canlılık kontrolü zaman aşımına uğradı. Lütfen tekrar deneyin.";

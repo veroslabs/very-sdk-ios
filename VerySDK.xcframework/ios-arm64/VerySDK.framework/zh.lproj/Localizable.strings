@@ -1,7 +1,6 @@
 /* Very Mobile SDK Localization - Chinese (Simplified) */
 
 /* Bottom Status Messages */
-"status.perfect" = "完美";
 "status.moveHandLeft" = "将手向左移";
 "status.moveHandRight" = "将手向右移";
 "status.moveHandUp" = "将手向上移";
@@ -19,35 +18,14 @@
 "status.darkenHand" = "尽量避开直射光";
 "status.focusHand" = "保持不动一会儿";
 "status.keepStill" = "保持不动";
-"status.showGesture" = "显示手势";
-"status.bringDotsTogether" = "连接圆点";
-"status.positionPalmInFrame" = "将手掌放在框内";
-"status.placeHand" = "准备扫描";
 
 /* Scan View Controller */
-"scan.scanYourPalm" = "扫描您的手掌";
-"scan.scanYourRightPalm" = "扫描您的右手掌";
-"scan.scanYourLeftPalm" = "扫描您的左手掌";
-"scan.scanEitherPalm" = "Verify with palm";
-"scan.startingScanWithNonce" = "开始扫描";
-"scan.error.failedToGetNonce" = "警告：获取随机数失败，继续执行";
-"scan.error.failedToCreateHandle" = "错误：创建 PalmID 句柄失败";
-"scan.error.failedToStartCapture" = "错误：开始捕获失败";
-"scan.error.failedToGetPalmModel" = "错误：获取手掌模型失败";
-"scan.error.failedToVerifyPalm" = "错误：验证手掌失败";
-"scan.error.failedToCapturePalm" = "错误：捕获手掌失败";
-"scan.error.failedToCapturePalmData" = "错误：捕获手掌数据失败";
-"scan.error.failedToSignIn" = "错误：使用手掌登录失败";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "第一只手完成";
 "switchPalm.proceedToSwitchHand" = "现在扫描您的另一只手。";
 
 /* Auth View Controller */
-"auth.connectWithVery" = "连接 Very";
-"auth.subtitle" = "%@ 想要使用 Very 验证您的身份";
-"auth.privacyProtection" = "隐私保护：Very 将为您与 %@ 创建一个唯一的、假名 ID。您的真实身份保持私密，仅建立安全连接。";
-"auth.continueWithVery" = "使用 Very 继续";
 "auth.cancel" = "取消";
 "auth.termsText" = "继续即表示您同意我们的服务条款和隐私政策。";
 "auth.termsOfService" = "服务条款";
@@ -62,10 +40,6 @@
 "consent.startVerification" = "开始验证";
 
 /* WorkThrough View Controller */
-"workthrough.step1.instruction" = "将手掌面向摄像头";
-"workthrough.step2.instruction" = "移动手指连接点";
-"workthrough.next" = "下一步";
-"workthrough.imReady" = "我准备好了";
 
 /* API Error Codes */
 "error.1001" = "出了点问题，请重试。";
@@ -145,18 +119,11 @@
 "error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "您的掌纹已验证。";
-"scan.successRegistered" = "掌纹生物识别已设置完成。";
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "加载中…";
 "common.retrying" = "正在重试…";
-"common.success" = "成功";
-"common.error" = "错误";
 "common.done" = "完成";
-"common.tryAgain" = "重试";
-"common.cancel" = "取消";
 "common.continue" = "继续";
 
 /* Scan Status */
@@ -176,7 +143,6 @@
 "scan.successTitleRegistered" = "手掌已注册";
 "scan.successVerified" = "您的手掌已通过验证。";
 "scan.successRegistered" = "您现在可以使用手掌进行验证。";
-"scan.successEnrolled" = "Palm biometrics have now been set up.";
 
 /* Email Verification */
 "email.continueWithEmail" = "输入您的邮箱";
@@ -184,13 +150,9 @@
 "email.sentCodeTo" = "验证码已发送至";
 "email.resendCode" = "重新发送";
 "email.resendInSeconds" = "%@秒后重新发送";
-"email.invalidCode" = "验证码无效，请重试。";
 "email.placeholder" = "邮箱地址";
 "switchPalm.scanOtherHand" = "扫描另一只手";
 "error.palmLinkedToEmail" = "您的手掌已关联至 %@";
-"scan.errorTitle" = "我们无法验证您的手掌";
-"common.tryAgainMessage" = "请重试。";
-"auth.errorTitle" = "我们无法继续下一步。";
 
 /* Account Restricted */
 "accountRestricted.title" = "账户受限";
@@ -248,3 +210,8 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"error.1040" = "我们无法为您登录。您的邮箱可能尚未注册，或者您的凭据有误。";
+"error.6107" = "活体检测超时，请重试。";
+"workthrough.getStarted" = "开始";
+"workthrough.subtitle" = "扫描四次进行设置。之后每次扫描一次即可。";
+"workthrough.title" = "设置手掌扫描";

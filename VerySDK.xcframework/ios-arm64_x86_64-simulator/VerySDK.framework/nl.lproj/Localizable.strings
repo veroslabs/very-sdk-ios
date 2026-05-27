@@ -18,12 +18,8 @@
 "status.darkenHand" = "Vermijd direct licht";
 "status.focusHand" = "Blijf even stil";
 "status.keepStill" = "Blijf stil";
-"status.showGesture" = "Toon gebaar";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scan uw rechterhandpalm";
-"scan.scanYourLeftPalm" = "Scan uw linkerhandpalm";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Eerste hand voltooid";
@@ -71,13 +67,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "laden…";
 "common.retrying" = "Opnieuw proberen…";
-"common.success" = "Gelukt";
-"common.error" = "Fout";
 "common.done" = "Klaar";
-"common.tryAgain" = "Opnieuw proberen";
-"common.cancel" = "Annuleren";
 "common.continue" = "Doorgaan";
 
 /* Scan Status */
@@ -104,14 +95,10 @@
 "email.sentCodeTo" = "Code verzonden naar";
 "email.resendCode" = "Code opnieuw verzenden";
 "email.resendInSeconds" = "Opnieuw verzenden over %@ s";
-"email.invalidCode" = "Ongeldige verificatiecode. Probeer het opnieuw.";
 "email.placeholder" = "E-mailadres";
 "consent.tip3" = "Uw handscan wordt alleen gebruikt om uw identiteit te verifiëren — verwijder uw gegevens op elk gewenst moment";
 "switchPalm.scanOtherHand" = "Andere hand scannen";
 "error.palmLinkedToEmail" = "Uw handpalm is gekoppeld aan %@";
-"scan.errorTitle" = "We konden je handpalm niet verifiëren";
-"common.tryAgainMessage" = "Probeer het opnieuw.";
-"auth.errorTitle" = "We konden niet doorgaan naar de volgende stap.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Account beperkt";
@@ -170,3 +157,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Verificatie starten";
+"consent.tip2" = "%@ krijgt toegang tot beperkte [verificatiegegevens]";
+"consent.verifyIdentitySubtitle" = "%@ gebruikt VeryAI om te bevestigen dat je een mens bent.";
+"consent.verifyIdentityTitle" = "%@ gebruikt VeryAI voor handpalmverificatie";
+"error.1001" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1002" = "We konden je handpalm niet verifiëren. Probeer het opnieuw.";
+"error.1003" = "We konden je handpalm niet verifiëren. Probeer het opnieuw.";
+"error.1004" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1005" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1006" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1007" = "We konden je handpalm niet verifiëren. Probeer het opnieuw.";
+"error.1008" = "We konden je handpalm niet verifiëren. Probeer het opnieuw.";
+"error.1009" = "We konden je handpalm niet verifiëren. Probeer het opnieuw.";
+"error.1010" = "We konden je handpalm niet verifiëren. Probeer het opnieuw.";
+"error.1011" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1012" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1013" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1014" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1015" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1016" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1017" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1018" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1019" = "Beide handpalmen zijn vereist.";
+"error.1020" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1021" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1022" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1023" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1024" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1025" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1026" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1027" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1028" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1029" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1030" = "Je sessie is verlopen. Probeer het opnieuw.";
+"error.1031" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.1032" = "We konden je account niet vinden. Probeer het opnieuw.";
+"error.1033" = "We konden je account niet vinden. Probeer het opnieuw.";
+"error.1034" = "We konden je account niet vinden. Probeer het opnieuw.";
+"error.1035" = "Handpalmen van gebruiker niet gevonden.";
+"error.1036" = "Beoordeling niet gevonden.";
+"error.1037" = "We konden je handpalm niet verifiëren. Probeer het opnieuw.";
+"error.1038" = "We konden je handpalm niet verifiëren. Probeer het opnieuw.";
+"error.1039" = "We konden je handpalm niet verifiëren. Probeer het opnieuw.";
+"error.1040" = "We konden je niet aanmelden. Je e-mailadres is mogelijk nog niet geregistreerd, of je gegevens zijn onjuist.";
+"error.2001" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.2002" = "We konden je account niet vinden. Probeer het opnieuw.";
+"error.2003" = "Ongeldige gebruikersnaam.";
+"error.2004" = "E-mailadres is al in gebruik.";
+"error.2005" = "Geen openstaande e-mailwijziging.";
+"error.2006" = "Ongeldige verificatiecode.";
+"error.2007" = "Verificatiecode is verlopen.";
+"error.2008" = "Verificatielimiet overschreden.";
+"error.2009" = "We konden je account niet vinden. Probeer het opnieuw.";
+"error.2010" = "Beoordeling niet gevonden.";
+"error.2011" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.3000" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.4000" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.6107" = "De live­heidscontrole is verlopen. Probeer het opnieuw.";

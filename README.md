@@ -196,6 +196,21 @@ VerySDK.authenticate(this, config, VeryPresentationStyle.FULL_SCREEN, result -> 
 | `language`  | String? | No       | `"en"`         | UI language code                                     |
 | `themeMode` | String  | No       | `"dark"`       | `"dark"` or `"light"`                                |
 
+### VeryLivenessConfig
+
+Used with `VeryAILiveness.check` (the liveness-only artifact — `VeryAILiveness` pod / `org.very:liveness`).
+
+| Property      | Type    | Required | Default   | Description                                                                                      |
+|---------------|---------|----------|-----------|--------------------------------------------------------------------------------------------------|
+| `sdkKey`      | String  | Yes      | —         | SDK API key provided by Very                                                                     |
+| `language`    | String? | No       | `"en"`    | UI language code                                                                                 |
+| `themeMode`   | String  | No       | `"dark"`  | `"dark"` or `"light"`                                                                            |
+| `livenessMode`| enum    | No       | `touch`   | Liveness detection mode: `touch` (default) or `gesture`                                          |
+| `showError`   | Bool    | No       | `false`   | When `true`, terminal errors show an in-SDK retry/close page instead of returning straight to the callback |
+| `showSuccess` | Bool    | No       | `true`    | When `true`, a successful capture shows the success page (~1.5s) before the callback fires; set `false` to return immediately |
+
+`showError` and `showSuccess` are set by property assignment after construction (e.g. `config.showSuccess = false`), not as constructor arguments.
+
 ### VeryPresentationStyle
 
 | Style          | iOS                  | Android              |

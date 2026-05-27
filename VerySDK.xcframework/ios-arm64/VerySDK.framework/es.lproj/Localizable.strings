@@ -18,12 +18,8 @@
 "status.darkenHand" = "Intente alejarse de la luz directa";
 "status.focusHand" = "Permanezca quieto un momento";
 "status.keepStill" = "Permanezca quieto";
-"status.showGesture" = "Mostrar gesto";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Escanee su palma derecha";
-"scan.scanYourLeftPalm" = "Escanee su palma izquierda";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Primera mano completada";
@@ -71,13 +67,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "cargando…";
 "common.retrying" = "Reintentando…";
-"common.success" = "Éxito";
-"common.error" = "Error";
 "common.done" = "Listo";
-"common.tryAgain" = "Reintentar";
-"common.cancel" = "Cancelar";
 "common.continue" = "Continuar";
 
 /* Scan Status */
@@ -104,14 +95,10 @@
 "email.sentCodeTo" = "Código enviado a";
 "email.resendCode" = "Reenviar código";
 "email.resendInSeconds" = "Reenviar en %@ s";
-"email.invalidCode" = "Código de verificación inválido. Inténtalo de nuevo.";
 "email.placeholder" = "Correo electrónico";
 "consent.tip3" = "El escaneo de tu palma solo se usa para verificar tu identidad — elimina tus datos en cualquier momento";
 "switchPalm.scanOtherHand" = "Escanear otra mano";
 "error.palmLinkedToEmail" = "Tu palma está vinculada a %@";
-"scan.errorTitle" = "No pudimos verificar tu palma";
-"common.tryAgainMessage" = "Por favor, inténtalo de nuevo.";
-"auth.errorTitle" = "No pudimos continuar con el siguiente paso.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Cuenta restringida";
@@ -170,3 +157,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Iniciar verificación";
+"consent.tip2" = "%@ tendrá acceso a [datos de verificación] limitados";
+"consent.verifyIdentitySubtitle" = "%@ usa VeryAI para confirmar que eres una persona.";
+"consent.verifyIdentityTitle" = "%@ usa VeryAI para la verificación de palma";
+"error.1001" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1002" = "No pudimos verificar tu palma. Inténtalo de nuevo.";
+"error.1003" = "No pudimos verificar tu palma. Inténtalo de nuevo.";
+"error.1004" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1005" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1006" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1007" = "No pudimos verificar tu palma. Inténtalo de nuevo.";
+"error.1008" = "No pudimos verificar tu palma. Inténtalo de nuevo.";
+"error.1009" = "No pudimos verificar tu palma. Inténtalo de nuevo.";
+"error.1010" = "No pudimos verificar tu palma. Inténtalo de nuevo.";
+"error.1011" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1012" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1013" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1014" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1015" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1016" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1017" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1018" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1019" = "Se requieren ambas palmas.";
+"error.1020" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1021" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1022" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1023" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1024" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1025" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1026" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1027" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1028" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1029" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1030" = "Tu sesión ha caducado. Inténtalo de nuevo.";
+"error.1031" = "Algo salió mal. Inténtalo de nuevo.";
+"error.1032" = "No pudimos encontrar tu cuenta. Inténtalo de nuevo.";
+"error.1033" = "No pudimos encontrar tu cuenta. Inténtalo de nuevo.";
+"error.1034" = "No pudimos encontrar tu cuenta. Inténtalo de nuevo.";
+"error.1035" = "No se encontraron las palmas del usuario.";
+"error.1036" = "No se encontró la revisión.";
+"error.1037" = "No pudimos verificar tu palma. Inténtalo de nuevo.";
+"error.1038" = "No pudimos verificar tu palma. Inténtalo de nuevo.";
+"error.1039" = "No pudimos verificar tu palma. Inténtalo de nuevo.";
+"error.1040" = "No pudimos iniciar tu sesión. Es posible que tu correo aún no esté registrado o que tus credenciales sean incorrectas.";
+"error.2001" = "Algo salió mal. Inténtalo de nuevo.";
+"error.2002" = "No pudimos encontrar tu cuenta. Inténtalo de nuevo.";
+"error.2003" = "Nombre de usuario no válido.";
+"error.2004" = "El correo electrónico ya está en uso.";
+"error.2005" = "No hay ningún cambio de correo pendiente.";
+"error.2006" = "Código de verificación no válido.";
+"error.2007" = "El código de verificación ha caducado.";
+"error.2008" = "Se ha superado el límite de intentos de verificación.";
+"error.2009" = "No pudimos encontrar tu cuenta. Inténtalo de nuevo.";
+"error.2010" = "No se encontró la revisión.";
+"error.2011" = "Algo salió mal. Inténtalo de nuevo.";
+"error.3000" = "Algo salió mal. Inténtalo de nuevo.";
+"error.4000" = "Algo salió mal. Inténtalo de nuevo.";
+"error.6107" = "Se agotó el tiempo de la prueba de vida. Inténtalo de nuevo.";

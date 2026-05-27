@@ -18,12 +18,8 @@
 "status.darkenHand" = "Tránh ánh sáng trực tiếp";
 "status.focusHand" = "Giữ yên một chút";
 "status.keepStill" = "Giữ yên";
-"status.showGesture" = "Hiển thị cử chỉ";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Quét lòng bàn tay phải";
-"scan.scanYourLeftPalm" = "Quét lòng bàn tay trái";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Bàn tay đầu tiên hoàn thành";
@@ -71,13 +67,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "đang tải…";
 "common.retrying" = "Đang thử lại…";
-"common.success" = "Thành công";
-"common.error" = "Lỗi";
 "common.done" = "Xong";
-"common.tryAgain" = "Thử lại";
-"common.cancel" = "Hủy";
 "common.continue" = "Tiếp tục";
 
 /* Scan Status */
@@ -104,14 +95,10 @@
 "email.sentCodeTo" = "Mã đã gửi đến";
 "email.resendCode" = "Gửi lại mã";
 "email.resendInSeconds" = "Gửi lại sau %@ giây";
-"email.invalidCode" = "Mã xác minh không hợp lệ. Vui lòng thử lại.";
 "email.placeholder" = "Địa chỉ email";
 "consent.tip3" = "Quét lòng bàn tay của bạn chỉ được dùng để xác minh danh tính — xóa dữ liệu của bạn bất cứ lúc nào";
 "switchPalm.scanOtherHand" = "Quét bàn tay kia";
 "error.palmLinkedToEmail" = "Lòng bàn tay của bạn được liên kết với %@";
-"scan.errorTitle" = "Chúng tôi không thể xác minh lòng bàn tay của bạn";
-"common.tryAgainMessage" = "Vui lòng thử lại.";
-"auth.errorTitle" = "Chúng tôi không thể tiếp tục bước tiếp theo.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Tài khoản bị hạn chế";
@@ -170,3 +157,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Bắt đầu xác minh";
+"consent.tip2" = "%@ sẽ có quyền truy cập vào [dữ liệu xác minh] giới hạn";
+"consent.verifyIdentitySubtitle" = "%@ sử dụng VeryAI để xác nhận bạn là con người.";
+"consent.verifyIdentityTitle" = "%@ sử dụng VeryAI để xác minh lòng bàn tay";
+"error.1001" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1002" = "Chúng tôi không thể xác minh lòng bàn tay của bạn. Vui lòng thử lại.";
+"error.1003" = "Chúng tôi không thể xác minh lòng bàn tay của bạn. Vui lòng thử lại.";
+"error.1004" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1005" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1006" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1007" = "Chúng tôi không thể xác minh lòng bàn tay của bạn. Vui lòng thử lại.";
+"error.1008" = "Chúng tôi không thể xác minh lòng bàn tay của bạn. Vui lòng thử lại.";
+"error.1009" = "Chúng tôi không thể xác minh lòng bàn tay của bạn. Vui lòng thử lại.";
+"error.1010" = "Chúng tôi không thể xác minh lòng bàn tay của bạn. Vui lòng thử lại.";
+"error.1011" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1012" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1013" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1014" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1015" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1016" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1017" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1018" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1019" = "Cần cả hai lòng bàn tay.";
+"error.1020" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1021" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1022" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1023" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1024" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1025" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1026" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1027" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1028" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1029" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1030" = "Phiên của bạn đã hết hạn. Vui lòng thử lại.";
+"error.1031" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.1032" = "Chúng tôi không tìm thấy tài khoản của bạn. Vui lòng thử lại.";
+"error.1033" = "Chúng tôi không tìm thấy tài khoản của bạn. Vui lòng thử lại.";
+"error.1034" = "Chúng tôi không tìm thấy tài khoản của bạn. Vui lòng thử lại.";
+"error.1035" = "Không tìm thấy lòng bàn tay của người dùng.";
+"error.1036" = "Không tìm thấy đánh giá.";
+"error.1037" = "Chúng tôi không thể xác minh lòng bàn tay của bạn. Vui lòng thử lại.";
+"error.1038" = "Chúng tôi không thể xác minh lòng bàn tay của bạn. Vui lòng thử lại.";
+"error.1039" = "Chúng tôi không thể xác minh lòng bàn tay của bạn. Vui lòng thử lại.";
+"error.1040" = "Chúng tôi không thể đăng nhập cho bạn. Có thể email của bạn chưa được đăng ký hoặc thông tin đăng nhập không chính xác.";
+"error.2001" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.2002" = "Chúng tôi không tìm thấy tài khoản của bạn. Vui lòng thử lại.";
+"error.2003" = "Tên người dùng không hợp lệ.";
+"error.2004" = "Email đã được sử dụng.";
+"error.2005" = "Không có thay đổi email nào đang chờ xử lý.";
+"error.2006" = "Mã xác minh không hợp lệ.";
+"error.2007" = "Mã xác minh đã hết hạn.";
+"error.2008" = "Đã vượt quá giới hạn số lần xác minh.";
+"error.2009" = "Chúng tôi không tìm thấy tài khoản của bạn. Vui lòng thử lại.";
+"error.2010" = "Không tìm thấy đánh giá.";
+"error.2011" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.3000" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.4000" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.6107" = "Kiểm tra tính sống đã hết thời gian chờ. Vui lòng thử lại.";

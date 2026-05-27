@@ -19,12 +19,8 @@
 "status.darkenHand" = "Try moving out of direct light";
 "status.focusHand" = "Hold still for a moment";
 "status.keepStill" = "Hold still";
-"status.showGesture" = "Show gesture";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scan Your Right Palm";
-"scan.scanYourLeftPalm" = "Scan Your Left Palm";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "První ruka dokončena";
@@ -73,13 +69,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "načítání…";
 "common.retrying" = "Opakuji pokus…";
-"common.success" = "Úspěch";
-"common.error" = "Chyba";
 "common.done" = "Hotovo";
-"common.tryAgain" = "Zkusit znovu";
-"common.cancel" = "Zrušit";
 "common.continue" = "Pokračovat";
 
 /* Scan Status */
@@ -106,14 +97,10 @@
 "email.sentCodeTo" = "Kód odeslán na";
 "email.resendCode" = "Znovu odeslat kód";
 "email.resendInSeconds" = "Odeslat znovu za %@ s";
-"email.invalidCode" = "Neplatný ověřovací kód. Zkuste to prosím znovu.";
 "email.placeholder" = "E-mailová adresa";
 "consent.tip3" = "Sken vaší dlaně slouží pouze k ověření vaší totožnosti — svá data můžete kdykoli smazat";
 "switchPalm.scanOtherHand" = "Skenovat druhou ruku";
 "error.palmLinkedToEmail" = "Vaše dlaň je propojena s %@";
-"scan.errorTitle" = "Nepodařilo se ověřit vaši dlaň";
-"common.tryAgainMessage" = "Zkuste to prosím znovu.";
-"auth.errorTitle" = "Nepodařilo se pokračovat na další krok.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Účet omezen";
@@ -172,3 +159,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Zahájit ověření";
+"consent.tip2" = "%@ bude mít přístup k omezeným [údajům o ověření]";
+"consent.verifyIdentitySubtitle" = "%@ používá VeryAI k potvrzení, že jste člověk.";
+"consent.verifyIdentityTitle" = "%@ používá VeryAI k ověření dlaně";
+"error.1001" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1002" = "Nepodařilo se nám ověřit vaši dlaň. Zkuste to prosím znovu.";
+"error.1003" = "Nepodařilo se nám ověřit vaši dlaň. Zkuste to prosím znovu.";
+"error.1004" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1005" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1006" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1007" = "Nepodařilo se nám ověřit vaši dlaň. Zkuste to prosím znovu.";
+"error.1008" = "Nepodařilo se nám ověřit vaši dlaň. Zkuste to prosím znovu.";
+"error.1009" = "Nepodařilo se nám ověřit vaši dlaň. Zkuste to prosím znovu.";
+"error.1010" = "Nepodařilo se nám ověřit vaši dlaň. Zkuste to prosím znovu.";
+"error.1011" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1012" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1013" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1014" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1015" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1016" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1017" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1018" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1019" = "Jsou vyžadovány obě dlaně.";
+"error.1020" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1021" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1022" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1023" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1024" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1025" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1026" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1027" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1028" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1029" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1030" = "Platnost vaší relace vypršela. Zkuste to prosím znovu.";
+"error.1031" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.1032" = "Nepodařilo se nám najít váš účet. Zkuste to prosím znovu.";
+"error.1033" = "Nepodařilo se nám najít váš účet. Zkuste to prosím znovu.";
+"error.1034" = "Nepodařilo se nám najít váš účet. Zkuste to prosím znovu.";
+"error.1035" = "Dlaně uživatele nebyly nalezeny.";
+"error.1036" = "Kontrola nebyla nalezena.";
+"error.1037" = "Nepodařilo se nám ověřit vaši dlaň. Zkuste to prosím znovu.";
+"error.1038" = "Nepodařilo se nám ověřit vaši dlaň. Zkuste to prosím znovu.";
+"error.1039" = "Nepodařilo se nám ověřit vaši dlaň. Zkuste to prosím znovu.";
+"error.1040" = "Nepodařilo se nám vás přihlásit. Váš e-mail možná dosud není zaregistrován nebo jsou vaše přihlašovací údaje nesprávné.";
+"error.2001" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.2002" = "Nepodařilo se nám najít váš účet. Zkuste to prosím znovu.";
+"error.2003" = "Neplatné uživatelské jméno.";
+"error.2004" = "E-mail se již používá.";
+"error.2005" = "Žádná čekající změna e-mailu.";
+"error.2006" = "Neplatný ověřovací kód.";
+"error.2007" = "Platnost ověřovacího kódu vypršela.";
+"error.2008" = "Byl překročen limit pokusů o ověření.";
+"error.2009" = "Nepodařilo se nám najít váš účet. Zkuste to prosím znovu.";
+"error.2010" = "Kontrola nebyla nalezena.";
+"error.2011" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.3000" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.4000" = "Něco se pokazilo. Zkuste to prosím znovu.";
+"error.6107" = "Kontrola živosti vypršela. Zkuste to prosím znovu.";

@@ -18,12 +18,8 @@
 "status.darkenHand" = "Evita la luce diretta";
 "status.focusHand" = "Resta fermo un momento";
 "status.keepStill" = "Resta fermo";
-"status.showGesture" = "Mostra il gesto";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scansiona il palmo destro";
-"scan.scanYourLeftPalm" = "Scansiona il palmo sinistro";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Prima mano completata";
@@ -71,13 +67,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "caricamento…";
 "common.retrying" = "Nuovo tentativo…";
-"common.success" = "Successo";
-"common.error" = "Errore";
 "common.done" = "Fatto";
-"common.tryAgain" = "Riprova";
-"common.cancel" = "Annulla";
 "common.continue" = "Continua";
 
 /* Scan Status */
@@ -104,14 +95,10 @@
 "email.sentCodeTo" = "Codice inviato a";
 "email.resendCode" = "Rinvia codice";
 "email.resendInSeconds" = "Rinvia tra %@ s";
-"email.invalidCode" = "Codice di verifica non valido. Riprova.";
 "email.placeholder" = "Indirizzo email";
 "consent.tip3" = "La scansione del palmo viene utilizzata solo per verificare la tua identità — elimina i tuoi dati in qualsiasi momento";
 "switchPalm.scanOtherHand" = "Scansiona l'altra mano";
 "error.palmLinkedToEmail" = "Il tuo palmo è collegato a %@";
-"scan.errorTitle" = "Non siamo riusciti a verificare il tuo palmo";
-"common.tryAgainMessage" = "Per favore riprova.";
-"auth.errorTitle" = "Non siamo riusciti a procedere al passaggio successivo.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Account limitato";
@@ -170,3 +157,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Avvia verifica";
+"consent.tip2" = "%@ avrà accesso a [dati di verifica] limitati";
+"consent.verifyIdentitySubtitle" = "%@ usa VeryAI per confermare che sei un essere umano.";
+"consent.verifyIdentityTitle" = "%@ usa VeryAI per la verifica del palmo";
+"error.1001" = "Si è verificato un errore. Riprova.";
+"error.1002" = "Non siamo riusciti a verificare il tuo palmo. Riprova.";
+"error.1003" = "Non siamo riusciti a verificare il tuo palmo. Riprova.";
+"error.1004" = "Si è verificato un errore. Riprova.";
+"error.1005" = "Si è verificato un errore. Riprova.";
+"error.1006" = "Si è verificato un errore. Riprova.";
+"error.1007" = "Non siamo riusciti a verificare il tuo palmo. Riprova.";
+"error.1008" = "Non siamo riusciti a verificare il tuo palmo. Riprova.";
+"error.1009" = "Non siamo riusciti a verificare il tuo palmo. Riprova.";
+"error.1010" = "Non siamo riusciti a verificare il tuo palmo. Riprova.";
+"error.1011" = "Si è verificato un errore. Riprova.";
+"error.1012" = "Si è verificato un errore. Riprova.";
+"error.1013" = "Si è verificato un errore. Riprova.";
+"error.1014" = "Si è verificato un errore. Riprova.";
+"error.1015" = "Si è verificato un errore. Riprova.";
+"error.1016" = "Si è verificato un errore. Riprova.";
+"error.1017" = "Si è verificato un errore. Riprova.";
+"error.1018" = "Si è verificato un errore. Riprova.";
+"error.1019" = "Sono richiesti entrambi i palmi.";
+"error.1020" = "Si è verificato un errore. Riprova.";
+"error.1021" = "Si è verificato un errore. Riprova.";
+"error.1022" = "Si è verificato un errore. Riprova.";
+"error.1023" = "Si è verificato un errore. Riprova.";
+"error.1024" = "Si è verificato un errore. Riprova.";
+"error.1025" = "Si è verificato un errore. Riprova.";
+"error.1026" = "Si è verificato un errore. Riprova.";
+"error.1027" = "Si è verificato un errore. Riprova.";
+"error.1028" = "Si è verificato un errore. Riprova.";
+"error.1029" = "Si è verificato un errore. Riprova.";
+"error.1030" = "La tua sessione è scaduta. Riprova.";
+"error.1031" = "Si è verificato un errore. Riprova.";
+"error.1032" = "Non siamo riusciti a trovare il tuo account. Riprova.";
+"error.1033" = "Non siamo riusciti a trovare il tuo account. Riprova.";
+"error.1034" = "Non siamo riusciti a trovare il tuo account. Riprova.";
+"error.1035" = "Palmi dell'utente non trovati.";
+"error.1036" = "Revisione non trovata.";
+"error.1037" = "Non siamo riusciti a verificare il tuo palmo. Riprova.";
+"error.1038" = "Non siamo riusciti a verificare il tuo palmo. Riprova.";
+"error.1039" = "Non siamo riusciti a verificare il tuo palmo. Riprova.";
+"error.1040" = "Non siamo riusciti ad accederti. La tua email potrebbe non essere ancora registrata oppure le tue credenziali potrebbero essere errate.";
+"error.2001" = "Si è verificato un errore. Riprova.";
+"error.2002" = "Non siamo riusciti a trovare il tuo account. Riprova.";
+"error.2003" = "Nome utente non valido.";
+"error.2004" = "Email già in uso.";
+"error.2005" = "Nessuna modifica dell'email in sospeso.";
+"error.2006" = "Codice di verifica non valido.";
+"error.2007" = "Codice di verifica scaduto.";
+"error.2008" = "Limite di verifiche superato.";
+"error.2009" = "Non siamo riusciti a trovare il tuo account. Riprova.";
+"error.2010" = "Revisione non trovata.";
+"error.2011" = "Si è verificato un errore. Riprova.";
+"error.3000" = "Si è verificato un errore. Riprova.";
+"error.4000" = "Si è verificato un errore. Riprova.";
+"error.6107" = "Il controllo di autenticità è scaduto. Riprova.";

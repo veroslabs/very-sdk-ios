@@ -19,12 +19,8 @@
 "status.darkenHand" = "Try moving out of direct light";
 "status.focusHand" = "Hold still for a moment";
 "status.keepStill" = "Hold still";
-"status.showGesture" = "Show gesture";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scan Your Right Palm";
-"scan.scanYourLeftPalm" = "Scan Your Left Palm";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Prva roka je končana";
@@ -73,13 +69,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "nalaganje…";
 "common.retrying" = "Ponoven poskus…";
-"common.success" = "Uspeh";
-"common.error" = "Napaka";
 "common.done" = "Končano";
-"common.tryAgain" = "Poskusite znova";
-"common.cancel" = "Prekliči";
 "common.continue" = "Nadaljuj";
 
 /* Scan Status */
@@ -106,14 +97,10 @@
 "email.sentCodeTo" = "Koda poslana na";
 "email.resendCode" = "Znova pošlji kodo";
 "email.resendInSeconds" = "Ponovno pošlji čez %@ s";
-"email.invalidCode" = "Neveljavna potrditvena koda. Poskusite znova.";
 "email.placeholder" = "E-poštni naslov";
 "consent.tip3" = "Skeniranje vaše dlani se uporablja samo za preverjanje vaše identitete — kadarkoli izbrišite svoje podatke";
 "switchPalm.scanOtherHand" = "Skeniraj drugo roko";
 "error.palmLinkedToEmail" = "Vaša dlan je povezana z %@";
-"scan.errorTitle" = "Nismo mogli preveriti vaše dlani";
-"common.tryAgainMessage" = "Poskusite ponovno.";
-"auth.errorTitle" = "Nismo mogli nadaljevati na naslednji korak.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Račun je omejen";
@@ -172,3 +159,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Začni preverjanje";
+"consent.tip2" = "%@ bo imel dostop do omejenih [podatkov o preverjanju]";
+"consent.verifyIdentitySubtitle" = "%@ uporablja VeryAI za potrditev, da ste človek.";
+"consent.verifyIdentityTitle" = "%@ uporablja VeryAI za preverjanje dlani";
+"error.1001" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1002" = "Vaše dlani nismo mogli preveriti. Poskusite znova.";
+"error.1003" = "Vaše dlani nismo mogli preveriti. Poskusite znova.";
+"error.1004" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1005" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1006" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1007" = "Vaše dlani nismo mogli preveriti. Poskusite znova.";
+"error.1008" = "Vaše dlani nismo mogli preveriti. Poskusite znova.";
+"error.1009" = "Vaše dlani nismo mogli preveriti. Poskusite znova.";
+"error.1010" = "Vaše dlani nismo mogli preveriti. Poskusite znova.";
+"error.1011" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1012" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1013" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1014" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1015" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1016" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1017" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1018" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1019" = "Potrebni sta obe dlani.";
+"error.1020" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1021" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1022" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1023" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1024" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1025" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1026" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1027" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1028" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1029" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1030" = "Vaša seja je potekla. Poskusite znova.";
+"error.1031" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.1032" = "Vašega računa nismo mogli najti. Poskusite znova.";
+"error.1033" = "Vašega računa nismo mogli najti. Poskusite znova.";
+"error.1034" = "Vašega računa nismo mogli najti. Poskusite znova.";
+"error.1035" = "Dlani uporabnika ni mogoče najti.";
+"error.1036" = "Pregleda ni mogoče najti.";
+"error.1037" = "Vaše dlani nismo mogli preveriti. Poskusite znova.";
+"error.1038" = "Vaše dlani nismo mogli preveriti. Poskusite znova.";
+"error.1039" = "Vaše dlani nismo mogli preveriti. Poskusite znova.";
+"error.1040" = "Prijava ni uspela. Vaš e-poštni naslov morda še ni registriran ali pa so vaše poverilnice napačne.";
+"error.2001" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.2002" = "Vašega računa nismo mogli najti. Poskusite znova.";
+"error.2003" = "Neveljavno uporabniško ime.";
+"error.2004" = "E-poštni naslov je že v uporabi.";
+"error.2005" = "Ni čakajočih sprememb e-pošte.";
+"error.2006" = "Neveljavna potrditvena koda.";
+"error.2007" = "Potrditvena koda je potekla.";
+"error.2008" = "Presežena omejitev števila preverjanj.";
+"error.2009" = "Vašega računa nismo mogli najti. Poskusite znova.";
+"error.2010" = "Pregleda ni mogoče najti.";
+"error.2011" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.3000" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.4000" = "Nekaj je šlo narobe. Poskusite znova.";
+"error.6107" = "Preverjanje živosti je poteklo. Poskusite znova.";

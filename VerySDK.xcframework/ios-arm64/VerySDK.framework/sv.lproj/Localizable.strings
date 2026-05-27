@@ -18,12 +18,8 @@
 "status.darkenHand" = "Undvik direkt ljus";
 "status.focusHand" = "Håll stilla en stund";
 "status.keepStill" = "Håll stilla";
-"status.showGesture" = "Visa gest";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Skanna din högra handflata";
-"scan.scanYourLeftPalm" = "Skanna din vänstra handflata";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Första handen slutförd";
@@ -71,13 +67,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "laddar…";
 "common.retrying" = "Försöker igen…";
-"common.success" = "Lyckades";
-"common.error" = "Fel";
 "common.done" = "Klar";
-"common.tryAgain" = "Försök igen";
-"common.cancel" = "Avbryt";
 "common.continue" = "Fortsätt";
 
 /* Scan Status */
@@ -104,14 +95,10 @@
 "email.sentCodeTo" = "Kod skickad till";
 "email.resendCode" = "Skicka kod igen";
 "email.resendInSeconds" = "Skicka igen om %@ s";
-"email.invalidCode" = "Ogiltig verifieringskod. Försök igen.";
 "email.placeholder" = "E-postadress";
 "consent.tip3" = "Din handflatteskanningen används bara för att verifiera din identitet — radera dina uppgifter när som helst";
 "switchPalm.scanOtherHand" = "Skanna andra hand";
 "error.palmLinkedToEmail" = "Din handflata är länkad till %@";
-"scan.errorTitle" = "Vi kunde inte verifiera din handflata";
-"common.tryAgainMessage" = "Försök igen.";
-"auth.errorTitle" = "Vi kunde inte gå vidare till nästa steg.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Kontot är begränsat";
@@ -170,3 +157,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Starta verifiering";
+"consent.tip2" = "%@ får tillgång till begränsade [verifieringsdata]";
+"consent.verifyIdentitySubtitle" = "%@ använder VeryAI för att bekräfta att du är en människa.";
+"consent.verifyIdentityTitle" = "%@ använder VeryAI för handflatsverifiering";
+"error.1001" = "Något gick fel. Försök igen.";
+"error.1002" = "Vi kunde inte verifiera din handflata. Försök igen.";
+"error.1003" = "Vi kunde inte verifiera din handflata. Försök igen.";
+"error.1004" = "Något gick fel. Försök igen.";
+"error.1005" = "Något gick fel. Försök igen.";
+"error.1006" = "Något gick fel. Försök igen.";
+"error.1007" = "Vi kunde inte verifiera din handflata. Försök igen.";
+"error.1008" = "Vi kunde inte verifiera din handflata. Försök igen.";
+"error.1009" = "Vi kunde inte verifiera din handflata. Försök igen.";
+"error.1010" = "Vi kunde inte verifiera din handflata. Försök igen.";
+"error.1011" = "Något gick fel. Försök igen.";
+"error.1012" = "Något gick fel. Försök igen.";
+"error.1013" = "Något gick fel. Försök igen.";
+"error.1014" = "Något gick fel. Försök igen.";
+"error.1015" = "Något gick fel. Försök igen.";
+"error.1016" = "Något gick fel. Försök igen.";
+"error.1017" = "Något gick fel. Försök igen.";
+"error.1018" = "Något gick fel. Försök igen.";
+"error.1019" = "Båda handflatorna krävs.";
+"error.1020" = "Något gick fel. Försök igen.";
+"error.1021" = "Något gick fel. Försök igen.";
+"error.1022" = "Något gick fel. Försök igen.";
+"error.1023" = "Något gick fel. Försök igen.";
+"error.1024" = "Något gick fel. Försök igen.";
+"error.1025" = "Något gick fel. Försök igen.";
+"error.1026" = "Något gick fel. Försök igen.";
+"error.1027" = "Något gick fel. Försök igen.";
+"error.1028" = "Något gick fel. Försök igen.";
+"error.1029" = "Något gick fel. Försök igen.";
+"error.1030" = "Din session har gått ut. Försök igen.";
+"error.1031" = "Något gick fel. Försök igen.";
+"error.1032" = "Vi kunde inte hitta ditt konto. Försök igen.";
+"error.1033" = "Vi kunde inte hitta ditt konto. Försök igen.";
+"error.1034" = "Vi kunde inte hitta ditt konto. Försök igen.";
+"error.1035" = "Användarens handflator hittades inte.";
+"error.1036" = "Granskningen hittades inte.";
+"error.1037" = "Vi kunde inte verifiera din handflata. Försök igen.";
+"error.1038" = "Vi kunde inte verifiera din handflata. Försök igen.";
+"error.1039" = "Vi kunde inte verifiera din handflata. Försök igen.";
+"error.1040" = "Vi kunde inte logga in dig. Din e-postadress kanske inte är registrerad ännu, eller så är dina uppgifter felaktiga.";
+"error.2001" = "Något gick fel. Försök igen.";
+"error.2002" = "Vi kunde inte hitta ditt konto. Försök igen.";
+"error.2003" = "Ogiltigt användarnamn.";
+"error.2004" = "E-postadressen används redan.";
+"error.2005" = "Ingen väntande e-poständring.";
+"error.2006" = "Ogiltig verifieringskod.";
+"error.2007" = "Verifieringskoden har gått ut.";
+"error.2008" = "Gränsen för antal verifieringar har överskridits.";
+"error.2009" = "Vi kunde inte hitta ditt konto. Försök igen.";
+"error.2010" = "Granskningen hittades inte.";
+"error.2011" = "Något gick fel. Försök igen.";
+"error.3000" = "Något gick fel. Försök igen.";
+"error.4000" = "Något gick fel. Försök igen.";
+"error.6107" = "Livskontrollen tog för lång tid. Försök igen.";

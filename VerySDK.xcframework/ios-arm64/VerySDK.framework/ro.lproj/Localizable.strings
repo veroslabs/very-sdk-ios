@@ -19,12 +19,8 @@
 "status.darkenHand" = "Try moving out of direct light";
 "status.focusHand" = "Hold still for a moment";
 "status.keepStill" = "Hold still";
-"status.showGesture" = "Show gesture";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scan Your Right Palm";
-"scan.scanYourLeftPalm" = "Scan Your Left Palm";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Prima mână completă";
@@ -73,13 +69,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "se încarcă…";
 "common.retrying" = "Se reîncearcă…";
-"common.success" = "Succes";
-"common.error" = "Eroare";
 "common.done" = "Gata";
-"common.tryAgain" = "Încearcă din nou";
-"common.cancel" = "Anulare";
 "common.continue" = "Continuă";
 
 /* Scan Status */
@@ -106,14 +97,10 @@
 "email.sentCodeTo" = "Cod trimis la";
 "email.resendCode" = "Retrimiteți codul";
 "email.resendInSeconds" = "Retrimite în %@ s";
-"email.invalidCode" = "Cod de verificare invalid. Vă rugăm să încercați din nou.";
 "email.placeholder" = "Adresă de email";
 "consent.tip3" = "Scanarea palmei dvs. este utilizată doar pentru a vă verifica identitatea — ștergeți datele oricând";
 "switchPalm.scanOtherHand" = "Scanează cealaltă mână";
 "error.palmLinkedToEmail" = "Palma ta este legată de %@";
-"scan.errorTitle" = "Nu am putut verifica palma dvs.";
-"common.tryAgainMessage" = "Vă rugăm să încercați din nou.";
-"auth.errorTitle" = "Nu am putut trece la pasul următor.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Cont restricționat";
@@ -172,3 +159,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Începe verificarea";
+"consent.tip2" = "%@ va avea acces la [date de verificare] limitate";
+"consent.verifyIdentitySubtitle" = "%@ folosește VeryAI pentru a confirma că ești o persoană reală.";
+"consent.verifyIdentityTitle" = "%@ folosește VeryAI pentru verificarea palmei";
+"error.1001" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1002" = "Nu am putut verifica palma. Încearcă din nou.";
+"error.1003" = "Nu am putut verifica palma. Încearcă din nou.";
+"error.1004" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1005" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1006" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1007" = "Nu am putut verifica palma. Încearcă din nou.";
+"error.1008" = "Nu am putut verifica palma. Încearcă din nou.";
+"error.1009" = "Nu am putut verifica palma. Încearcă din nou.";
+"error.1010" = "Nu am putut verifica palma. Încearcă din nou.";
+"error.1011" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1012" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1013" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1014" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1015" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1016" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1017" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1018" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1019" = "Sunt necesare ambele palme.";
+"error.1020" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1021" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1022" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1023" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1024" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1025" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1026" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1027" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1028" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1029" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1030" = "Sesiunea ta a expirat. Încearcă din nou.";
+"error.1031" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.1032" = "Nu am putut găsi contul tău. Încearcă din nou.";
+"error.1033" = "Nu am putut găsi contul tău. Încearcă din nou.";
+"error.1034" = "Nu am putut găsi contul tău. Încearcă din nou.";
+"error.1035" = "Palmele utilizatorului nu au fost găsite.";
+"error.1036" = "Verificarea nu a fost găsită.";
+"error.1037" = "Nu am putut verifica palma. Încearcă din nou.";
+"error.1038" = "Nu am putut verifica palma. Încearcă din nou.";
+"error.1039" = "Nu am putut verifica palma. Încearcă din nou.";
+"error.1040" = "Nu te-am putut autentifica. Este posibil ca adresa de e-mail să nu fie încă înregistrată sau ca datele de conectare să fie incorecte.";
+"error.2001" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.2002" = "Nu am putut găsi contul tău. Încearcă din nou.";
+"error.2003" = "Nume de utilizator nevalid.";
+"error.2004" = "E-mailul este deja utilizat.";
+"error.2005" = "Nu există nicio modificare de e-mail în așteptare.";
+"error.2006" = "Cod de verificare nevalid.";
+"error.2007" = "Codul de verificare a expirat.";
+"error.2008" = "Limita de încercări de verificare a fost depășită.";
+"error.2009" = "Nu am putut găsi contul tău. Încearcă din nou.";
+"error.2010" = "Verificarea nu a fost găsită.";
+"error.2011" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.3000" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.4000" = "Ceva nu a funcționat. Încearcă din nou.";
+"error.6107" = "Verificarea liveness a expirat. Încearcă din nou.";

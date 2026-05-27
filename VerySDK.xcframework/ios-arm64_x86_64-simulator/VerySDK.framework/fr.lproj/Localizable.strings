@@ -18,12 +18,8 @@
 "status.darkenHand" = "Évitez la lumière directe";
 "status.focusHand" = "Restez immobile un instant";
 "status.keepStill" = "Restez immobile";
-"status.showGesture" = "Afficher le geste";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scannez votre paume droite";
-"scan.scanYourLeftPalm" = "Scannez votre paume gauche";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Première main terminée";
@@ -71,13 +67,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "chargement…";
 "common.retrying" = "Nouvelle tentative…";
-"common.success" = "Succès";
-"common.error" = "Erreur";
 "common.done" = "Terminé";
-"common.tryAgain" = "Réessayer";
-"common.cancel" = "Annuler";
 "common.continue" = "Continuer";
 
 /* Scan Status */
@@ -104,14 +95,10 @@
 "email.sentCodeTo" = "Code envoyé à";
 "email.resendCode" = "Renvoyer le code";
 "email.resendInSeconds" = "Renvoyer dans %@ s";
-"email.invalidCode" = "Code de vérification invalide. Veuillez réessayer.";
 "email.placeholder" = "Adresse e-mail";
 "consent.tip3" = "Le scan de votre paume n'est utilisé que pour vérifier votre identité — supprimez vos données à tout moment";
 "switchPalm.scanOtherHand" = "Scanner l'autre main";
 "error.palmLinkedToEmail" = "Votre paume est liée à %@";
-"scan.errorTitle" = "Nous n'avons pas pu vérifier votre paume";
-"common.tryAgainMessage" = "Veuillez réessayer.";
-"auth.errorTitle" = "Nous n'avons pas pu passer à l'étape suivante.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Compte restreint";
@@ -170,3 +157,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Démarrer la vérification";
+"consent.tip2" = "%@ aura accès à des [données de vérification] limitées";
+"consent.verifyIdentitySubtitle" = "%@ utilise VeryAI pour confirmer que vous êtes humain.";
+"consent.verifyIdentityTitle" = "%@ utilise VeryAI pour la vérification de la paume";
+"error.1001" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1002" = "Nous n'avons pas pu vérifier votre paume. Veuillez réessayer.";
+"error.1003" = "Nous n'avons pas pu vérifier votre paume. Veuillez réessayer.";
+"error.1004" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1005" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1006" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1007" = "Nous n'avons pas pu vérifier votre paume. Veuillez réessayer.";
+"error.1008" = "Nous n'avons pas pu vérifier votre paume. Veuillez réessayer.";
+"error.1009" = "Nous n'avons pas pu vérifier votre paume. Veuillez réessayer.";
+"error.1010" = "Nous n'avons pas pu vérifier votre paume. Veuillez réessayer.";
+"error.1011" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1012" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1013" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1014" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1015" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1016" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1017" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1018" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1019" = "Les deux paumes sont requises.";
+"error.1020" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1021" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1022" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1023" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1024" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1025" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1026" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1027" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1028" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1029" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1030" = "Votre session a expiré. Veuillez réessayer.";
+"error.1031" = "Une erreur est survenue. Veuillez réessayer.";
+"error.1032" = "Nous n'avons pas trouvé votre compte. Veuillez réessayer.";
+"error.1033" = "Nous n'avons pas trouvé votre compte. Veuillez réessayer.";
+"error.1034" = "Nous n'avons pas trouvé votre compte. Veuillez réessayer.";
+"error.1035" = "Paumes de l'utilisateur introuvables.";
+"error.1036" = "Examen introuvable.";
+"error.1037" = "Nous n'avons pas pu vérifier votre paume. Veuillez réessayer.";
+"error.1038" = "Nous n'avons pas pu vérifier votre paume. Veuillez réessayer.";
+"error.1039" = "Nous n'avons pas pu vérifier votre paume. Veuillez réessayer.";
+"error.1040" = "Nous n'avons pas pu vous connecter. Votre e-mail n'est peut-être pas encore enregistré, ou vos identifiants sont incorrects.";
+"error.2001" = "Une erreur est survenue. Veuillez réessayer.";
+"error.2002" = "Nous n'avons pas trouvé votre compte. Veuillez réessayer.";
+"error.2003" = "Nom d'utilisateur non valide.";
+"error.2004" = "Cet e-mail est déjà utilisé.";
+"error.2005" = "Aucun changement d'e-mail en attente.";
+"error.2006" = "Code de vérification non valide.";
+"error.2007" = "Le code de vérification a expiré.";
+"error.2008" = "Limite de vérifications dépassée.";
+"error.2009" = "Nous n'avons pas trouvé votre compte. Veuillez réessayer.";
+"error.2010" = "Examen introuvable.";
+"error.2011" = "Une erreur est survenue. Veuillez réessayer.";
+"error.3000" = "Une erreur est survenue. Veuillez réessayer.";
+"error.4000" = "Une erreur est survenue. Veuillez réessayer.";
+"error.6107" = "Le délai du test de vivacité a expiré. Veuillez réessayer.";

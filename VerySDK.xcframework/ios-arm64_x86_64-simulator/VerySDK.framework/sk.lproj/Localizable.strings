@@ -19,12 +19,8 @@
 "status.darkenHand" = "Try moving out of direct light";
 "status.focusHand" = "Hold still for a moment";
 "status.keepStill" = "Hold still";
-"status.showGesture" = "Show gesture";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scan Your Right Palm";
-"scan.scanYourLeftPalm" = "Scan Your Left Palm";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Prvá ruka dokončená";
@@ -73,13 +69,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "načítava sa…";
 "common.retrying" = "Opakujem pokus…";
-"common.success" = "Úspech";
-"common.error" = "Chyba";
 "common.done" = "Hotovo";
-"common.tryAgain" = "Skúsiť znova";
-"common.cancel" = "Zrušiť";
 "common.continue" = "Pokračovať";
 
 /* Scan Status */
@@ -106,14 +97,10 @@
 "email.sentCodeTo" = "Kód odoslaný na";
 "email.resendCode" = "Znova odoslať kód";
 "email.resendInSeconds" = "Odoslať znova o %@ s";
-"email.invalidCode" = "Neplatný overovací kód. Skúste to prosím znova.";
 "email.placeholder" = "E-mailová adresa";
 "consent.tip3" = "Skenovanie vašej dlane sa používa iba na overenie vašej identity — vymažte svoje údaje kedykoľvek";
 "switchPalm.scanOtherHand" = "Skenuj druhú ruku";
 "error.palmLinkedToEmail" = "Vaša dlaň je prepojená s %@";
-"scan.errorTitle" = "Nemohli sme overiť vašu dlaň";
-"common.tryAgainMessage" = "Prosím, skúste znova.";
-"auth.errorTitle" = "Nepodarilo sa pokračovať na ďalší krok.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Účet obmedzený";
@@ -172,3 +159,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Spustiť overenie";
+"consent.tip2" = "Aplikácia %@ bude mať prístup k obmedzeným [overovacím údajom]";
+"consent.verifyIdentitySubtitle" = "Aplikácia %@ používa VeryAI na potvrdenie, že ste človek.";
+"consent.verifyIdentityTitle" = "Aplikácia %@ používa VeryAI na overenie dlane";
+"error.1001" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1002" = "Vašu dlaň sa nepodarilo overiť. Skúste to znova.";
+"error.1003" = "Vašu dlaň sa nepodarilo overiť. Skúste to znova.";
+"error.1004" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1005" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1006" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1007" = "Vašu dlaň sa nepodarilo overiť. Skúste to znova.";
+"error.1008" = "Vašu dlaň sa nepodarilo overiť. Skúste to znova.";
+"error.1009" = "Vašu dlaň sa nepodarilo overiť. Skúste to znova.";
+"error.1010" = "Vašu dlaň sa nepodarilo overiť. Skúste to znova.";
+"error.1011" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1012" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1013" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1014" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1015" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1016" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1017" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1018" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1019" = "Vyžadujú sa obe dlane.";
+"error.1020" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1021" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1022" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1023" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1024" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1025" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1026" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1027" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1028" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1029" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1030" = "Vaša relácia vypršala. Skúste to znova.";
+"error.1031" = "Niečo sa pokazilo. Skúste to znova.";
+"error.1032" = "Váš účet sa nepodarilo nájsť. Skúste to znova.";
+"error.1033" = "Váš účet sa nepodarilo nájsť. Skúste to znova.";
+"error.1034" = "Váš účet sa nepodarilo nájsť. Skúste to znova.";
+"error.1035" = "Dlane používateľa sa nenašli.";
+"error.1036" = "Kontrola sa nenašla.";
+"error.1037" = "Vašu dlaň sa nepodarilo overiť. Skúste to znova.";
+"error.1038" = "Vašu dlaň sa nepodarilo overiť. Skúste to znova.";
+"error.1039" = "Vašu dlaň sa nepodarilo overiť. Skúste to znova.";
+"error.1040" = "Nepodarilo sa vás prihlásiť. Vaša e-mailová adresa možno ešte nie je zaregistrovaná alebo sú vaše prihlasovacie údaje nesprávne.";
+"error.2001" = "Niečo sa pokazilo. Skúste to znova.";
+"error.2002" = "Váš účet sa nepodarilo nájsť. Skúste to znova.";
+"error.2003" = "Neplatné používateľské meno.";
+"error.2004" = "E-mail sa už používa.";
+"error.2005" = "Žiadna čakajúca zmena e-mailu.";
+"error.2006" = "Neplatný overovací kód.";
+"error.2007" = "Platnosť overovacieho kódu vypršala.";
+"error.2008" = "Prekročený limit počtu overovaní.";
+"error.2009" = "Váš účet sa nepodarilo nájsť. Skúste to znova.";
+"error.2010" = "Kontrola sa nenašla.";
+"error.2011" = "Niečo sa pokazilo. Skúste to znova.";
+"error.3000" = "Niečo sa pokazilo. Skúste to znova.";
+"error.4000" = "Niečo sa pokazilo. Skúste to znova.";
+"error.6107" = "Kontrola živosti vypršala. Skúste to znova.";

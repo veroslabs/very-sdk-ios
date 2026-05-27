@@ -19,12 +19,8 @@
 "status.darkenHand" = "Try moving out of direct light";
 "status.focusHand" = "Hold still for a moment";
 "status.keepStill" = "Hold still";
-"status.showGesture" = "Show gesture";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scan Your Right Palm";
-"scan.scanYourLeftPalm" = "Scan Your Left Palm";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "第一隻手完成";
@@ -68,18 +64,11 @@
 "error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "您的掌紋已驗證。";
-"scan.successRegistered" = "掌紋生物識別已設置完成。";
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "載入中…";
 "common.retrying" = "正在重試…";
-"common.success" = "成功";
-"common.error" = "錯誤";
 "common.done" = "完成";
-"common.tryAgain" = "重試";
-"common.cancel" = "取消";
 "common.continue" = "繼續";
 
 /* Scan Status */
@@ -106,14 +95,10 @@
 "email.sentCodeTo" = "驗證碼已發送至";
 "email.resendCode" = "重新發送";
 "email.resendInSeconds" = "%@ 秒後重新發送";
-"email.invalidCode" = "驗證碼無效，請重試。";
 "email.placeholder" = "電郵地址";
 "consent.tip3" = "您的掌紋掃描僅用於驗證您的身份 — 隨時刪除您的數據";
 "switchPalm.scanOtherHand" = "掃描另一隻手";
 "error.palmLinkedToEmail" = "您的手掌已關聯至 %@";
-"scan.errorTitle" = "我們無法驗證您的手掌";
-"common.tryAgainMessage" = "請重試。";
-"auth.errorTitle" = "我們無法繼續下一步。";
 
 /* Account Restricted */
 "accountRestricted.title" = "賬戶受限";
@@ -172,3 +157,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "開始驗證";
+"consent.tip2" = "%@ 將獲得有限[驗證資料]的存取權限";
+"consent.verifyIdentitySubtitle" = "%@ 使用 VeryAI 確認您是真人。";
+"consent.verifyIdentityTitle" = "%@ 使用 VeryAI 進行掌紋驗證";
+"error.1001" = "發生錯誤，請重試。";
+"error.1002" = "無法驗證您的掌紋，請重試。";
+"error.1003" = "無法驗證您的掌紋，請重試。";
+"error.1004" = "發生錯誤，請重試。";
+"error.1005" = "發生錯誤，請重試。";
+"error.1006" = "發生錯誤，請重試。";
+"error.1007" = "無法驗證您的掌紋，請重試。";
+"error.1008" = "無法驗證您的掌紋，請重試。";
+"error.1009" = "無法驗證您的掌紋，請重試。";
+"error.1010" = "無法驗證您的掌紋，請重試。";
+"error.1011" = "發生錯誤，請重試。";
+"error.1012" = "發生錯誤，請重試。";
+"error.1013" = "發生錯誤，請重試。";
+"error.1014" = "發生錯誤，請重試。";
+"error.1015" = "發生錯誤，請重試。";
+"error.1016" = "發生錯誤，請重試。";
+"error.1017" = "發生錯誤，請重試。";
+"error.1018" = "發生錯誤，請重試。";
+"error.1019" = "需要雙手手掌。";
+"error.1020" = "發生錯誤，請重試。";
+"error.1021" = "發生錯誤，請重試。";
+"error.1022" = "發生錯誤，請重試。";
+"error.1023" = "發生錯誤，請重試。";
+"error.1024" = "發生錯誤，請重試。";
+"error.1025" = "發生錯誤，請重試。";
+"error.1026" = "發生錯誤，請重試。";
+"error.1027" = "發生錯誤，請重試。";
+"error.1028" = "發生錯誤，請重試。";
+"error.1029" = "發生錯誤，請重試。";
+"error.1030" = "您的工作階段已過期，請重試。";
+"error.1031" = "發生錯誤，請重試。";
+"error.1032" = "我們找不到您的帳戶，請重試。";
+"error.1033" = "我們找不到您的帳戶，請重試。";
+"error.1034" = "我們找不到您的帳戶，請重試。";
+"error.1035" = "找不到使用者掌紋。";
+"error.1036" = "找不到審核記錄。";
+"error.1037" = "無法驗證您的掌紋，請重試。";
+"error.1038" = "無法驗證您的掌紋，請重試。";
+"error.1039" = "無法驗證您的掌紋，請重試。";
+"error.1040" = "我們無法為您登入。您的電子郵件可能尚未註冊，或您的憑證有誤。";
+"error.2001" = "發生錯誤，請重試。";
+"error.2002" = "我們找不到您的帳戶，請重試。";
+"error.2003" = "使用者名稱無效。";
+"error.2004" = "此電子郵件已被使用。";
+"error.2005" = "沒有待處理的電子郵件變更。";
+"error.2006" = "驗證碼無效。";
+"error.2007" = "驗證碼已過期。";
+"error.2008" = "已超過驗證次數限制。";
+"error.2009" = "我們找不到您的帳戶，請重試。";
+"error.2010" = "找不到審核記錄。";
+"error.2011" = "發生錯誤，請重試。";
+"error.3000" = "發生錯誤，請重試。";
+"error.4000" = "發生錯誤，請重試。";
+"error.6107" = "活體偵測逾時，請重試。";

@@ -19,12 +19,8 @@
 "status.darkenHand" = "Try moving out of direct light";
 "status.focusHand" = "Hold still for a moment";
 "status.keepStill" = "Hold still";
-"status.showGesture" = "Show gesture";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scan Your Right Palm";
-"scan.scanYourLeftPalm" = "Scan Your Left Palm";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Birinci əl tamamlandı";
@@ -73,13 +69,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "yüklənir…";
 "common.retrying" = "Yenidən cəhd edilir…";
-"common.success" = "Uğurlu";
-"common.error" = "Xəta";
 "common.done" = "Hazır";
-"common.tryAgain" = "Yenidən cəhd edin";
-"common.cancel" = "Ləğv et";
 "common.continue" = "Davam et";
 
 /* Scan Status */
@@ -106,14 +97,10 @@
 "email.sentCodeTo" = "Kod göndərildi";
 "email.resendCode" = "Kodu yenidən göndər";
 "email.resendInSeconds" = "%@ saniyə sonra təkrar göndər";
-"email.invalidCode" = "Yanlış təsdiq kodu. Zəhmət olmasa, yenidən cəhd edin.";
 "email.placeholder" = "E-poçt ünvanı";
 "consent.tip3" = "Ovuc iziniz yalnız kimliyinizi təsdiqləmək üçün istifadə olunur — məlumatlarınızı istənilən vaxt silin";
 "switchPalm.scanOtherHand" = "Digər əli skan et";
 "error.palmLinkedToEmail" = "Ovucunuz %@ ilə bağlıdır";
-"scan.errorTitle" = "Ovucunuzu doğrulaya bilmədik";
-"common.tryAgainMessage" = "Zəhmət olmasa yenidən cəhd edin.";
-"auth.errorTitle" = "Növbəti addıma keçə bilmədik.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Hesab məhdudlaşdırılıb";
@@ -172,3 +159,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Doğrulamağa başla";
+"consent.tip2" = "%@ məhdud [doğrulama məlumatlarına] giriş əldə edəcək";
+"consent.verifyIdentitySubtitle" = "%@ insan olduğunuzu təsdiqləmək üçün VeryAI-dan istifadə edir.";
+"consent.verifyIdentityTitle" = "%@ ovuc doğrulaması üçün VeryAI-dan istifadə edir";
+"error.1001" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1002" = "Ovucunuzu doğrulaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1003" = "Ovucunuzu doğrulaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1004" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1005" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1006" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1007" = "Ovucunuzu doğrulaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1008" = "Ovucunuzu doğrulaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1009" = "Ovucunuzu doğrulaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1010" = "Ovucunuzu doğrulaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1011" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1012" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1013" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1014" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1015" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1016" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1017" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1018" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1019" = "Hər iki ovuc tələb olunur.";
+"error.1020" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1021" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1022" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1023" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1024" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1025" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1026" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1027" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1028" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1029" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1030" = "Sessiyanızın vaxtı bitib. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1031" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1032" = "Hesabınızı tapa bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1033" = "Hesabınızı tapa bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1034" = "Hesabınızı tapa bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1035" = "İstifadəçinin ovucları tapılmadı.";
+"error.1036" = "Baxış tapılmadı.";
+"error.1037" = "Ovucunuzu doğrulaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1038" = "Ovucunuzu doğrulaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1039" = "Ovucunuzu doğrulaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1040" = "Sizi daxil edə bilmədik. E-poçtunuz hələ qeydiyyatdan keçməmiş ola bilər və ya məlumatlarınız yanlış ola bilər.";
+"error.2001" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.2002" = "Hesabınızı tapa bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.2003" = "Yanlış istifadəçi adı.";
+"error.2004" = "E-poçt artıq istifadədədir.";
+"error.2005" = "Gözləyən e-poçt dəyişikliyi yoxdur.";
+"error.2006" = "Yanlış doğrulama kodu.";
+"error.2007" = "Doğrulama kodunun vaxtı bitib.";
+"error.2008" = "Doğrulama üçün cəhd limiti aşıldı.";
+"error.2009" = "Hesabınızı tapa bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.2010" = "Baxış tapılmadı.";
+"error.2011" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.3000" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.4000" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.6107" = "Canlılıq yoxlamasının vaxtı bitdi. Zəhmət olmasa, yenidən cəhd edin.";

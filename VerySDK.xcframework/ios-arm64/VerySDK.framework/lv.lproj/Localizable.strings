@@ -19,12 +19,8 @@
 "status.darkenHand" = "Try moving out of direct light";
 "status.focusHand" = "Hold still for a moment";
 "status.keepStill" = "Hold still";
-"status.showGesture" = "Show gesture";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scan Your Right Palm";
-"scan.scanYourLeftPalm" = "Scan Your Left Palm";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Pirmā roka pabeigta";
@@ -73,13 +69,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "ielādē…";
 "common.retrying" = "Mēģinājums atkārtoti…";
-"common.success" = "Veiksmīgi";
-"common.error" = "Kļūda";
 "common.done" = "Gatavs";
-"common.tryAgain" = "Mēģināt vēlreiz";
-"common.cancel" = "Atcelt";
 "common.continue" = "Turpināt";
 
 /* Scan Status */
@@ -106,14 +97,10 @@
 "email.sentCodeTo" = "Kods nosūtīts uz";
 "email.resendCode" = "Nosūtīt kodu vēlreiz";
 "email.resendInSeconds" = "Sūtīt atkārtoti pēc %@ s";
-"email.invalidCode" = "Nederīgs verifikācijas kods. Lūdzu, mēģiniet vēlreiz.";
 "email.placeholder" = "E-pasta adrese";
 "consent.tip3" = "Jūsu plaukstas skenēšana tiek izmantota tikai jūsu identitātes pārbaudei — dzēsiet savus datus jebkurā laikā";
 "switchPalm.scanOtherHand" = "Skenēt otru roku";
 "error.palmLinkedToEmail" = "Jūsu plauksta ir saistīta ar %@";
-"scan.errorTitle" = "Mēs nevarējām pārbaudīt jūsu plaukstu";
-"common.tryAgainMessage" = "Lūdzu, mēģiniet vēlreiz.";
-"auth.errorTitle" = "Nevarējām pāriet uz nākamo soli.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Konts ierobežots";
@@ -172,3 +159,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Sākt verifikāciju";
+"consent.tip2" = "%@ būs piekļuve ierobežotiem [verifikācijas datiem]";
+"consent.verifyIdentitySubtitle" = "%@ izmanto VeryAI, lai apstiprinātu, ka esat cilvēks.";
+"consent.verifyIdentityTitle" = "%@ izmanto VeryAI plaukstas verifikācijai";
+"error.1001" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1002" = "Neizdevās verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
+"error.1003" = "Neizdevās verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
+"error.1004" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1005" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1006" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1007" = "Neizdevās verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
+"error.1008" = "Neizdevās verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
+"error.1009" = "Neizdevās verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
+"error.1010" = "Neizdevās verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
+"error.1011" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1012" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1013" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1014" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1015" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1016" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1017" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1018" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1019" = "Nepieciešamas abas plaukstas.";
+"error.1020" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1021" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1022" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1023" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1024" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1025" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1026" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1027" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1028" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1029" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1030" = "Jūsu sesijas laiks ir beidzies. Lūdzu, mēģiniet vēlreiz.";
+"error.1031" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.1032" = "Neizdevās atrast jūsu kontu. Lūdzu, mēģiniet vēlreiz.";
+"error.1033" = "Neizdevās atrast jūsu kontu. Lūdzu, mēģiniet vēlreiz.";
+"error.1034" = "Neizdevās atrast jūsu kontu. Lūdzu, mēģiniet vēlreiz.";
+"error.1035" = "Lietotāja plaukstas nav atrastas.";
+"error.1036" = "Pārskats nav atrasts.";
+"error.1037" = "Neizdevās verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
+"error.1038" = "Neizdevās verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
+"error.1039" = "Neizdevās verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
+"error.1040" = "Neizdevās jūs pieteikt. Iespējams, jūsu e-pasts vēl nav reģistrēts vai jūsu akreditācijas dati ir nepareizi.";
+"error.2001" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.2002" = "Neizdevās atrast jūsu kontu. Lūdzu, mēģiniet vēlreiz.";
+"error.2003" = "Nederīgs lietotājvārds.";
+"error.2004" = "Šis e-pasts jau tiek izmantots.";
+"error.2005" = "Nav neviena gaidoša e-pasta maiņas pieprasījuma.";
+"error.2006" = "Nederīgs verifikācijas kods.";
+"error.2007" = "Verifikācijas koda derīguma termiņš ir beidzies.";
+"error.2008" = "Pārsniegts verifikācijas mēģinājumu ierobežojums.";
+"error.2009" = "Neizdevās atrast jūsu kontu. Lūdzu, mēģiniet vēlreiz.";
+"error.2010" = "Pārskats nav atrasts.";
+"error.2011" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.3000" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.4000" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.6107" = "Dzīvīguma pārbaudei iestājās noildze. Lūdzu, mēģiniet vēlreiz.";

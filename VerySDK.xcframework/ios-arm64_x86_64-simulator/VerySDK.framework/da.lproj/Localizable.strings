@@ -19,12 +19,8 @@
 "status.darkenHand" = "Try moving out of direct light";
 "status.focusHand" = "Hold still for a moment";
 "status.keepStill" = "Hold still";
-"status.showGesture" = "Show gesture";
 
 /* Scan View Controller */
-"scan.scanYourRightPalm" = "Scan Your Right Palm";
-"scan.scanYourLeftPalm" = "Scan Your Left Palm";
-"scan.scanEitherPalm" = "Verify with palm";
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Første hånd fuldført";
@@ -73,13 +69,8 @@
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
-"common.loading" = "indlæser…";
 "common.retrying" = "Prøver igen…";
-"common.success" = "Succes";
-"common.error" = "Fejl";
 "common.done" = "Færdig";
-"common.tryAgain" = "Prøv igen";
-"common.cancel" = "Annuller";
 "common.continue" = "Fortsæt";
 
 /* Scan Status */
@@ -106,14 +97,10 @@
 "email.sentCodeTo" = "Kode sendt til";
 "email.resendCode" = "Send kode igen";
 "email.resendInSeconds" = "Send igen om %@ s";
-"email.invalidCode" = "Ugyldig bekræftelseskode. Prøv igen.";
 "email.placeholder" = "E-mailadresse";
 "consent.tip3" = "Dit håndfladeaftryk bruges kun til at bekræfte din identitet — slet dine data når som helst";
 "switchPalm.scanOtherHand" = "Skan anden hånd";
 "error.palmLinkedToEmail" = "Din håndflade er knyttet til %@";
-"scan.errorTitle" = "Vi kunne ikke bekræfte din hånd";
-"common.tryAgainMessage" = "Prøv igen.";
-"auth.errorTitle" = "Vi kunne ikke gå videre til næste trin.";
 
 /* Account Restricted */
 "accountRestricted.title" = "Konto begrænset";
@@ -172,3 +159,61 @@
 "email.inlineCodeExpired" = "Code has expired. Request a new code.";
 "email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
 "email.inlineCodeGeneric" = "Verification failed.";
+"consent.startVerification" = "Start verificering";
+"consent.tip2" = "%@ får adgang til begrænsede [verificeringsdata]";
+"consent.verifyIdentitySubtitle" = "%@ bruger VeryAI til at bekræfte, at du er et menneske.";
+"consent.verifyIdentityTitle" = "%@ bruger VeryAI til håndfladeverificering";
+"error.1001" = "Noget gik galt. Prøv igen.";
+"error.1002" = "Vi kunne ikke verificere din håndflade. Prøv igen.";
+"error.1003" = "Vi kunne ikke verificere din håndflade. Prøv igen.";
+"error.1004" = "Noget gik galt. Prøv igen.";
+"error.1005" = "Noget gik galt. Prøv igen.";
+"error.1006" = "Noget gik galt. Prøv igen.";
+"error.1007" = "Vi kunne ikke verificere din håndflade. Prøv igen.";
+"error.1008" = "Vi kunne ikke verificere din håndflade. Prøv igen.";
+"error.1009" = "Vi kunne ikke verificere din håndflade. Prøv igen.";
+"error.1010" = "Vi kunne ikke verificere din håndflade. Prøv igen.";
+"error.1011" = "Noget gik galt. Prøv igen.";
+"error.1012" = "Noget gik galt. Prøv igen.";
+"error.1013" = "Noget gik galt. Prøv igen.";
+"error.1014" = "Noget gik galt. Prøv igen.";
+"error.1015" = "Noget gik galt. Prøv igen.";
+"error.1016" = "Noget gik galt. Prøv igen.";
+"error.1017" = "Noget gik galt. Prøv igen.";
+"error.1018" = "Noget gik galt. Prøv igen.";
+"error.1019" = "Begge håndflader er påkrævet.";
+"error.1020" = "Noget gik galt. Prøv igen.";
+"error.1021" = "Noget gik galt. Prøv igen.";
+"error.1022" = "Noget gik galt. Prøv igen.";
+"error.1023" = "Noget gik galt. Prøv igen.";
+"error.1024" = "Noget gik galt. Prøv igen.";
+"error.1025" = "Noget gik galt. Prøv igen.";
+"error.1026" = "Noget gik galt. Prøv igen.";
+"error.1027" = "Noget gik galt. Prøv igen.";
+"error.1028" = "Noget gik galt. Prøv igen.";
+"error.1029" = "Noget gik galt. Prøv igen.";
+"error.1030" = "Din session er udløbet. Prøv igen.";
+"error.1031" = "Noget gik galt. Prøv igen.";
+"error.1032" = "Vi kunne ikke finde din konto. Prøv igen.";
+"error.1033" = "Vi kunne ikke finde din konto. Prøv igen.";
+"error.1034" = "Vi kunne ikke finde din konto. Prøv igen.";
+"error.1035" = "Brugerens håndflader blev ikke fundet.";
+"error.1036" = "Gennemgangen blev ikke fundet.";
+"error.1037" = "Vi kunne ikke verificere din håndflade. Prøv igen.";
+"error.1038" = "Vi kunne ikke verificere din håndflade. Prøv igen.";
+"error.1039" = "Vi kunne ikke verificere din håndflade. Prøv igen.";
+"error.1040" = "Vi kunne ikke logge dig ind. Din e-mail er måske ikke registreret endnu, eller dine loginoplysninger kan være forkerte.";
+"error.2001" = "Noget gik galt. Prøv igen.";
+"error.2002" = "Vi kunne ikke finde din konto. Prøv igen.";
+"error.2003" = "Ugyldigt brugernavn.";
+"error.2004" = "E-mailen er allerede i brug.";
+"error.2005" = "Ingen afventende e-mailændring.";
+"error.2006" = "Ugyldig verificeringskode.";
+"error.2007" = "Verificeringskoden er udløbet.";
+"error.2008" = "Grænsen for verificeringsforsøg er overskredet.";
+"error.2009" = "Vi kunne ikke finde din konto. Prøv igen.";
+"error.2010" = "Gennemgangen blev ikke fundet.";
+"error.2011" = "Noget gik galt. Prøv igen.";
+"error.3000" = "Noget gik galt. Prøv igen.";
+"error.4000" = "Noget gik galt. Prøv igen.";
+"error.6107" = "Livskontrollen fik timeout. Prøv igen.";
