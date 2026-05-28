@@ -146,11 +146,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zJeYqp889Nb12RyPsEYJnhgj8Z8=
+		+cN9PP/izRC3FlhpErlD3ebWVNY=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		oE4Tw2S61RYNTJwluDejawXhDUw=
+		HQMghkN6zK/AWWb+B+GEx918hnE=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -166,11 +166,11 @@
 		</data>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oDFQyw6vTfDEmyt8lr9HefaCYHs=
+		69GxivyThIf3TT1aDsu7GHqEnn4=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		oE4Tw2S61RYNTJwluDejawXhDUw=
+		HQMghkN6zK/AWWb+B+GEx918hnE=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -186,7 +186,7 @@
 		</data>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fw3I+cR82Czxa4s9TXY4HWKomKI=
+		f3+S69IStcbYZ2Tgu3AM2PvJ+qM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -772,7 +772,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UuYvo06n7f/M2SsEwme3DtnlQ+Sxd8ti4gaO3w6GJyE=
+			iMWOsRkboyXQT7/GY9dI6HFSOfQC3Sn9NNjuChmud4k=
 			</data>
 		</dict>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -800,14 +800,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rN1StT0L+zYsgP6vX0dyNyehrgHvBX1swf4xlnobmG4=
+			7uYiVj9yNpO0iIyfyCAfjDulQQl4eFSMz+4ap2/e354=
 			</data>
 		</dict>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UuYvo06n7f/M2SsEwme3DtnlQ+Sxd8ti4gaO3w6GJyE=
+			iMWOsRkboyXQT7/GY9dI6HFSOfQC3Sn9NNjuChmud4k=
 			</data>
 		</dict>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -835,7 +835,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A7ksy+gvmtq3y2K0YCRarWqcXNOUAYMVe/MvN4Ga/wQ=
+			OguEIvYz4ObNw2mtwU7MMwOQgyiE/oatDUYne1ANi50=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
