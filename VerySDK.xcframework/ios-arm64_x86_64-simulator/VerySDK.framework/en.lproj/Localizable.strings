@@ -89,6 +89,16 @@
 "livenessError.message" = "We couldn't complete the liveness check. Please try again.";
 "livenessError.timeoutTitle" = "Verification timed out";
 "livenessError.timeoutMessage" = "We couldn't complete the check before the session ended. Please try again.";
+"livenessError.cameraPermissionTitle" = "Camera access needed";
+"livenessError.cameraPermissionMessage" = "To verify liveness, allow camera access in your phone's settings.";
+"livenessError.networkTitle" = "Connection problem";
+"livenessError.networkMessage" = "We couldn't reach our servers. Check your connection and try again.";
+"livenessError.sessionExpiredTitle" = "Session expired";
+"livenessError.sessionExpiredMessage" = "Your session expired before the check could finish. Please try again.";
+"livenessError.setupFailedTitle" = "Setup failed";
+"livenessError.setupFailedMessage" = "We couldn't load the palm scanner. Check your connection and try again.";
+"livenessError.captureFailedTitle" = "Capture failed";
+"livenessError.captureFailedMessage" = "We couldn't complete the scan. Please try again.";
 "livenessError.retry" = "Retry";
 "livenessError.close" = "Close";
 
