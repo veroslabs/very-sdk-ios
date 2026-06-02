@@ -4,17 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Fonts/Inter-Bold.ttf</key>
-		<data>
-		lGHnwIMTfCq+bRmPeE+w00GlJ6E=
-		</data>
 		<key>Fonts/Inter-Regular.ttf</key>
 		<data>
-		bjQw+QaktCtLY/2PM+SYpD2fjYQ=
+		S9+eUS+h6s9FRVlsldMwLCnsWik=
 		</data>
 		<key>Fonts/Inter-SemiBold.ttf</key>
 		<data>
-		tL2va91qR5tGxFKnu64T9csgeb8=
+		kP2u7bZWDAwpPFXyjDO7PZV1gpY=
 		</data>
 		<key>Headers/VerySDK-Swift.h</key>
 		<data>
@@ -146,11 +142,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UySKwSAcZkh8dc3bgLfGOUOUL8c=
+		lZftX5wX/b/NIEB7l8YWjN8xXv0=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		HQMghkN6zK/AWWb+B+GEx918hnE=
+		SX5+/5ufGSc0OAqCfGeI981N5NY=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -166,11 +162,11 @@
 		</data>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		69GxivyThIf3TT1aDsu7GHqEnn4=
+		cJvJLcm1+DFt9ox0P/LsS5KvgQM=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		HQMghkN6zK/AWWb+B+GEx918hnE=
+		SX5+/5ufGSc0OAqCfGeI981N5NY=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -186,7 +182,7 @@
 		</data>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		f3+S69IStcbYZ2Tgu3AM2PvJ+qM=
+		gpwvXu1GkhJHxqvBa8W7ugHR4lE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -200,7 +196,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oYzGYXLw4Iq6Vk0Ayzz/BTdYvGE=
+			Kq+whnMaZdMUg3i+u+BrPYajazo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -309,6 +305,15 @@
 			<key>hash</key>
 			<data>
 			6n10VcdNtHJ5+5cUqfg/y7X1Y20=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>he.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b7xWifa8LEB9c5CcLeiLTJAt3Mk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -523,25 +528,18 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Fonts/Inter-Bold.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KIMWCZseCkekcW0VkJgAXu98AGaSHzTjIAOT29sBlH8=
-			</data>
-		</dict>
 		<key>Fonts/Inter-Regular.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QNaS/OGI5EceKzy6k3vpZ4ePYxrT67vc1YdofH6+DII=
+			TiRHDoROQ/Isp35+/3I9qPYpGn1OGdf/VgsJvVm1aVY=
 			</data>
 		</dict>
 		<key>Fonts/Inter-SemiBold.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eKhD+t6dRhKlVnMC+1lbVpdutfzr9P6lpZEtY4uvzeM=
+			ng3Ig31XpjSsGjymj4lHK+GGnngr0EQqTq+oxTJCP9A=
 			</data>
 		</dict>
 		<key>Headers/VerySDK-Swift.h</key>
@@ -772,7 +770,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iMWOsRkboyXQT7/GY9dI6HFSOfQC3Sn9NNjuChmud4k=
+			jydr6MFhM3tdQbJJpgaw2jOQxULUS5KTVTmdJ82F85Y=
 			</data>
 		</dict>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -800,14 +798,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7uYiVj9yNpO0iIyfyCAfjDulQQl4eFSMz+4ap2/e354=
+			A7k9h+42qoYemMroVJD7IPD4cEWjHb2sl3tbCUKbFs0=
 			</data>
 		</dict>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iMWOsRkboyXQT7/GY9dI6HFSOfQC3Sn9NNjuChmud4k=
+			jydr6MFhM3tdQbJJpgaw2jOQxULUS5KTVTmdJ82F85Y=
 			</data>
 		</dict>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -835,7 +833,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OguEIvYz4ObNw2mtwU7MMwOQgyiE/oatDUYne1ANi50=
+			2mBUgIt//9mVCtBn5ufxBk0KdKefHDpCGhmBPkroftA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -856,7 +854,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oUEr7WkE96lLFqSDwb7LvhjklOMa+WFUrOT3Cfl1Nl0=
+			WfRZgChH+A97kN1/5JMd9aNgzNQAMJbcRP/X/Z9Rm2g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -965,6 +963,15 @@
 			<key>hash2</key>
 			<data>
 			nmvEuk3PoiUZTjiNqeDalFN9FXZidPvnATgEIgJUGFY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>he.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3/ZyB1Rzs5fJ21rN7UJVxIfF9YUMdIQo4fHB3H+NxFE=
 			</data>
 			<key>optional</key>
 			<true/>

@@ -1,0 +1,225 @@
+/* Very Mobile SDK Localization - Hebrew */
+
+/* Bottom Status Messages */
+"status.moveHandLeft" = "הזז את ידך שמאלה";
+"status.moveHandRight" = "הזז את ידך ימינה";
+"status.moveHandUp" = "הזז את ידך למעלה";
+"status.moveHandDown" = "הזז את ידך למטה";
+"status.moveHandCloser" = "קרב את ידך";
+"status.moveHandFarther" = "הרחק מעט את ידך";
+"status.rotateHandUpward" = "הטה את ידך לכיוונך";
+"status.rotateHandParallel" = "החזק את ידך ישרה";
+"status.flipHandOver" = "הנח את כף היד מול המצלמה";
+"status.spreadFingers" = "פתח את ידך לרווחה";
+"status.straightenFingers" = "יישר את אצבעותיך";
+"status.spreadThumb" = "הרחק את האגודל הצידה";
+"status.straightenThumb" = "יישר את האגודל";
+"status.brightenHand" = "מצא מקום מואר יותר";
+"status.darkenHand" = "נסה להתרחק מאור ישיר";
+"status.focusHand" = "החזק ללא תנועה לרגע";
+"status.keepStill" = "החזק ללא תנועה";
+
+/* Scan View Controller */
+
+/* Switch Palm View */
+"switchPalm.scanComplete" = "היד הראשונה הושלמה";
+"switchPalm.proceedToSwitchHand" = "כעת סרוק את ידך השנייה.";
+"switchPalm.scanOtherHand" = "סרוק את היד השנייה";
+
+/* Auth View Controller */
+"auth.cancel" = "ביטול";
+"auth.termsText" = "בהמשך, אתה מסכים לתנאי השירות ולמדיניות הפרטיות שלנו.";
+"auth.termsOfService" = "תנאי השירות";
+"auth.privacyPolicy" = "מדיניות הפרטיות";
+
+/* Consent UI */
+"consent.verifyIdentityTitle" = "%@ משתמשת ב-VeryAI לאימות כף היד";
+"consent.verifyIdentitySubtitle" = "%@ משתמשת ב-VeryAI כדי לוודא שאתה אדם.";
+"consent.tip1" = "צור חשבון על ידי סריקת שתי כפות הידיים. אמת מחדש בסריקה אחת בלבד";
+"consent.tip2" = "ל-%@ תהיה גישה ל[נתוני אימות] מוגבלים";
+"consent.tip3" = "סריקת כף היד משמשת רק לאימות זהותך — מחק את הנתונים שלך בכל עת";
+"consent.startVerification" = "התחל אימות";
+
+/* WorkThrough View Controller */
+"workthrough.title" = "הגדר את סריקת כף היד";
+"workthrough.subtitle" = "סרוק ארבע פעמים להגדרה. לאחר מכן, סרוק פעם אחת.";
+"workthrough.getStarted" = "בוא נתחיל";
+
+/* Common UI */
+"common.poweredBy" = "מופעל על ידי";
+"common.retrying" = "מנסה שוב…";
+"common.done" = "סיום";
+"common.continue" = "המשך";
+"error.palmLinkedToEmail" = "כף ידך מקושרת אל %@";
+
+/* Scan Status */
+"scan.positionLeftHand" = "סרוק את כף יד שמאל";
+"scan.positionLeftHandAgain" = "יפה — המשך כך";
+"scan.positionRightHand" = "סרוק את כף יד ימין";
+"scan.positionRightHandAgain" = "כמעט סיימת — הסריקה האחרונה";
+"scan.defaultStatus" = "סרוק את ידך";
+"scan.defaultStatusEnroll" = "סרוק את היד הראשונה";
+"scan.showGesture" = "הצג את התנועה";
+"scan.connectDots" = "חבר את הנקודות";
+"scan.almostDone" = "כמעט סיימת";
+"scan.livenessThanks" = "תודה על האימות";
+"scan.registeringPalms" = "רושם כפות ידיים";
+"scan.verifyingPalm" = "מאמת כף יד";
+"scan.successTitleVerified" = "אומת";
+"scan.successTitleRegistered" = "כפות הידיים נרשמו";
+"scan.successVerified" = "כף ידך אומתה.";
+"scan.successRegistered" = "כעת תוכל לאמת באמצעות כפות ידיך.";
+
+/* Email Verification */
+"email.continueWithEmail" = "הזן את כתובת האימייל שלך";
+"email.verifyYourEmail" = "אמת את האימייל שלך";
+"email.sentCodeTo" = "הקוד נשלח אל";
+"email.resendCode" = "שלח קוד מחדש";
+"email.resendInSeconds" = "שליחה חוזרת בעוד %@ שניות";
+"email.placeholder" = "כתובת אימייל";
+
+/* Account Restricted */
+"accountRestricted.title" = "החשבון מוגבל";
+"accountRestricted.message" = "זיהינו פעילות שעלולה להפר את תנאי השירות שלנו. חשבונך הוגבל בזמן שאנו בודקים אותו.\n\nאם אתה סבור שמדובר בטעות, פנה לצוות התמיכה שלנו.";
+"accountRestricted.getInTouch" = "צור קשר";
+"accountRestricted.cancel" = "ביטול";
+
+/* Liveness Error (shown when VeryLivenessConfig.showError = true) */
+"livenessError.title" = "משהו השתבש";
+"livenessError.message" = "לא הצלחנו להשלים את בדיקת החיות. אנא נסה שוב.";
+"livenessError.timeoutTitle" = "תם הזמן לאימות";
+"livenessError.timeoutMessage" = "לא הצלחנו להשלים את הבדיקה לפני שההפעלה הסתיימה. אנא נסה שוב.";
+"livenessError.cameraPermissionTitle" = "נדרשת גישה למצלמה";
+"livenessError.cameraPermissionMessage" = "כדי לאמת חיות, אפשר גישה למצלמה בהגדרות הטלפון שלך.";
+"livenessError.networkTitle" = "בעיית חיבור";
+"livenessError.networkMessage" = "לא הצלחנו להגיע לשרתים שלנו. בדוק את החיבור שלך ונסה שוב.";
+"livenessError.sessionExpiredTitle" = "תוקף ההפעלה פג";
+"livenessError.sessionExpiredMessage" = "תוקף ההפעלה שלך פג לפני שהבדיקה הושלמה. אנא נסה שוב.";
+"livenessError.setupFailedTitle" = "ההגדרה נכשלה";
+"livenessError.setupFailedMessage" = "לא הצלחנו לטעון את סורק כף היד. בדוק את החיבור שלך ונסה שוב.";
+"livenessError.captureFailedTitle" = "הלכידה נכשלה";
+"livenessError.captureFailedMessage" = "לא הצלחנו להשלים את הסריקה. אנא נסה שוב.";
+"livenessError.retry" = "נסה שוב";
+"livenessError.close" = "סגור";
+
+/* API Error Codes (message for each code) */
+"error.1001" = "משהו השתבש. אנא נסה שוב.";
+"error.1002" = "לא הצלחנו לאמת את כף ידך. אנא נסה שוב.";
+"error.1003" = "לא הצלחנו לאמת את כף ידך. אנא נסה שוב.";
+"error.1004" = "משהו השתבש. אנא נסה שוב.";
+"error.1005" = "משהו השתבש. אנא נסה שוב.";
+"error.1006" = "משהו השתבש. אנא נסה שוב.";
+"error.1007" = "לא הצלחנו לאמת את כף ידך. אנא נסה שוב.";
+"error.1008" = "לא הצלחנו לאמת את כף ידך. אנא נסה שוב.";
+"error.1009" = "לא הצלחנו לאמת את כף ידך. אנא נסה שוב.";
+"error.1010" = "לא הצלחנו לאמת את כף ידך. אנא נסה שוב.";
+"error.1011" = "משהו השתבש. אנא נסה שוב.";
+"error.1012" = "משהו השתבש. אנא נסה שוב.";
+"error.1013" = "משהו השתבש. אנא נסה שוב.";
+"error.1014" = "משהו השתבש. אנא נסה שוב.";
+"error.1015" = "משהו השתבש. אנא נסה שוב.";
+"error.1016" = "משהו השתבש. אנא נסה שוב.";
+"error.1017" = "משהו השתבש. אנא נסה שוב.";
+"error.1018" = "משהו השתבש. אנא נסה שוב.";
+"error.1019" = "נדרשות שתי כפות הידיים.";
+"error.1020" = "משהו השתבש. אנא נסה שוב.";
+"error.1021" = "משהו השתבש. אנא נסה שוב.";
+"error.1022" = "משהו השתבש. אנא נסה שוב.";
+"error.1023" = "משהו השתבש. אנא נסה שוב.";
+"error.1024" = "משהו השתבש. אנא נסה שוב.";
+"error.1025" = "משהו השתבש. אנא נסה שוב.";
+"error.1026" = "משהו השתבש. אנא נסה שוב.";
+"error.1027" = "משהו השתבש. אנא נסה שוב.";
+"error.1028" = "משהו השתבש. אנא נסה שוב.";
+"error.1029" = "משהו השתבש. אנא נסה שוב.";
+"error.1030" = "תוקף ההפעלה שלך פג. אנא נסה שוב.";
+"error.1031" = "משהו השתבש. אנא נסה שוב.";
+"error.1032" = "לא הצלחנו למצוא את חשבונך. אנא נסה שוב.";
+"error.1033" = "לא הצלחנו למצוא את חשבונך. אנא נסה שוב.";
+"error.1034" = "לא הצלחנו למצוא את חשבונך. אנא נסה שוב.";
+"error.1035" = "כפות ידי המשתמש לא נמצאו.";
+"error.1036" = "הסקירה לא נמצאה.";
+"error.1037" = "לא הצלחנו לאמת את כף ידך. אנא נסה שוב.";
+"error.1038" = "לא הצלחנו לאמת את כף ידך. אנא נסה שוב.";
+"error.1039" = "לא הצלחנו לאמת את כף ידך. אנא נסה שוב.";
+"error.1040" = "לא הצלחנו לחבר אותך. ייתכן שהאימייל שלך עדיין אינו רשום, או שפרטי ההתחברות שגויים.";
+"error.2001" = "משהו השתבש. אנא נסה שוב.";
+"error.2002" = "לא הצלחנו למצוא את חשבונך. אנא נסה שוב.";
+"error.2003" = "שם משתמש לא חוקי.";
+"error.2004" = "האימייל כבר נמצא בשימוש.";
+"error.2005" = "אין שינוי אימייל ממתין.";
+"error.2006" = "קוד אימות לא חוקי.";
+"error.2007" = "תוקף קוד האימות פג.";
+"error.2008" = "חרגת ממגבלת ניסיונות האימות.";
+"error.2009" = "לא הצלחנו למצוא את חשבונך. אנא נסה שוב.";
+"error.2010" = "הסקירה לא נמצאה.";
+"error.2011" = "משהו השתבש. אנא נסה שוב.";
+"error.3000" = "משהו השתבש. אנא נסה שוב.";
+"error.4000" = "משהו השתבש. אנא נסה שוב.";
+"error.5001" = "תוקף ההפעלה פג. אנא התחל מחדש.";
+"error.5002" = "ההפעלה לא נמצאה או שכבר נוצלה.";
+"error.5003" = "אנא נסה שוב.";
+"error.5004" = "כל ניסיונות האימות נוצלו.";
+"error.5005" = "לא הצלחנו לאמת את כף ידך. אנא נסה שוב.";
+"error.5006" = "תוקף ההפעלה פג, אנא נסה שוב.";
+"error.5007" = "תוקף ההפעלה פג, אנא נסה שוב.";
+"error.5008" = "משהו השתבש. אנא פנה לתמיכה.";
+"error.5009" = "משהו השתבש. אנא פנה לתמיכה.";
+"error.5010" = "סקירת החשבון נדחתה לצמיתות.";
+"error.5011" = "רישום החשבון עדיין בבדיקה.";
+"error.5012" = "רישום מחדש מותר רק כאשר סטטוס הסקירה הוא נדחה.";
+"error.5013" = "יותר מדי בקשות. אנא נסה שוב מאוחר יותר.";
+"error.5014" = "משהו השתבש. אנא נסה שוב.";
+"error.5015" = "אנא אמת תחילה את האימייל שלך.";
+"error.5016" = "האימייל כבר אומת עבור הפעלה זו.";
+"error.5017" = "חשבונך מוגבל ולא ניתן להמשיך.";
+"error.5018" = "אימות אימייל אינו זמין עבור הפעלה זו.";
+"error.6101" = "כדי לסרוק את כף ידך, אפשר גישה למצלמה בהגדרות הטלפון שלך.";
+"error.6102" = "לא הצלחנו להשלים את הסריקה. אנא נסה שוב.";
+"error.6103" = "תוקף ההפעלה פג. אנא נסה שוב.";
+"error.6104" = "המשתמש ביטל.";
+"error.6106" = "לא ניתן לטעון את ספריית סריקת כף היד. בדוק את החיבור לאינטרנט ונסה שוב.";
+"error.6107" = "תם הזמן לבדיקת החיות. אנא נסה שוב.";
+"error.6001" = "החיבור נכשל. בדוק את החיבור לאינטרנט ונסה שוב.";
+"error.6002" = "קבלת התגובה ארכה זמן רב מדי. בדוק את החיבור שלך ונסה שוב.";
+"error.6003" = "לא ניתן לאתר את השרתים שלנו. בדוק את הרשת או נסה להחליף רשת.";
+"error.6004" = "שגיאת רשת. אנא בדוק את החיבור שלך ונסה שוב.";
+"error.6005" = "החיבור המאובטח נכשל. בדוק את התאריך והשעה במכשירך.";
+"error.6006" = "השרתים שלנו נתקלים בבעיה. אנא נסה שוב בעוד מספר רגעים.";
+"error.6999" = "משהו השתבש. אנא נסה שוב.";
+
+/* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
+"error.title.connectionLost" = "החיבור אבד";
+"error.body.connectionLost" = "אתה במצב לא מקוון. בדוק את החיבור לאינטרנט.";
+"error.title.rateLimited" = "רק רגע";
+"error.body.rateLimited" = "נסה שוב בעוד רגע.";
+"error.title.sessionExpired" = "בוא ננסה שוב";
+"error.body.sessionExpired" = "תם הזמן להפעלה שלך. בוא ננסה שוב.";
+"error.title.checkAccount" = "בדוק את חשבונך";
+"error.body.checkAccount" = "ייתכן שהניסיון האחרון שלך כבר הצליח.";
+"error.title.cameraPermission" = "אנו זקוקים למצלמה שלך";
+"error.body.cameraPermission" = "הפעל את הגישה למצלמה בהגדרות.";
+"error.title.palmMismatch" = "לא הייתה התאמה";
+"error.body.palmMismatch" = "לא הצלחנו לאמת את כף ידך.";
+"error.title.scanFailed" = "בוא ננסה שוב";
+"error.body.scanFailed" = "עבור לתאורה טובה יותר והחזק את ידך יציבה.";
+"error.title.restrictive" = "לא נוכל להמשיך";
+"error.body.restrictive" = "איננו יכולים להשלים זאת כעת.";
+"error.title.setupIssue" = "אנא צור קשר";
+"error.body.setupIssue" = "לאפליקציה זו יש בעיית הגדרה. אנא פנה לתמיכה.";
+"error.title.serverTransient" = "בוא ננסה שוב";
+"error.body.serverTransient" = "אם הבעיה נמשכת, אנא פנה לתמיכה.";
+"error.title.enrollmentMismatch" = "בוא ננסה שוב";
+"error.body.enrollmentMismatch" = "לא הצלחנו לאמת את סריקות כף היד. אנא נסה שוב בתנאי תאורה טובים יותר";
+"error.cta.tryAgain" = "נסה שוב";
+"error.cta.startOver" = "התחל מחדש";
+"error.cta.checkAccount" = "בדוק את חשבוני";
+"error.cta.openSettings" = "פתח הגדרות";
+"error.cta.contactSupport" = "פנה לתמיכה";
+"error.cta.close" = "סגור";
+
+/* VER-491 inline: field-level email verify errors (2006/2007) */
+"email.inlineCodeInvalid" = "הקוד שגוי.";
+"email.inlineCodeExpired" = "תוקף הקוד פג. בקש קוד חדש.";
+"email.inlineCodeRateLimit" = "יותר מדי ניסיונות. אנא בקש קוד חדש.";
+"email.inlineCodeGeneric" = "האימות נכשל.";

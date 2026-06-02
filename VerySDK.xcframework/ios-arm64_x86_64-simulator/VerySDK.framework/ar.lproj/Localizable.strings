@@ -61,10 +61,6 @@
 "error.6104" = "User cancelled.";
 "error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
 
-/* Success Bottom Sheet Messages */
-"scan.successVerified" = "تم التحقق من كف يدك.";
-"scan.successRegistered" = "تم إعداد بصمة الكف الآن.";
-
 /* Common UI */
 "common.poweredBy" = "Powered by";
 "common.retrying" = "جارٍ إعادة المحاولة…";
