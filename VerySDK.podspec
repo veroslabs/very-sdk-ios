@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = 'VerySDK'
-  s.version          = '1.0.53'
+  s.version          = '1.0.54'
   s.summary          = 'Very SDK — palm biometric verification'
   s.description      = 'Palm biometric verification SDK for iOS.'
   s.homepage         = 'https://very.org'
   s.license          = { :type => 'Commercial', :file => 'LICENSE' }
   s.author           = { 'Veros Inc.' => 'mail@very.org' }
-  s.source           = { :git => 'https://github.com/veroslabs/very-sdk-ios.git', :tag => '1.0.53' }
+  s.source           = { :git => 'https://github.com/veroslabs/very-sdk-ios.git', :tag => '1.0.54' }
   s.platform         = :ios, '13.0'
   s.swift_version    = '5.0'
 

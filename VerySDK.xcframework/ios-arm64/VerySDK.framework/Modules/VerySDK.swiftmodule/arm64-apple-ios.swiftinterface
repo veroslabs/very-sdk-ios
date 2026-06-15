@@ -116,6 +116,7 @@ import _SwiftConcurrencyShims
   @available(*, deprecated, renamed: "isSupported")
   @objc public static func isSupport() -> Swift.Bool
   @objc public static func isSupported() -> Swift.Bool
+  @objc public static func prefetch()
   @objc override dynamic public init()
   @objc deinit
 }
@@ -156,6 +157,11 @@ public struct CameraAdjustmentState {
   @_Concurrency.MainActor(unsafe) public func getCurrentFrameImage() -> UIKit.UIImage?
   @_Concurrency.MainActor(unsafe) open func setNeededSide(_ side: Swift.Int32)
   @_Concurrency.MainActor(unsafe) open func getCurrentFrameNV21() -> NV21Frame?
+  public struct ExposureInfo {
+    public let iso: Swift.Float
+    public let durationSeconds: Swift.Double
+  }
+  @_Concurrency.MainActor(unsafe) open func currentExposure() -> CameraPreviewView.ExposureInfo?
   @_Concurrency.MainActor(unsafe) open func captureHiresPhoto(completion: @escaping (Foundation.Data?) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) @objc public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: (any Swift.Error)?)
   @_Concurrency.MainActor(unsafe) open func refocus()

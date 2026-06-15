@@ -99,8 +99,8 @@ Alternatively, drop a matching `libPalmAPISaas.so` into your **app's** `src/main
 
 | Asset                                | Primary                                       | Backup                                          |
 |--------------------------------------|-----------------------------------------------|-------------------------------------------------|
-| Android `libPalmAPISaas.so` per ABI  | `assets.very.org/sdk/v2/<abi>/libPalmAPISaas.so` | `r2.assets.very.org/sdk/v2/<abi>/libPalmAPISaas.so` |
-| iOS `packed_data.bin`                | `assets.very.org/sdk/v2/packed_data.bin`      | `r2.assets.very.org/sdk/v2/sdk_packed_data.bin` |
+| Android `libPalmAPISaas.so` per ABI  | `assets.very.org/sdk/v3/<abi>/libPalmAPISaas.so` | `r2.assets.very.org/sdk/v3/<abi>/libPalmAPISaas.so` |
+| iOS `packed_data.bin`                | `assets.very.org/sdk/v3/packed_data.bin`      | `r2.assets.very.org/sdk/v3/packed_data.bin` |
 
 ## Quick Start
 

@@ -323,6 +323,7 @@ SWIFT_CLASS("_TtC7VerySDK17CameraPreviewView")
 
 
 
+
 @class NSString;
 enum VeryLivenessMode : NSInteger;
 
@@ -454,6 +455,13 @@ SWIFT_CLASS("_TtC7VerySDK7VerySDK")
 /// Check if SDK is supported on this device.
 + (BOOL)isSupport SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("", "isSupported");
 + (BOOL)isSupported SWIFT_WARN_UNUSED_RESULT;
+/// Warm up the palm-scan model download ahead of <code>authenticate()</code>.
+/// Fire-and-forget and safe to call from any thread; a no-op when the
+/// model is already bundled or cached. Call it as early as possible —
+/// e.g. at app launch, or in an App Clip’s entry point, where the cache
+/// starts cold on most invocations — so the download runs while the user
+/// is still on consent/instructions instead of blocking the scan page.
++ (void)prefetch;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -824,6 +832,7 @@ SWIFT_CLASS("_TtC7VerySDK17CameraPreviewView")
 
 
 
+
 @class NSString;
 enum VeryLivenessMode : NSInteger;
 
@@ -955,6 +964,13 @@ SWIFT_CLASS("_TtC7VerySDK7VerySDK")
 /// Check if SDK is supported on this device.
 + (BOOL)isSupport SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("", "isSupported");
 + (BOOL)isSupported SWIFT_WARN_UNUSED_RESULT;
+/// Warm up the palm-scan model download ahead of <code>authenticate()</code>.
+/// Fire-and-forget and safe to call from any thread; a no-op when the
+/// model is already bundled or cached. Call it as early as possible —
+/// e.g. at app launch, or in an App Clip’s entry point, where the cache
+/// starts cold on most invocations — so the download runs while the user
+/// is still on consent/instructions instead of blocking the scan page.
++ (void)prefetch;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
