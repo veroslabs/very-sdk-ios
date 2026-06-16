@@ -142,11 +142,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4QYlGz21Du9+piRJCLRpnwvvr34=
+		VUyLqIgaEF5gcD2mHOumAERlyCg=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		QGUCQmJg9MJmbnmqKB7Q2WNil6s=
+		W/iYJHUOCJIsYzK8vBGdklXg2M4=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -162,11 +162,11 @@
 		</data>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PTsKCAc1bETDSIjuk2kM375+BHw=
+		nb85ZdAL1lN0kuOVam46AFFy6ow=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		QGUCQmJg9MJmbnmqKB7Q2WNil6s=
+		W/iYJHUOCJIsYzK8vBGdklXg2M4=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uJOW+mt+kqHulgDWQwuHXSTToXw=
+		DziPs0ecBD7h7Dr8a/uw9NCG1cY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -770,7 +770,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Ib93F3+FU6PNfitOSYQLH7dVP90QB5At6UwCw56Q3I=
+			G+csO8jz4PSAliOox/xovRD1qHAZ08t6Og8xDYo+YYs=
 			</data>
 		</dict>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -798,14 +798,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aqvMkC9S+COy89A0yhf6oZmwkCvfvYWVCkliyjEASP4=
+			RfC+VTssXkNxQsAz80tj6lVxB4G0157oEw5i++fPPqM=
 			</data>
 		</dict>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Ib93F3+FU6PNfitOSYQLH7dVP90QB5At6UwCw56Q3I=
+			G+csO8jz4PSAliOox/xovRD1qHAZ08t6Og8xDYo+YYs=
 			</data>
 		</dict>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -833,7 +833,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jlPEbxTVJ4nEnSs+zxLj82ectqv7G8+sL5GRCJxuSoY=
+			NpD8/hCZQDVk5iZ2IAEQDt2hBygKG/c+QYGcqeY85dY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -9949,126 +9949,126 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "StringLiteral",
-      "offset": 1596,
+      "offset": 2150,
       "length": 4,
-      "value": "\"v3\""
+      "value": "\"v4\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "StringLiteral",
-      "offset": 2244,
+      "offset": 2798,
       "length": 61,
       "value": "\"https:\/\/assets.very.org\/sdk\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "StringLiteral",
-      "offset": 2288,
+      "offset": 2842,
       "length": 1,
       "value": "\"\/packed_data.bin\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "StringLiteral",
-      "offset": 2329,
+      "offset": 2883,
       "length": 64,
       "value": "\"https:\/\/r2.assets.very.org\/sdk\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "StringLiteral",
-      "offset": 2376,
+      "offset": 2930,
       "length": 1,
       "value": "\"\/packed_data.bin\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "StringLiteral",
-      "offset": 2440,
+      "offset": 2994,
       "length": 10,
       "value": "\"very_sdk\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "StringLiteral",
-      "offset": 2494,
+      "offset": 3048,
       "length": 13,
       "value": "\"packed_data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "StringLiteral",
-      "offset": 2547,
+      "offset": 3101,
       "length": 17,
       "value": "\"packed_data.bin\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "StringLiteral",
-      "offset": 2616,
+      "offset": 3170,
       "length": 22,
       "value": "\"VerySDK_BundledModel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3082,
+      "offset": 3636,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3134,
+      "offset": 3688,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3412,
+      "offset": 3966,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "StringLiteral",
-      "offset": 4721,
+      "offset": 5598,
       "length": 66,
       "value": "\"513139e16ab5c554762ab76ab831b6c326cd8de80528a035d6e6d0d0605a4087\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5149,
+      "offset": 6026,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "StringLiteral",
-      "offset": 5416,
+      "offset": 6293,
       "length": 33,
       "value": "\"com.very.sdk.palm-model-manager\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5539,
+      "offset": 6416,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5581,
+      "offset": 6458,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/utils\/PalmModelManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5617,
+      "offset": 6494,
       "length": 5,
       "value": "false"
     },
