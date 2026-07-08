@@ -82,6 +82,7 @@
 "scan.connectDots" = "Koppla ihop punkterna";
 "scan.almostDone" = "Nästan klart";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Support";
 "scan.registeringPalms" = "Registrerar handflator";
 "scan.verifyingPalm" = "Verifierar handflata";
 "scan.successTitleVerified" = "Verifierad";
@@ -102,9 +103,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Kontot är begränsat";
-"accountRestricted.message" = "Vi har upptäckt aktivitet som kan bryta mot våra användarvillkor. Ditt konto har begränsats medan vi granskar det.\n\nOm du tror att detta är ett fel, kontakta vårt supportteam.";
-"accountRestricted.getInTouch" = "Kontakta oss";
-"accountRestricted.cancel" = "Avbryt";
+"accountRestricted.message" = "Vi har upptäckt aktivitet som bryter mot våra användarvillkor.\n\nOm du tror att det här är ett misstag, kontakta supporten.";
+"accountRestricted.dismiss" = "Stäng";
+"accountRestricted.contactSupport" = "Kontakta support";
+
+/* Account Pending */
+"accountPending.title" = "Vi slutför din registrering";
+"accountPending.message" = "Du kan lämna den här skärmen och komma tillbaka senare.";
+"accountPending.dismiss" = "Stäng";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Något gick fel";

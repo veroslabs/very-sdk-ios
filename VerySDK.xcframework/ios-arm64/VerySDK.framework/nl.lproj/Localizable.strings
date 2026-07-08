@@ -82,6 +82,7 @@
 "scan.connectDots" = "Verbind de punten";
 "scan.almostDone" = "Bijna klaar";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Support";
 "scan.registeringPalms" = "Handpalmen registreren";
 "scan.verifyingPalm" = "Handpalm verifiëren";
 "scan.successTitleVerified" = "Geverifieerd";
@@ -102,9 +103,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Account beperkt";
-"accountRestricted.message" = "We hebben activiteit gedetecteerd die mogelijk in strijd is met onze servicevoorwaarden. Uw account is beperkt terwijl we het onderzoeken.\n\nAls u denkt dat dit een fout is, neem dan contact op met ons ondersteuningsteam.";
-"accountRestricted.getInTouch" = "Neem contact op";
-"accountRestricted.cancel" = "Annuleren";
+"accountRestricted.message" = "We hebben activiteit gedetecteerd die onze servicevoorwaarden schendt.\n\nAls je denkt dat dit een fout is, neem dan contact op met support.";
+"accountRestricted.dismiss" = "Sluiten";
+"accountRestricted.contactSupport" = "Contact opnemen met support";
+
+/* Account Pending */
+"accountPending.title" = "We ronden je registratie af";
+"accountPending.message" = "Je kunt dit scherm verlaten en later terugkomen.";
+"accountPending.dismiss" = "Sluiten";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Er is iets misgegaan";

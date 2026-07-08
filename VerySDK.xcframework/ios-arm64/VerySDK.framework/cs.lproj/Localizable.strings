@@ -84,6 +84,7 @@
 "scan.connectDots" = "Spojte body";
 "scan.almostDone" = "Skoro hotovo";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Podpora";
 "scan.registeringPalms" = "Registrace dlaní";
 "scan.verifyingPalm" = "Ověřování dlaně";
 "scan.successTitleVerified" = "Ověřeno";
@@ -104,9 +105,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Účet omezen";
-"accountRestricted.message" = "Zjistili jsme aktivitu, která může porušovat naše podmínky služby. Váš účet byl omezen, zatímco jej prověřujeme.\n\nPokud se domníváte, že jde o chybu, kontaktujte náš tým podpory.";
-"accountRestricted.getInTouch" = "Kontaktujte nás";
-"accountRestricted.cancel" = "Zrušit";
+"accountRestricted.message" = "Zjistili jsme aktivitu, která porušuje naše podmínky služby.\n\nPokud se domníváte, že jde o chybu, kontaktujte podporu.";
+"accountRestricted.dismiss" = "Zavřít";
+"accountRestricted.contactSupport" = "Kontaktovat podporu";
+
+/* Account Pending */
+"accountPending.title" = "Dokončujeme vaši registraci";
+"accountPending.message" = "Tuto obrazovku můžete opustit a vrátit se později.";
+"accountPending.dismiss" = "Zavřít";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Něco se pokazilo";

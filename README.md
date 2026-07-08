@@ -228,6 +228,7 @@ Used with `VeryAILiveness.check` (the liveness-only artifact — `VeryAILiveness
 | `code`        | String  | `"success"`, `"cancelled"`, or `"error"`                       |
 | `userId`      | String  | User's external ID (returned on success)                       |
 | `signedToken` | String? | Ed25519-signed JWT proving the result                          |
+| `userStatus`  | String? | Consolidated account status: `"approved"`, `"pending"`, `"rejected"`, `"restricted"`, or `"unknown"`. `nil` when not applicable |
 | `error`       | String? | Error code (e.g. `"9004"` for user cancelled)                  |
 | `errorMessage`| String? | Human-readable error description                               |
 

@@ -340,6 +340,10 @@ SWIFT_CLASS("_TtC7VerySDK10VeryConfig")
 /// request/response bodies (containing session tokens, emails, etc.) to the
 /// host app’s console. Errors always log regardless of this flag.
 @property (nonatomic) BOOL debugLogging;
+/// Partner-supplied session/transaction id (distinct from <code>userId</code>/externalUserId),
+/// echoed back on the registration dashboard so partners can join our rows to
+/// their own records. Optional. Set via property assignment after init.
+@property (nonatomic, copy) NSString * _Nullable clientReferenceId;
 /// Default initializer for Objective-C compatibility
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 /// Convenience initializer with all parameters
@@ -389,7 +393,23 @@ typedef SWIFT_ENUM(NSInteger, VeryLivenessMode, open) {
   VeryLivenessModeTouch = 4,
 };
 
-/// How the SDK views are presented
+/// How the SDK views are presented on iOS.
+/// NOTE: presentation styles are platform-specific and intentionally do NOT
+/// map 1:1 to Android. These cases describe the iOS container model and have
+/// no direct Android counterpart for <code>push</code> / <code>embed</code> (Android uses an
+/// Activity model). Rough cross-platform mapping:
+/// <ul>
+///   <li>
+///     modal -> Android BOTTOM_SHEET (both are bottom card / sheet style)
+///   </li>
+///   <li>
+///     push  -> iOS only (no Android equivalent)
+///   </li>
+///   <li>
+///     embed -> iOS only (no Android equivalent)
+///     Android’s FULL_SCREEN has no iOS enum equivalent today.
+///   </li>
+/// </ul>
 typedef SWIFT_ENUM(NSInteger, VeryPresentationStyle, open) {
 /// Modal sheet (default) — pageSheet with blur background
   VeryPresentationStyleModal = 0,
@@ -409,6 +429,12 @@ SWIFT_CLASS("_TtC7VerySDK10VeryResult")
 @property (nonatomic, readonly, copy) NSString * _Nullable signedToken;
 @property (nonatomic, readonly, copy) NSString * _Nullable error;
 @property (nonatomic, readonly, copy) NSString * _Nullable errorMessage;
+/// Consolidated partner-facing account status for the result:
+/// “approved”, “pending” (enrolled but still under review), “rejected”,
+/// “restricted”, or “unknown”. nil when not applicable (errors / cancels
+/// that carry no status). The signed token does not carry this, so it’s
+/// surfaced here.
+@property (nonatomic, copy) NSString * _Nullable userStatus;
 @property (nonatomic, readonly) BOOL isSuccess;
 /// Typed error — use this instead of the raw <code>error</code> string
 @property (nonatomic, readonly) enum VeryErrorType errorType;

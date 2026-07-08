@@ -82,6 +82,7 @@
 "scan.connectDots" = "Nối các chấm";
 "scan.almostDone" = "Sắp xong";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Hỗ trợ";
 "scan.registeringPalms" = "Đang đăng ký lòng bàn tay";
 "scan.verifyingPalm" = "Đang xác minh lòng bàn tay";
 "scan.successTitleVerified" = "Đã xác minh";
@@ -102,9 +103,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Tài khoản bị hạn chế";
-"accountRestricted.message" = "Chúng tôi đã phát hiện hoạt động có thể vi phạm điều khoản dịch vụ của chúng tôi. Tài khoản của bạn đã bị hạn chế trong khi chúng tôi xem xét.\n\nNếu bạn cho rằng đây là lỗi, vui lòng liên hệ đội ngũ hỗ trợ của chúng tôi.";
-"accountRestricted.getInTouch" = "Liên hệ với chúng tôi";
-"accountRestricted.cancel" = "Hủy";
+"accountRestricted.message" = "Chúng tôi phát hiện hoạt động vi phạm điều khoản dịch vụ của chúng tôi.\n\nNếu bạn cho rằng đây là nhầm lẫn, hãy liên hệ bộ phận hỗ trợ.";
+"accountRestricted.dismiss" = "Đóng";
+"accountRestricted.contactSupport" = "Liên hệ bộ phận hỗ trợ";
+
+/* Account Pending */
+"accountPending.title" = "Chúng tôi đang hoàn tất đăng ký của bạn";
+"accountPending.message" = "Bạn có thể rời khỏi màn hình này và quay lại kiểm tra sau.";
+"accountPending.dismiss" = "Đóng";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Đã xảy ra lỗi";

@@ -84,6 +84,7 @@
 "scan.connectDots" = "نقاط را به هم وصل کنید";
 "scan.almostDone" = "تقریباً تمام شد";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "پشتیبانی";
 "scan.registeringPalms" = "در حال ثبت کف دست‌ها";
 "scan.verifyingPalm" = "در حال تأیید کف دست";
 "scan.successTitleVerified" = "تأیید شد";
@@ -104,9 +105,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "حساب محدود شده";
-"accountRestricted.message" = "ما فعالیتی را شناسایی کرده‌ایم که ممکن است شرایط خدمات ما را نقض کند. حساب شما در حالی که در حال بررسی آن هستیم محدود شده است.\n\nاگر فکر می‌کنید این یک خطا است، با تیم پشتیبانی ما تماس بگیرید.";
-"accountRestricted.getInTouch" = "تماس با ما";
-"accountRestricted.cancel" = "لغو";
+"accountRestricted.message" = "فعالیتی را شناسایی کردیم که شرایط خدمات ما را نقض می‌کند.\n\nاگر فکر می‌کنید این یک اشتباه است، با پشتیبانی تماس بگیرید.";
+"accountRestricted.dismiss" = "بستن";
+"accountRestricted.contactSupport" = "تماس با پشتیبانی";
+
+/* Account Pending */
+"accountPending.title" = "در حال تکمیل ثبت‌نام شما هستیم";
+"accountPending.message" = "می‌توانید این صفحه را ببندید و بعداً دوباره بررسی کنید.";
+"accountPending.dismiss" = "بستن";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "مشکلی پیش آمد";

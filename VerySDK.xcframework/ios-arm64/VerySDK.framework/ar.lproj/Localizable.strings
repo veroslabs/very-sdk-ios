@@ -78,6 +78,7 @@
 "scan.connectDots" = "صل النقاط";
 "scan.almostDone" = "أوشك على الانتهاء";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "الدعم";
 "scan.registeringPalms" = "جارٍ تسجيل الكفوف";
 "scan.verifyingPalm" = "جارٍ التحقق من الكف";
 "scan.successTitleVerified" = "تم التحقق";
@@ -98,9 +99,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "الحساب مقيّد";
-"accountRestricted.message" = "اكتشفنا نشاطًا قد ينتهك شروط الخدمة الخاصة بنا. تم تقييد حسابك أثناء مراجعتنا له.\n\nإذا كنت تعتقد أن هذا خطأ، تواصل مع فريق الدعم لدينا.";
-"accountRestricted.getInTouch" = "تواصل معنا";
-"accountRestricted.cancel" = "إلغاء";
+"accountRestricted.message" = "رصدنا نشاطًا ينتهك شروط الخدمة.\n\nإذا كنت تعتقد أن هذا خطأ، فتواصل مع الدعم.";
+"accountRestricted.dismiss" = "إغلاق";
+"accountRestricted.contactSupport" = "تواصل مع الدعم";
+
+/* Account Pending */
+"accountPending.title" = "نُكمل عملية تسجيلك";
+"accountPending.message" = "يمكنك مغادرة هذه الشاشة والعودة للتحقق لاحقًا.";
+"accountPending.dismiss" = "إغلاق";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "حدث خطأ ما";

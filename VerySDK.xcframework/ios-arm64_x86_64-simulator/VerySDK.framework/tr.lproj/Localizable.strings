@@ -82,6 +82,7 @@
 "scan.connectDots" = "Noktaları birleştirin";
 "scan.almostDone" = "Neredeyse bitti";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Destek";
 "scan.registeringPalms" = "Avuç içleri kaydediliyor";
 "scan.verifyingPalm" = "Avuç içi doğrulanıyor";
 "scan.successTitleVerified" = "Doğrulandı";
@@ -102,9 +103,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Hesap kısıtlandı";
-"accountRestricted.message" = "Hizmet koşullarımızı ihlal edebilecek bir etkinlik tespit ettik. Hesabınız inceleme sürecinde kısıtlanmıştır.\n\nBunun bir hata olduğunu düşünüyorsanız, destek ekibimizle iletişime geçin.";
-"accountRestricted.getInTouch" = "Bize ulaşın";
-"accountRestricted.cancel" = "İptal";
+"accountRestricted.message" = "Hizmet şartlarımızı ihlal eden bir etkinlik tespit ettik.\n\nBunun bir hata olduğunu düşünüyorsan destekle iletişime geç.";
+"accountRestricted.dismiss" = "Kapat";
+"accountRestricted.contactSupport" = "Destekle iletişime geç";
+
+/* Account Pending */
+"accountPending.title" = "Kaydını tamamlıyoruz";
+"accountPending.message" = "Bu ekrandan ayrılıp daha sonra tekrar kontrol edebilirsin.";
+"accountPending.dismiss" = "Kapat";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Bir sorun oluştu";

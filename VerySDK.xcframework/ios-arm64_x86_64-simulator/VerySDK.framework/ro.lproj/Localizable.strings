@@ -84,6 +84,7 @@
 "scan.connectDots" = "Conectați punctele";
 "scan.almostDone" = "Aproape gata";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Asistență";
 "scan.registeringPalms" = "Înregistrare palme";
 "scan.verifyingPalm" = "Verificare palmă";
 "scan.successTitleVerified" = "Verificat";
@@ -104,9 +105,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Cont restricționat";
-"accountRestricted.message" = "Am detectat activitate care ar putea încălca termenii noștri de utilizare. Contul dvs. a fost restricționat în timp ce îl analizăm.\n\nDacă credeți că aceasta este o eroare, contactați echipa noastră de asistență.";
-"accountRestricted.getInTouch" = "Contactați-ne";
-"accountRestricted.cancel" = "Anulează";
+"accountRestricted.message" = "Am detectat activitate care încalcă termenii noștri de utilizare.\n\nDacă crezi că este o eroare, contactează asistența.";
+"accountRestricted.dismiss" = "Închide";
+"accountRestricted.contactSupport" = "Contactează asistența";
+
+/* Account Pending */
+"accountPending.title" = "Îți finalizăm înregistrarea";
+"accountPending.message" = "Poți părăsi acest ecran și poți reveni mai târziu.";
+"accountPending.dismiss" = "Închide";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Ceva nu a mers bine";

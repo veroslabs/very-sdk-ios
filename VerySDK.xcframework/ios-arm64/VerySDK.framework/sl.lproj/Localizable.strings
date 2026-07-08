@@ -84,6 +84,7 @@
 "scan.connectDots" = "Povežite pike";
 "scan.almostDone" = "Skoraj končano";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Podpora";
 "scan.registeringPalms" = "Registriranje dlani";
 "scan.verifyingPalm" = "Preverjanje dlani";
 "scan.successTitleVerified" = "Preverjeno";
@@ -104,9 +105,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Račun je omejen";
-"accountRestricted.message" = "Zaznali smo dejavnost, ki bi lahko kršila naše pogoje uporabe. Vaš račun je omejen, medtem ko ga pregledujemo.\n\nČe menite, da gre za napako, se obrnite na našo ekipo za podporo.";
-"accountRestricted.getInTouch" = "Stopite v stik";
-"accountRestricted.cancel" = "Prekliči";
+"accountRestricted.message" = "Zaznali smo dejavnost, ki krši naše pogoje storitve.\n\nČe menite, da gre za napako, stopite v stik s podporo.";
+"accountRestricted.dismiss" = "Zapri";
+"accountRestricted.contactSupport" = "Stik s podporo";
+
+/* Account Pending */
+"accountPending.title" = "Dokončujemo vašo registracijo";
+"accountPending.message" = "Ta zaslon lahko zapustite in se vrnete pozneje.";
+"accountPending.dismiss" = "Zapri";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Nekaj je šlo narobe";

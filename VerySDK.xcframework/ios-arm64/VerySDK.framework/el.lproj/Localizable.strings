@@ -84,6 +84,7 @@
 "scan.connectDots" = "Ενώστε τα σημεία";
 "scan.almostDone" = "Σχεδόν έτοιμο";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Υποστήριξη";
 "scan.registeringPalms" = "Εγγραφή παλαμών";
 "scan.verifyingPalm" = "Επαλήθευση παλάμης";
 "scan.successTitleVerified" = "Επαληθεύτηκε";
@@ -104,9 +105,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Ο λογαριασμός περιορίστηκε";
-"accountRestricted.message" = "Εντοπίσαμε δραστηριότητα που ενδέχεται να παραβιάζει τους όρους χρήσης μας. Ο λογαριασμός σας έχει περιοριστεί κατά τη διάρκεια της εξέτασης.\n\nΕάν πιστεύετε ότι πρόκειται για σφάλμα, επικοινωνήστε με την ομάδα υποστήριξής μας.";
-"accountRestricted.getInTouch" = "Επικοινωνήστε μαζί μας";
-"accountRestricted.cancel" = "Ακύρωση";
+"accountRestricted.message" = "Εντοπίσαμε δραστηριότητα που παραβιάζει τους όρους χρήσης μας.\n\nΑν πιστεύετε ότι πρόκειται για σφάλμα, επικοινωνήστε με την υποστήριξη.";
+"accountRestricted.dismiss" = "Κλείσιμο";
+"accountRestricted.contactSupport" = "Επικοινωνία με την υποστήριξη";
+
+/* Account Pending */
+"accountPending.title" = "Ολοκληρώνουμε την εγγραφή σας";
+"accountPending.message" = "Μπορείτε να φύγετε από αυτήν την οθόνη και να επιστρέψετε αργότερα.";
+"accountPending.dismiss" = "Κλείσιμο";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Κάτι πήγε στραβά";

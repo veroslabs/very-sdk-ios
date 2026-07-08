@@ -84,6 +84,7 @@
 "scan.connectDots" = "ලක්ෂ්‍ය සම්බන්ධ කරන්න";
 "scan.almostDone" = "බොහෝ දුරට සම්පූර්ණයි";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "සහාය";
 "scan.registeringPalms" = "අත්ල ලියාපදිංචි කරමින්";
 "scan.verifyingPalm" = "අත්ල සත්‍යාපනය කරමින්";
 "scan.successTitleVerified" = "සත්‍යාපිතයි";
@@ -104,9 +105,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "ගිණුම සීමා කර ඇත";
-"accountRestricted.message" = "අපගේ සේවා කොන්දේසි උල්ලංඝනය කළ හැකි ක්‍රියාකාරකම් අපි හඳුනාගෙන ඇත. අපි එය සමාලෝචනය කරන අතරතුර ඔබේ ගිණුම සීමා කර ඇත.\n\nමෙය වැරදියක් යැයි ඔබ විශ්වාස කරන්නේ නම්, අපගේ සහාය කණ්ඩායම හා සම්බන්ධ වන්න.";
-"accountRestricted.getInTouch" = "අප හා සම්බන්ධ වන්න";
-"accountRestricted.cancel" = "අවලංගු කරන්න";
+"accountRestricted.message" = "අපගේ සේවා කොන්දේසි උල්ලංඝනය කරන ක්‍රියාකාරකම් අපට හඳුනාගත හැකි විය.\n\nමෙය වැරැද්දක් යැයි ඔබ සිතන්නේ නම්, සහාය අමතන්න.";
+"accountRestricted.dismiss" = "වසන්න";
+"accountRestricted.contactSupport" = "සහාය අමතන්න";
+
+/* Account Pending */
+"accountPending.title" = "අපි ඔබගේ ලියාපදිංචිය සම්පූර්ණ කරමින් සිටිමු";
+"accountPending.message" = "ඔබට මෙම තිරයෙන් ඉවත් වී පසුව නැවත පරීක්ෂා කළ හැකිය.";
+"accountPending.dismiss" = "වසන්න";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "යමක් වැරදී ඇත";

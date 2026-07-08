@@ -84,6 +84,7 @@
 "scan.connectDots" = "Nöqtələri birləşdirin";
 "scan.almostDone" = "Demək olar ki hazırdır";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Dəstək";
 "scan.registeringPalms" = "Ovuclar qeydiyyat olunur";
 "scan.verifyingPalm" = "Ovuc doğrulanır";
 "scan.successTitleVerified" = "Təsdiqləndi";
@@ -104,9 +105,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Hesab məhdudlaşdırılıb";
-"accountRestricted.message" = "Xidmət şərtlərimizi poza biləcək fəaliyyət aşkar etdik. Hesabınız araşdırılarkən məhdudlaşdırılıb.\n\nBunun səhv olduğunu düşünürsünüzsə, dəstək komandamızla əlaqə saxlayın.";
-"accountRestricted.getInTouch" = "Əlaqə saxlayın";
-"accountRestricted.cancel" = "Ləğv et";
+"accountRestricted.message" = "Xidmət şərtlərimizi pozan fəaliyyət aşkar etdik.\n\nBunun səhv olduğunu düşünürsünüzsə, dəstəklə əlaqə saxlayın.";
+"accountRestricted.dismiss" = "Bağla";
+"accountRestricted.contactSupport" = "Dəstəklə əlaqə";
+
+/* Account Pending */
+"accountPending.title" = "Qeydiyyatınızı tamamlayırıq";
+"accountPending.message" = "Bu ekranı tərk edib sonra yenidən yoxlaya bilərsiniz.";
+"accountPending.dismiss" = "Bağla";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Nəsə səhv getdi";

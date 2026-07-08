@@ -82,6 +82,7 @@
 "scan.connectDots" = "点をつなげる";
 "scan.almostDone" = "もう少しです";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "サポート";
 "scan.registeringPalms" = "手のひらを登録中";
 "scan.verifyingPalm" = "手のひらを認証中";
 "scan.successTitleVerified" = "認証完了";
@@ -102,9 +103,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "アカウントが制限されています";
-"accountRestricted.message" = "利用規約に違反する可能性のあるアクティビティが検出されました。確認中のため、アカウントが制限されています。\n\nこれが誤りだと思われる場合は、サポートチームにお問い合わせください。";
-"accountRestricted.getInTouch" = "お問い合わせ";
-"accountRestricted.cancel" = "キャンセル";
+"accountRestricted.message" = "利用規約に違反するアクティビティが検出されました。\n\nこれが誤りだと思われる場合は、サポートにお問い合わせください。";
+"accountRestricted.dismiss" = "閉じる";
+"accountRestricted.contactSupport" = "サポートに問い合わせる";
+
+/* Account Pending */
+"accountPending.title" = "登録を完了しています";
+"accountPending.message" = "この画面を離れて、後で確認することができます。";
+"accountPending.dismiss" = "閉じる";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "問題が発生しました";

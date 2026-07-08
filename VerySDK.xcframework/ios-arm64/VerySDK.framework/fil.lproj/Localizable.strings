@@ -84,6 +84,7 @@
 "scan.connectDots" = "Ikonekta ang mga tuldok";
 "scan.almostDone" = "Halos tapos na";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Suporta";
 "scan.registeringPalms" = "Inirerehistro ang mga palad";
 "scan.verifyingPalm" = "Vine-verify ang palad";
 "scan.successTitleVerified" = "Na-verify";
@@ -104,9 +105,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Pinaghihigpitan ang account";
-"accountRestricted.message" = "Nakakita kami ng aktibidad na maaaring lumabag sa aming mga tuntunin ng serbisyo. Ang iyong account ay pinaghihigpitan habang sinusuri namin ito.\n\nKung sa tingin mo ito ay isang pagkakamali, makipag-ugnayan sa aming support team.";
-"accountRestricted.getInTouch" = "Makipag-ugnayan";
-"accountRestricted.cancel" = "Kanselahin";
+"accountRestricted.message" = "May natukoy kaming aktibidad na lumalabag sa aming mga tuntunin ng serbisyo.\n\nKung sa tingin mo ay isa itong pagkakamali, makipag-ugnayan sa suporta.";
+"accountRestricted.dismiss" = "Isara";
+"accountRestricted.contactSupport" = "Makipag-ugnayan sa suporta";
+
+/* Account Pending */
+"accountPending.title" = "Tinatapos namin ang iyong rehistrasyon";
+"accountPending.message" = "Maaari mong iwan ang screen na ito at bumalik mamaya.";
+"accountPending.dismiss" = "Isara";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "May naganap na error";

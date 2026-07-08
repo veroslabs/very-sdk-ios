@@ -84,6 +84,7 @@
 "scan.connectDots" = "Нүктелерді қосыңыз";
 "scan.almostDone" = "Аяқталуға жақын";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Қолдау";
 "scan.registeringPalms" = "Алақандар тіркелуде";
 "scan.verifyingPalm" = "Алақан расталуда";
 "scan.successTitleVerified" = "Расталды";
@@ -104,9 +105,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Аккаунт шектелген";
-"accountRestricted.message" = "Біз қызмет көрсету шарттарын бұзуы мүмкін әрекетті анықтадық. Тексеру кезінде аккаунтыңыз шектелді.\n\nЕгер бұл қате деп ойласаңыз, қолдау тобымызбен хабарласыңыз.";
-"accountRestricted.getInTouch" = "Бізбен байланысу";
-"accountRestricted.cancel" = "Бас тарту";
+"accountRestricted.message" = "Қызмет көрсету шарттарын бұзатын әрекетті анықтадық.\n\nБұл қате деп ойласаңыз, қолдау қызметіне хабарласыңыз.";
+"accountRestricted.dismiss" = "Жабу";
+"accountRestricted.contactSupport" = "Қолдау қызметіне хабарласу";
+
+/* Account Pending */
+"accountPending.title" = "Тіркеуіңізді аяқтап жатырмыз";
+"accountPending.message" = "Бұл экраннан шығып, кейінірек қайта тексере аласыз.";
+"accountPending.dismiss" = "Жабу";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Бірдеңе дұрыс болмады";

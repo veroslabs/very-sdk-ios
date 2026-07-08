@@ -84,6 +84,7 @@
 "scan.connectDots" = "Forbind prikkerne";
 "scan.almostDone" = "Næsten færdig";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Support";
 "scan.registeringPalms" = "Registrerer håndflader";
 "scan.verifyingPalm" = "Verificerer håndflade";
 "scan.successTitleVerified" = "Bekræftet";
@@ -104,9 +105,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Konto begrænset";
-"accountRestricted.message" = "Vi har registreret aktivitet, der kan overtræde vores servicevilkår. Din konto er blevet begrænset, mens vi gennemgår den.\n\nHvis du mener, dette er en fejl, kontakt venligst vores supportteam.";
-"accountRestricted.getInTouch" = "Kontakt os";
-"accountRestricted.cancel" = "Annuller";
+"accountRestricted.message" = "Vi har registreret aktivitet, der overtræder vores servicevilkår.\n\nHvis du mener, det er en fejl, så kontakt support.";
+"accountRestricted.dismiss" = "Luk";
+"accountRestricted.contactSupport" = "Kontakt support";
+
+/* Account Pending */
+"accountPending.title" = "Vi fuldfører din registrering";
+"accountPending.message" = "Du kan forlade denne skærm og vende tilbage senere.";
+"accountPending.dismiss" = "Luk";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Noget gik galt";

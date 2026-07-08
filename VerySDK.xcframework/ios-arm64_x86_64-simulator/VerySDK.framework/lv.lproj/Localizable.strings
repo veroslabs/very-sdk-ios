@@ -84,6 +84,7 @@
 "scan.connectDots" = "Savienojiet punktus";
 "scan.almostDone" = "Gandrīz gatavs";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Atbalsts";
 "scan.registeringPalms" = "Plaukstu reģistrēšana";
 "scan.verifyingPalm" = "Plaukstas verificēšana";
 "scan.successTitleVerified" = "Verificēts";
@@ -104,9 +105,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Konts ierobežots";
-"accountRestricted.message" = "Mēs esam konstatējuši darbību, kas var pārkāpt mūsu pakalpojumu noteikumus. Jūsu konts ir ierobežots, kamēr mēs to pārskatām.\n\nJa uzskatāt, ka tā ir kļūda, sazinieties ar mūsu atbalsta komandu.";
-"accountRestricted.getInTouch" = "Sazināties ar mums";
-"accountRestricted.cancel" = "Atcelt";
+"accountRestricted.message" = "Mēs konstatējām darbību, kas pārkāpj mūsu pakalpojumu noteikumus.\n\nJa uzskatāt, ka tā ir kļūda, sazinieties ar atbalstu.";
+"accountRestricted.dismiss" = "Aizvērt";
+"accountRestricted.contactSupport" = "Sazināties ar atbalstu";
+
+/* Account Pending */
+"accountPending.title" = "Mēs pabeidzam jūsu reģistrāciju";
+"accountPending.message" = "Jūs varat pamest šo ekrānu un atgriezties vēlāk.";
+"accountPending.dismiss" = "Aizvērt";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Kaut kas nogāja greizi";

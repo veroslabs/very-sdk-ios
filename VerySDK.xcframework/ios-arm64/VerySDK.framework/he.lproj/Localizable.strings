@@ -63,6 +63,7 @@
 "scan.connectDots" = "חבר את הנקודות";
 "scan.almostDone" = "כמעט סיימת";
 "scan.livenessThanks" = "תודה על האימות";
+"scan.support" = "תמיכה";
 "scan.registeringPalms" = "רושם כפות ידיים";
 "scan.verifyingPalm" = "מאמת כף יד";
 "scan.successTitleVerified" = "אומת";
@@ -80,9 +81,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "החשבון מוגבל";
-"accountRestricted.message" = "זיהינו פעילות שעלולה להפר את תנאי השירות שלנו. חשבונך הוגבל בזמן שאנו בודקים אותו.\n\nאם אתה סבור שמדובר בטעות, פנה לצוות התמיכה שלנו.";
-"accountRestricted.getInTouch" = "צור קשר";
-"accountRestricted.cancel" = "ביטול";
+"accountRestricted.message" = "זיהינו פעילות שמפרה את תנאי השירות שלנו.\n\nאם לדעתך מדובר בטעות, פנו לתמיכה.";
+"accountRestricted.dismiss" = "סגור";
+"accountRestricted.contactSupport" = "צרו קשר עם התמיכה";
+
+/* Account Pending */
+"accountPending.title" = "אנחנו משלימים את ההרשמה שלך";
+"accountPending.message" = "אפשר לצאת מהמסך הזה ולחזור לבדוק מאוחר יותר.";
+"accountPending.dismiss" = "סגור";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "משהו השתבש";

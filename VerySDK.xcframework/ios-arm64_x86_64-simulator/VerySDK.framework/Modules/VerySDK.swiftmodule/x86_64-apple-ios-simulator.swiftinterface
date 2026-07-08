@@ -89,6 +89,7 @@ import _SwiftConcurrencyShims
   @objc public var themeMode: Swift.String
   @objc public var livenessMode: VeryLivenessMode
   @objc public var debugLogging: Swift.Bool
+  @objc public var clientReferenceId: Swift.String?
   @objc override dynamic public init()
   @objc public init(sdkKey: Swift.String, userId: Swift.String? = nil, language: Swift.String? = nil, themeMode: Swift.String = "dark", livenessMode: VeryLivenessMode = .touch, debugLogging: Swift.Bool = false)
   @objc deinit
@@ -99,6 +100,7 @@ import _SwiftConcurrencyShims
   @objc final public let signedToken: Swift.String?
   @objc final public let error: Swift.String?
   @objc final public let errorMessage: Swift.String?
+  @objc public var userStatus: Swift.String?
   @objc public var isSuccess: Swift.Bool {
     @objc get
   }
@@ -125,6 +127,9 @@ public struct NV21Frame {
   public let width: Swift.Int
   public let height: Swift.Int
   public let frameId: Swift.UInt64
+  public let displayHeight: Swift.Int
+  public let rowOffset: Swift.Int
+  public init(data: Foundation.Data, width: Swift.Int, height: Swift.Int, frameId: Swift.UInt64, displayHeight: Swift.Int = 0, rowOffset: Swift.Int = 0)
 }
 public enum CameraFlashMode {
   case off

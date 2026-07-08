@@ -84,6 +84,7 @@
 "scan.connectDots" = "Kösse össze a pontokat";
 "scan.almostDone" = "Majdnem kész";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Támogatás";
 "scan.registeringPalms" = "Tenyerek regisztrálása";
 "scan.verifyingPalm" = "Tenyér ellenőrzése";
 "scan.successTitleVerified" = "Ellenőrizve";
@@ -104,9 +105,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Fiók korlátozva";
-"accountRestricted.message" = "Olyan tevékenységet észleltünk, amely megsértheti szolgáltatási feltételeinket. Fiókja korlátozva lett, amíg felülvizsgáljuk.\n\nHa úgy gondolja, hogy ez tévedés, lépjen kapcsolatba ügyfélszolgálatunkkal.";
-"accountRestricted.getInTouch" = "Kapcsolatfelvétel";
-"accountRestricted.cancel" = "Mégse";
+"accountRestricted.message" = "Olyan tevékenységet észleltünk, amely sérti a szolgáltatási feltételeinket.\n\nHa úgy gondolod, hogy ez tévedés, fordulj az ügyfélszolgálathoz.";
+"accountRestricted.dismiss" = "Bezárás";
+"accountRestricted.contactSupport" = "Kapcsolatfelvétel az ügyfélszolgálattal";
+
+/* Account Pending */
+"accountPending.title" = "Befejezzük a regisztrációdat";
+"accountPending.message" = "Elhagyhatod ezt a képernyőt, és később visszatérhetsz.";
+"accountPending.dismiss" = "Bezárás";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Valami hiba történt";

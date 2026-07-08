@@ -82,6 +82,7 @@
 "scan.connectDots" = "Collega i punti";
 "scan.almostDone" = "Quasi fatto";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Assistenza";
 "scan.registeringPalms" = "Registrazione palmi";
 "scan.verifyingPalm" = "Verifica del palmo";
 "scan.successTitleVerified" = "Verificato";
@@ -102,9 +103,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Account limitato";
-"accountRestricted.message" = "Abbiamo rilevato attività che potrebbero violare i nostri termini di servizio. Il tuo account è stato limitato mentre lo esaminiamo.\n\nSe ritieni che si tratti di un errore, contatta il nostro team di supporto.";
-"accountRestricted.getInTouch" = "Contattaci";
-"accountRestricted.cancel" = "Annulla";
+"accountRestricted.message" = "Abbiamo rilevato un'attività che viola i nostri termini di servizio.\n\nSe ritieni che si tratti di un errore, contatta l'assistenza.";
+"accountRestricted.dismiss" = "Chiudi";
+"accountRestricted.contactSupport" = "Contatta l'assistenza";
+
+/* Account Pending */
+"accountPending.title" = "Stiamo completando la tua registrazione";
+"accountPending.message" = "Puoi uscire da questa schermata e tornare più tardi.";
+"accountPending.dismiss" = "Chiudi";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Si è verificato un errore";

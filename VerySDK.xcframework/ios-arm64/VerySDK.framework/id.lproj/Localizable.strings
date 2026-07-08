@@ -82,6 +82,7 @@
 "scan.connectDots" = "Hubungkan titik-titik";
 "scan.almostDone" = "Hampir selesai";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Dukungan";
 "scan.registeringPalms" = "Mendaftarkan telapak tangan";
 "scan.verifyingPalm" = "Memverifikasi telapak tangan";
 "scan.successTitleVerified" = "Terverifikasi";
@@ -102,9 +103,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Akun dibatasi";
-"accountRestricted.message" = "Kami mendeteksi aktivitas yang mungkin melanggar ketentuan layanan kami. Akun Anda telah dibatasi sementara kami meninjaunya.\n\nJika Anda yakin ini adalah kesalahan, hubungi tim dukungan kami.";
-"accountRestricted.getInTouch" = "Hubungi kami";
-"accountRestricted.cancel" = "Batal";
+"accountRestricted.message" = "Kami mendeteksi aktivitas yang melanggar ketentuan layanan kami.\n\nJika menurut Anda ini keliru, hubungi dukungan.";
+"accountRestricted.dismiss" = "Tutup";
+"accountRestricted.contactSupport" = "Hubungi dukungan";
+
+/* Account Pending */
+"accountPending.title" = "Kami sedang menyelesaikan pendaftaran Anda";
+"accountPending.message" = "Anda dapat meninggalkan layar ini dan memeriksanya kembali nanti.";
+"accountPending.dismiss" = "Tutup";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Terjadi kesalahan";

@@ -82,6 +82,7 @@
 "scan.connectDots" = "連接圓點";
 "scan.almostDone" = "即將完成";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "支援";
 "scan.registeringPalms" = "正在註冊手掌";
 "scan.verifyingPalm" = "正在驗證手掌";
 "scan.successTitleVerified" = "驗證成功";
@@ -102,9 +103,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "賬戶受限";
-"accountRestricted.message" = "我們偵測到可能違反服務條款嘅活動。喺審核期間，您嘅賬戶已被限制。\n\n如果您認為呢個係錯誤，請聯絡我哋嘅支援團隊。";
-"accountRestricted.getInTouch" = "聯絡我哋";
-"accountRestricted.cancel" = "取消";
+"accountRestricted.message" = "我們偵測到違反服務條款的活動。\n\n如果你認為這是誤判,請聯絡支援團隊。";
+"accountRestricted.dismiss" = "關閉";
+"accountRestricted.contactSupport" = "聯絡支援團隊";
+
+/* Account Pending */
+"accountPending.title" = "我們正在完成你的註冊";
+"accountPending.message" = "你可以離開此畫面,稍後再回來查看。";
+"accountPending.dismiss" = "關閉";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "發生問題";

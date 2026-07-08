@@ -84,6 +84,7 @@
 "scan.connectDots" = "ເຊື່ອಮຈຸດ";
 "scan.almostDone" = "ເກືອບສຳເລັດແລ້ວ";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "ຊ່ວຍເຫຼືອ";
 "scan.registeringPalms" = "ກຳລັງລົງທະບຽນຝາມື";
 "scan.verifyingPalm" = "ກຳລັງຢືນຢັນຝາມື";
 "scan.successTitleVerified" = "ຢືນຢັນແລ້ວ";
@@ -104,9 +105,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "ບັນຊີຖືກຈຳກັດ";
-"accountRestricted.message" = "ພວກເຮົາກວດພົບກິດຈະກຳທີ່ອາດລະເມີດເງື່ອນໄຂການບໍລິການຂອງພວກເຮົາ. ບັນຊີຂອງທ່ານຖືກຈຳກັດໃນຂະນະທີ່ພວກເຮົາກຳລັງກວດສອບ.\n\nຫາກທ່ານເຊື່ອວ່ານີ້ແມ່ນຂໍ້ຜິດພາດ, ກະລຸນາຕິດຕໍ່ທີມງານຊ່ວຍເຫຼືອຂອງພວກເຮົາ.";
-"accountRestricted.getInTouch" = "ຕິດຕໍ່ພວກເຮົາ";
-"accountRestricted.cancel" = "ຍົກເລີກ";
+"accountRestricted.message" = "ພວກເຮົາກວດພົບກິດຈະກຳທີ່ລະເມີດເງື່ອນໄຂການບໍລິການຂອງພວກເຮົາ.\n\nຖ້າທ່ານຄິດວ່ານີ້ແມ່ນຄວາມຜິດພາດ, ກະລຸນາຕິດຕໍ່ຝ່າຍຊ່ວຍເຫຼືອ.";
+"accountRestricted.dismiss" = "ປິດ";
+"accountRestricted.contactSupport" = "ຕິດຕໍ່ຝ່າຍຊ່ວຍເຫຼືອ";
+
+/* Account Pending */
+"accountPending.title" = "ພວກເຮົາກຳລັງສຳເລັດການລົງທະບຽນຂອງທ່ານ";
+"accountPending.message" = "ທ່ານສາມາດອອກຈາກໜ້າຈໍນີ້ ແລະກັບມາກວດເບິ່ງພາຍຫຼັງໄດ້.";
+"accountPending.dismiss" = "ປິດ";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "ມີບາງຢ່າງຜິດພາດ";

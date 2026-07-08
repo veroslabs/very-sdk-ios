@@ -82,6 +82,7 @@
 "scan.connectDots" = "Соедините точки";
 "scan.almostDone" = "Почти готово";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "Поддержка";
 "scan.registeringPalms" = "Регистрация ладоней";
 "scan.verifyingPalm" = "Проверка ладони";
 "scan.successTitleVerified" = "Подтверждено";
@@ -102,9 +103,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "Аккаунт ограничен";
-"accountRestricted.message" = "Мы обнаружили активность, которая может нарушать наши условия использования. Ваш аккаунт ограничен на время проверки.\n\nЕсли вы считаете, что это ошибка, свяжитесь с нашей службой поддержки.";
-"accountRestricted.getInTouch" = "Связаться с нами";
-"accountRestricted.cancel" = "Отмена";
+"accountRestricted.message" = "Мы обнаружили действия, нарушающие наши условия использования.\n\nЕсли вы считаете, что это ошибка, свяжитесь с поддержкой.";
+"accountRestricted.dismiss" = "Закрыть";
+"accountRestricted.contactSupport" = "Связаться с поддержкой";
+
+/* Account Pending */
+"accountPending.title" = "Мы завершаем вашу регистрацию";
+"accountPending.message" = "Вы можете покинуть этот экран и вернуться позже.";
+"accountPending.dismiss" = "Закрыть";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Что-то пошло не так";

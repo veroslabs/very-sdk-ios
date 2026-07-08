@@ -82,6 +82,7 @@
 "scan.connectDots" = "점 연결하기";
 "scan.almostDone" = "거의 완료";
 "scan.livenessThanks" = "Thanks for verifying";
+"scan.support" = "고객지원";
 "scan.registeringPalms" = "손바닥 등록 중";
 "scan.verifyingPalm" = "손바닥 인증 중";
 "scan.successTitleVerified" = "인증 완료";
@@ -102,9 +103,14 @@
 
 /* Account Restricted */
 "accountRestricted.title" = "계정이 제한되었습니다";
-"accountRestricted.message" = "서비스 약관을 위반할 수 있는 활동이 감지되었습니다. 검토하는 동안 계정이 제한되었습니다.\n\n오류라고 생각되시면 지원팀에 문의해 주세요.";
-"accountRestricted.getInTouch" = "문의하기";
-"accountRestricted.cancel" = "취소";
+"accountRestricted.message" = "서비스 약관을 위반하는 활동이 감지되었습니다.\n\n오류라고 생각되면 고객지원에 문의하세요.";
+"accountRestricted.dismiss" = "닫기";
+"accountRestricted.contactSupport" = "고객지원 문의";
+
+/* Account Pending */
+"accountPending.title" = "등록을 완료하는 중입니다";
+"accountPending.message" = "이 화면을 나갔다가 나중에 다시 확인할 수 있습니다.";
+"accountPending.dismiss" = "닫기";
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "문제가 발생했습니다";
