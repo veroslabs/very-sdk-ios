@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: very-sdk-ios
+  description: 'iOS distribution SDK (prebuilt xcframeworks) for palm verification — packaged build of the very-mobile-sdk iOS target.'
+  annotations:
+    github.com/project-slug: veroslabs/very-sdk-ios
+  tags: [swift, ios, sdk]
+spec:
+  type: library
+  owner: group:default/mobile
+  system: veryai
+  lifecycle: production
