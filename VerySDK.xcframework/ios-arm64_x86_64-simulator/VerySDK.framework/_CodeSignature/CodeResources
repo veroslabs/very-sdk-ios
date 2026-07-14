@@ -150,11 +150,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Gg5tFW7bmsDGlgaR3BEtXmXRd3Y=
+		8R8qHue+1kVn/bKmaLWYoqCQVh8=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		BKJI5YbX7CIFUH2KJaRsjF5Uzjs=
+		OlcnRxeb5OxCdAzXTXMlbiKPPs0=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -170,11 +170,11 @@
 		</data>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WXUGi/4MwOhspuSFHFvMjpA3JqI=
+		nESeq0m/5mqFW8zJjWRYIyhP62w=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		BKJI5YbX7CIFUH2KJaRsjF5Uzjs=
+		OlcnRxeb5OxCdAzXTXMlbiKPPs0=
 		</data>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BkkUO6PK2WzSC59VVD6wjozr7vk=
+		TeUlfQN08SCes6W28ZqTwpRfGeM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -792,7 +792,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			svm490/lno0lE9/nkNFPqumyPX0UTukB7YLxDSHNe+E=
+			oURDN3maIa5VdlQIK8/Gqqx6pg1Z3kDPSbUXjhFf5P4=
 			</data>
 		</dict>
 		<key>Modules/VerySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -820,14 +820,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2ISCUNE0U8l0yIvcHTAglgeGt1tPdeYmjpdg9usERRg=
+			Czd1rECaSUhoM2bDw/YFQEekTUEWHBJGSf/AG8xZE8k=
 			</data>
 		</dict>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			svm490/lno0lE9/nkNFPqumyPX0UTukB7YLxDSHNe+E=
+			oURDN3maIa5VdlQIK8/Gqqx6pg1Z3kDPSbUXjhFf5P4=
 			</data>
 		</dict>
 		<key>Modules/VerySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -855,7 +855,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GX4etav5pKob/3RV7xpHon9mbBd+PiLi0BFOk/IwkM0=
+			3ES8OnpgYpMMIuQsy0cK89mSGmSpNLax2TRMYSLYpfk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

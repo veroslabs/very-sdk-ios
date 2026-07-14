@@ -7318,35 +7318,35 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/BottomSheetView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1320,
+      "offset": 1742,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/BottomSheetView.swift",
       "kind": "FloatLiteral",
-      "offset": 1523,
+      "offset": 1945,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/BottomSheetView.swift",
       "kind": "FloatLiteral",
-      "offset": 1605,
+      "offset": 2027,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/BottomSheetView.swift",
       "kind": "StringLiteral",
-      "offset": 1842,
+      "offset": 2315,
       "length": 8,
       "value": "\"system\""
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/ui\/BottomSheetView.swift",
       "kind": "StringLiteral",
-      "offset": 761,
+      "offset": 1023,
       "length": 15,
       "value": "\"VerySDK.BottomSheetView\""
     },
@@ -8606,14 +8606,14 @@
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 92974,
+      "offset": 93517,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/very-mobile-sdk\/very-mobile-sdk\/ios\/Classes\/vc\/ScanViewController.swift",
       "kind": "StringLiteral",
-      "offset": 92914,
+      "offset": 93457,
       "length": 13,
       "value": "\"VerySDK.ScanScrimView\""
     },
