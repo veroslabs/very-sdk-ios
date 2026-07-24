@@ -2,23 +2,23 @@
 /* NOTE: This file contains English placeholder text. Please translate all strings to Kazakh. */
 
 /* Bottom Status Messages */
-"status.moveHandLeft" = "Move your hand left";
-"status.moveHandRight" = "Move your hand right";
-"status.moveHandUp" = "Move your hand up";
-"status.moveHandDown" = "Move your hand down";
-"status.moveHandCloser" = "Bring your hand closer";
-"status.moveHandFarther" = "Move your hand back a bit";
-"status.rotateHandUpward" = "Tilt your hand toward you";
-"status.rotateHandParallel" = "Keep your hand flat";
+"status.moveHandLeft" = "Қолыңызды солға жылжытыңыз";
+"status.moveHandRight" = "Қолыңызды оңға жылжытыңыз";
+"status.moveHandUp" = "Қолыңызды жоғары көтеріңіз";
+"status.moveHandDown" = "Қолыңызды төмен түсіріңіз";
+"status.moveHandCloser" = "Қолыңызды жақындатыңыз";
+"status.moveHandFarther" = "Қолыңызды сәл артқа жылжытыңыз";
+"status.rotateHandUpward" = "Қолыңызды өзіңізге қарай еңкейтіңіз";
+"status.rotateHandParallel" = "Қолыңызды тегіс ұстаңыз";
 "status.flipHandOver" = "Алақаныңызды камера алдына қойыңыз";
-"status.spreadFingers" = "Open your hand wide";
-"status.straightenFingers" = "Straighten your fingers";
-"status.spreadThumb" = "Move your thumb out to the side";
-"status.straightenThumb" = "Straighten your thumb";
-"status.brightenHand" = "Find a brighter spot";
-"status.darkenHand" = "Try moving out of direct light";
-"status.focusHand" = "Hold still for a moment";
-"status.keepStill" = "Hold still";
+"status.spreadFingers" = "Қолыңызды кең ашыңыз";
+"status.straightenFingers" = "Саусақтарыңызды түзетіңіз";
+"status.spreadThumb" = "Бас бармағыңызды шетке қарай ашыңыз";
+"status.straightenThumb" = "Бас бармағыңызды түзетіңіз";
+"status.brightenHand" = "Жарығырақ жер табыңыз";
+"status.darkenHand" = "Тікелей жарықтан шығып көріңіз";
+"status.focusHand" = "Сәл қозғалмай тұрыңыз";
+"status.keepStill" = "Қозғалмай тұрыңыз";
 
 /* Scan View Controller */
 
@@ -28,10 +28,10 @@
 
 
 /* Auth View Controller */
-"auth.cancel" = "Cancel";
-"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
-"auth.termsOfService" = "Terms of Service";
-"auth.privacyPolicy" = "Privacy Policy";
+"auth.cancel" = "Бас тарту";
+"auth.termsText" = "Жалғастыра отырып, сіз біздің Қызмет көрсету шарттарымыз бен Құпиялылық саясатымызға келісесіз.";
+"auth.termsOfService" = "Қызмет көрсету шарттары";
+"auth.privacyPolicy" = "Құпиялылық саясаты";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Алақан сканерін орнатыңыз";
@@ -39,36 +39,38 @@
 "workthrough.getStarted" = "Бастау";
 
 /* Error Messages */
-"error.5001" = "Session expired. Please start again.";
-"error.5002" = "Session not found or already consumed.";
-"error.5003" = "Please try again.";
-"error.5004" = "All verification attempts have been used.";
+"error.5001" = "Сеанс мерзімі бітті. Қайтадан бастаңыз.";
+"error.5002" = "Сеанс табылмады немесе әлдеқашан пайдаланылған.";
+"error.5003" = "Қайталап көріңіз.";
+"error.5004" = "Растаудың барлық әрекеті пайдаланылды.";
 "error.5005" = "Алақаныңызды растай алмадық. Қайталап көріңіз.";
 "error.5006" = "Бірдеңе дұрыс болмады. Қайталап көріңіз.";
 "error.5007" = "Сеансыңыздың мерзімі аяқталды. Қайталап көріңіз.";
 "error.5008" = "Бірдеңе дұрыс болмады. Қолдау қызметіне хабарласыңыз.";
 "error.5009" = "Бірдеңе дұрыс болмады. Қолдау қызметіне хабарласыңыз.";
-"error.5010" = "Account review was permanently rejected.";
-"error.5011" = "Account enrollment is still under review.";
-"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests. Please try again later.";
+"error.5010" = "Тіркелу біржола қабылданбады.";
+"error.5011" = "Тіркелу әлі қарастырылуда.";
+"error.5012" = "Қайта тіркелуге тек қарастыру мәртебесі қабылданбаған кезде ғана рұқсат етіледі.";
+"error.5013" = "Тым көп сұрау. Кейінірек қайталап көріңіз.";
 "error.5014" = "Бірдеңе дұрыс болмады. Қайталап көріңіз.";
-"error.5015" = "Please verify your email first.";
-"error.5016" = "Email has already been verified for this session.";
-"error.5017" = "Your account is restricted and cannot proceed.";
-"error.5018" = "Email verification is not available for this session.";
+"error.5015" = "Алдымен электрондық поштаңызды растаңыз.";
+"error.5016" = "Бұл сеанс үшін электрондық пошта әлдеқашан расталған.";
+"error.5017" = "Аккаунтыңыз шектелген және жалғастыру мүмкін емес.";
+"error.5018" = "Бұл сеанс үшін электрондық поштаны растау қолжетімсіз.";
+"error.5019" = "Бұл алақан басқа аккаунтқа тіркелген.";
+"error.5020" = "Алақан сканері тым бұлыңғыр. Қайталап көріңіз.";
 "error.6101" = "Алақаныңызды сканерлеу үшін телефон параметрлерінде камераға рұқсат беріңіз.";
 "error.6102" = "Сканерлеуді аяқтай алмадық. Қайталап көріңіз.";
-"error.6103" = "Session expired. Please try again.";
-"error.6104" = "User cancelled.";
-"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
+"error.6103" = "Сеанс мерзімі бітті. Қайталап көріңіз.";
+"error.6104" = "Пайдаланушы бас тартты.";
+"error.6106" = "Алақанды сканерлеу кітапханасын жүктеу мүмкін болмады. Интернетті тексеріп, қайта көріңіз.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "Алақаныңыз расталды.";
 "scan.successRegistered" = "Алақан биометриясы орнатылды.";
 
 /* Common UI */
-"common.poweredBy" = "Powered by";
+"common.poweredBy" = "Қолдаушысы";
 "common.retrying" = "Қайта әрекет жасалуда…";
 "common.done" = "Дайын";
 "common.continue" = "Жалғастыру";
@@ -83,7 +85,7 @@
 "scan.showGesture" = "Қимылды көрсетіңіз";
 "scan.connectDots" = "Нүктелерді қосыңыз";
 "scan.almostDone" = "Аяқталуға жақын";
-"scan.livenessThanks" = "Thanks for verifying";
+"scan.livenessThanks" = "Растағаныңызға рахмет";
 "scan.support" = "Қолдау";
 "scan.registeringPalms" = "Алақандар тіркелуде";
 "scan.verifyingPalm" = "Алақан расталуда";
@@ -141,40 +143,42 @@
 "error.6999" = "Қате орын алды. Қайталап көріңіз.";
 
 /* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
-"error.title.connectionLost" = "Connection lost";
-"error.body.connectionLost" = "You're offline. Check your internet.";
-"error.title.rateLimited" = "Just a moment";
-"error.body.rateLimited" = "Try again in a moment.";
-"error.title.sessionExpired" = "Let's try that again";
-"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
-"error.title.checkAccount" = "Check your account";
-"error.body.checkAccount" = "Your last attempt may have already gone through.";
-"error.title.cameraPermission" = "We need your camera";
-"error.body.cameraPermission" = "Turn on camera access in settings.";
-"error.title.palmMismatch" = "That didn't match";
-"error.body.palmMismatch" = "We couldn't verify your palm.";
-"error.title.scanFailed" = "Let's try that again";
-"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
-"error.title.restrictive" = "We can't continue";
-"error.body.restrictive" = "We're unable to complete this right now.";
-"error.title.setupIssue" = "Please get in touch";
-"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
-"error.title.serverTransient" = "Let's try that again";
-"error.body.serverTransient" = "If this issue continues, please contact support.";
-"error.title.enrollmentMismatch" = "Let's try that again";
-"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
-"error.cta.tryAgain" = "Try again";
-"error.cta.startOver" = "Start over";
-"error.cta.checkAccount" = "Check my account";
-"error.cta.openSettings" = "Open settings";
-"error.cta.contactSupport" = "Contact support";
-"error.cta.close" = "Close";
+"error.title.connectionLost" = "Байланыс үзілді";
+"error.body.connectionLost" = "Сіз желіден тыссыз. Интернетті тексеріңіз.";
+"error.title.rateLimited" = "Сәл күте тұрыңыз";
+"error.body.rateLimited" = "Сәлден соң қайталап көріңіз.";
+"error.title.sessionExpired" = "Қайта көрейік";
+"error.body.sessionExpired" = "Сеансыңыздың уақыты бітті. Қайта көрейік.";
+"error.title.checkAccount" = "Аккаунтыңызды тексеріңіз";
+"error.body.checkAccount" = "Соңғы әрекетіңіз әлдеқашан өтіп кеткен болуы мүмкін.";
+"error.title.cameraPermission" = "Бізге камераңыз қажет";
+"error.body.cameraPermission" = "Параметрлерде камераға рұқсатты қосыңыз.";
+"error.title.palmMismatch" = "Сәйкес келмеді";
+"error.body.palmMismatch" = "Алақаныңызды растай алмадық.";
+"error.title.scanFailed" = "Қайта көрейік";
+"error.body.scanFailed" = "Жарығы жақсырақ жерге барып, қолыңызды қозғалтпай ұстаңыз.";
+"error.title.restrictive" = "Жалғастыра алмаймыз";
+"error.body.restrictive" = "Қазір мұны аяқтай алмаймыз.";
+"error.title.setupIssue" = "Бізбен хабарласыңыз";
+"error.body.setupIssue" = "Бұл қолданбада баптау мәселесі бар. Қолдау қызметіне хабарласыңыз.";
+"error.title.serverTransient" = "Қайта көрейік";
+"error.body.serverTransient" = "Егер бұл мәселе жалғаса берсе, қолдау қызметіне хабарласыңыз.";
+"error.title.enrollmentMismatch" = "Қайта көрейік";
+"error.body.enrollmentMismatch" = "Алақан сканерлерін растай алмадық. Жарығы жақсырақ жағдайда қайталап көріңіз";
+"error.title.palmTooBlurry" = "Алақан сканері тым бұлыңғыр";
+"error.body.palmTooBlurry" = "Қолыңызды қозғалтпай, жақсырақ жарықта қайта сканерлеңіз.";
+"error.cta.tryAgain" = "Қайталап көру";
+"error.cta.startOver" = "Қайтадан бастау";
+"error.cta.checkAccount" = "Аккаунтымды тексеру";
+"error.cta.openSettings" = "Параметрлерді ашу";
+"error.cta.contactSupport" = "Қолдау қызметіне хабарласу";
+"error.cta.close" = "Жабу";
 
 /* VER-491 inline: field-level email verify errors (2006/2007) */
-"email.inlineCodeInvalid" = "Code is incorrect.";
-"email.inlineCodeExpired" = "Code has expired. Request a new code.";
-"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
-"email.inlineCodeGeneric" = "Verification failed.";
+"email.inlineCodeInvalid" = "Код дұрыс емес.";
+"email.inlineCodeExpired" = "Кодтың мерзімі бітті. Жаңа код сұраңыз.";
+"email.inlineCodeRateLimit" = "Тым көп әрекет. Жаңа код сұраңыз.";
+"email.inlineCodeGeneric" = "Растау сәтсіз аяқталды.";
 "consent.startVerification" = "Растауды бастау";
 "consent.tip2" = "%@ шектеулі [растау деректеріне] қол жеткізе алады";
 "consent.verifyIdentitySubtitle" = "%@ сіздің адам екеніңізді растау үшін VeryAI қолданады.";

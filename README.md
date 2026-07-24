@@ -208,8 +208,27 @@ Used with `VeryAILiveness.check` (the liveness-only artifact — `VeryAILiveness
 | `livenessMode`| enum    | No       | `touch`   | Liveness detection mode: `touch` (default) or `gesture`                                          |
 | `showError`   | Bool    | No       | `false`   | When `true`, terminal errors show an in-SDK retry/close page instead of returning straight to the callback |
 | `showSuccess` | Bool    | No       | `true`    | When `true`, a successful capture shows the success page (~1.5s) before the callback fires; set `false` to return immediately |
+| `privacyMessage` | String? | No     | `nil`     | Partner disclosure shown below the native scan instruction. Supports an inline `<a href>` link (see below) |
+| `privacyMessageFontSize` | CGFloat / Float | No | `0` | Disclosure font size (points on iOS, sp on Android); `0` uses the SDK default |
+| `privacyMessageColor` | UIColor? / Int? | No | `nil` | Disclosure text + link colour; `nil` uses the SDK's muted on-scrim colour |
 
-`showError` and `showSuccess` are set by property assignment after construction (e.g. `config.showSuccess = false`), not as constructor arguments.
+`showError`, `showSuccess`, `privacyMessage`, `privacyMessageFontSize`, and `privacyMessageColor` are set by property assignment after construction:
+
+```swift
+config.privacyMessage = "We use your hand motion only for anti-bot verification. " +
+    "<a href=\"https://example.com/privacy\">Learn more</a>"
+config.privacyMessageFontSize = 12
+config.privacyMessageColor = .white
+```
+
+```kotlin
+config.privacyMessage = "We use your hand motion only for anti-bot verification. " +
+    "<a href=\"https://example.com/privacy\">Learn more</a>"
+config.privacyMessageFontSize = 12f
+config.privacyMessageColor = Color.WHITE
+```
+
+The SDK renders `privacyMessage` verbatim, so the host app owns its localization — pass the already-localized string (including any link label). Basic HTML is honoured: wrap a substring in `<a href="https://…">…</a>` to make it an inline link. When the link carries a valid HTTP(S) URL the SDK opens it directly on tap; a link with no valid HTTP(S) URL, and tag-free copy, render as plain text with no tap handling.
 
 ### VeryPresentationStyle
 

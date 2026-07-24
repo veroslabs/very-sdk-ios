@@ -2,23 +2,23 @@
 /* NOTE: This file contains English placeholder text. Please translate all strings to Romanian. */
 
 /* Bottom Status Messages */
-"status.moveHandLeft" = "Move your hand left";
-"status.moveHandRight" = "Move your hand right";
-"status.moveHandUp" = "Move your hand up";
-"status.moveHandDown" = "Move your hand down";
-"status.moveHandCloser" = "Bring your hand closer";
-"status.moveHandFarther" = "Move your hand back a bit";
-"status.rotateHandUpward" = "Tilt your hand toward you";
-"status.rotateHandParallel" = "Keep your hand flat";
+"status.moveHandLeft" = "Mișcă mâna la stânga";
+"status.moveHandRight" = "Mișcă mâna la dreapta";
+"status.moveHandUp" = "Ridică mâna";
+"status.moveHandDown" = "Coboară mâna";
+"status.moveHandCloser" = "Apropie mâna";
+"status.moveHandFarther" = "Trage mâna puțin înapoi";
+"status.rotateHandUpward" = "Înclină mâna spre tine";
+"status.rotateHandParallel" = "Ține mâna întinsă";
 "status.flipHandOver" = "Plasați palma în fața camerei";
-"status.spreadFingers" = "Open your hand wide";
-"status.straightenFingers" = "Straighten your fingers";
-"status.spreadThumb" = "Move your thumb out to the side";
-"status.straightenThumb" = "Straighten your thumb";
-"status.brightenHand" = "Find a brighter spot";
-"status.darkenHand" = "Try moving out of direct light";
-"status.focusHand" = "Hold still for a moment";
-"status.keepStill" = "Hold still";
+"status.spreadFingers" = "Deschide larg mâna";
+"status.straightenFingers" = "Îndreaptă degetele";
+"status.spreadThumb" = "Depărtează degetul mare în lateral";
+"status.straightenThumb" = "Îndreaptă degetul mare";
+"status.brightenHand" = "Găsește un loc mai luminos";
+"status.darkenHand" = "Încearcă să ieși din lumina directă";
+"status.focusHand" = "Stai nemișcat o clipă";
+"status.keepStill" = "Stai nemișcat";
 
 /* Scan View Controller */
 
@@ -28,10 +28,10 @@
 
 
 /* Auth View Controller */
-"auth.cancel" = "Cancel";
-"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
-"auth.termsOfService" = "Terms of Service";
-"auth.privacyPolicy" = "Privacy Policy";
+"auth.cancel" = "Anulează";
+"auth.termsText" = "Continuând, ești de acord cu Termenii serviciului și Politica de confidențialitate.";
+"auth.termsOfService" = "Termenii serviciului";
+"auth.privacyPolicy" = "Politica de confidențialitate";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Configurați scanarea palmei";
@@ -39,36 +39,38 @@
 "workthrough.getStarted" = "Începeți";
 
 /* Error Messages */
-"error.5001" = "Session expired. Please start again.";
-"error.5002" = "Session not found or already consumed.";
-"error.5003" = "Please try again.";
-"error.5004" = "All verification attempts have been used.";
+"error.5001" = "Sesiunea a expirat. Reia procesul.";
+"error.5002" = "Sesiunea nu a fost găsită sau a fost deja folosită.";
+"error.5003" = "Încearcă din nou.";
+"error.5004" = "Toate încercările de verificare au fost folosite.";
 "error.5005" = "Nu am putut verifica palma dumneavoastră. Vă rugăm să încercați din nou.";
 "error.5006" = "Ceva nu a funcționat. Vă rugăm să încercați din nou.";
 "error.5007" = "Sesiunea dumneavoastră a expirat. Vă rugăm să încercați din nou.";
 "error.5008" = "Ceva nu a funcționat. Vă rugăm să contactați asistența.";
 "error.5009" = "Ceva nu a funcționat. Vă rugăm să contactați asistența.";
-"error.5010" = "Account review was permanently rejected.";
-"error.5011" = "Account enrollment is still under review.";
-"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests. Please try again later.";
+"error.5010" = "Examinarea contului a fost respinsă definitiv.";
+"error.5011" = "Înscrierea contului este încă în curs de examinare.";
+"error.5012" = "Reînscrierea este permisă doar când starea examinării este respinsă.";
+"error.5013" = "Prea multe solicitări. Încearcă din nou mai târziu.";
 "error.5014" = "Ceva nu a funcționat. Vă rugăm să încercați din nou.";
-"error.5015" = "Please verify your email first.";
-"error.5016" = "Email has already been verified for this session.";
-"error.5017" = "Your account is restricted and cannot proceed.";
-"error.5018" = "Email verification is not available for this session.";
+"error.5015" = "Verifică-ți mai întâi e-mailul.";
+"error.5016" = "E-mailul a fost deja verificat pentru această sesiune.";
+"error.5017" = "Contul tău este restricționat și nu poate continua.";
+"error.5018" = "Verificarea e-mailului nu este disponibilă pentru această sesiune.";
+"error.5019" = "Această palmă este deja înregistrată pe alt cont.";
+"error.5020" = "Scanarea palmei este prea neclară. Încearcă din nou.";
 "error.6101" = "Pentru a vă scana palma, permiteți accesul la cameră în setările telefonului.";
 "error.6102" = "Nu am putut finaliza scanarea. Vă rugăm să încercați din nou.";
-"error.6103" = "Session expired. Please try again.";
-"error.6104" = "User cancelled.";
-"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
+"error.6103" = "Sesiunea a expirat. Încearcă din nou.";
+"error.6104" = "Anulat de utilizator.";
+"error.6106" = "Nu s-a putut încărca biblioteca de scanare a palmei. Verifică conexiunea la internet și încearcă din nou.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "Palma dumneavoastră a fost verificată.";
 "scan.successRegistered" = "Biometria palmei a fost configurată.";
 
 /* Common UI */
-"common.poweredBy" = "Powered by";
+"common.poweredBy" = "Susținut de";
 "common.retrying" = "Se reîncearcă…";
 "common.done" = "Gata";
 "common.continue" = "Continuă";
@@ -83,7 +85,7 @@
 "scan.showGesture" = "Arătați gestul";
 "scan.connectDots" = "Conectați punctele";
 "scan.almostDone" = "Aproape gata";
-"scan.livenessThanks" = "Thanks for verifying";
+"scan.livenessThanks" = "Mulțumim pentru verificare";
 "scan.support" = "Asistență";
 "scan.registeringPalms" = "Înregistrare palme";
 "scan.verifyingPalm" = "Verificare palmă";
@@ -141,40 +143,42 @@
 "error.6999" = "Ceva nu a mers bine. Încearcă din nou.";
 
 /* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
-"error.title.connectionLost" = "Connection lost";
-"error.body.connectionLost" = "You're offline. Check your internet.";
-"error.title.rateLimited" = "Just a moment";
-"error.body.rateLimited" = "Try again in a moment.";
-"error.title.sessionExpired" = "Let's try that again";
-"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
-"error.title.checkAccount" = "Check your account";
-"error.body.checkAccount" = "Your last attempt may have already gone through.";
-"error.title.cameraPermission" = "We need your camera";
-"error.body.cameraPermission" = "Turn on camera access in settings.";
-"error.title.palmMismatch" = "That didn't match";
-"error.body.palmMismatch" = "We couldn't verify your palm.";
-"error.title.scanFailed" = "Let's try that again";
-"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
-"error.title.restrictive" = "We can't continue";
-"error.body.restrictive" = "We're unable to complete this right now.";
-"error.title.setupIssue" = "Please get in touch";
-"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
-"error.title.serverTransient" = "Let's try that again";
-"error.body.serverTransient" = "If this issue continues, please contact support.";
-"error.title.enrollmentMismatch" = "Let's try that again";
-"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
-"error.cta.tryAgain" = "Try again";
-"error.cta.startOver" = "Start over";
-"error.cta.checkAccount" = "Check my account";
-"error.cta.openSettings" = "Open settings";
-"error.cta.contactSupport" = "Contact support";
-"error.cta.close" = "Close";
+"error.title.connectionLost" = "Conexiune pierdută";
+"error.body.connectionLost" = "Ești offline. Verifică conexiunea la internet.";
+"error.title.rateLimited" = "Un moment";
+"error.body.rateLimited" = "Încearcă din nou peste un moment.";
+"error.title.sessionExpired" = "Să încercăm din nou";
+"error.body.sessionExpired" = "Sesiunea ta a expirat. Să încercăm din nou.";
+"error.title.checkAccount" = "Verifică-ți contul";
+"error.body.checkAccount" = "Este posibil ca ultima ta încercare să fi reușit deja.";
+"error.title.cameraPermission" = "Avem nevoie de camera ta";
+"error.body.cameraPermission" = "Activează accesul la cameră din setări.";
+"error.title.palmMismatch" = "Nu s-a potrivit";
+"error.body.palmMismatch" = "Nu am putut verifica palma.";
+"error.title.scanFailed" = "Să încercăm din nou";
+"error.body.scanFailed" = "Mută-te într-un loc mai bine luminat și ține mâna nemișcată.";
+"error.title.restrictive" = "Nu putem continua";
+"error.body.restrictive" = "Nu putem finaliza acest lucru în acest moment.";
+"error.title.setupIssue" = "Te rugăm să ne contactezi";
+"error.body.setupIssue" = "Această aplicație are o problemă de configurare. Contactează asistența.";
+"error.title.serverTransient" = "Să încercăm din nou";
+"error.body.serverTransient" = "Dacă problema persistă, contactează asistența.";
+"error.title.enrollmentMismatch" = "Să încercăm din nou";
+"error.body.enrollmentMismatch" = "Nu am putut verifica scanările palmei. Încearcă din nou în condiții de iluminare mai bune";
+"error.title.palmTooBlurry" = "Scanarea palmei este prea neclară";
+"error.body.palmTooBlurry" = "Ține mâna nemișcată și scanează din nou la o lumină mai bună.";
+"error.cta.tryAgain" = "Încearcă din nou";
+"error.cta.startOver" = "Reia de la început";
+"error.cta.checkAccount" = "Verifică-mi contul";
+"error.cta.openSettings" = "Deschide setările";
+"error.cta.contactSupport" = "Contactează asistența";
+"error.cta.close" = "Închide";
 
 /* VER-491 inline: field-level email verify errors (2006/2007) */
-"email.inlineCodeInvalid" = "Code is incorrect.";
-"email.inlineCodeExpired" = "Code has expired. Request a new code.";
-"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
-"email.inlineCodeGeneric" = "Verification failed.";
+"email.inlineCodeInvalid" = "Codul este incorect.";
+"email.inlineCodeExpired" = "Codul a expirat. Solicită un cod nou.";
+"email.inlineCodeRateLimit" = "Prea multe încercări. Solicită un cod nou.";
+"email.inlineCodeGeneric" = "Verificarea a eșuat.";
 "consent.startVerification" = "Începe verificarea";
 "consent.tip2" = "%@ va avea acces la [date de verificare] limitate";
 "consent.verifyIdentitySubtitle" = "%@ folosește VeryAI pentru a confirma că ești o persoană reală.";

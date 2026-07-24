@@ -2,23 +2,23 @@
 /* NOTE: This file contains English placeholder text. Please translate all strings to Latvian. */
 
 /* Bottom Status Messages */
-"status.moveHandLeft" = "Move your hand left";
-"status.moveHandRight" = "Move your hand right";
-"status.moveHandUp" = "Move your hand up";
-"status.moveHandDown" = "Move your hand down";
-"status.moveHandCloser" = "Bring your hand closer";
-"status.moveHandFarther" = "Move your hand back a bit";
-"status.rotateHandUpward" = "Tilt your hand toward you";
-"status.rotateHandParallel" = "Keep your hand flat";
+"status.moveHandLeft" = "Pārvietojiet roku pa kreisi";
+"status.moveHandRight" = "Pārvietojiet roku pa labi";
+"status.moveHandUp" = "Pārvietojiet roku uz augšu";
+"status.moveHandDown" = "Pārvietojiet roku uz leju";
+"status.moveHandCloser" = "Pietuviniet roku";
+"status.moveHandFarther" = "Pavelciet roku nedaudz atpakaļ";
+"status.rotateHandUpward" = "Sasveriet roku pret sevi";
+"status.rotateHandParallel" = "Turiet roku plakani";
 "status.flipHandOver" = "Novietojiet plaukstu kameras priekšā";
-"status.spreadFingers" = "Open your hand wide";
-"status.straightenFingers" = "Straighten your fingers";
-"status.spreadThumb" = "Move your thumb out to the side";
-"status.straightenThumb" = "Straighten your thumb";
-"status.brightenHand" = "Find a brighter spot";
-"status.darkenHand" = "Try moving out of direct light";
-"status.focusHand" = "Hold still for a moment";
-"status.keepStill" = "Hold still";
+"status.spreadFingers" = "Plaši atveriet plaukstu";
+"status.straightenFingers" = "Iztaisnojiet pirkstus";
+"status.spreadThumb" = "Atvirziet īkšķi uz sāniem";
+"status.straightenThumb" = "Iztaisnojiet īkšķi";
+"status.brightenHand" = "Atrodiet gaišāku vietu";
+"status.darkenHand" = "Pamēģiniet paiet no tiešas gaismas";
+"status.focusHand" = "Nekustieties mirkli";
+"status.keepStill" = "Nekustieties";
 
 /* Scan View Controller */
 
@@ -28,10 +28,10 @@
 
 
 /* Auth View Controller */
-"auth.cancel" = "Cancel";
-"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
-"auth.termsOfService" = "Terms of Service";
-"auth.privacyPolicy" = "Privacy Policy";
+"auth.cancel" = "Atcelt";
+"auth.termsText" = "Turpinot jūs piekrītat mūsu Pakalpojumu noteikumiem un Privātuma politikai.";
+"auth.termsOfService" = "Pakalpojumu noteikumi";
+"auth.privacyPolicy" = "Privātuma politika";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Iestatiet plaukstas skenēšanu";
@@ -39,36 +39,38 @@
 "workthrough.getStarted" = "Sākt";
 
 /* Error Messages */
-"error.5001" = "Session expired. Please start again.";
-"error.5002" = "Session not found or already consumed.";
-"error.5003" = "Please try again.";
-"error.5004" = "All verification attempts have been used.";
+"error.5001" = "Sesija beigusies. Lūdzu, sāciet no jauna.";
+"error.5002" = "Sesija nav atrasta vai jau ir izmantota.";
+"error.5003" = "Lūdzu, mēģiniet vēlreiz.";
+"error.5004" = "Visi verifikācijas mēģinājumi ir izmantoti.";
 "error.5005" = "Mēs nevarējām verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
 "error.5006" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
 "error.5007" = "Jūsu sesija ir beigusies. Lūdzu, mēģiniet vēlreiz.";
 "error.5008" = "Kaut kas nogāja greizi. Lūdzu, sazinieties ar atbalsta dienestu.";
 "error.5009" = "Kaut kas nogāja greizi. Lūdzu, sazinieties ar atbalsta dienestu.";
-"error.5010" = "Account review was permanently rejected.";
-"error.5011" = "Account enrollment is still under review.";
-"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests. Please try again later.";
+"error.5010" = "Konta pārbaude tika neatgriezeniski noraidīta.";
+"error.5011" = "Konta reģistrācija joprojām tiek pārbaudīta.";
+"error.5012" = "Atkārtota reģistrācija ir atļauta tikai tad, ja pārbaudes statuss ir noraidīts.";
+"error.5013" = "Pārāk daudz pieprasījumu. Lūdzu, mēģiniet vēlreiz vēlāk.";
 "error.5014" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
-"error.5015" = "Please verify your email first.";
-"error.5016" = "Email has already been verified for this session.";
-"error.5017" = "Your account is restricted and cannot proceed.";
-"error.5018" = "Email verification is not available for this session.";
+"error.5015" = "Lūdzu, vispirms verificējiet savu e-pastu.";
+"error.5016" = "E-pasts šai sesijai jau ir verificēts.";
+"error.5017" = "Jūsu konts ir ierobežots, un nav iespējams turpināt.";
+"error.5018" = "E-pasta verifikācija šai sesijai nav pieejama.";
+"error.5019" = "Šī plauksta jau ir reģistrēta citā kontā.";
+"error.5020" = "Plaukstas skenējums ir pārāk izplūdis. Lūdzu, mēģiniet vēlreiz.";
 "error.6101" = "Lai skenētu plaukstu, lūdzu, atļaujiet piekļuvi kamerai tālruņa iestatījumos.";
 "error.6102" = "Mēs nevarējām pabeigt skenēšanu. Lūdzu, mēģiniet vēlreiz.";
-"error.6103" = "Session expired. Please try again.";
-"error.6104" = "User cancelled.";
-"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
+"error.6103" = "Sesija beigusies. Lūdzu, mēģiniet vēlreiz.";
+"error.6104" = "Lietotājs atcēla.";
+"error.6106" = "Neizdevās ielādēt plaukstas skenēšanas bibliotēku. Pārbaudiet interneta savienojumu un mēģiniet vēlreiz.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "Jūsu plauksta ir verificēta.";
 "scan.successRegistered" = "Plaukstas biometrija ir iestatīta.";
 
 /* Common UI */
-"common.poweredBy" = "Powered by";
+"common.poweredBy" = "Nodrošina";
 "common.retrying" = "Mēģinājums atkārtoti…";
 "common.done" = "Gatavs";
 "common.continue" = "Turpināt";
@@ -83,7 +85,7 @@
 "scan.showGesture" = "Parādiet žestu";
 "scan.connectDots" = "Savienojiet punktus";
 "scan.almostDone" = "Gandrīz gatavs";
-"scan.livenessThanks" = "Thanks for verifying";
+"scan.livenessThanks" = "Paldies par verifikāciju";
 "scan.support" = "Atbalsts";
 "scan.registeringPalms" = "Plaukstu reģistrēšana";
 "scan.verifyingPalm" = "Plaukstas verificēšana";
@@ -141,40 +143,42 @@
 "error.6999" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
 
 /* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
-"error.title.connectionLost" = "Connection lost";
-"error.body.connectionLost" = "You're offline. Check your internet.";
-"error.title.rateLimited" = "Just a moment";
-"error.body.rateLimited" = "Try again in a moment.";
-"error.title.sessionExpired" = "Let's try that again";
-"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
-"error.title.checkAccount" = "Check your account";
-"error.body.checkAccount" = "Your last attempt may have already gone through.";
-"error.title.cameraPermission" = "We need your camera";
-"error.body.cameraPermission" = "Turn on camera access in settings.";
-"error.title.palmMismatch" = "That didn't match";
-"error.body.palmMismatch" = "We couldn't verify your palm.";
-"error.title.scanFailed" = "Let's try that again";
-"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
-"error.title.restrictive" = "We can't continue";
-"error.body.restrictive" = "We're unable to complete this right now.";
-"error.title.setupIssue" = "Please get in touch";
-"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
-"error.title.serverTransient" = "Let's try that again";
-"error.body.serverTransient" = "If this issue continues, please contact support.";
-"error.title.enrollmentMismatch" = "Let's try that again";
-"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
-"error.cta.tryAgain" = "Try again";
-"error.cta.startOver" = "Start over";
-"error.cta.checkAccount" = "Check my account";
-"error.cta.openSettings" = "Open settings";
-"error.cta.contactSupport" = "Contact support";
-"error.cta.close" = "Close";
+"error.title.connectionLost" = "Savienojums zaudēts";
+"error.body.connectionLost" = "Jūs esat bezsaistē. Pārbaudiet interneta savienojumu.";
+"error.title.rateLimited" = "Tikai mirklīti";
+"error.body.rateLimited" = "Mēģiniet vēlreiz pēc brīža.";
+"error.title.sessionExpired" = "Mēģināsim vēlreiz";
+"error.body.sessionExpired" = "Jūsu sesijas laiks beidzās. Mēģināsim vēlreiz.";
+"error.title.checkAccount" = "Pārbaudiet savu kontu";
+"error.body.checkAccount" = "Jūsu pēdējais mēģinājums, iespējams, jau ir izdevies.";
+"error.title.cameraPermission" = "Mums nepieciešama jūsu kamera";
+"error.body.cameraPermission" = "Iestatījumos ieslēdziet piekļuvi kamerai.";
+"error.title.palmMismatch" = "Neatbilda";
+"error.body.palmMismatch" = "Neizdevās verificēt jūsu plaukstu.";
+"error.title.scanFailed" = "Mēģināsim vēlreiz";
+"error.body.scanFailed" = "Pārvietojieties labākā apgaismojumā un turiet roku nekustīgi.";
+"error.title.restrictive" = "Mēs nevaram turpināt";
+"error.body.restrictive" = "Šobrīd mēs to nevaram pabeigt.";
+"error.title.setupIssue" = "Lūdzu, sazinieties ar mums";
+"error.body.setupIssue" = "Šai lietotnei ir iestatīšanas problēma. Lūdzu, sazinieties ar atbalsta dienestu.";
+"error.title.serverTransient" = "Mēģināsim vēlreiz";
+"error.body.serverTransient" = "Ja problēma turpinās, lūdzu, sazinieties ar atbalsta dienestu.";
+"error.title.enrollmentMismatch" = "Mēģināsim vēlreiz";
+"error.body.enrollmentMismatch" = "Neizdevās verificēt plaukstas skenējumus. Lūdzu, mēģiniet vēlreiz labākos apgaismojuma apstākļos";
+"error.title.palmTooBlurry" = "Plaukstas skenējums ir pārāk izplūdis";
+"error.body.palmTooBlurry" = "Turiet roku nekustīgi un skenējiet vēlreiz labākā apgaismojumā.";
+"error.cta.tryAgain" = "Mēģināt vēlreiz";
+"error.cta.startOver" = "Sākt no jauna";
+"error.cta.checkAccount" = "Pārbaudīt kontu";
+"error.cta.openSettings" = "Atvērt iestatījumus";
+"error.cta.contactSupport" = "Sazināties ar atbalstu";
+"error.cta.close" = "Aizvērt";
 
 /* VER-491 inline: field-level email verify errors (2006/2007) */
-"email.inlineCodeInvalid" = "Code is incorrect.";
-"email.inlineCodeExpired" = "Code has expired. Request a new code.";
-"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
-"email.inlineCodeGeneric" = "Verification failed.";
+"email.inlineCodeInvalid" = "Kods ir nepareizs.";
+"email.inlineCodeExpired" = "Kods ir beidzies. Pieprasiet jaunu kodu.";
+"email.inlineCodeRateLimit" = "Pārāk daudz mēģinājumu. Lūdzu, pieprasiet jaunu kodu.";
+"email.inlineCodeGeneric" = "Verifikācija neizdevās.";
 "consent.startVerification" = "Sākt verifikāciju";
 "consent.tip2" = "%@ būs piekļuve ierobežotiem [verifikācijas datiem]";
 "consent.verifyIdentitySubtitle" = "%@ izmanto VeryAI, lai apstiprinātu, ka esat cilvēks.";

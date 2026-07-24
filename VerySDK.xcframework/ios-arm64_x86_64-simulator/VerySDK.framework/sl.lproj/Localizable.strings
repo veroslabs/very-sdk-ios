@@ -2,23 +2,23 @@
 /* NOTE: This file contains English placeholder text. Please translate all strings to Slovenian. */
 
 /* Bottom Status Messages */
-"status.moveHandLeft" = "Move your hand left";
-"status.moveHandRight" = "Move your hand right";
-"status.moveHandUp" = "Move your hand up";
-"status.moveHandDown" = "Move your hand down";
-"status.moveHandCloser" = "Bring your hand closer";
-"status.moveHandFarther" = "Move your hand back a bit";
-"status.rotateHandUpward" = "Tilt your hand toward you";
-"status.rotateHandParallel" = "Keep your hand flat";
+"status.moveHandLeft" = "Premaknite roko levo";
+"status.moveHandRight" = "Premaknite roko desno";
+"status.moveHandUp" = "Premaknite roko navzgor";
+"status.moveHandDown" = "Premaknite roko navzdol";
+"status.moveHandCloser" = "Približajte roko";
+"status.moveHandFarther" = "Roko premaknite malo nazaj";
+"status.rotateHandUpward" = "Nagnite roko proti sebi";
+"status.rotateHandParallel" = "Držite roko ravno";
 "status.flipHandOver" = "Položite dlan pred kamero";
-"status.spreadFingers" = "Open your hand wide";
-"status.straightenFingers" = "Straighten your fingers";
-"status.spreadThumb" = "Move your thumb out to the side";
-"status.straightenThumb" = "Straighten your thumb";
-"status.brightenHand" = "Find a brighter spot";
-"status.darkenHand" = "Try moving out of direct light";
-"status.focusHand" = "Hold still for a moment";
-"status.keepStill" = "Hold still";
+"status.spreadFingers" = "Široko odprite roko";
+"status.straightenFingers" = "Poravnajte prste";
+"status.spreadThumb" = "Palec odmaknite vstran";
+"status.straightenThumb" = "Poravnajte palec";
+"status.brightenHand" = "Poiščite svetlejši prostor";
+"status.darkenHand" = "Poskusite se umakniti z neposredne svetlobe";
+"status.focusHand" = "Za trenutek se ne premikajte";
+"status.keepStill" = "Ne premikajte se";
 
 /* Scan View Controller */
 
@@ -28,10 +28,10 @@
 
 
 /* Auth View Controller */
-"auth.cancel" = "Cancel";
-"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
-"auth.termsOfService" = "Terms of Service";
-"auth.privacyPolicy" = "Privacy Policy";
+"auth.cancel" = "Prekliči";
+"auth.termsText" = "Z nadaljevanjem se strinjate z našimi Pogoji storitve in Pravilnikom o zasebnosti.";
+"auth.termsOfService" = "Pogoji storitve";
+"auth.privacyPolicy" = "Pravilnik o zasebnosti";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Nastavite skeniranje dlani";
@@ -39,36 +39,38 @@
 "workthrough.getStarted" = "Začni";
 
 /* Error Messages */
-"error.5001" = "Session expired. Please start again.";
-"error.5002" = "Session not found or already consumed.";
-"error.5003" = "Please try again.";
-"error.5004" = "All verification attempts have been used.";
+"error.5001" = "Seja je potekla. Začnite znova.";
+"error.5002" = "Seje ni mogoče najti ali pa je že porabljena.";
+"error.5003" = "Poskusite znova.";
+"error.5004" = "Vsi poskusi preverjanja so bili porabljeni.";
 "error.5005" = "Vaše dlani ni bilo mogoče preveriti. Poskusite znova.";
 "error.5006" = "Prišlo je do napake. Poskusite znova.";
 "error.5007" = "Vaša seja je potekla. Poskusite znova.";
 "error.5008" = "Prišlo je do napake. Obrnite se na podporo.";
 "error.5009" = "Prišlo je do napake. Obrnite se na podporo.";
-"error.5010" = "Account review was permanently rejected.";
-"error.5011" = "Account enrollment is still under review.";
-"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests. Please try again later.";
+"error.5010" = "Pregled računa je bil dokončno zavrnjen.";
+"error.5011" = "Registracija računa je še v pregledu.";
+"error.5012" = "Ponovna registracija je mogoča le, ko je stanje pregleda zavrnjeno.";
+"error.5013" = "Preveč zahtev. Poskusite znova pozneje.";
 "error.5014" = "Prišlo je do napake. Poskusite znova.";
-"error.5015" = "Please verify your email first.";
-"error.5016" = "Email has already been verified for this session.";
-"error.5017" = "Your account is restricted and cannot proceed.";
-"error.5018" = "Email verification is not available for this session.";
+"error.5015" = "Najprej preverite svojo e-pošto.";
+"error.5016" = "E-pošta je za to sejo že preverjena.";
+"error.5017" = "Vaš račun je omejen in nadaljevanje ni mogoče.";
+"error.5018" = "Preverjanje e-pošte za to sejo ni na voljo.";
+"error.5019" = "Ta dlan je že registrirana v drugem računu.";
+"error.5020" = "Skeniranje dlani je premotno. Poskusite znova.";
 "error.6101" = "Za skeniranje dlani dovolite dostop do kamere v nastavitvah telefona.";
 "error.6102" = "Skeniranja ni bilo mogoče dokončati. Poskusite znova.";
-"error.6103" = "Session expired. Please try again.";
-"error.6104" = "User cancelled.";
-"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
+"error.6103" = "Seja je potekla. Poskusite znova.";
+"error.6104" = "Uporabnik je preklical.";
+"error.6106" = "Knjižnice za skeniranje dlani ni bilo mogoče naložiti. Preverite internet in poskusite znova.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "Vaša dlan je bila preverjena.";
 "scan.successRegistered" = "Biometrija dlani je bila nastavljena.";
 
 /* Common UI */
-"common.poweredBy" = "Powered by";
+"common.poweredBy" = "Poganja";
 "common.retrying" = "Ponoven poskus…";
 "common.done" = "Končano";
 "common.continue" = "Nadaljuj";
@@ -83,7 +85,7 @@
 "scan.showGesture" = "Pokažite gesto";
 "scan.connectDots" = "Povežite pike";
 "scan.almostDone" = "Skoraj končano";
-"scan.livenessThanks" = "Thanks for verifying";
+"scan.livenessThanks" = "Hvala za preverjanje";
 "scan.support" = "Podpora";
 "scan.registeringPalms" = "Registriranje dlani";
 "scan.verifyingPalm" = "Preverjanje dlani";
@@ -141,40 +143,42 @@
 "error.6999" = "Prišlo je do napake. Poskusite znova.";
 
 /* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
-"error.title.connectionLost" = "Connection lost";
-"error.body.connectionLost" = "You're offline. Check your internet.";
-"error.title.rateLimited" = "Just a moment";
-"error.body.rateLimited" = "Try again in a moment.";
-"error.title.sessionExpired" = "Let's try that again";
-"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
-"error.title.checkAccount" = "Check your account";
-"error.body.checkAccount" = "Your last attempt may have already gone through.";
-"error.title.cameraPermission" = "We need your camera";
-"error.body.cameraPermission" = "Turn on camera access in settings.";
-"error.title.palmMismatch" = "That didn't match";
-"error.body.palmMismatch" = "We couldn't verify your palm.";
-"error.title.scanFailed" = "Let's try that again";
-"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
-"error.title.restrictive" = "We can't continue";
-"error.body.restrictive" = "We're unable to complete this right now.";
-"error.title.setupIssue" = "Please get in touch";
-"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
-"error.title.serverTransient" = "Let's try that again";
-"error.body.serverTransient" = "If this issue continues, please contact support.";
-"error.title.enrollmentMismatch" = "Let's try that again";
-"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
-"error.cta.tryAgain" = "Try again";
-"error.cta.startOver" = "Start over";
-"error.cta.checkAccount" = "Check my account";
-"error.cta.openSettings" = "Open settings";
-"error.cta.contactSupport" = "Contact support";
-"error.cta.close" = "Close";
+"error.title.connectionLost" = "Povezava je prekinjena";
+"error.body.connectionLost" = "Niste povezani. Preverite internet.";
+"error.title.rateLimited" = "Trenutek";
+"error.body.rateLimited" = "Poskusite znova čez trenutek.";
+"error.title.sessionExpired" = "Poskusimo znova";
+"error.body.sessionExpired" = "Vaša seja je potekla. Poskusimo znova.";
+"error.title.checkAccount" = "Preverite svoj račun";
+"error.body.checkAccount" = "Vaš zadnji poskus je morda že uspel.";
+"error.title.cameraPermission" = "Potrebujemo vašo kamero";
+"error.body.cameraPermission" = "V nastavitvah vklopite dostop do kamere.";
+"error.title.palmMismatch" = "Ni ujemanja";
+"error.body.palmMismatch" = "Vaše dlani ni bilo mogoče preveriti.";
+"error.title.scanFailed" = "Poskusimo znova";
+"error.body.scanFailed" = "Premaknite se na bolje osvetljeno mesto in mirno držite roko.";
+"error.title.restrictive" = "Ne moremo nadaljevati";
+"error.body.restrictive" = "Tega trenutno ne moremo dokončati.";
+"error.title.setupIssue" = "Obrnite se na nas";
+"error.body.setupIssue" = "Ta aplikacija ima težavo z nastavitvijo. Obrnite se na podporo.";
+"error.title.serverTransient" = "Poskusimo znova";
+"error.body.serverTransient" = "Če težava ne izgine, se obrnite na podporo.";
+"error.title.enrollmentMismatch" = "Poskusimo znova";
+"error.body.enrollmentMismatch" = "Skenov dlani ni bilo mogoče preveriti. Poskusite znova pri boljši osvetlitvi";
+"error.title.palmTooBlurry" = "Skeniranje dlani je premotno";
+"error.body.palmTooBlurry" = "Roko držite pri miru in znova skenirajte pri boljši svetlobi.";
+"error.cta.tryAgain" = "Poskusi znova";
+"error.cta.startOver" = "Začni znova";
+"error.cta.checkAccount" = "Preveri moj račun";
+"error.cta.openSettings" = "Odpri nastavitve";
+"error.cta.contactSupport" = "Stik s podporo";
+"error.cta.close" = "Zapri";
 
 /* VER-491 inline: field-level email verify errors (2006/2007) */
-"email.inlineCodeInvalid" = "Code is incorrect.";
-"email.inlineCodeExpired" = "Code has expired. Request a new code.";
-"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
-"email.inlineCodeGeneric" = "Verification failed.";
+"email.inlineCodeInvalid" = "Koda je napačna.";
+"email.inlineCodeExpired" = "Koda je potekla. Zahtevajte novo kodo.";
+"email.inlineCodeRateLimit" = "Preveč poskusov. Zahtevajte novo kodo.";
+"email.inlineCodeGeneric" = "Preverjanje ni uspelo.";
 "consent.startVerification" = "Začni preverjanje";
 "consent.tip2" = "%@ bo imel dostop do omejenih [podatkov o preverjanju]";
 "consent.verifyIdentitySubtitle" = "%@ uporablja VeryAI za potrditev, da ste človek.";

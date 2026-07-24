@@ -2,23 +2,23 @@
 /* NOTE: This file contains English placeholder text. Please translate all strings to Filipino. */
 
 /* Bottom Status Messages */
-"status.moveHandLeft" = "Move your hand left";
-"status.moveHandRight" = "Move your hand right";
-"status.moveHandUp" = "Move your hand up";
-"status.moveHandDown" = "Move your hand down";
-"status.moveHandCloser" = "Bring your hand closer";
-"status.moveHandFarther" = "Move your hand back a bit";
-"status.rotateHandUpward" = "Tilt your hand toward you";
-"status.rotateHandParallel" = "Keep your hand flat";
+"status.moveHandLeft" = "Igalaw pakaliwa ang iyong kamay";
+"status.moveHandRight" = "Igalaw pakanan ang iyong kamay";
+"status.moveHandUp" = "Itaas ang iyong kamay";
+"status.moveHandDown" = "Ibaba ang iyong kamay";
+"status.moveHandCloser" = "Ilapit ang iyong kamay";
+"status.moveHandFarther" = "Iurong nang kaunti ang iyong kamay";
+"status.rotateHandUpward" = "Ikiling ang iyong kamay papunta sa iyo";
+"status.rotateHandParallel" = "Panatilihing patag ang iyong kamay";
 "status.flipHandOver" = "Ilagay ang palad sa harap ng camera";
-"status.spreadFingers" = "Open your hand wide";
-"status.straightenFingers" = "Straighten your fingers";
-"status.spreadThumb" = "Move your thumb out to the side";
-"status.straightenThumb" = "Straighten your thumb";
-"status.brightenHand" = "Find a brighter spot";
-"status.darkenHand" = "Try moving out of direct light";
-"status.focusHand" = "Hold still for a moment";
-"status.keepStill" = "Hold still";
+"status.spreadFingers" = "Ibuka nang maluwang ang iyong kamay";
+"status.straightenFingers" = "Ituwid ang iyong mga daliri";
+"status.spreadThumb" = "Ibuka pahanay ang iyong hinlalaki";
+"status.straightenThumb" = "Ituwid ang iyong hinlalaki";
+"status.brightenHand" = "Humanap ng mas maliwanag na lugar";
+"status.darkenHand" = "Subukang lumayo sa tuwirang liwanag";
+"status.focusHand" = "Huwag munang gumalaw";
+"status.keepStill" = "Huwag gumalaw";
 
 /* Scan View Controller */
 
@@ -28,10 +28,10 @@
 
 
 /* Auth View Controller */
-"auth.cancel" = "Cancel";
-"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
-"auth.termsOfService" = "Terms of Service";
-"auth.privacyPolicy" = "Privacy Policy";
+"auth.cancel" = "Kanselahin";
+"auth.termsText" = "Sa pagpapatuloy, sumasang-ayon ka sa aming Mga Tuntunin ng Serbisyo at Patakaran sa Privacy.";
+"auth.termsOfService" = "Mga Tuntunin ng Serbisyo";
+"auth.privacyPolicy" = "Patakaran sa Privacy";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "I-set up ang iyong palm scan";
@@ -39,36 +39,38 @@
 "workthrough.getStarted" = "Magsimula";
 
 /* Error Messages */
-"error.5001" = "Session expired. Please start again.";
-"error.5002" = "Session not found or already consumed.";
-"error.5003" = "Please try again.";
-"error.5004" = "All verification attempts have been used.";
+"error.5001" = "Nag-expire ang session. Pakisimulan muli.";
+"error.5002" = "Hindi natagpuan ang session o nagamit na.";
+"error.5003" = "Pakisubukang muli.";
+"error.5004" = "Naubos na ang lahat ng pagsubok sa pag-verify.";
 "error.5005" = "Hindi namin ma-verify ang iyong palad. Pakisubukan muli.";
 "error.5006" = "May nangyaring mali. Pakisubukan muli.";
 "error.5007" = "Nag-expire na ang iyong session. Pakisubukan muli.";
 "error.5008" = "May nangyaring mali. Pakikontak ang support.";
 "error.5009" = "May nangyaring mali. Pakikontak ang support.";
-"error.5010" = "Account review was permanently rejected.";
-"error.5011" = "Account enrollment is still under review.";
-"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests. Please try again later.";
+"error.5010" = "Permanenteng tinanggihan ang pagsusuri ng account.";
+"error.5011" = "Sinusuri pa ang pagpapatala ng account.";
+"error.5012" = "Pinapayagan lamang ang muling pagpapatala kapag tinanggihan ang status ng pagsusuri.";
+"error.5013" = "Masyadong maraming request. Pakisubukang muli mamaya.";
 "error.5014" = "May nangyaring mali. Pakisubukan muli.";
-"error.5015" = "Please verify your email first.";
-"error.5016" = "Email has already been verified for this session.";
-"error.5017" = "Your account is restricted and cannot proceed.";
-"error.5018" = "Email verification is not available for this session.";
+"error.5015" = "Pakiverify muna ang iyong email.";
+"error.5016" = "Na-verify na ang email para sa session na ito.";
+"error.5017" = "Pinaghihigpitan ang iyong account at hindi makakapagpatuloy.";
+"error.5018" = "Hindi available ang pag-verify ng email para sa session na ito.";
+"error.5019" = "Nakarehistro na ang palad na ito sa ibang account.";
+"error.5020" = "Masyadong malabo ang pag-scan ng palad. Pakisubukang muli.";
 "error.6101" = "Para ma-scan ang iyong palad, pakipayagan ang access sa camera sa settings ng iyong telepono.";
 "error.6102" = "Hindi namin makumpleto ang pag-scan. Pakisubukan muli.";
-"error.6103" = "Session expired. Please try again.";
-"error.6104" = "User cancelled.";
-"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
+"error.6103" = "Nag-expire ang session. Pakisubukang muli.";
+"error.6104" = "Kinansela ng user.";
+"error.6106" = "Hindi ma-load ang library para sa pag-scan ng palad. Suriin ang iyong internet at subukang muli.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "Na-verify na ang iyong palad.";
 "scan.successRegistered" = "Na-set up na ang palm biometrics.";
 
 /* Common UI */
-"common.poweredBy" = "Powered by";
+"common.poweredBy" = "Pinapagana ng";
 "common.retrying" = "Sinusubukan muli…";
 "common.done" = "Tapos na";
 "common.continue" = "Magpatuloy";
@@ -83,7 +85,7 @@
 "scan.showGesture" = "Ipakita ang galaw";
 "scan.connectDots" = "Ikonekta ang mga tuldok";
 "scan.almostDone" = "Halos tapos na";
-"scan.livenessThanks" = "Thanks for verifying";
+"scan.livenessThanks" = "Salamat sa pag-verify";
 "scan.support" = "Suporta";
 "scan.registeringPalms" = "Inirerehistro ang mga palad";
 "scan.verifyingPalm" = "Vine-verify ang palad";
@@ -141,40 +143,42 @@
 "error.6999" = "May nangyaring mali. Pakisubukan muli.";
 
 /* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
-"error.title.connectionLost" = "Connection lost";
-"error.body.connectionLost" = "You're offline. Check your internet.";
-"error.title.rateLimited" = "Just a moment";
-"error.body.rateLimited" = "Try again in a moment.";
-"error.title.sessionExpired" = "Let's try that again";
-"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
-"error.title.checkAccount" = "Check your account";
-"error.body.checkAccount" = "Your last attempt may have already gone through.";
-"error.title.cameraPermission" = "We need your camera";
-"error.body.cameraPermission" = "Turn on camera access in settings.";
-"error.title.palmMismatch" = "That didn't match";
-"error.body.palmMismatch" = "We couldn't verify your palm.";
-"error.title.scanFailed" = "Let's try that again";
-"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
-"error.title.restrictive" = "We can't continue";
-"error.body.restrictive" = "We're unable to complete this right now.";
-"error.title.setupIssue" = "Please get in touch";
-"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
-"error.title.serverTransient" = "Let's try that again";
-"error.body.serverTransient" = "If this issue continues, please contact support.";
-"error.title.enrollmentMismatch" = "Let's try that again";
-"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
-"error.cta.tryAgain" = "Try again";
-"error.cta.startOver" = "Start over";
-"error.cta.checkAccount" = "Check my account";
-"error.cta.openSettings" = "Open settings";
-"error.cta.contactSupport" = "Contact support";
-"error.cta.close" = "Close";
+"error.title.connectionLost" = "Nawalan ng koneksyon";
+"error.body.connectionLost" = "Offline ka. Suriin ang iyong internet.";
+"error.title.rateLimited" = "Sandali lang";
+"error.body.rateLimited" = "Subukang muli sa ilang sandali.";
+"error.title.sessionExpired" = "Subukan nating muli";
+"error.body.sessionExpired" = "Nag-time out ang iyong session. Subukan nating muli.";
+"error.title.checkAccount" = "Tingnan ang iyong account";
+"error.body.checkAccount" = "Maaaring naipasa na ang iyong huling pagsubok.";
+"error.title.cameraPermission" = "Kailangan namin ang iyong camera";
+"error.body.cameraPermission" = "I-on ang access sa camera sa mga setting.";
+"error.title.palmMismatch" = "Hindi tumugma";
+"error.body.palmMismatch" = "Hindi namin ma-verify ang iyong palad.";
+"error.title.scanFailed" = "Subukan nating muli";
+"error.body.scanFailed" = "Lumipat sa mas maliwanag na lugar at panatilihing steady ang iyong kamay.";
+"error.title.restrictive" = "Hindi kami makakapagpatuloy";
+"error.body.restrictive" = "Hindi namin ito makumpleto sa ngayon.";
+"error.title.setupIssue" = "Makipag-ugnayan sa amin";
+"error.body.setupIssue" = "May problema sa setup ang app na ito. Makipag-ugnayan sa suporta.";
+"error.title.serverTransient" = "Subukan nating muli";
+"error.body.serverTransient" = "Kung magpatuloy ang isyung ito, makipag-ugnayan sa suporta.";
+"error.title.enrollmentMismatch" = "Subukan nating muli";
+"error.body.enrollmentMismatch" = "Hindi namin ma-verify ang mga scan ng palad. Pakisubukang muli sa mas maayos na ilaw";
+"error.title.palmTooBlurry" = "Masyadong malabo ang pag-scan ng palad";
+"error.body.palmTooBlurry" = "Panatilihing nakatigil ang iyong kamay at mag-scan muli sa mas magandang ilaw.";
+"error.cta.tryAgain" = "Subukang muli";
+"error.cta.startOver" = "Magsimulang muli";
+"error.cta.checkAccount" = "Tingnan ang aking account";
+"error.cta.openSettings" = "Buksan ang mga setting";
+"error.cta.contactSupport" = "Makipag-ugnayan sa suporta";
+"error.cta.close" = "Isara";
 
 /* VER-491 inline: field-level email verify errors (2006/2007) */
-"email.inlineCodeInvalid" = "Code is incorrect.";
-"email.inlineCodeExpired" = "Code has expired. Request a new code.";
-"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
-"email.inlineCodeGeneric" = "Verification failed.";
+"email.inlineCodeInvalid" = "Mali ang code.";
+"email.inlineCodeExpired" = "Nag-expire na ang code. Humiling ng bagong code.";
+"email.inlineCodeRateLimit" = "Masyadong maraming pagsubok. Humiling ng bagong code.";
+"email.inlineCodeGeneric" = "Nabigo ang pag-verify.";
 "consent.startVerification" = "Simulan ang pag-verify";
 "consent.tip2" = "Magkakaroon ang %@ ng limitadong access sa [data ng pag-verify]";
 "consent.verifyIdentitySubtitle" = "Ginagamit ng %@ ang VeryAI para kumpirmahing tao ka.";

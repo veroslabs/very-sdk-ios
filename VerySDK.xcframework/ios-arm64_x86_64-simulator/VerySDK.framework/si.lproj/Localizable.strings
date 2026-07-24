@@ -2,23 +2,23 @@
 /* NOTE: This file contains English placeholder text. Please translate all strings to Sinhala. */
 
 /* Bottom Status Messages */
-"status.moveHandLeft" = "Move your hand left";
-"status.moveHandRight" = "Move your hand right";
-"status.moveHandUp" = "Move your hand up";
-"status.moveHandDown" = "Move your hand down";
-"status.moveHandCloser" = "Bring your hand closer";
-"status.moveHandFarther" = "Move your hand back a bit";
-"status.rotateHandUpward" = "Tilt your hand toward you";
-"status.rotateHandParallel" = "Keep your hand flat";
+"status.moveHandLeft" = "ඔබේ අත වමට ගෙනයන්න";
+"status.moveHandRight" = "ඔබේ අත දකුණට ගෙනයන්න";
+"status.moveHandUp" = "ඔබේ අත ඉහළට ගෙනයන්න";
+"status.moveHandDown" = "ඔබේ අත පහළට ගෙනයන්න";
+"status.moveHandCloser" = "ඔබේ අත ළං කරන්න";
+"status.moveHandFarther" = "ඔබේ අත ටිකක් පසුපසට ගෙනයන්න";
+"status.rotateHandUpward" = "ඔබේ අත ඔබ දෙසට ඇල කරන්න";
+"status.rotateHandParallel" = "ඔබේ අත පැතලිව තබාගන්න";
 "status.flipHandOver" = "කැමරාව ඉදිරියේ අත්ල තබන්න";
-"status.spreadFingers" = "Open your hand wide";
-"status.straightenFingers" = "Straighten your fingers";
-"status.spreadThumb" = "Move your thumb out to the side";
-"status.straightenThumb" = "Straighten your thumb";
-"status.brightenHand" = "Find a brighter spot";
-"status.darkenHand" = "Try moving out of direct light";
-"status.focusHand" = "Hold still for a moment";
-"status.keepStill" = "Hold still";
+"status.spreadFingers" = "ඔබේ අත පුළුල්ව විවෘත කරන්න";
+"status.straightenFingers" = "ඔබේ ඇඟිලි කෙළින් කරන්න";
+"status.spreadThumb" = "ඔබේ මාපටැඟිල්ල පැත්තට දිගු කරන්න";
+"status.straightenThumb" = "ඔබේ මාපටැඟිල්ල කෙළින් කරන්න";
+"status.brightenHand" = "වඩාත් දීප්තිමත් ස්ථානයක් සොයන්න";
+"status.darkenHand" = "සෘජු ආලෝකයෙන් ඉවතට යාමට උත්සාහ කරන්න";
+"status.focusHand" = "මොහොතක් නිශ්චලව සිටින්න";
+"status.keepStill" = "නිශ්චලව සිටින්න";
 
 /* Scan View Controller */
 
@@ -28,10 +28,10 @@
 
 
 /* Auth View Controller */
-"auth.cancel" = "Cancel";
-"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
-"auth.termsOfService" = "Terms of Service";
-"auth.privacyPolicy" = "Privacy Policy";
+"auth.cancel" = "අවලංගු කරන්න";
+"auth.termsText" = "ඉදිරියට යාමෙන්, ඔබ අපගේ සේවා නියමයන් සහ පෞද්ගලිකත්ව ප්‍රතිපත්තියට එකඟ වේ.";
+"auth.termsOfService" = "සේවා නියමයන්";
+"auth.privacyPolicy" = "පෞද්ගලිකත්ව ප්‍රතිපත්තිය";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "ඔබේ අත්ල ස්කෑන් සකසන්න";
@@ -39,36 +39,38 @@
 "workthrough.getStarted" = "ආරම්භ කරන්න";
 
 /* Error Messages */
-"error.5001" = "Session expired. Please start again.";
-"error.5002" = "Session not found or already consumed.";
-"error.5003" = "Please try again.";
-"error.5004" = "All verification attempts have been used.";
+"error.5001" = "සැසිය කල් ඉකුත් විය. කරුණාකර නැවත ආරම්භ කරන්න.";
+"error.5002" = "සැසිය හමු නොවීය හෝ දැනටමත් භාවිතා කර ඇත.";
+"error.5003" = "කරුණාකර නැවත උත්සාහ කරන්න.";
+"error.5004" = "සියලුම සත්‍යාපන උත්සාහයන් භාවිතා කර ඇත.";
 "error.5005" = "ඔබගේ අත්ල තහවුරු කිරීමට නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.";
 "error.5006" = "යම් දෝෂයක් සිදු විය. කරුණාකර නැවත උත්සාහ කරන්න.";
 "error.5007" = "ඔබගේ සැසිය කල් ඉකුත් වී ඇත. කරුණාකර නැවත උත්සාහ කරන්න.";
 "error.5008" = "යම් දෝෂයක් සිදු විය. කරුණාකර සහාය සේවාව අමතන්න.";
 "error.5009" = "යම් දෝෂයක් සිදු විය. කරුණාකර සහාය සේවාව අමතන්න.";
-"error.5010" = "Account review was permanently rejected.";
-"error.5011" = "Account enrollment is still under review.";
-"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests. Please try again later.";
+"error.5010" = "ගිණුම් සමාලෝචනය ස්ථිරව ප්‍රතික්ෂේප කරන ලදී.";
+"error.5011" = "ගිණුම් ලියාපදිංචිය තවමත් සමාලෝචනය වෙමින් පවතී.";
+"error.5012" = "සමාලෝචන තත්ත්වය ප්‍රතික්ෂේප වූ විට පමණක් නැවත ලියාපදිංචි වීමට අවසර ඇත.";
+"error.5013" = "ඉල්ලීම් ඉතා වැඩියි. කරුණාකර පසුව නැවත උත්සාහ කරන්න.";
 "error.5014" = "යම් දෝෂයක් සිදු විය. කරුණාකර නැවත උත්සාහ කරන්න.";
-"error.5015" = "Please verify your email first.";
-"error.5016" = "Email has already been verified for this session.";
-"error.5017" = "Your account is restricted and cannot proceed.";
-"error.5018" = "Email verification is not available for this session.";
+"error.5015" = "කරුණාකර පළමුව ඔබේ විද්‍යුත් තැපෑල සත්‍යාපනය කරන්න.";
+"error.5016" = "මෙම සැසිය සඳහා විද්‍යුත් තැපෑල දැනටමත් සත්‍යාපනය කර ඇත.";
+"error.5017" = "ඔබේ ගිණුම සීමා කර ඇති අතර ඉදිරියට යා නොහැක.";
+"error.5018" = "මෙම සැසිය සඳහා විද්‍යුත් තැපැල් සත්‍යාපනය නොමැත.";
+"error.5019" = "මෙම අත්ල දැනටමත් වෙනත් ගිණුමකට ලියාපදිංචි කර ඇත.";
+"error.5020" = "අත්ල පරිලෝකනය ඉතා බොඳයි. කරුණාකර නැවත උත්සාහ කරන්න.";
 "error.6101" = "ඔබගේ අත්ල ස්කෑන් කිරීමට, ඔබගේ දුරකථන සැකසීම් තුළ කැමරා ප්‍රවේශයට අවසර දෙන්න.";
 "error.6102" = "ස්කෑන් කිරීම සම්පූර්ණ කිරීමට නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.";
-"error.6103" = "Session expired. Please try again.";
-"error.6104" = "User cancelled.";
-"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
+"error.6103" = "සැසිය කල් ඉකුත් විය. කරුණාකර නැවත උත්සාහ කරන්න.";
+"error.6104" = "පරිශීලක අවලංගු කළේය.";
+"error.6106" = "අත්ල පරිලෝකන පුස්තකාලය පූරණය කළ නොහැකි විය. ඔබේ අන්තර්ජාලය පරීක්ෂා කර නැවත උත්සාහ කරන්න.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "ඔබේ අත්ල සත්‍යාපනය කරන ලදී.";
 "scan.successRegistered" = "අත්ල ජීවමිතිය දැන් සකසා ඇත.";
 
 /* Common UI */
-"common.poweredBy" = "Powered by";
+"common.poweredBy" = "බලගැන්වූයේ";
 "common.retrying" = "නැවත උත්සාහ කරමින්…";
 "common.done" = "හරි";
 "common.continue" = "ඉදිරියට";
@@ -83,7 +85,7 @@
 "scan.showGesture" = "අභිනය පෙන්වන්න";
 "scan.connectDots" = "ලක්ෂ්‍ය සම්බන්ධ කරන්න";
 "scan.almostDone" = "බොහෝ දුරට සම්පූර්ණයි";
-"scan.livenessThanks" = "Thanks for verifying";
+"scan.livenessThanks" = "සත්‍යාපනය කිරීම ගැන ස්තූතියි";
 "scan.support" = "සහාය";
 "scan.registeringPalms" = "අත්ල ලියාපදිංචි කරමින්";
 "scan.verifyingPalm" = "අත්ල සත්‍යාපනය කරමින්";
@@ -141,40 +143,42 @@
 "error.6999" = "යමක් වැරදී ඇත. කරුණාකර නැවත උත්සාහ කරන්න.";
 
 /* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
-"error.title.connectionLost" = "Connection lost";
-"error.body.connectionLost" = "You're offline. Check your internet.";
-"error.title.rateLimited" = "Just a moment";
-"error.body.rateLimited" = "Try again in a moment.";
-"error.title.sessionExpired" = "Let's try that again";
-"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
-"error.title.checkAccount" = "Check your account";
-"error.body.checkAccount" = "Your last attempt may have already gone through.";
-"error.title.cameraPermission" = "We need your camera";
-"error.body.cameraPermission" = "Turn on camera access in settings.";
-"error.title.palmMismatch" = "That didn't match";
-"error.body.palmMismatch" = "We couldn't verify your palm.";
-"error.title.scanFailed" = "Let's try that again";
-"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
-"error.title.restrictive" = "We can't continue";
-"error.body.restrictive" = "We're unable to complete this right now.";
-"error.title.setupIssue" = "Please get in touch";
-"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
-"error.title.serverTransient" = "Let's try that again";
-"error.body.serverTransient" = "If this issue continues, please contact support.";
-"error.title.enrollmentMismatch" = "Let's try that again";
-"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
-"error.cta.tryAgain" = "Try again";
-"error.cta.startOver" = "Start over";
-"error.cta.checkAccount" = "Check my account";
-"error.cta.openSettings" = "Open settings";
-"error.cta.contactSupport" = "Contact support";
-"error.cta.close" = "Close";
+"error.title.connectionLost" = "සම්බන්ධතාවය නැති විය";
+"error.body.connectionLost" = "ඔබ නොබැඳිව සිටී. ඔබේ අන්තර්ජාලය පරීක්ෂා කරන්න.";
+"error.title.rateLimited" = "මොහොතක් රැඳී සිටින්න";
+"error.body.rateLimited" = "මොහොතකින් නැවත උත්සාහ කරන්න.";
+"error.title.sessionExpired" = "නැවත උත්සාහ කරමු";
+"error.body.sessionExpired" = "ඔබේ සැසිය කල් ඉකුත් විය. නැවත උත්සාහ කරමු.";
+"error.title.checkAccount" = "ඔබේ ගිණුම පරීක්ෂා කරන්න";
+"error.body.checkAccount" = "ඔබේ අවසන් උත්සාහය දැනටමත් සම්පූර්ණ වී තිබෙන්නට පුළුවන.";
+"error.title.cameraPermission" = "අපට ඔබේ කැමරාව අවශ්‍යයි";
+"error.body.cameraPermission" = "සැකසුම් තුළ කැමරා ප්‍රවේශය සක්‍රීය කරන්න.";
+"error.title.palmMismatch" = "එය නොගැළපුණි";
+"error.body.palmMismatch" = "අපට ඔබේ අත්ල සත්‍යාපනය කළ නොහැකි විය.";
+"error.title.scanFailed" = "නැවත උත්සාහ කරමු";
+"error.body.scanFailed" = "වඩා හොඳ ආලෝකයකට යන්න සහ ඔබේ අත ස්ථිරව තබා ගන්න.";
+"error.title.restrictive" = "අපට ඉදිරියට යා නොහැක";
+"error.body.restrictive" = "අපට මෙය දැන් සම්පූර්ණ කළ නොහැක.";
+"error.title.setupIssue" = "කරුණාකර අප හා සම්බන්ධ වන්න";
+"error.body.setupIssue" = "මෙම යෙදුමේ පිහිටුවීමේ ගැටලුවක් ඇත. කරුණාකර සහාය අමතන්න.";
+"error.title.serverTransient" = "නැවත උත්සාහ කරමු";
+"error.body.serverTransient" = "මෙම ගැටලුව දිගටම පවතී නම්, කරුණාකර සහාය අමතන්න.";
+"error.title.enrollmentMismatch" = "නැවත උත්සාහ කරමු";
+"error.body.enrollmentMismatch" = "අපට අත්ල පරිලෝකන සත්‍යාපනය කළ නොහැකි විය. කරුණාකර වඩා හොඳ ආලෝක තත්ත්වයක් යටතේ නැවත උත්සාහ කරන්න";
+"error.title.palmTooBlurry" = "අත්ල පරිලෝකනය ඉතා බොඳයි";
+"error.body.palmTooBlurry" = "ඔබේ අත නිශ්චලව තබාගෙන වඩා හොඳ ආලෝකයක නැවත පරිලෝකනය කරන්න.";
+"error.cta.tryAgain" = "නැවත උත්සාහ කරන්න";
+"error.cta.startOver" = "නැවත ආරම්භ කරන්න";
+"error.cta.checkAccount" = "මගේ ගිණුම පරීක්ෂා කරන්න";
+"error.cta.openSettings" = "සැකසුම් විවෘත කරන්න";
+"error.cta.contactSupport" = "සහාය අමතන්න";
+"error.cta.close" = "වසන්න";
 
 /* VER-491 inline: field-level email verify errors (2006/2007) */
-"email.inlineCodeInvalid" = "Code is incorrect.";
-"email.inlineCodeExpired" = "Code has expired. Request a new code.";
-"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
-"email.inlineCodeGeneric" = "Verification failed.";
+"email.inlineCodeInvalid" = "කේතය වැරදියි.";
+"email.inlineCodeExpired" = "කේතය කල් ඉකුත් වී ඇත. නව කේතයක් ඉල්ලන්න.";
+"email.inlineCodeRateLimit" = "උත්සාහයන් ඉතා වැඩියි. කරුණාකර නව කේතයක් ඉල්ලන්න.";
+"email.inlineCodeGeneric" = "සත්‍යාපනය අසාර්ථක විය.";
 "consent.startVerification" = "සත්‍යාපනය ආරම්භ කරන්න";
 "consent.tip2" = "%@ හට සීමිත [සත්‍යාපන දත්ත] වෙත ප්‍රවේශය ලැබේ";
 "consent.verifyIdentitySubtitle" = "ඔබ මිනිසෙකු බව තහවුරු කිරීමට %@ VeryAI භාවිතා කරයි.";

@@ -2,23 +2,23 @@
 /* NOTE: This file contains English placeholder text. Please translate all strings to Slovak. */
 
 /* Bottom Status Messages */
-"status.moveHandLeft" = "Move your hand left";
-"status.moveHandRight" = "Move your hand right";
-"status.moveHandUp" = "Move your hand up";
-"status.moveHandDown" = "Move your hand down";
-"status.moveHandCloser" = "Bring your hand closer";
-"status.moveHandFarther" = "Move your hand back a bit";
-"status.rotateHandUpward" = "Tilt your hand toward you";
-"status.rotateHandParallel" = "Keep your hand flat";
+"status.moveHandLeft" = "Posuňte ruku doľava";
+"status.moveHandRight" = "Posuňte ruku doprava";
+"status.moveHandUp" = "Posuňte ruku nahor";
+"status.moveHandDown" = "Posuňte ruku nadol";
+"status.moveHandCloser" = "Priblížte ruku";
+"status.moveHandFarther" = "Posuňte ruku trochu dozadu";
+"status.rotateHandUpward" = "Nakloňte ruku k sebe";
+"status.rotateHandParallel" = "Držte ruku naplocho";
 "status.flipHandOver" = "Položte dlaň pred kameru";
-"status.spreadFingers" = "Open your hand wide";
-"status.straightenFingers" = "Straighten your fingers";
-"status.spreadThumb" = "Move your thumb out to the side";
-"status.straightenThumb" = "Straighten your thumb";
-"status.brightenHand" = "Find a brighter spot";
-"status.darkenHand" = "Try moving out of direct light";
-"status.focusHand" = "Hold still for a moment";
-"status.keepStill" = "Hold still";
+"status.spreadFingers" = "Otvorte ruku doširoka";
+"status.straightenFingers" = "Vystrite prsty";
+"status.spreadThumb" = "Odtiahnite palec nabok";
+"status.straightenThumb" = "Vystrite palec";
+"status.brightenHand" = "Nájdite lepšie osvetlené miesto";
+"status.darkenHand" = "Skúste sa presunúť mimo priameho svetla";
+"status.focusHand" = "Chvíľu sa nehýbte";
+"status.keepStill" = "Nehýbte sa";
 
 /* Scan View Controller */
 
@@ -28,10 +28,10 @@
 
 
 /* Auth View Controller */
-"auth.cancel" = "Cancel";
-"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
-"auth.termsOfService" = "Terms of Service";
-"auth.privacyPolicy" = "Privacy Policy";
+"auth.cancel" = "Zrušiť";
+"auth.termsText" = "Pokračovaním súhlasíte s našimi Podmienkami služby a Zásadami ochrany osobných údajov.";
+"auth.termsOfService" = "Podmienky služby";
+"auth.privacyPolicy" = "Zásady ochrany osobných údajov";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Nastavte skenovanie dlane";
@@ -39,36 +39,38 @@
 "workthrough.getStarted" = "Začať";
 
 /* Error Messages */
-"error.5001" = "Session expired. Please start again.";
-"error.5002" = "Session not found or already consumed.";
-"error.5003" = "Please try again.";
-"error.5004" = "All verification attempts have been used.";
+"error.5001" = "Platnosť relácie vypršala. Začnite znova.";
+"error.5002" = "Relácia sa nenašla alebo už bola použitá.";
+"error.5003" = "Skúste to znova.";
+"error.5004" = "Všetky pokusy o overenie boli vyčerpané.";
 "error.5005" = "Nepodarilo sa overiť vašu dlaň. Skúste to prosím znova.";
 "error.5006" = "Niečo sa pokazilo. Skúste to prosím znova.";
 "error.5007" = "Vaša relácia vypršala. Skúste to prosím znova.";
 "error.5008" = "Niečo sa pokazilo. Kontaktujte prosím podporu.";
 "error.5009" = "Niečo sa pokazilo. Kontaktujte prosím podporu.";
-"error.5010" = "Account review was permanently rejected.";
-"error.5011" = "Account enrollment is still under review.";
-"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests. Please try again later.";
+"error.5010" = "Kontrola účtu bola natrvalo zamietnutá.";
+"error.5011" = "Registrácia účtu sa stále kontroluje.";
+"error.5012" = "Opätovná registrácia je možná iba vtedy, keď je stav kontroly zamietnutý.";
+"error.5013" = "Príliš veľa požiadaviek. Skúste to neskôr.";
 "error.5014" = "Niečo sa pokazilo. Skúste to prosím znova.";
-"error.5015" = "Please verify your email first.";
-"error.5016" = "Email has already been verified for this session.";
-"error.5017" = "Your account is restricted and cannot proceed.";
-"error.5018" = "Email verification is not available for this session.";
+"error.5015" = "Najprv overte svoj e-mail.";
+"error.5016" = "E-mail už bol pre túto reláciu overený.";
+"error.5017" = "Váš účet je obmedzený a nedá sa pokračovať.";
+"error.5018" = "Overenie e-mailu nie je pre túto reláciu k dispozícii.";
+"error.5019" = "Táto dlaň je už zaregistrovaná v inom účte.";
+"error.5020" = "Sken dlane je príliš rozmazaný. Skúste to znova.";
 "error.6101" = "Pre naskenovanie dlane prosím povoľte prístup ku kamere v nastaveniach telefónu.";
 "error.6102" = "Nepodarilo sa dokončiť skenovanie. Skúste to prosím znova.";
-"error.6103" = "Session expired. Please try again.";
-"error.6104" = "User cancelled.";
-"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
+"error.6103" = "Platnosť relácie vypršala. Skúste to znova.";
+"error.6104" = "Zrušené používateľom.";
+"error.6106" = "Nepodarilo sa načítať knižnicu na skenovanie dlane. Skontrolujte internet a skúste to znova.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "Vaša dlaň bola overená.";
 "scan.successRegistered" = "Biometria dlane bola nastavená.";
 
 /* Common UI */
-"common.poweredBy" = "Powered by";
+"common.poweredBy" = "Využíva technológiu";
 "common.retrying" = "Opakujem pokus…";
 "common.done" = "Hotovo";
 "common.continue" = "Pokračovať";
@@ -83,7 +85,7 @@
 "scan.showGesture" = "Ukážte gesto";
 "scan.connectDots" = "Spojte body";
 "scan.almostDone" = "Takmer hotové";
-"scan.livenessThanks" = "Thanks for verifying";
+"scan.livenessThanks" = "Ďakujeme za overenie";
 "scan.support" = "Podpora";
 "scan.registeringPalms" = "Registrácia dlaní";
 "scan.verifyingPalm" = "Overovanie dlane";
@@ -141,40 +143,42 @@
 "error.6999" = "Niečo sa pokazilo. Skúste to prosím znova.";
 
 /* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
-"error.title.connectionLost" = "Connection lost";
-"error.body.connectionLost" = "You're offline. Check your internet.";
-"error.title.rateLimited" = "Just a moment";
-"error.body.rateLimited" = "Try again in a moment.";
-"error.title.sessionExpired" = "Let's try that again";
-"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
-"error.title.checkAccount" = "Check your account";
-"error.body.checkAccount" = "Your last attempt may have already gone through.";
-"error.title.cameraPermission" = "We need your camera";
-"error.body.cameraPermission" = "Turn on camera access in settings.";
-"error.title.palmMismatch" = "That didn't match";
-"error.body.palmMismatch" = "We couldn't verify your palm.";
-"error.title.scanFailed" = "Let's try that again";
-"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
-"error.title.restrictive" = "We can't continue";
-"error.body.restrictive" = "We're unable to complete this right now.";
-"error.title.setupIssue" = "Please get in touch";
-"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
-"error.title.serverTransient" = "Let's try that again";
-"error.body.serverTransient" = "If this issue continues, please contact support.";
-"error.title.enrollmentMismatch" = "Let's try that again";
-"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
-"error.cta.tryAgain" = "Try again";
-"error.cta.startOver" = "Start over";
-"error.cta.checkAccount" = "Check my account";
-"error.cta.openSettings" = "Open settings";
-"error.cta.contactSupport" = "Contact support";
-"error.cta.close" = "Close";
+"error.title.connectionLost" = "Spojenie sa prerušilo";
+"error.body.connectionLost" = "Ste offline. Skontrolujte internet.";
+"error.title.rateLimited" = "Chvíľku";
+"error.body.rateLimited" = "Skúste to o chvíľu znova.";
+"error.title.sessionExpired" = "Skúsme to znova";
+"error.body.sessionExpired" = "Platnosť relácie vypršala. Skúsme to znova.";
+"error.title.checkAccount" = "Skontrolujte svoj účet";
+"error.body.checkAccount" = "Váš posledný pokus už možno prebehol.";
+"error.title.cameraPermission" = "Potrebujeme prístup ku kamere";
+"error.body.cameraPermission" = "Povoľte prístup ku kamere v nastaveniach.";
+"error.title.palmMismatch" = "Nenájdená zhoda";
+"error.body.palmMismatch" = "Nepodarilo sa overiť vašu dlaň.";
+"error.title.scanFailed" = "Skúsme to znova";
+"error.body.scanFailed" = "Prejdite na lepšie osvetlené miesto a držte ruku v pokoji.";
+"error.title.restrictive" = "Nemôžeme pokračovať";
+"error.body.restrictive" = "Teraz to nedokážeme dokončiť.";
+"error.title.setupIssue" = "Ozvite sa nám";
+"error.body.setupIssue" = "Táto aplikácia má problém s nastavením. Kontaktujte podporu.";
+"error.title.serverTransient" = "Skúsme to znova";
+"error.body.serverTransient" = "Ak problém pretrváva, kontaktujte podporu.";
+"error.title.enrollmentMismatch" = "Skúsme to znova";
+"error.body.enrollmentMismatch" = "Nepodarilo sa overiť skeny dlane. Skúste to znova pri lepšom osvetlení";
+"error.title.palmTooBlurry" = "Sken dlane je príliš rozmazaný";
+"error.body.palmTooBlurry" = "Držte ruku v pokoji a naskenujte znova pri lepšom osvetlení.";
+"error.cta.tryAgain" = "Skúsiť znova";
+"error.cta.startOver" = "Začať znova";
+"error.cta.checkAccount" = "Skontrolovať môj účet";
+"error.cta.openSettings" = "Otvoriť nastavenia";
+"error.cta.contactSupport" = "Kontaktovať podporu";
+"error.cta.close" = "Zavrieť";
 
 /* VER-491 inline: field-level email verify errors (2006/2007) */
-"email.inlineCodeInvalid" = "Code is incorrect.";
-"email.inlineCodeExpired" = "Code has expired. Request a new code.";
-"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
-"email.inlineCodeGeneric" = "Verification failed.";
+"email.inlineCodeInvalid" = "Nesprávny kód.";
+"email.inlineCodeExpired" = "Platnosť kódu vypršala. Vyžiadajte si nový kód.";
+"email.inlineCodeRateLimit" = "Príliš veľa pokusov. Vyžiadajte si nový kód.";
+"email.inlineCodeGeneric" = "Overenie zlyhalo.";
 "consent.startVerification" = "Spustiť overenie";
 "consent.tip2" = "Aplikácia %@ bude mať prístup k obmedzeným [overovacím údajom]";
 "consent.verifyIdentitySubtitle" = "Aplikácia %@ používa VeryAI na potvrdenie, že ste človek.";

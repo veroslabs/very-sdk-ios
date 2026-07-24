@@ -2,23 +2,23 @@
 /* NOTE: This file contains English placeholder text. Please translate all strings to Danish. */
 
 /* Bottom Status Messages */
-"status.moveHandLeft" = "Move your hand left";
-"status.moveHandRight" = "Move your hand right";
-"status.moveHandUp" = "Move your hand up";
-"status.moveHandDown" = "Move your hand down";
-"status.moveHandCloser" = "Bring your hand closer";
-"status.moveHandFarther" = "Move your hand back a bit";
-"status.rotateHandUpward" = "Tilt your hand toward you";
-"status.rotateHandParallel" = "Keep your hand flat";
+"status.moveHandLeft" = "Flyt hånden til venstre";
+"status.moveHandRight" = "Flyt hånden til højre";
+"status.moveHandUp" = "Flyt hånden op";
+"status.moveHandDown" = "Flyt hånden ned";
+"status.moveHandCloser" = "Før hånden tættere på";
+"status.moveHandFarther" = "Flyt hånden lidt tilbage";
+"status.rotateHandUpward" = "Vip hånden mod dig";
+"status.rotateHandParallel" = "Hold hånden flad";
 "status.flipHandOver" = "Placér håndfladen foran kameraet";
-"status.spreadFingers" = "Open your hand wide";
-"status.straightenFingers" = "Straighten your fingers";
-"status.spreadThumb" = "Move your thumb out to the side";
-"status.straightenThumb" = "Straighten your thumb";
-"status.brightenHand" = "Find a brighter spot";
-"status.darkenHand" = "Try moving out of direct light";
-"status.focusHand" = "Hold still for a moment";
-"status.keepStill" = "Hold still";
+"status.spreadFingers" = "Åbn hånden helt";
+"status.straightenFingers" = "Ret fingrene ud";
+"status.spreadThumb" = "Før tommelfingeren ud til siden";
+"status.straightenThumb" = "Ret tommelfingeren ud";
+"status.brightenHand" = "Find et lysere sted";
+"status.darkenHand" = "Prøv at flytte væk fra direkte lys";
+"status.focusHand" = "Hold stille et øjeblik";
+"status.keepStill" = "Hold stille";
 
 /* Scan View Controller */
 
@@ -28,10 +28,10 @@
 
 
 /* Auth View Controller */
-"auth.cancel" = "Cancel";
-"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
-"auth.termsOfService" = "Terms of Service";
-"auth.privacyPolicy" = "Privacy Policy";
+"auth.cancel" = "Annuller";
+"auth.termsText" = "Ved at fortsætte accepterer du vores servicevilkår og privatlivspolitik.";
+"auth.termsOfService" = "Servicevilkår";
+"auth.privacyPolicy" = "Privatlivspolitik";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Opsæt din håndfladesskanning";
@@ -39,36 +39,38 @@
 "workthrough.getStarted" = "Kom i gang";
 
 /* Error Messages */
-"error.5001" = "Session expired. Please start again.";
-"error.5002" = "Session not found or already consumed.";
-"error.5003" = "Please try again.";
-"error.5004" = "All verification attempts have been used.";
+"error.5001" = "Sessionen er udløbet. Start forfra.";
+"error.5002" = "Sessionen blev ikke fundet eller er allerede brugt.";
+"error.5003" = "Prøv igen.";
+"error.5004" = "Alle verificeringsforsøg er brugt.";
 "error.5005" = "Vi kunne ikke bekræfte din håndflade. Prøv venligst igen.";
 "error.5006" = "Noget gik galt. Prøv venligst igen.";
 "error.5007" = "Din session er udløbet. Prøv venligst igen.";
 "error.5008" = "Noget gik galt. Kontakt venligst support.";
 "error.5009" = "Noget gik galt. Kontakt venligst support.";
-"error.5010" = "Account review was permanently rejected.";
-"error.5011" = "Account enrollment is still under review.";
-"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests. Please try again later.";
+"error.5010" = "Kontogennemgangen blev permanent afvist.";
+"error.5011" = "Kontoregistreringen er stadig under gennemgang.";
+"error.5012" = "Fornyet registrering er kun tilladt, når gennemgangsstatussen er afvist.";
+"error.5013" = "For mange anmodninger. Prøv igen senere.";
 "error.5014" = "Noget gik galt. Prøv venligst igen.";
-"error.5015" = "Please verify your email first.";
-"error.5016" = "Email has already been verified for this session.";
-"error.5017" = "Your account is restricted and cannot proceed.";
-"error.5018" = "Email verification is not available for this session.";
+"error.5015" = "Verificer din e-mailadresse først.";
+"error.5016" = "E-mailen er allerede blevet verificeret for denne session.";
+"error.5017" = "Din konto er begrænset og kan ikke fortsætte.";
+"error.5018" = "E-mailverificering er ikke tilgængelig for denne session.";
+"error.5019" = "Denne håndflade er allerede registreret på en anden konto.";
+"error.5020" = "Håndfladescanningen er for sløret. Prøv igen.";
 "error.6101" = "For at scanne din håndflade skal du tillade kameraadgang i telefonens indstillinger.";
 "error.6102" = "Vi kunne ikke fuldføre scanningen. Prøv venligst igen.";
-"error.6103" = "Session expired. Please try again.";
-"error.6104" = "User cancelled.";
-"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
+"error.6103" = "Sessionen er udløbet. Prøv igen.";
+"error.6104" = "Annulleret af brugeren.";
+"error.6106" = "Biblioteket til håndfladescanning kunne ikke indlæses. Tjek din internetforbindelse, og prøv igen.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "Din håndflade er blevet bekræftet.";
 "scan.successRegistered" = "Håndfladebiometri er nu opsat.";
 
 /* Common UI */
-"common.poweredBy" = "Powered by";
+"common.poweredBy" = "Leveret af";
 "common.retrying" = "Prøver igen…";
 "common.done" = "Færdig";
 "common.continue" = "Fortsæt";
@@ -83,7 +85,7 @@
 "scan.showGesture" = "Vis gestus";
 "scan.connectDots" = "Forbind prikkerne";
 "scan.almostDone" = "Næsten færdig";
-"scan.livenessThanks" = "Thanks for verifying";
+"scan.livenessThanks" = "Tak for verificeringen";
 "scan.support" = "Support";
 "scan.registeringPalms" = "Registrerer håndflader";
 "scan.verifyingPalm" = "Verificerer håndflade";
@@ -141,40 +143,42 @@
 "error.6999" = "Noget gik galt. Prøv igen.";
 
 /* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
-"error.title.connectionLost" = "Connection lost";
-"error.body.connectionLost" = "You're offline. Check your internet.";
-"error.title.rateLimited" = "Just a moment";
-"error.body.rateLimited" = "Try again in a moment.";
-"error.title.sessionExpired" = "Let's try that again";
-"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
-"error.title.checkAccount" = "Check your account";
-"error.body.checkAccount" = "Your last attempt may have already gone through.";
-"error.title.cameraPermission" = "We need your camera";
-"error.body.cameraPermission" = "Turn on camera access in settings.";
-"error.title.palmMismatch" = "That didn't match";
-"error.body.palmMismatch" = "We couldn't verify your palm.";
-"error.title.scanFailed" = "Let's try that again";
-"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
-"error.title.restrictive" = "We can't continue";
-"error.body.restrictive" = "We're unable to complete this right now.";
-"error.title.setupIssue" = "Please get in touch";
-"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
-"error.title.serverTransient" = "Let's try that again";
-"error.body.serverTransient" = "If this issue continues, please contact support.";
-"error.title.enrollmentMismatch" = "Let's try that again";
-"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
-"error.cta.tryAgain" = "Try again";
-"error.cta.startOver" = "Start over";
-"error.cta.checkAccount" = "Check my account";
-"error.cta.openSettings" = "Open settings";
-"error.cta.contactSupport" = "Contact support";
-"error.cta.close" = "Close";
+"error.title.connectionLost" = "Forbindelsen blev afbrudt";
+"error.body.connectionLost" = "Du er offline. Tjek din internetforbindelse.";
+"error.title.rateLimited" = "Et øjeblik";
+"error.body.rateLimited" = "Prøv igen om et øjeblik.";
+"error.title.sessionExpired" = "Lad os prøve igen";
+"error.body.sessionExpired" = "Din session udløb. Lad os prøve igen.";
+"error.title.checkAccount" = "Tjek din konto";
+"error.body.checkAccount" = "Dit sidste forsøg er muligvis allerede gået igennem.";
+"error.title.cameraPermission" = "Vi har brug for dit kamera";
+"error.body.cameraPermission" = "Slå kameraadgang til i indstillingerne.";
+"error.title.palmMismatch" = "Det stemte ikke overens";
+"error.body.palmMismatch" = "Vi kunne ikke verificere din håndflade.";
+"error.title.scanFailed" = "Lad os prøve igen";
+"error.body.scanFailed" = "Find bedre belysning, og hold hånden i ro.";
+"error.title.restrictive" = "Vi kan ikke fortsætte";
+"error.body.restrictive" = "Vi kan ikke fuldføre dette lige nu.";
+"error.title.setupIssue" = "Tag endelig kontakt";
+"error.body.setupIssue" = "Denne app har et konfigurationsproblem. Kontakt support.";
+"error.title.serverTransient" = "Lad os prøve igen";
+"error.body.serverTransient" = "Hvis problemet fortsætter, bedes du kontakte support.";
+"error.title.enrollmentMismatch" = "Lad os prøve igen";
+"error.body.enrollmentMismatch" = "Vi kunne ikke verificere håndfladescanningerne. Prøv igen under bedre lysforhold";
+"error.title.palmTooBlurry" = "Håndfladescanningen er for sløret";
+"error.body.palmTooBlurry" = "Hold hånden stille, og scan igen i bedre lys.";
+"error.cta.tryAgain" = "Prøv igen";
+"error.cta.startOver" = "Start forfra";
+"error.cta.checkAccount" = "Tjek min konto";
+"error.cta.openSettings" = "Åbn indstillinger";
+"error.cta.contactSupport" = "Kontakt support";
+"error.cta.close" = "Luk";
 
 /* VER-491 inline: field-level email verify errors (2006/2007) */
-"email.inlineCodeInvalid" = "Code is incorrect.";
-"email.inlineCodeExpired" = "Code has expired. Request a new code.";
-"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
-"email.inlineCodeGeneric" = "Verification failed.";
+"email.inlineCodeInvalid" = "Koden er forkert.";
+"email.inlineCodeExpired" = "Koden er udløbet. Anmod om en ny kode.";
+"email.inlineCodeRateLimit" = "For mange forsøg. Anmod om en ny kode.";
+"email.inlineCodeGeneric" = "Verificeringen mislykkedes.";
 "consent.startVerification" = "Start verificering";
 "consent.tip2" = "%@ får adgang til begrænsede [verificeringsdata]";
 "consent.verifyIdentitySubtitle" = "%@ bruger VeryAI til at bekræfte, at du er et menneske.";

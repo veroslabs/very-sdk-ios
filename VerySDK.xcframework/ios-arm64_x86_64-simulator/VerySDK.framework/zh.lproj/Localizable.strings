@@ -32,10 +32,10 @@
 "auth.privacyPolicy" = "隐私政策";
 
 /* Consent UI */
-"consent.verifyIdentityTitle" = "%@ uses VeryAI for palm verification";
+"consent.verifyIdentityTitle" = "%@ 使用 VeryAI 进行手掌验证";
 "consent.verifyIdentitySubtitle" = "%@ 使用 VeryAI 确认您是真人。";
 "consent.tip1" = "扫描双掌创建账户。只需扫描一次即可重新验证";
-"consent.tip2" = "%@ will have access to limited [verification data]";
+"consent.tip2" = "%@ 将获得对有限[验证数据]的访问权限";
 "consent.tip3" = "Biometric technology is used to verify your identity — delete your data at any time";
 "consent.startVerification" = "开始验证";
 
@@ -94,34 +94,36 @@
 "error.2011" = "出了点问题，请重试。";
 "error.3000" = "出了点问题，请重试。";
 "error.4000" = "出了点问题，请重试。";
-"error.5001" = "Session expired. Please start again.";
-"error.5002" = "Session not found or already consumed.";
-"error.5003" = "Please try again.";
-"error.5004" = "All verification attempts have been used.";
+"error.5001" = "会话已过期。请重新开始。";
+"error.5002" = "会话不存在或已被使用。";
+"error.5003" = "请重试。";
+"error.5004" = "所有验证机会已用完。";
 "error.5005" = "无法验证您的掌纹，请重试。";
 "error.5006" = "出了点问题，请重试。";
 "error.5007" = "您的会话已过期，请重试。";
 "error.5008" = "出了点问题，请联系客服。";
 "error.5009" = "出了点问题，请联系客服。";
-"error.5010" = "Account review was permanently rejected.";
-"error.5011" = "Account enrollment is still under review.";
-"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests. Please try again later.";
+"error.5010" = "账户审核已被永久拒绝。";
+"error.5011" = "账户注册仍在审核中。";
+"error.5012" = "只有当审核状态为已拒绝时才能重新注册。";
+"error.5013" = "请求过于频繁。请稍后重试。";
 "error.5014" = "出了点问题，请重试。";
-"error.5015" = "Please verify your email first.";
-"error.5016" = "Email has already been verified for this session.";
-"error.5017" = "Your account is restricted and cannot proceed.";
-"error.5018" = "Email verification is not available for this session.";
+"error.5015" = "请先验证你的邮箱。";
+"error.5016" = "本次会话的邮箱已完成验证。";
+"error.5017" = "你的账户受限，无法继续。";
+"error.5018" = "本次会话不支持邮箱验证。";
+"error.5019" = "该手掌已注册到另一个账号。";
+"error.5020" = "手掌扫描太模糊，请重试。";
 "error.6101" = "要扫描您的掌纹，请在手机设置中允许访问相机。";
 "error.6102" = "无法完成扫描，请重试。";
-"error.6103" = "Session expired. Please try again.";
-"error.6104" = "User cancelled.";
-"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
+"error.6103" = "会话已过期。请重试。";
+"error.6104" = "用户已取消。";
+"error.6106" = "无法加载掌纹扫描库。请检查网络后重试。";
 
 /* Success Bottom Sheet Messages */
 
 /* Common UI */
-"common.poweredBy" = "Powered by";
+"common.poweredBy" = "技术支持";
 "common.retrying" = "正在重试…";
 "common.done" = "完成";
 "common.continue" = "继续";
@@ -136,7 +138,7 @@
 "scan.showGesture" = "显示手势";
 "scan.connectDots" = "连接圆点";
 "scan.almostDone" = "即将完成";
-"scan.livenessThanks" = "Thanks for verifying";
+"scan.livenessThanks" = "感谢验证";
 "scan.support" = "支持";
 "scan.registeringPalms" = "正在注册手掌";
 "scan.verifyingPalm" = "正在验证手掌";
@@ -192,40 +194,42 @@
 "error.6999" = "出了点问题，请重试。";
 
 /* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
-"error.title.connectionLost" = "Connection lost";
-"error.body.connectionLost" = "You're offline. Check your internet.";
-"error.title.rateLimited" = "Just a moment";
-"error.body.rateLimited" = "Try again in a moment.";
-"error.title.sessionExpired" = "Let's try that again";
-"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
-"error.title.checkAccount" = "Check your account";
-"error.body.checkAccount" = "Your last attempt may have already gone through.";
-"error.title.cameraPermission" = "We need your camera";
-"error.body.cameraPermission" = "Turn on camera access in settings.";
-"error.title.palmMismatch" = "That didn't match";
-"error.body.palmMismatch" = "We couldn't verify your palm.";
-"error.title.scanFailed" = "Let's try that again";
-"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
-"error.title.restrictive" = "We can't continue";
-"error.body.restrictive" = "We're unable to complete this right now.";
-"error.title.setupIssue" = "Please get in touch";
-"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
-"error.title.serverTransient" = "Let's try that again";
-"error.body.serverTransient" = "If this issue continues, please contact support.";
-"error.title.enrollmentMismatch" = "Let's try that again";
-"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
-"error.cta.tryAgain" = "Try again";
-"error.cta.startOver" = "Start over";
-"error.cta.checkAccount" = "Check my account";
-"error.cta.openSettings" = "Open settings";
-"error.cta.contactSupport" = "Contact support";
-"error.cta.close" = "Close";
+"error.title.connectionLost" = "连接已断开";
+"error.body.connectionLost" = "你已离线。请检查网络连接。";
+"error.title.rateLimited" = "请稍候";
+"error.body.rateLimited" = "请稍后重试。";
+"error.title.sessionExpired" = "再试一次吧";
+"error.body.sessionExpired" = "会话已超时。再试一次吧。";
+"error.title.checkAccount" = "查看你的账户";
+"error.body.checkAccount" = "你上次的尝试可能已经成功。";
+"error.title.cameraPermission" = "需要使用相机";
+"error.body.cameraPermission" = "请在设置中开启相机权限。";
+"error.title.palmMismatch" = "未能匹配";
+"error.body.palmMismatch" = "我们无法验证你的掌纹。";
+"error.title.scanFailed" = "再试一次吧";
+"error.body.scanFailed" = "请移到光线更好的地方，并保持手部稳定。";
+"error.title.restrictive" = "无法继续";
+"error.body.restrictive" = "我们暂时无法完成此操作。";
+"error.title.setupIssue" = "请与我们联系";
+"error.body.setupIssue" = "此应用存在配置问题。请联系客服。";
+"error.title.serverTransient" = "再试一次吧";
+"error.body.serverTransient" = "如果问题持续，请联系客服。";
+"error.title.enrollmentMismatch" = "再试一次吧";
+"error.body.enrollmentMismatch" = "我们无法验证掌纹扫描结果。请在光线更好的环境下重试";
+"error.title.palmTooBlurry" = "手掌扫描太模糊";
+"error.body.palmTooBlurry" = "请保持手部稳定，并在光线更好的环境中重新扫描。";
+"error.cta.tryAgain" = "重试";
+"error.cta.startOver" = "重新开始";
+"error.cta.checkAccount" = "查看我的账户";
+"error.cta.openSettings" = "打开设置";
+"error.cta.contactSupport" = "联系客服";
+"error.cta.close" = "关闭";
 
 /* VER-491 inline: field-level email verify errors (2006/2007) */
-"email.inlineCodeInvalid" = "Code is incorrect.";
-"email.inlineCodeExpired" = "Code has expired. Request a new code.";
-"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
-"email.inlineCodeGeneric" = "Verification failed.";
+"email.inlineCodeInvalid" = "验证码错误。";
+"email.inlineCodeExpired" = "验证码已过期。请重新获取验证码。";
+"email.inlineCodeRateLimit" = "尝试次数过多。请重新获取验证码。";
+"email.inlineCodeGeneric" = "验证失败。";
 "error.1040" = "我们无法为您登录。您的邮箱可能尚未注册，或者您的凭据有误。";
 "error.6107" = "活体检测超时，请重试。";
 "workthrough.getStarted" = "开始";

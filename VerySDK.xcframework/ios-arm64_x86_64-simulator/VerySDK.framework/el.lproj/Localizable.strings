@@ -2,23 +2,23 @@
 /* NOTE: This file contains English placeholder text. Please translate all strings to Greek. */
 
 /* Bottom Status Messages */
-"status.moveHandLeft" = "Move your hand left";
-"status.moveHandRight" = "Move your hand right";
-"status.moveHandUp" = "Move your hand up";
-"status.moveHandDown" = "Move your hand down";
-"status.moveHandCloser" = "Bring your hand closer";
-"status.moveHandFarther" = "Move your hand back a bit";
-"status.rotateHandUpward" = "Tilt your hand toward you";
-"status.rotateHandParallel" = "Keep your hand flat";
+"status.moveHandLeft" = "Μετακινήστε το χέρι σας αριστερά";
+"status.moveHandRight" = "Μετακινήστε το χέρι σας δεξιά";
+"status.moveHandUp" = "Μετακινήστε το χέρι σας πάνω";
+"status.moveHandDown" = "Μετακινήστε το χέρι σας κάτω";
+"status.moveHandCloser" = "Πλησιάστε το χέρι σας";
+"status.moveHandFarther" = "Τραβήξτε το χέρι σας λίγο πίσω";
+"status.rotateHandUpward" = "Γείρετε το χέρι σας προς το μέρος σας";
+"status.rotateHandParallel" = "Κρατήστε το χέρι σας επίπεδο";
 "status.flipHandOver" = "Τοποθετήστε την παλάμη μπροστά στην κάμερα";
-"status.spreadFingers" = "Open your hand wide";
-"status.straightenFingers" = "Straighten your fingers";
-"status.spreadThumb" = "Move your thumb out to the side";
-"status.straightenThumb" = "Straighten your thumb";
-"status.brightenHand" = "Find a brighter spot";
-"status.darkenHand" = "Try moving out of direct light";
-"status.focusHand" = "Hold still for a moment";
-"status.keepStill" = "Hold still";
+"status.spreadFingers" = "Ανοίξτε διάπλατα το χέρι σας";
+"status.straightenFingers" = "Ισιώστε τα δάχτυλά σας";
+"status.spreadThumb" = "Απλώστε τον αντίχειρά σας στο πλάι";
+"status.straightenThumb" = "Ισιώστε τον αντίχειρά σας";
+"status.brightenHand" = "Βρείτε πιο φωτεινό σημείο";
+"status.darkenHand" = "Απομακρυνθείτε από το άμεσο φως";
+"status.focusHand" = "Μείνετε ακίνητοι για λίγο";
+"status.keepStill" = "Μείνετε ακίνητοι";
 
 /* Scan View Controller */
 
@@ -28,10 +28,10 @@
 
 
 /* Auth View Controller */
-"auth.cancel" = "Cancel";
-"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
-"auth.termsOfService" = "Terms of Service";
-"auth.privacyPolicy" = "Privacy Policy";
+"auth.cancel" = "Άκυρο";
+"auth.termsText" = "Συνεχίζοντας, αποδέχεστε τους Όρους Χρήσης και την Πολιτική Απορρήτου μας.";
+"auth.termsOfService" = "Όροι Χρήσης";
+"auth.privacyPolicy" = "Πολιτική Απορρήτου";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Ρυθμίστε τη σάρωση παλάμης";
@@ -39,36 +39,38 @@
 "workthrough.getStarted" = "Ξεκινήστε";
 
 /* Error Messages */
-"error.5001" = "Session expired. Please start again.";
-"error.5002" = "Session not found or already consumed.";
-"error.5003" = "Please try again.";
-"error.5004" = "All verification attempts have been used.";
+"error.5001" = "Η συνεδρία έληξε. Ξεκινήστε ξανά.";
+"error.5002" = "Η συνεδρία δεν βρέθηκε ή έχει ήδη χρησιμοποιηθεί.";
+"error.5003" = "Δοκιμάστε ξανά.";
+"error.5004" = "Όλες οι προσπάθειες επαλήθευσης έχουν εξαντληθεί.";
 "error.5005" = "Δεν ήταν δυνατή η επαλήθευση της παλάμης σας. Παρακαλώ δοκιμάστε ξανά.";
 "error.5006" = "Κάτι πήγε στραβά. Παρακαλώ δοκιμάστε ξανά.";
 "error.5007" = "Η συνεδρία σας έληξε. Παρακαλώ δοκιμάστε ξανά.";
 "error.5008" = "Κάτι πήγε στραβά. Παρακαλώ επικοινωνήστε με την υποστήριξη.";
 "error.5009" = "Κάτι πήγε στραβά. Παρακαλώ επικοινωνήστε με την υποστήριξη.";
-"error.5010" = "Account review was permanently rejected.";
-"error.5011" = "Account enrollment is still under review.";
-"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests. Please try again later.";
+"error.5010" = "Ο έλεγχος του λογαριασμού απορρίφθηκε οριστικά.";
+"error.5011" = "Η εγγραφή του λογαριασμού βρίσκεται ακόμη υπό έλεγχο.";
+"error.5012" = "Η επανεγγραφή επιτρέπεται μόνο όταν η κατάσταση ελέγχου είναι απορριφθείσα.";
+"error.5013" = "Πάρα πολλά αιτήματα. Δοκιμάστε ξανά αργότερα.";
 "error.5014" = "Κάτι πήγε στραβά. Παρακαλώ δοκιμάστε ξανά.";
-"error.5015" = "Please verify your email first.";
-"error.5016" = "Email has already been verified for this session.";
-"error.5017" = "Your account is restricted and cannot proceed.";
-"error.5018" = "Email verification is not available for this session.";
+"error.5015" = "Επαληθεύστε πρώτα το email σας.";
+"error.5016" = "Το email έχει ήδη επαληθευτεί για αυτήν τη συνεδρία.";
+"error.5017" = "Ο λογαριασμός σας έχει περιορισμούς και δεν μπορείτε να συνεχίσετε.";
+"error.5018" = "Η επαλήθευση email δεν είναι διαθέσιμη για αυτήν τη συνεδρία.";
+"error.5019" = "Αυτή η παλάμη είναι ήδη καταχωρισμένη σε άλλον λογαριασμό.";
+"error.5020" = "Η σάρωση της παλάμης είναι πολύ θολή. Δοκιμάστε ξανά.";
 "error.6101" = "Για να σαρώσετε την παλάμη σας, επιτρέψτε την πρόσβαση στην κάμερα στις ρυθμίσεις του τηλεφώνου σας.";
 "error.6102" = "Δεν ήταν δυνατή η ολοκλήρωση της σάρωσης. Παρακαλώ δοκιμάστε ξανά.";
-"error.6103" = "Session expired. Please try again.";
-"error.6104" = "User cancelled.";
-"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
+"error.6103" = "Η συνεδρία έληξε. Δοκιμάστε ξανά.";
+"error.6104" = "Ο χρήστης ακύρωσε.";
+"error.6106" = "Δεν ήταν δυνατή η φόρτωση της βιβλιοθήκης σάρωσης παλάμης. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "Η παλάμη σας επαληθεύτηκε.";
 "scan.successRegistered" = "Τα βιομετρικά παλάμης έχουν ρυθμιστεί.";
 
 /* Common UI */
-"common.poweredBy" = "Powered by";
+"common.poweredBy" = "Με την υποστήριξη";
 "common.retrying" = "Νέα προσπάθεια…";
 "common.done" = "Ολοκληρώθηκε";
 "common.continue" = "Συνέχεια";
@@ -83,7 +85,7 @@
 "scan.showGesture" = "Δείξτε τη χειρονομία";
 "scan.connectDots" = "Ενώστε τα σημεία";
 "scan.almostDone" = "Σχεδόν έτοιμο";
-"scan.livenessThanks" = "Thanks for verifying";
+"scan.livenessThanks" = "Ευχαριστούμε για την επαλήθευση";
 "scan.support" = "Υποστήριξη";
 "scan.registeringPalms" = "Εγγραφή παλαμών";
 "scan.verifyingPalm" = "Επαλήθευση παλάμης";
@@ -141,40 +143,42 @@
 "error.6999" = "Κάτι πήγε στραβά. Προσπαθήστε ξανά.";
 
 /* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
-"error.title.connectionLost" = "Connection lost";
-"error.body.connectionLost" = "You're offline. Check your internet.";
-"error.title.rateLimited" = "Just a moment";
-"error.body.rateLimited" = "Try again in a moment.";
-"error.title.sessionExpired" = "Let's try that again";
-"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
-"error.title.checkAccount" = "Check your account";
-"error.body.checkAccount" = "Your last attempt may have already gone through.";
-"error.title.cameraPermission" = "We need your camera";
-"error.body.cameraPermission" = "Turn on camera access in settings.";
-"error.title.palmMismatch" = "That didn't match";
-"error.body.palmMismatch" = "We couldn't verify your palm.";
-"error.title.scanFailed" = "Let's try that again";
-"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
-"error.title.restrictive" = "We can't continue";
-"error.body.restrictive" = "We're unable to complete this right now.";
-"error.title.setupIssue" = "Please get in touch";
-"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
-"error.title.serverTransient" = "Let's try that again";
-"error.body.serverTransient" = "If this issue continues, please contact support.";
-"error.title.enrollmentMismatch" = "Let's try that again";
-"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
-"error.cta.tryAgain" = "Try again";
-"error.cta.startOver" = "Start over";
-"error.cta.checkAccount" = "Check my account";
-"error.cta.openSettings" = "Open settings";
-"error.cta.contactSupport" = "Contact support";
-"error.cta.close" = "Close";
+"error.title.connectionLost" = "Η σύνδεση χάθηκε";
+"error.body.connectionLost" = "Είστε εκτός σύνδεσης. Ελέγξτε τη σύνδεσή σας.";
+"error.title.rateLimited" = "Μια στιγμή";
+"error.body.rateLimited" = "Δοκιμάστε ξανά σε λίγο.";
+"error.title.sessionExpired" = "Ας δοκιμάσουμε ξανά";
+"error.body.sessionExpired" = "Η συνεδρία σας έληξε. Ας δοκιμάσουμε ξανά.";
+"error.title.checkAccount" = "Ελέγξτε τον λογαριασμό σας";
+"error.body.checkAccount" = "Η τελευταία σας προσπάθεια μπορεί να έχει ήδη ολοκληρωθεί.";
+"error.title.cameraPermission" = "Χρειαζόμαστε την κάμερά σας";
+"error.body.cameraPermission" = "Ενεργοποιήστε την πρόσβαση στην κάμερα από τις ρυθμίσεις.";
+"error.title.palmMismatch" = "Δεν υπήρξε αντιστοίχιση";
+"error.body.palmMismatch" = "Δεν ήταν δυνατή η επαλήθευση της παλάμης σας.";
+"error.title.scanFailed" = "Ας δοκιμάσουμε ξανά";
+"error.body.scanFailed" = "Μετακινηθείτε σε καλύτερο φωτισμό και κρατήστε το χέρι σας σταθερό.";
+"error.title.restrictive" = "Δεν μπορούμε να συνεχίσουμε";
+"error.body.restrictive" = "Δεν μπορούμε να το ολοκληρώσουμε αυτή τη στιγμή.";
+"error.title.setupIssue" = "Επικοινωνήστε μαζί μας";
+"error.body.setupIssue" = "Αυτή η εφαρμογή έχει πρόβλημα διαμόρφωσης. Επικοινωνήστε με την υποστήριξη.";
+"error.title.serverTransient" = "Ας δοκιμάσουμε ξανά";
+"error.body.serverTransient" = "Εάν το πρόβλημα συνεχιστεί, επικοινωνήστε με την υποστήριξη.";
+"error.title.enrollmentMismatch" = "Ας δοκιμάσουμε ξανά";
+"error.body.enrollmentMismatch" = "Δεν ήταν δυνατή η επαλήθευση των σαρώσεων παλάμης. Δοκιμάστε ξανά σε καλύτερες συνθήκες φωτισμού";
+"error.title.palmTooBlurry" = "Πολύ θολή σάρωση παλάμης";
+"error.body.palmTooBlurry" = "Κρατήστε το χέρι σας σταθερό και σαρώστε ξανά με καλύτερο φωτισμό.";
+"error.cta.tryAgain" = "Δοκιμάστε ξανά";
+"error.cta.startOver" = "Έναρξη από την αρχή";
+"error.cta.checkAccount" = "Έλεγχος λογαριασμού";
+"error.cta.openSettings" = "Άνοιγμα ρυθμίσεων";
+"error.cta.contactSupport" = "Επικοινωνία με υποστήριξη";
+"error.cta.close" = "Κλείσιμο";
 
 /* VER-491 inline: field-level email verify errors (2006/2007) */
-"email.inlineCodeInvalid" = "Code is incorrect.";
-"email.inlineCodeExpired" = "Code has expired. Request a new code.";
-"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
-"email.inlineCodeGeneric" = "Verification failed.";
+"email.inlineCodeInvalid" = "Ο κωδικός είναι λανθασμένος.";
+"email.inlineCodeExpired" = "Ο κωδικός έληξε. Ζητήστε νέο κωδικό.";
+"email.inlineCodeRateLimit" = "Πάρα πολλές προσπάθειες. Ζητήστε νέο κωδικό.";
+"email.inlineCodeGeneric" = "Η επαλήθευση απέτυχε.";
 "consent.startVerification" = "Έναρξη επαλήθευσης";
 "consent.tip2" = "Το %@ θα έχει πρόσβαση σε περιορισμένα [δεδομένα επαλήθευσης]";
 "consent.verifyIdentitySubtitle" = "Το %@ χρησιμοποιεί το VeryAI για να επιβεβαιώσει ότι είστε άνθρωπος.";

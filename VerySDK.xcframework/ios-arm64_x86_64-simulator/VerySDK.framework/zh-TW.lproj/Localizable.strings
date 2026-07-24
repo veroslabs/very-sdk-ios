@@ -37,34 +37,36 @@
 "workthrough.getStarted" = "開始";
 
 /* Error Messages */
-"error.5001" = "Session expired. Please start again.";
-"error.5002" = "Session not found or already consumed.";
-"error.5003" = "Please try again.";
-"error.5004" = "All verification attempts have been used.";
+"error.5001" = "工作階段已過期。請重新開始。";
+"error.5002" = "找不到工作階段，或已被使用。";
+"error.5003" = "請再試一次。";
+"error.5004" = "所有驗證次數皆已用完。";
 "error.5005" = "無法驗證您的掌紋，請重試。";
 "error.5006" = "出了點問題，請重試。";
 "error.5007" = "您的工作階段已過期，請重試。";
 "error.5008" = "出了點問題，請聯絡客服。";
 "error.5009" = "出了點問題，請聯絡客服。";
-"error.5010" = "Account review was permanently rejected.";
-"error.5011" = "Account enrollment is still under review.";
-"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests. Please try again later.";
+"error.5010" = "帳戶審核已遭永久拒絕。";
+"error.5011" = "帳戶註冊仍在審核中。";
+"error.5012" = "僅在審核狀態為已拒絕時才能重新註冊。";
+"error.5013" = "請求過於頻繁。請稍後再試。";
 "error.5014" = "出了點問題，請重試。";
-"error.5015" = "Please verify your email first.";
-"error.5016" = "Email has already been verified for this session.";
-"error.5017" = "Your account is restricted and cannot proceed.";
-"error.5018" = "Email verification is not available for this session.";
+"error.5015" = "請先驗證你的電子郵件。";
+"error.5016" = "此工作階段的電子郵件已完成驗證。";
+"error.5017" = "你的帳戶受到限制，無法繼續。";
+"error.5018" = "此工作階段不支援電子郵件驗證。";
+"error.5019" = "此手掌已註冊到另一個帳號。";
+"error.5020" = "手掌掃描太模糊，請重試。";
 "error.6101" = "要掃描您的掌紋，請在手機設定中允許存取相機。";
 "error.6102" = "無法完成掃描，請重試。";
-"error.6103" = "Session expired. Please try again.";
-"error.6104" = "User cancelled.";
-"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
+"error.6103" = "工作階段已過期。請再試一次。";
+"error.6104" = "使用者已取消。";
+"error.6106" = "無法載入掌紋掃描程式庫。請檢查網路後再試一次。";
 
 /* Success Bottom Sheet Messages */
 
 /* Common UI */
-"common.poweredBy" = "Powered by";
+"common.poweredBy" = "技術支援";
 "common.retrying" = "正在重試…";
 "common.done" = "完成";
 "common.continue" = "繼續";
@@ -79,7 +81,7 @@
 "scan.showGesture" = "顯示手勢";
 "scan.connectDots" = "連接圓點";
 "scan.almostDone" = "即將完成";
-"scan.livenessThanks" = "Thanks for verifying";
+"scan.livenessThanks" = "感謝你的驗證";
 "scan.support" = "支援";
 "scan.registeringPalms" = "正在註冊手掌";
 "scan.verifyingPalm" = "正在驗證手掌";
@@ -137,40 +139,42 @@
 "error.6999" = "發生問題，請重試。";
 
 /* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
-"error.title.connectionLost" = "Connection lost";
-"error.body.connectionLost" = "You're offline. Check your internet.";
-"error.title.rateLimited" = "Just a moment";
-"error.body.rateLimited" = "Try again in a moment.";
-"error.title.sessionExpired" = "Let's try that again";
-"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
-"error.title.checkAccount" = "Check your account";
-"error.body.checkAccount" = "Your last attempt may have already gone through.";
-"error.title.cameraPermission" = "We need your camera";
-"error.body.cameraPermission" = "Turn on camera access in settings.";
-"error.title.palmMismatch" = "That didn't match";
-"error.body.palmMismatch" = "We couldn't verify your palm.";
-"error.title.scanFailed" = "Let's try that again";
-"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
-"error.title.restrictive" = "We can't continue";
-"error.body.restrictive" = "We're unable to complete this right now.";
-"error.title.setupIssue" = "Please get in touch";
-"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
-"error.title.serverTransient" = "Let's try that again";
-"error.body.serverTransient" = "If this issue continues, please contact support.";
-"error.title.enrollmentMismatch" = "Let's try that again";
-"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
-"error.cta.tryAgain" = "Try again";
-"error.cta.startOver" = "Start over";
-"error.cta.checkAccount" = "Check my account";
-"error.cta.openSettings" = "Open settings";
-"error.cta.contactSupport" = "Contact support";
-"error.cta.close" = "Close";
+"error.title.connectionLost" = "連線中斷";
+"error.body.connectionLost" = "你目前離線。請檢查網路連線。";
+"error.title.rateLimited" = "請稍候";
+"error.body.rateLimited" = "請稍後再試。";
+"error.title.sessionExpired" = "再試一次吧";
+"error.body.sessionExpired" = "你的工作階段已逾時。再試一次吧。";
+"error.title.checkAccount" = "查看你的帳戶";
+"error.body.checkAccount" = "你上次的嘗試可能已經成功。";
+"error.title.cameraPermission" = "我們需要使用相機";
+"error.body.cameraPermission" = "請在設定中開啟相機權限。";
+"error.title.palmMismatch" = "未能相符";
+"error.body.palmMismatch" = "我們無法驗證你的掌紋。";
+"error.title.scanFailed" = "再試一次吧";
+"error.body.scanFailed" = "請移至光線較佳的位置，並保持手部穩定。";
+"error.title.restrictive" = "無法繼續";
+"error.body.restrictive" = "我們目前無法完成此操作。";
+"error.title.setupIssue" = "請與我們聯絡";
+"error.body.setupIssue" = "此應用程式的設定發生問題。請聯絡客服。";
+"error.title.serverTransient" = "再試一次吧";
+"error.body.serverTransient" = "若問題持續發生，請聯絡客服。";
+"error.title.enrollmentMismatch" = "再試一次吧";
+"error.body.enrollmentMismatch" = "我們無法驗證掌紋掃描結果。請在光線較佳的環境下再試一次";
+"error.title.palmTooBlurry" = "手掌掃描太模糊";
+"error.body.palmTooBlurry" = "請保持手部穩定，並在光線更好的環境中重新掃描。";
+"error.cta.tryAgain" = "再試一次";
+"error.cta.startOver" = "重新開始";
+"error.cta.checkAccount" = "查看我的帳戶";
+"error.cta.openSettings" = "開啟設定";
+"error.cta.contactSupport" = "聯絡客服";
+"error.cta.close" = "關閉";
 
 /* VER-491 inline: field-level email verify errors (2006/2007) */
-"email.inlineCodeInvalid" = "Code is incorrect.";
-"email.inlineCodeExpired" = "Code has expired. Request a new code.";
-"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
-"email.inlineCodeGeneric" = "Verification failed.";
+"email.inlineCodeInvalid" = "驗證碼錯誤。";
+"email.inlineCodeExpired" = "驗證碼已過期。請重新取得驗證碼。";
+"email.inlineCodeRateLimit" = "嘗試次數過多。請重新取得驗證碼。";
+"email.inlineCodeGeneric" = "驗證失敗。";
 "consent.startVerification" = "開始驗證";
 "consent.tip2" = "%@ 將獲得有限[驗證資料]的存取權限";
 "consent.verifyIdentitySubtitle" = "%@ 使用 VeryAI 確認您是真人。";

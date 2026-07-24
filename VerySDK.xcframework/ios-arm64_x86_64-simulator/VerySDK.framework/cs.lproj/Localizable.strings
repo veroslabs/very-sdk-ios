@@ -2,23 +2,23 @@
 /* NOTE: This file contains English placeholder text. Please translate all strings to Czech. */
 
 /* Bottom Status Messages */
-"status.moveHandLeft" = "Move your hand left";
-"status.moveHandRight" = "Move your hand right";
-"status.moveHandUp" = "Move your hand up";
-"status.moveHandDown" = "Move your hand down";
-"status.moveHandCloser" = "Bring your hand closer";
-"status.moveHandFarther" = "Move your hand back a bit";
-"status.rotateHandUpward" = "Tilt your hand toward you";
-"status.rotateHandParallel" = "Keep your hand flat";
+"status.moveHandLeft" = "Posuňte ruku doleva";
+"status.moveHandRight" = "Posuňte ruku doprava";
+"status.moveHandUp" = "Posuňte ruku nahoru";
+"status.moveHandDown" = "Posuňte ruku dolů";
+"status.moveHandCloser" = "Přibližte ruku";
+"status.moveHandFarther" = "Posuňte ruku trochu dozadu";
+"status.rotateHandUpward" = "Nakloňte ruku k sobě";
+"status.rotateHandParallel" = "Držte ruku naplocho";
 "status.flipHandOver" = "Umístěte dlaň před kameru";
-"status.spreadFingers" = "Open your hand wide";
-"status.straightenFingers" = "Straighten your fingers";
-"status.spreadThumb" = "Move your thumb out to the side";
-"status.straightenThumb" = "Straighten your thumb";
-"status.brightenHand" = "Find a brighter spot";
-"status.darkenHand" = "Try moving out of direct light";
-"status.focusHand" = "Hold still for a moment";
-"status.keepStill" = "Hold still";
+"status.spreadFingers" = "Otevřete ruku doširoka";
+"status.straightenFingers" = "Narovnejte prsty";
+"status.spreadThumb" = "Odtáhněte palec do strany";
+"status.straightenThumb" = "Narovnejte palec";
+"status.brightenHand" = "Najděte lépe osvětlené místo";
+"status.darkenHand" = "Zkuste se přesunout mimo přímé světlo";
+"status.focusHand" = "Chvíli se nehýbejte";
+"status.keepStill" = "Nehýbejte se";
 
 /* Scan View Controller */
 
@@ -28,10 +28,10 @@
 
 
 /* Auth View Controller */
-"auth.cancel" = "Cancel";
-"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
-"auth.termsOfService" = "Terms of Service";
-"auth.privacyPolicy" = "Privacy Policy";
+"auth.cancel" = "Zrušit";
+"auth.termsText" = "Pokračováním souhlasíte s našimi Podmínkami služby a Zásadami ochrany osobních údajů.";
+"auth.termsOfService" = "Podmínky služby";
+"auth.privacyPolicy" = "Zásady ochrany osobních údajů";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Nastavte sken dlaně";
@@ -39,36 +39,38 @@
 "workthrough.getStarted" = "Začít";
 
 /* Error Messages */
-"error.5001" = "Session expired. Please start again.";
-"error.5002" = "Session not found or already consumed.";
-"error.5003" = "Please try again.";
-"error.5004" = "All verification attempts have been used.";
+"error.5001" = "Platnost relace vypršela. Začněte znovu.";
+"error.5002" = "Relace nebyla nalezena nebo už byla použita.";
+"error.5003" = "Zkuste to znovu.";
+"error.5004" = "Všechny pokusy o ověření byly vyčerpány.";
 "error.5005" = "Nepodařilo se ověřit vaši dlaň. Zkuste to prosím znovu.";
 "error.5006" = "Něco se pokazilo. Zkuste to prosím znovu.";
 "error.5007" = "Vaše relace vypršela. Zkuste to prosím znovu.";
 "error.5008" = "Něco se pokazilo. Kontaktujte prosím podporu.";
 "error.5009" = "Něco se pokazilo. Kontaktujte prosím podporu.";
-"error.5010" = "Account review was permanently rejected.";
-"error.5011" = "Account enrollment is still under review.";
-"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests. Please try again later.";
+"error.5010" = "Kontrola účtu byla trvale zamítnuta.";
+"error.5011" = "Registrace účtu se stále kontroluje.";
+"error.5012" = "Opětovná registrace je možná pouze tehdy, když je stav kontroly zamítnutý.";
+"error.5013" = "Příliš mnoho požadavků. Zkuste to znovu později.";
 "error.5014" = "Něco se pokazilo. Zkuste to prosím znovu.";
-"error.5015" = "Please verify your email first.";
-"error.5016" = "Email has already been verified for this session.";
-"error.5017" = "Your account is restricted and cannot proceed.";
-"error.5018" = "Email verification is not available for this session.";
+"error.5015" = "Nejprve ověřte svůj e-mail.";
+"error.5016" = "E-mail už byl pro tuto relaci ověřen.";
+"error.5017" = "Váš účet je omezen a nelze pokračovat.";
+"error.5018" = "Ověření e-mailu není pro tuto relaci k dispozici.";
+"error.5019" = "Tato dlaň je již zaregistrována u jiného účtu.";
+"error.5020" = "Sken dlaně je příliš rozmazaný. Zkuste to prosím znovu.";
 "error.6101" = "Pro naskenování dlaně prosím povolte přístup k fotoaparátu v nastavení telefonu.";
 "error.6102" = "Skenování se nepodařilo dokončit. Zkuste to prosím znovu.";
-"error.6103" = "Session expired. Please try again.";
-"error.6104" = "User cancelled.";
-"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
+"error.6103" = "Platnost relace vypršela. Zkuste to znovu.";
+"error.6104" = "Zrušeno uživatelem.";
+"error.6106" = "Nepodařilo se načíst knihovnu pro skenování dlaně. Zkontrolujte internet a zkuste to znovu.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "Vaše dlaň byla ověřena.";
 "scan.successRegistered" = "Biometrie dlaně byla nastavena.";
 
 /* Common UI */
-"common.poweredBy" = "Powered by";
+"common.poweredBy" = "Využívá technologii";
 "common.retrying" = "Opakuji pokus…";
 "common.done" = "Hotovo";
 "common.continue" = "Pokračovat";
@@ -83,7 +85,7 @@
 "scan.showGesture" = "Ukažte gesto";
 "scan.connectDots" = "Spojte body";
 "scan.almostDone" = "Skoro hotovo";
-"scan.livenessThanks" = "Thanks for verifying";
+"scan.livenessThanks" = "Děkujeme za ověření";
 "scan.support" = "Podpora";
 "scan.registeringPalms" = "Registrace dlaní";
 "scan.verifyingPalm" = "Ověřování dlaně";
@@ -141,40 +143,42 @@
 "error.6999" = "Něco se pokazilo. Zkuste to prosím znovu.";
 
 /* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
-"error.title.connectionLost" = "Connection lost";
-"error.body.connectionLost" = "You're offline. Check your internet.";
-"error.title.rateLimited" = "Just a moment";
-"error.body.rateLimited" = "Try again in a moment.";
-"error.title.sessionExpired" = "Let's try that again";
-"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
-"error.title.checkAccount" = "Check your account";
-"error.body.checkAccount" = "Your last attempt may have already gone through.";
-"error.title.cameraPermission" = "We need your camera";
-"error.body.cameraPermission" = "Turn on camera access in settings.";
-"error.title.palmMismatch" = "That didn't match";
-"error.body.palmMismatch" = "We couldn't verify your palm.";
-"error.title.scanFailed" = "Let's try that again";
-"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
-"error.title.restrictive" = "We can't continue";
-"error.body.restrictive" = "We're unable to complete this right now.";
-"error.title.setupIssue" = "Please get in touch";
-"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
-"error.title.serverTransient" = "Let's try that again";
-"error.body.serverTransient" = "If this issue continues, please contact support.";
-"error.title.enrollmentMismatch" = "Let's try that again";
-"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
-"error.cta.tryAgain" = "Try again";
-"error.cta.startOver" = "Start over";
-"error.cta.checkAccount" = "Check my account";
-"error.cta.openSettings" = "Open settings";
-"error.cta.contactSupport" = "Contact support";
-"error.cta.close" = "Close";
+"error.title.connectionLost" = "Připojení bylo ztraceno";
+"error.body.connectionLost" = "Jste offline. Zkontrolujte internet.";
+"error.title.rateLimited" = "Okamžik";
+"error.body.rateLimited" = "Zkuste to za chvíli znovu.";
+"error.title.sessionExpired" = "Zkusme to znovu";
+"error.body.sessionExpired" = "Platnost relace vypršela. Zkusme to znovu.";
+"error.title.checkAccount" = "Zkontrolujte svůj účet";
+"error.body.checkAccount" = "Váš poslední pokus možná už proběhl.";
+"error.title.cameraPermission" = "Potřebujeme přístup ke kameře";
+"error.body.cameraPermission" = "Povolte přístup ke kameře v nastavení.";
+"error.title.palmMismatch" = "Nenalezena shoda";
+"error.body.palmMismatch" = "Nepodařilo se ověřit vaši dlaň.";
+"error.title.scanFailed" = "Zkusme to znovu";
+"error.body.scanFailed" = "Přejděte na lépe osvětlené místo a držte ruku v klidu.";
+"error.title.restrictive" = "Nemůžeme pokračovat";
+"error.body.restrictive" = "Teď to nemůžeme dokončit.";
+"error.title.setupIssue" = "Ozvěte se nám";
+"error.body.setupIssue" = "Tato aplikace má problém s nastavením. Kontaktujte podporu.";
+"error.title.serverTransient" = "Zkusme to znovu";
+"error.body.serverTransient" = "Pokud problém přetrvává, kontaktujte podporu.";
+"error.title.enrollmentMismatch" = "Zkusme to znovu";
+"error.body.enrollmentMismatch" = "Nepodařilo se ověřit skeny dlaně. Zkuste to znovu za lepších světelných podmínek";
+"error.title.palmTooBlurry" = "Sken dlaně je příliš rozmazaný";
+"error.body.palmTooBlurry" = "Držte ruku v klidu a naskenujte znovu při lepším osvětlení.";
+"error.cta.tryAgain" = "Zkusit znovu";
+"error.cta.startOver" = "Začít znovu";
+"error.cta.checkAccount" = "Zkontrolovat můj účet";
+"error.cta.openSettings" = "Otevřít nastavení";
+"error.cta.contactSupport" = "Kontaktovat podporu";
+"error.cta.close" = "Zavřít";
 
 /* VER-491 inline: field-level email verify errors (2006/2007) */
-"email.inlineCodeInvalid" = "Code is incorrect.";
-"email.inlineCodeExpired" = "Code has expired. Request a new code.";
-"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
-"email.inlineCodeGeneric" = "Verification failed.";
+"email.inlineCodeInvalid" = "Nesprávný kód.";
+"email.inlineCodeExpired" = "Platnost kódu vypršela. Vyžádejte si nový kód.";
+"email.inlineCodeRateLimit" = "Příliš mnoho pokusů. Vyžádejte si nový kód.";
+"email.inlineCodeGeneric" = "Ověření se nezdařilo.";
 "consent.startVerification" = "Zahájit ověření";
 "consent.tip2" = "%@ bude mít přístup k omezeným [údajům o ověření]";
 "consent.verifyIdentitySubtitle" = "%@ používá VeryAI k potvrzení, že jste člověk.";

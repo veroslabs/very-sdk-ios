@@ -2,23 +2,23 @@
 /* NOTE: This file contains English placeholder text. Please translate all strings to Lao. */
 
 /* Bottom Status Messages */
-"status.moveHandLeft" = "Move your hand left";
-"status.moveHandRight" = "Move your hand right";
-"status.moveHandUp" = "Move your hand up";
-"status.moveHandDown" = "Move your hand down";
-"status.moveHandCloser" = "Bring your hand closer";
-"status.moveHandFarther" = "Move your hand back a bit";
-"status.rotateHandUpward" = "Tilt your hand toward you";
-"status.rotateHandParallel" = "Keep your hand flat";
+"status.moveHandLeft" = "ເລື່ອນມືໄປຊ້າຍ";
+"status.moveHandRight" = "ເລື່ອນມືໄປຂວາ";
+"status.moveHandUp" = "ເລື່ອນມືຂຶ້ນ";
+"status.moveHandDown" = "ເລື່ອນມືລົງ";
+"status.moveHandCloser" = "ເລື່ອນມືເຂົ້າໃກ້";
+"status.moveHandFarther" = "ຖອຍມືກັບໜ້ອຍໜຶ່ງ";
+"status.rotateHandUpward" = "ອຽງມືເຂົ້າຫາຕົວທ່ານ";
+"status.rotateHandParallel" = "ວາງມືໃຫ້ຮາບພຽງ";
 "status.flipHandOver" = "ວາງຝາມືຢູ່ໜ້າກ້ອງ";
-"status.spreadFingers" = "Open your hand wide";
-"status.straightenFingers" = "Straighten your fingers";
-"status.spreadThumb" = "Move your thumb out to the side";
-"status.straightenThumb" = "Straighten your thumb";
-"status.brightenHand" = "Find a brighter spot";
-"status.darkenHand" = "Try moving out of direct light";
-"status.focusHand" = "Hold still for a moment";
-"status.keepStill" = "Hold still";
+"status.spreadFingers" = "ແບມືອອກໃຫ້ກວ້າງ";
+"status.straightenFingers" = "ຢຽດນິ້ວມືໃຫ້ຊື່";
+"status.spreadThumb" = "ກາງໂປ້ອອກໄປຂ້າງ";
+"status.straightenThumb" = "ຢຽດໂປ້ໃຫ້ຊື່";
+"status.brightenHand" = "ຊອກຫາບ່ອນທີ່ແຈ້ງກວ່າ";
+"status.darkenHand" = "ລອງຫຼີກອອກຈາກແສງໂດຍກົງ";
+"status.focusHand" = "ຢູ່ນິ້ງໆບຶດໜຶ່ງ";
+"status.keepStill" = "ຢູ່ນິ້ງໆ";
 
 /* Scan View Controller */
 
@@ -28,10 +28,10 @@
 
 
 /* Auth View Controller */
-"auth.cancel" = "Cancel";
-"auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
-"auth.termsOfService" = "Terms of Service";
-"auth.privacyPolicy" = "Privacy Policy";
+"auth.cancel" = "ຍົກເລີກ";
+"auth.termsText" = "ໂດຍການສືບຕໍ່, ທ່ານຍອມຮັບເງື່ອນໄຂການບໍລິການ ແລະ ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວຂອງພວກເຮົາ.";
+"auth.termsOfService" = "ເງື່ອນໄຂການບໍລິການ";
+"auth.privacyPolicy" = "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "ຕັ້ງຄ່າການສະແກນຝາມືຂອງທ່ານ";
@@ -39,36 +39,38 @@
 "workthrough.getStarted" = "ເລີ່ມຕົ້ນ";
 
 /* Error Messages */
-"error.5001" = "Session expired. Please start again.";
-"error.5002" = "Session not found or already consumed.";
-"error.5003" = "Please try again.";
-"error.5004" = "All verification attempts have been used.";
+"error.5001" = "ເຊດຊັນໝົດອາຍຸແລ້ວ. ກະລຸນາເລີ່ມໃໝ່.";
+"error.5002" = "ບໍ່ພົບເຊດຊັນ ຫຼື ຖືກໃຊ້ໄປແລ້ວ.";
+"error.5003" = "ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
+"error.5004" = "ໃຊ້ຄັ້ງການຢືນຢັນທັງໝົດແລ້ວ.";
 "error.5005" = "ພວກເຮົາບໍ່ສາມາດຢືນຢັນຝ່າມືຂອງທ່ານໄດ້. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
 "error.5006" = "ມີບາງຢ່າງຜິດພາດ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
 "error.5007" = "ເຊດຊັນຂອງທ່ານໝົດອາຍຸແລ້ວ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
 "error.5008" = "ມີບາງຢ່າງຜິດພາດ. ກະລຸນາຕິດຕໍ່ຝ່າຍສະໜັບສະໜູນ.";
 "error.5009" = "ມີບາງຢ່າງຜິດພາດ. ກະລຸນາຕິດຕໍ່ຝ່າຍສະໜັບສະໜູນ.";
-"error.5010" = "Account review was permanently rejected.";
-"error.5011" = "Account enrollment is still under review.";
-"error.5012" = "Re-enrollment is only allowed when review status is rejected.";
-"error.5013" = "Too many requests. Please try again later.";
+"error.5010" = "ການກວດສອບບັນຊີຖືກປະຕິເສດຖາວອນ.";
+"error.5011" = "ການລົງທະບຽນບັນຊີຍັງຢູ່ໃນລະຫວ່າງການກວດສອບ.";
+"error.5012" = "ອະນຸຍາດໃຫ້ລົງທະບຽນຄືນໄດ້ສະເພາະເມື່ອສະຖານະການກວດສອບຖືກປະຕິເສດ.";
+"error.5013" = "ຄຳຮ້ອງຂໍຫຼາຍເກີນໄປ. ກະລຸນາລອງໃໝ່ພາຍຫຼັງ.";
 "error.5014" = "ມີບາງຢ່າງຜິດພາດ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
-"error.5015" = "Please verify your email first.";
-"error.5016" = "Email has already been verified for this session.";
-"error.5017" = "Your account is restricted and cannot proceed.";
-"error.5018" = "Email verification is not available for this session.";
+"error.5015" = "ກະລຸນາຢືນຢັນອີເມວຂອງທ່ານກ່ອນ.";
+"error.5016" = "ອີເມວຖືກຢືນຢັນສຳລັບເຊດຊັນນີ້ແລ້ວ.";
+"error.5017" = "ບັນຊີຂອງທ່ານຖືກຈຳກັດ ແລະ ບໍ່ສາມາດດຳເນີນຕໍ່ໄດ້.";
+"error.5018" = "ການຢືນຢັນອີເມວບໍ່ສາມາດໃຊ້ໄດ້ສຳລັບເຊດຊັນນີ້.";
+"error.5019" = "ຝ່າມືນີ້ຖືກລົງທະບຽນກັບບັນຊີອື່ນແລ້ວ.";
+"error.5020" = "ການສະແກນຝ່າມືມົວເກີນໄປ. ກະລຸນາລອງໃໝ່.";
 "error.6101" = "ເພື່ອສະແກນຝ່າມືຂອງທ່ານ, ກະລຸນາອະນຸຍາດການເຂົ້າເຖິງກ້ອງຖ່າຍຮູບໃນການຕັ້ງຄ່າໂທಲະສັບຂອງທ່ານ.";
 "error.6102" = "ພວກເຮົາບໍ່ສາມາດສຳເລັດການສະແກນ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
-"error.6103" = "Session expired. Please try again.";
-"error.6104" = "User cancelled.";
-"error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
+"error.6103" = "ເຊດຊັນໝົດອາຍຸແລ້ວ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
+"error.6104" = "ຜູ້ໃຊ້ຍົກເລີກ.";
+"error.6106" = "ບໍ່ສາມາດໂຫຼດໄລບຣາຣີສະແກນຝ່າມືໄດ້. ກວດເບິ່ງອິນເຕີເນັດຂອງທ່ານແລ້ວລອງໃໝ່.";
 
 /* Success Bottom Sheet Messages */
 "scan.successVerified" = "ຝ່າມືຂອງທ່ານໄດ້ຮັບການຢືນຢັນແລ້ວ.";
 "scan.successRegistered" = "ການກວດສອບລາຍມືໄດ້ຖືກຕັ້ງຄ່າແລ້ວ.";
 
 /* Common UI */
-"common.poweredBy" = "Powered by";
+"common.poweredBy" = "ຂັບເຄື່ອນໂດຍ";
 "common.retrying" = "ກຳລັງລອງໃໝ່…";
 "common.done" = "ແລ້ວ";
 "common.continue" = "ສືບຕໍ່";
@@ -83,7 +85,7 @@
 "scan.showGesture" = "ສະແດງທ່າທາງ";
 "scan.connectDots" = "ເຊື່ອಮຈຸດ";
 "scan.almostDone" = "ເກືອບສຳເລັດແລ້ວ";
-"scan.livenessThanks" = "Thanks for verifying";
+"scan.livenessThanks" = "ຂອບໃຈທີ່ຢືນຢັນ";
 "scan.support" = "ຊ່ວຍເຫຼືອ";
 "scan.registeringPalms" = "ກຳລັງລົງທະບຽນຝາມື";
 "scan.verifyingPalm" = "ກຳລັງຢືນຢັນຝາມື";
@@ -141,40 +143,42 @@
 "error.6999" = "ມີບາງຢ່າງຜິດພາດ. ກະລຸນາລອງໃໝ່.";
 
 /* VER-491: error bottom sheet (SDKErrorPresentation.swift) */
-"error.title.connectionLost" = "Connection lost";
-"error.body.connectionLost" = "You're offline. Check your internet.";
-"error.title.rateLimited" = "Just a moment";
-"error.body.rateLimited" = "Try again in a moment.";
-"error.title.sessionExpired" = "Let's try that again";
-"error.body.sessionExpired" = "Your session timed out. Let's try that again.";
-"error.title.checkAccount" = "Check your account";
-"error.body.checkAccount" = "Your last attempt may have already gone through.";
-"error.title.cameraPermission" = "We need your camera";
-"error.body.cameraPermission" = "Turn on camera access in settings.";
-"error.title.palmMismatch" = "That didn't match";
-"error.body.palmMismatch" = "We couldn't verify your palm.";
-"error.title.scanFailed" = "Let's try that again";
-"error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
-"error.title.restrictive" = "We can't continue";
-"error.body.restrictive" = "We're unable to complete this right now.";
-"error.title.setupIssue" = "Please get in touch";
-"error.body.setupIssue" = "This app has a setup problem. Please contact support.";
-"error.title.serverTransient" = "Let's try that again";
-"error.body.serverTransient" = "If this issue continues, please contact support.";
-"error.title.enrollmentMismatch" = "Let's try that again";
-"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
-"error.cta.tryAgain" = "Try again";
-"error.cta.startOver" = "Start over";
-"error.cta.checkAccount" = "Check my account";
-"error.cta.openSettings" = "Open settings";
-"error.cta.contactSupport" = "Contact support";
-"error.cta.close" = "Close";
+"error.title.connectionLost" = "ການເຊື່ອມຕໍ່ຂາດ";
+"error.body.connectionLost" = "ທ່ານກຳລັງອອບລາຍ. ກວດເບິ່ງອິນເຕີເນັດຂອງທ່ານ.";
+"error.title.rateLimited" = "ລໍຖ້າບຶດໜຶ່ງ";
+"error.body.rateLimited" = "ລອງໃໝ່ໃນອີກບຶດໜຶ່ງ.";
+"error.title.sessionExpired" = "ມາລອງໃໝ່ອີກຄັ້ງ";
+"error.body.sessionExpired" = "ເຊດຊັນຂອງທ່ານໝົດເວລາແລ້ວ. ມາລອງໃໝ່ອີກຄັ້ງ.";
+"error.title.checkAccount" = "ກວດເບິ່ງບັນຊີຂອງທ່ານ";
+"error.body.checkAccount" = "ການພະຍາຍາມຄັ້ງລ່າສຸດຂອງທ່ານອາດຈະສຳເລັດໄປແລ້ວ.";
+"error.title.cameraPermission" = "ພວກເຮົາຕ້ອງການກ້ອງຂອງທ່ານ";
+"error.body.cameraPermission" = "ເປີດການເຂົ້າເຖິງກ້ອງໃນການຕັ້ງຄ່າ.";
+"error.title.palmMismatch" = "ບໍ່ກົງກັນ";
+"error.body.palmMismatch" = "ພວກເຮົາບໍ່ສາມາດຢືນຢັນຝ່າມືຂອງທ່ານໄດ້.";
+"error.title.scanFailed" = "ມາລອງໃໝ່ອີກຄັ້ງ";
+"error.body.scanFailed" = "ຍ້າຍໄປບ່ອນທີ່ມີແສງດີກວ່າ ແລະ ຮັກສາມືໃຫ້ນິ້ງ.";
+"error.title.restrictive" = "ພວກເຮົາບໍ່ສາມາດສືບຕໍ່ໄດ້";
+"error.body.restrictive" = "ພວກເຮົາບໍ່ສາມາດເຮັດສິ່ງນີ້ໃຫ້ສຳເລັດໃນຕອນນີ້ໄດ້.";
+"error.title.setupIssue" = "ກະລຸນາຕິດຕໍ່ຫາພວກເຮົາ";
+"error.body.setupIssue" = "ແອັບນີ້ມີບັນຫາການຕັ້ງຄ່າ. ກະລຸນາຕິດຕໍ່ຝ່າຍຊ່ວຍເຫຼືອ.";
+"error.title.serverTransient" = "ມາລອງໃໝ່ອີກຄັ້ງ";
+"error.body.serverTransient" = "ຫາກບັນຫານີ້ຍັງສືບຕໍ່, ກະລຸນາຕິດຕໍ່ຝ່າຍຊ່ວຍເຫຼືອ.";
+"error.title.enrollmentMismatch" = "ມາລອງໃໝ່ອີກຄັ້ງ";
+"error.body.enrollmentMismatch" = "ພວກເຮົາບໍ່ສາມາດຢືນຢັນການສະແກນຝ່າມືໄດ້. ກະລຸນາລອງໃໝ່ໃນສະພາບແສງທີ່ດີກວ່າ";
+"error.title.palmTooBlurry" = "ການສະແກນຝ່າມືມົວເກີນໄປ";
+"error.body.palmTooBlurry" = "ຖືມືຂອງທ່ານໃຫ້ໝັ້ນ ແລະ ສະແກນໃໝ່ໃນທີ່ມີແສງດີກວ່າ.";
+"error.cta.tryAgain" = "ລອງໃໝ່";
+"error.cta.startOver" = "ເລີ່ມໃໝ່";
+"error.cta.checkAccount" = "ກວດເບິ່ງບັນຊີຂອງຂ້ອຍ";
+"error.cta.openSettings" = "ເປີດການຕັ້ງຄ່າ";
+"error.cta.contactSupport" = "ຕິດຕໍ່ຝ່າຍຊ່ວຍເຫຼືອ";
+"error.cta.close" = "ປິດ";
 
 /* VER-491 inline: field-level email verify errors (2006/2007) */
-"email.inlineCodeInvalid" = "Code is incorrect.";
-"email.inlineCodeExpired" = "Code has expired. Request a new code.";
-"email.inlineCodeRateLimit" = "Too many attempts. Please request a new code.";
-"email.inlineCodeGeneric" = "Verification failed.";
+"email.inlineCodeInvalid" = "ລະຫັດບໍ່ຖືກຕ້ອງ.";
+"email.inlineCodeExpired" = "ລະຫັດໝົດອາຍຸແລ້ວ. ຂໍລະຫັດໃໝ່.";
+"email.inlineCodeRateLimit" = "ພະຍາຍາມຫຼາຍຄັ້ງເກີນໄປ. ກະລຸນາຂໍລະຫັດໃໝ່.";
+"email.inlineCodeGeneric" = "ການຢືນຢັນລົ້ມເຫຼວ.";
 "consent.startVerification" = "ເລີ່ມການຢືນຢັນ";
 "consent.tip2" = "%@ ຈະສາມາດເຂົ້າເຖິງ [ຂໍ້ມູນການຢືນຢັນ] ທີ່ຈຳກັດໄດ້";
 "consent.verifyIdentitySubtitle" = "%@ ໃຊ້ VeryAI ເພື່ອຢືນຢັນວ່າທ່ານເປັນມະນຸດ.";

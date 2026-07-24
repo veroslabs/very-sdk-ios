@@ -57,6 +57,8 @@
 "error.5016" = "Email has already been verified for this session.";
 "error.5017" = "Your account is restricted and cannot proceed.";
 "error.5018" = "Email verification is not available for this session.";
+"error.5019" = "This palm is already registered to another account.";
+"error.5020" = "The palm scan is too blurry. Please try again.";
 "error.6101" = "To scan your palm, please allow camera access in your phone's settings.";
 "error.6102" = "We couldn't complete the scan. Please try again.";
 "error.6103" = "Session expired. Please try again.";
@@ -162,6 +164,8 @@
 "error.body.serverTransient" = "If this issue continues, please contact support.";
 "error.title.enrollmentMismatch" = "Let's try that again";
 "error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
+"error.title.palmTooBlurry" = "Palm scan too blurry";
+"error.body.palmTooBlurry" = "Keep your hand steady and scan again in better lighting.";
 "error.cta.tryAgain" = "Try again";
 "error.cta.startOver" = "Start over";
 "error.cta.checkAccount" = "Check my account";
