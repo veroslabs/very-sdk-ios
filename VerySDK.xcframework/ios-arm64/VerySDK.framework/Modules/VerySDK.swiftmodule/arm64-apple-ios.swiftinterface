@@ -82,6 +82,13 @@ import _SwiftConcurrencyShims
     get
   }
 }
+@_inheritsConvenienceInitializers @objc public class VeryCustomString : ObjectiveC.NSObject {
+  @objc public static let showYourHand: Swift.String
+  @objc public static let showYourFirstHand: Swift.String
+  @objc public static let connectDots: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @objc public class VeryConfig : ObjectiveC.NSObject {
   @objc public var sdkKey: Swift.String
   @objc public var userId: Swift.String?
@@ -90,6 +97,7 @@ import _SwiftConcurrencyShims
   @objc public var livenessMode: VeryLivenessMode
   @objc public var debugLogging: Swift.Bool
   @objc public var clientReferenceId: Swift.String?
+  @objc public var customStrings: [Swift.String : Swift.String]?
   @objc override dynamic public init()
   @objc public init(sdkKey: Swift.String, userId: Swift.String? = nil, language: Swift.String? = nil, themeMode: Swift.String = "dark", livenessMode: VeryLivenessMode = .touch, debugLogging: Swift.Bool = false)
   @objc deinit

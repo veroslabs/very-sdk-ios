@@ -80,8 +80,8 @@
 "scan.positionLeftHandAgain" = "Сол алақанды қайта сканерлеңіз";
 "scan.positionRightHand" = "Оң алақанды сканерлеңіз";
 "scan.positionRightHandAgain" = "Дерлік дайын — соңғы сканерлеу";
-"scan.defaultStatus" = "Қолыңызды сканерлеңіз";
-"scan.defaultStatusEnroll" = "Бірінші қолыңызды сканерлеңіз";
+"scan.defaultStatus" = "Қолыңызды көрсетіңіз";
+"scan.defaultStatusEnroll" = "Бірінші қолыңызды көрсетіңіз";
 "scan.showGesture" = "Қимылды көрсетіңіз";
 "scan.connectDots" = "Нүктелерді қосыңыз";
 "scan.almostDone" = "Аяқталуға жақын";

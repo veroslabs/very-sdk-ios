@@ -80,8 +80,8 @@
 "scan.positionLeftHandAgain" = "Sol ovucu yenidən skan edin";
 "scan.positionRightHand" = "Sağ ovucu skan edin";
 "scan.positionRightHandAgain" = "Demək olar ki, bitdi — son skan";
-"scan.defaultStatus" = "Əlinizi skan edin";
-"scan.defaultStatusEnroll" = "İlk əlinizi skan edin";
+"scan.defaultStatus" = "Əlinizi göstərin";
+"scan.defaultStatusEnroll" = "İlk əlinizi göstərin";
 "scan.showGesture" = "Jesti göstərin";
 "scan.connectDots" = "Nöqtələri birləşdirin";
 "scan.almostDone" = "Demək olar ki hazırdır";

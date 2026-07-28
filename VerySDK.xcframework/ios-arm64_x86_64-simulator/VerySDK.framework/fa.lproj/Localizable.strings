@@ -80,8 +80,8 @@
 "scan.positionLeftHandAgain" = "کف دست چپ را دوباره اسکن کنید";
 "scan.positionRightHand" = "کف دست راست را اسکن کنید";
 "scan.positionRightHandAgain" = "تقریباً تمام شد — آخرین اسکن";
-"scan.defaultStatus" = "دست خود را اسکن کنید";
-"scan.defaultStatusEnroll" = "دست اول خود را اسکن کنید";
+"scan.defaultStatus" = "دست خود را نشان دهید";
+"scan.defaultStatusEnroll" = "دست اول خود را نشان دهید";
 "scan.showGesture" = "ژست را نشان دهید";
 "scan.connectDots" = "نقاط را به هم وصل کنید";
 "scan.almostDone" = "تقریباً تمام شد";

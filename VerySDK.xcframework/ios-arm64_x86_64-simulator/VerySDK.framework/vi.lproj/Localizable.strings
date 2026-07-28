@@ -78,8 +78,8 @@
 "scan.positionLeftHandAgain" = "Quét lại lòng bàn tay trái";
 "scan.positionRightHand" = "Quét lòng bàn tay phải";
 "scan.positionRightHandAgain" = "Sắp xong — lần quét cuối";
-"scan.defaultStatus" = "Quét tay của bạn";
-"scan.defaultStatusEnroll" = "Quét tay đầu tiên của bạn";
+"scan.defaultStatus" = "Giơ tay của bạn ra";
+"scan.defaultStatusEnroll" = "Giơ tay đầu tiên của bạn ra";
 "scan.showGesture" = "Hiển thị cử chỉ";
 "scan.connectDots" = "Nối các chấm";
 "scan.almostDone" = "Sắp xong";

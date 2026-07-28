@@ -78,8 +78,8 @@
 "scan.positionLeftHandAgain" = "Scan linkerhandpalm opnieuw";
 "scan.positionRightHand" = "Scan rechterhandpalm";
 "scan.positionRightHandAgain" = "Bijna klaar — laatste scan";
-"scan.defaultStatus" = "Scan uw hand";
-"scan.defaultStatusEnroll" = "Scan uw eerste hand";
+"scan.defaultStatus" = "Toon uw hand";
+"scan.defaultStatusEnroll" = "Toon uw eerste hand";
 "scan.showGesture" = "Toon gebaar";
 "scan.connectDots" = "Verbind de punten";
 "scan.almostDone" = "Bijna klaar";

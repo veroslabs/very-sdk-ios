@@ -80,8 +80,8 @@
 "scan.positionLeftHandAgain" = "ສະແກນຝາມືຊ້າຍອີກຄັ້ງ";
 "scan.positionRightHand" = "ສະແກນຝາມືຂວາ";
 "scan.positionRightHandAgain" = "ເກືອບສຳເລັດ — ການສະແກນຄັ້ງສຸດທ້າຍ";
-"scan.defaultStatus" = "ສະແກນມືຂອງທ່ານ";
-"scan.defaultStatusEnroll" = "ສະແກນມືທຳອິດຂອງທ່ານ";
+"scan.defaultStatus" = "ສະແດງມືຂອງທ່ານ";
+"scan.defaultStatusEnroll" = "ສະແດງມືທຳອິດຂອງທ່ານ";
 "scan.showGesture" = "ສະແດງທ່າທາງ";
 "scan.connectDots" = "ເຊື່ອಮຈຸດ";
 "scan.almostDone" = "ເກືອບສຳເລັດແລ້ວ";

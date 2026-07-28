@@ -78,8 +78,8 @@
 "scan.positionLeftHandAgain" = "Sol avuç içini tekrar tarayın";
 "scan.positionRightHand" = "Sağ avuç içini tarayın";
 "scan.positionRightHandAgain" = "Neredeyse bitti — son tarama";
-"scan.defaultStatus" = "Elinizi tarayın";
-"scan.defaultStatusEnroll" = "İlk elinizi tarayın";
+"scan.defaultStatus" = "Elinizi gösterin";
+"scan.defaultStatusEnroll" = "İlk elinizi gösterin";
 "scan.showGesture" = "Jesti gösterin";
 "scan.connectDots" = "Noktaları birleştirin";
 "scan.almostDone" = "Neredeyse bitti";

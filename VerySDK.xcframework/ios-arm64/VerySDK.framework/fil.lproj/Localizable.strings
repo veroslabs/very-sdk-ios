@@ -80,8 +80,8 @@
 "scan.positionLeftHandAgain" = "I-scan muli ang kaliwang palad";
 "scan.positionRightHand" = "I-scan ang kanang palad";
 "scan.positionRightHandAgain" = "Malapit na — huling pag-scan";
-"scan.defaultStatus" = "I-scan ang iyong kamay";
-"scan.defaultStatusEnroll" = "I-scan ang iyong unang kamay";
+"scan.defaultStatus" = "Ipakita ang iyong kamay";
+"scan.defaultStatusEnroll" = "Ipakita ang iyong unang kamay";
 "scan.showGesture" = "Ipakita ang galaw";
 "scan.connectDots" = "Ikonekta ang mga tuldok";
 "scan.almostDone" = "Halos tapos na";

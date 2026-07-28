@@ -80,8 +80,8 @@
 "scan.positionLeftHandAgain" = "Σαρώστε την αριστερή παλάμη ξανά";
 "scan.positionRightHand" = "Σαρώστε τη δεξιά παλάμη";
 "scan.positionRightHandAgain" = "Σχεδόν έτοιμο — τελευταία σάρωση";
-"scan.defaultStatus" = "Σαρώστε το χέρι σας";
-"scan.defaultStatusEnroll" = "Σαρώστε το πρώτο σας χέρι";
+"scan.defaultStatus" = "Δείξτε το χέρι σας";
+"scan.defaultStatusEnroll" = "Δείξτε το πρώτο σας χέρι";
 "scan.showGesture" = "Δείξτε τη χειρονομία";
 "scan.connectDots" = "Ενώστε τα σημεία";
 "scan.almostDone" = "Σχεδόν έτοιμο";

@@ -78,8 +78,8 @@
 "scan.positionLeftHandAgain" = "左手のひらを再度スキャン";
 "scan.positionRightHand" = "右手のひらをスキャン";
 "scan.positionRightHandAgain" = "もう少しです——最後のスキャン";
-"scan.defaultStatus" = "手をスキャンしてください";
-"scan.defaultStatusEnroll" = "最初の手をスキャンしてください";
+"scan.defaultStatus" = "手をかざしてください";
+"scan.defaultStatusEnroll" = "最初の手をかざしてください";
 "scan.showGesture" = "ジェスチャーを表示";
 "scan.connectDots" = "点をつなげる";
 "scan.almostDone" = "もう少しです";

@@ -80,8 +80,8 @@
 "scan.positionLeftHandAgain" = "Scanați palma stângă din nou";
 "scan.positionRightHand" = "Scanați palma dreaptă";
 "scan.positionRightHandAgain" = "Aproape gata — ultima scanare";
-"scan.defaultStatus" = "Scanați-vă mâna";
-"scan.defaultStatusEnroll" = "Scanați-vă prima mână";
+"scan.defaultStatus" = "Arătați-vă mâna";
+"scan.defaultStatusEnroll" = "Arătați-vă prima mână";
 "scan.showGesture" = "Arătați gestul";
 "scan.connectDots" = "Conectați punctele";
 "scan.almostDone" = "Aproape gata";

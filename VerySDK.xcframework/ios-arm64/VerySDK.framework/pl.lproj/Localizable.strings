@@ -78,8 +78,8 @@
 "scan.positionLeftHandAgain" = "Zeskanuj lewą dłoń ponownie";
 "scan.positionRightHand" = "Zeskanuj prawą dłoń";
 "scan.positionRightHandAgain" = "Prawie gotowe — ostatnie skanowanie";
-"scan.defaultStatus" = "Zeskanuj swoją dłoń";
-"scan.defaultStatusEnroll" = "Zeskanuj swoją pierwszą dłoń";
+"scan.defaultStatus" = "Pokaż swoją dłoń";
+"scan.defaultStatusEnroll" = "Pokaż swoją pierwszą dłoń";
 "scan.showGesture" = "Pokaż gest";
 "scan.connectDots" = "Połącz kropki";
 "scan.almostDone" = "Prawie gotowe";

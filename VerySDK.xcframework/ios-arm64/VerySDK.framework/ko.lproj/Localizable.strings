@@ -78,8 +78,8 @@
 "scan.positionLeftHandAgain" = "왼쪽 손바닥 다시 스캔";
 "scan.positionRightHand" = "오른쪽 손바닥 스캔";
 "scan.positionRightHandAgain" = "거의 완료 — 마지막 스캔";
-"scan.defaultStatus" = "손을 스캔하세요";
-"scan.defaultStatusEnroll" = "첫 번째 손을 스캔하세요";
+"scan.defaultStatus" = "손을 보여주세요";
+"scan.defaultStatusEnroll" = "첫 번째 손을 보여주세요";
 "scan.showGesture" = "제스처 표시";
 "scan.connectDots" = "점 연결하기";
 "scan.almostDone" = "거의 완료";

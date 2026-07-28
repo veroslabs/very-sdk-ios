@@ -80,8 +80,8 @@
 "scan.positionLeftHandAgain" = "Сканирайте лявата длан отново";
 "scan.positionRightHand" = "Сканирайте дясната длан";
 "scan.positionRightHandAgain" = "Почти готово — последно сканиране";
-"scan.defaultStatus" = "Сканирайте ръката си";
-"scan.defaultStatusEnroll" = "Сканирайте първата си ръка";
+"scan.defaultStatus" = "Покажете ръката си";
+"scan.defaultStatusEnroll" = "Покажете първата си ръка";
 "scan.showGesture" = "Покажете жест";
 "scan.connectDots" = "Свържете точките";
 "scan.almostDone" = "Почти готово";

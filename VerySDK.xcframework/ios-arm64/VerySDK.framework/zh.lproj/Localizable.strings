@@ -133,8 +133,8 @@
 "scan.positionLeftHandAgain" = "再次扫描左手掌";
 "scan.positionRightHand" = "扫描右手掌";
 "scan.positionRightHandAgain" = "即将完成——最后一次扫描";
-"scan.defaultStatus" = "扫描您的手";
-"scan.defaultStatusEnroll" = "扫描您的第一只手";
+"scan.defaultStatus" = "展示您的手";
+"scan.defaultStatusEnroll" = "展示您的第一只手";
 "scan.showGesture" = "显示手势";
 "scan.connectDots" = "连接圆点";
 "scan.almostDone" = "即将完成";

@@ -79,8 +79,8 @@
 "scan.positionLeftHandAgain" = "Nice — keep going";
 "scan.positionRightHand" = "Scan right palm";
 "scan.positionRightHandAgain" = "Almost done — last scan";
-"scan.defaultStatus" = "Scan Your Hand";
-"scan.defaultStatusEnroll" = "Scan your first hand";
+"scan.defaultStatus" = "Show your hand";
+"scan.defaultStatusEnroll" = "Show your first hand";
 "scan.showGesture" = "Show gesture";
 "scan.connectDots" = "Connect the dots";
 "scan.almostDone" = "Almost done";

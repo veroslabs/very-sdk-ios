@@ -78,8 +78,8 @@
 "scan.positionLeftHandAgain" = "Pindai telapak tangan kiri lagi";
 "scan.positionRightHand" = "Pindai telapak tangan kanan";
 "scan.positionRightHandAgain" = "Hampir selesai — pemindaian terakhir";
-"scan.defaultStatus" = "Pindai tangan Anda";
-"scan.defaultStatusEnroll" = "Pindai tangan pertama Anda";
+"scan.defaultStatus" = "Tunjukkan tangan Anda";
+"scan.defaultStatusEnroll" = "Tunjukkan tangan pertama Anda";
 "scan.showGesture" = "Tampilkan gerakan";
 "scan.connectDots" = "Hubungkan titik-titik";
 "scan.almostDone" = "Hampir selesai";

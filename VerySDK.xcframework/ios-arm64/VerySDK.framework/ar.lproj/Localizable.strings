@@ -74,8 +74,8 @@
 "scan.positionLeftHandAgain" = "امسح كف اليد اليسرى مرة أخرى";
 "scan.positionRightHand" = "امسح كف اليد اليمنى";
 "scan.positionRightHandAgain" = "أوشكت على الانتهاء — المسح الأخير";
-"scan.defaultStatus" = "امسح يدك";
-"scan.defaultStatusEnroll" = "امسح يدك الأولى";
+"scan.defaultStatus" = "أظهر يدك";
+"scan.defaultStatusEnroll" = "أظهر يدك الأولى";
 "scan.showGesture" = "أظهر الإيماءة";
 "scan.connectDots" = "صل النقاط";
 "scan.almostDone" = "أوشك على الانتهاء";

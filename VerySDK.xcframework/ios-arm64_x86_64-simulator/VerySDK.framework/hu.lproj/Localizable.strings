@@ -80,8 +80,8 @@
 "scan.positionLeftHandAgain" = "Szkennelje a bal tenyerét újra";
 "scan.positionRightHand" = "Szkennelje a jobb tenyerét";
 "scan.positionRightHandAgain" = "Majdnem kész — utolsó szkennelés";
-"scan.defaultStatus" = "Szkennelje be a kezét";
-"scan.defaultStatusEnroll" = "Szkennelje be az első kezét";
+"scan.defaultStatus" = "Mutassa a kezét";
+"scan.defaultStatusEnroll" = "Mutassa az első kezét";
 "scan.showGesture" = "Mutassa a gesztust";
 "scan.connectDots" = "Kösse össze a pontokat";
 "scan.almostDone" = "Majdnem kész";

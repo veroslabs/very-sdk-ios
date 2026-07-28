@@ -78,8 +78,8 @@
 "scan.positionLeftHandAgain" = "Сканируйте левую ладонь ещё раз";
 "scan.positionRightHand" = "Сканируйте правую ладонь";
 "scan.positionRightHandAgain" = "Почти готово — последнее сканирование";
-"scan.defaultStatus" = "Отсканируйте руку";
-"scan.defaultStatusEnroll" = "Отсканируйте первую руку";
+"scan.defaultStatus" = "Покажите руку";
+"scan.defaultStatusEnroll" = "Покажите первую руку";
 "scan.showGesture" = "Покажите жест";
 "scan.connectDots" = "Соедините точки";
 "scan.almostDone" = "Почти готово";

@@ -80,8 +80,8 @@
 "scan.positionLeftHandAgain" = "Naskenujte ľavú dlaň znova";
 "scan.positionRightHand" = "Naskenujte pravú dlaň";
 "scan.positionRightHandAgain" = "Takmer hotovo — posledné skenovanie";
-"scan.defaultStatus" = "Naskenujte svoju ruku";
-"scan.defaultStatusEnroll" = "Naskenujte svoju prvú ruku";
+"scan.defaultStatus" = "Ukážte svoju ruku";
+"scan.defaultStatusEnroll" = "Ukážte svoju prvú ruku";
 "scan.showGesture" = "Ukážte gesto";
 "scan.connectDots" = "Spojte body";
 "scan.almostDone" = "Takmer hotové";

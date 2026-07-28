@@ -80,8 +80,8 @@
 "scan.positionLeftHandAgain" = "වම් අත්ල නැවත ස්කෑන් කරන්න";
 "scan.positionRightHand" = "දකුණු අත්ල ස්කෑන් කරන්න";
 "scan.positionRightHandAgain" = "අවසානයට ළඟයි — අවසාන ස්කෑනය";
-"scan.defaultStatus" = "ඔබේ අත ස්කෑන් කරන්න";
-"scan.defaultStatusEnroll" = "ඔබේ පළමු අත ස්කෑන් කරන්න";
+"scan.defaultStatus" = "ඔබේ අත පෙන්වන්න";
+"scan.defaultStatusEnroll" = "ඔබේ පළමු අත පෙන්වන්න";
 "scan.showGesture" = "අභිනය පෙන්වන්න";
 "scan.connectDots" = "ලක්ෂ්‍ය සම්බන්ධ කරන්න";
 "scan.almostDone" = "බොහෝ දුරට සම්පූර්ණයි";

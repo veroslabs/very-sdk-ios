@@ -78,8 +78,8 @@
 "scan.positionLeftHandAgain" = "Скануйте ліву долоню ще раз";
 "scan.positionRightHand" = "Скануйте праву долоню";
 "scan.positionRightHandAgain" = "Майже готово — останнє сканування";
-"scan.defaultStatus" = "Відскануйте свою руку";
-"scan.defaultStatusEnroll" = "Відскануйте свою першу руку";
+"scan.defaultStatus" = "Покажіть свою руку";
+"scan.defaultStatusEnroll" = "Покажіть свою першу руку";
 "scan.showGesture" = "Покажіть жест";
 "scan.connectDots" = "З'єднайте точки";
 "scan.almostDone" = "Майже готово";

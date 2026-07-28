@@ -78,8 +78,8 @@
 "scan.positionLeftHandAgain" = "再次掃描左手掌";
 "scan.positionRightHand" = "掃描右手掌";
 "scan.positionRightHandAgain" = "即將完成——最後一次掃描";
-"scan.defaultStatus" = "掃描您的手";
-"scan.defaultStatusEnroll" = "掃描您的第一隻手";
+"scan.defaultStatus" = "展示您的手";
+"scan.defaultStatusEnroll" = "展示您的第一隻手";
 "scan.showGesture" = "顯示手勢";
 "scan.connectDots" = "連接圓點";
 "scan.almostDone" = "即將完成";

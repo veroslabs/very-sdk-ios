@@ -78,8 +78,8 @@
 "scan.positionLeftHandAgain" = "Linke Handfläche erneut scannen";
 "scan.positionRightHand" = "Rechte Handfläche scannen";
 "scan.positionRightHandAgain" = "Fast geschafft – letzter Scan";
-"scan.defaultStatus" = "Scannen Sie Ihre Hand";
-"scan.defaultStatusEnroll" = "Scannen Sie Ihre erste Hand";
+"scan.defaultStatus" = "Zeigen Sie Ihre Hand";
+"scan.defaultStatusEnroll" = "Zeigen Sie Ihre erste Hand";
 "scan.showGesture" = "Geste zeigen";
 "scan.connectDots" = "Punkte verbinden";
 "scan.almostDone" = "Fast fertig";

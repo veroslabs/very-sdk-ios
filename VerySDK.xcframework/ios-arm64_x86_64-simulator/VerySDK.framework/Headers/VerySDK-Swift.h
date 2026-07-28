@@ -327,8 +327,6 @@ SWIFT_CLASS("_TtC7VerySDK17CameraPreviewView")
 @class NSString;
 enum VeryLivenessMode : NSInteger;
 
-/// Configuration for Very SDK
-/// Exposed to Objective-C for compatibility
 SWIFT_CLASS("_TtC7VerySDK10VeryConfig")
 @interface VeryConfig : NSObject
 @property (nonatomic, copy) NSString * _Nonnull sdkKey;
@@ -344,10 +342,41 @@ SWIFT_CLASS("_TtC7VerySDK10VeryConfig")
 /// echoed back on the registration dashboard so partners can join our rows to
 /// their own records. Optional. Set via property assignment after init.
 @property (nonatomic, copy) NSString * _Nullable clientReferenceId;
+/// Caller-supplied overrides for user-facing status strings, keyed by the
+/// stable identifiers on <code>VeryCustomString</code> (e.g. <code>VeryCustomString.showYourHand</code>).
+/// A non-empty value takes priority over the SDK’s built-in localized string;
+/// unknown keys and blank values are ignored, falling back to the localized
+/// default. Optional; set via property assignment after init. Extensible —
+/// new customizable strings only need a new <code>VeryCustomString</code> identifier.
+@property (nonatomic, copy) NSDictionary<NSString *, NSString *> * _Nullable customStrings;
 /// Default initializer for Objective-C compatibility
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 /// Convenience initializer with all parameters
 - (nonnull instancetype)initWithSdkKey:(NSString * _Nonnull)sdkKey userId:(NSString * _Nullable)userId language:(NSString * _Nullable)language themeMode:(NSString * _Nonnull)themeMode livenessMode:(enum VeryLivenessMode)livenessMode debugLogging:(BOOL)debugLogging OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// Configuration for Very SDK
+/// Exposed to Objective-C for compatibility
+/// Stable identifiers for the user-facing strings a partner may override via
+/// <code>VeryConfig.customStrings</code>. These are part of the SDK’s public contract and
+/// are intentionally identical to the Android <code>VeryCustomString</code> constants, so
+/// the same key works on both platforms. Internally each identifier maps to the
+/// platform’s own localization key (see <code>LocalizationManager</code>). Add a new
+/// constant here (and its Android twin + mapping) to make another string
+/// customizable.
+SWIFT_CLASS("_TtC7VerySDK16VeryCustomString")
+@interface VeryCustomString : NSObject
+/// Scan-page default status (“Show your hand”).
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull showYourHand;)
++ (NSString * _Nonnull)showYourHand SWIFT_WARN_UNUSED_RESULT;
+/// Scan-page default status during first-time enrollment (“Show your first hand”).
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull showYourFirstHand;)
++ (NSString * _Nonnull)showYourFirstHand SWIFT_WARN_UNUSED_RESULT;
+/// Scan-page “connect the dots” gesture prompt.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull connectDots;)
++ (NSString * _Nonnull)connectDots SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 /// High-level error categories for partner-facing error handling.
@@ -862,8 +891,6 @@ SWIFT_CLASS("_TtC7VerySDK17CameraPreviewView")
 @class NSString;
 enum VeryLivenessMode : NSInteger;
 
-/// Configuration for Very SDK
-/// Exposed to Objective-C for compatibility
 SWIFT_CLASS("_TtC7VerySDK10VeryConfig")
 @interface VeryConfig : NSObject
 @property (nonatomic, copy) NSString * _Nonnull sdkKey;
@@ -879,10 +906,41 @@ SWIFT_CLASS("_TtC7VerySDK10VeryConfig")
 /// echoed back on the registration dashboard so partners can join our rows to
 /// their own records. Optional. Set via property assignment after init.
 @property (nonatomic, copy) NSString * _Nullable clientReferenceId;
+/// Caller-supplied overrides for user-facing status strings, keyed by the
+/// stable identifiers on <code>VeryCustomString</code> (e.g. <code>VeryCustomString.showYourHand</code>).
+/// A non-empty value takes priority over the SDK’s built-in localized string;
+/// unknown keys and blank values are ignored, falling back to the localized
+/// default. Optional; set via property assignment after init. Extensible —
+/// new customizable strings only need a new <code>VeryCustomString</code> identifier.
+@property (nonatomic, copy) NSDictionary<NSString *, NSString *> * _Nullable customStrings;
 /// Default initializer for Objective-C compatibility
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 /// Convenience initializer with all parameters
 - (nonnull instancetype)initWithSdkKey:(NSString * _Nonnull)sdkKey userId:(NSString * _Nullable)userId language:(NSString * _Nullable)language themeMode:(NSString * _Nonnull)themeMode livenessMode:(enum VeryLivenessMode)livenessMode debugLogging:(BOOL)debugLogging OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// Configuration for Very SDK
+/// Exposed to Objective-C for compatibility
+/// Stable identifiers for the user-facing strings a partner may override via
+/// <code>VeryConfig.customStrings</code>. These are part of the SDK’s public contract and
+/// are intentionally identical to the Android <code>VeryCustomString</code> constants, so
+/// the same key works on both platforms. Internally each identifier maps to the
+/// platform’s own localization key (see <code>LocalizationManager</code>). Add a new
+/// constant here (and its Android twin + mapping) to make another string
+/// customizable.
+SWIFT_CLASS("_TtC7VerySDK16VeryCustomString")
+@interface VeryCustomString : NSObject
+/// Scan-page default status (“Show your hand”).
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull showYourHand;)
++ (NSString * _Nonnull)showYourHand SWIFT_WARN_UNUSED_RESULT;
+/// Scan-page default status during first-time enrollment (“Show your first hand”).
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull showYourFirstHand;)
++ (NSString * _Nonnull)showYourFirstHand SWIFT_WARN_UNUSED_RESULT;
+/// Scan-page “connect the dots” gesture prompt.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull connectDots;)
++ (NSString * _Nonnull)connectDots SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 /// High-level error categories for partner-facing error handling.

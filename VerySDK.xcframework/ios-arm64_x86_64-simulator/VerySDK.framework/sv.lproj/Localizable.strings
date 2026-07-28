@@ -78,8 +78,8 @@
 "scan.positionLeftHandAgain" = "Skanna vänster handflata igen";
 "scan.positionRightHand" = "Skanna höger handflata";
 "scan.positionRightHandAgain" = "Nästan klart — sista skanningen";
-"scan.defaultStatus" = "Skanna din hand";
-"scan.defaultStatusEnroll" = "Skanna din första hand";
+"scan.defaultStatus" = "Visa din hand";
+"scan.defaultStatusEnroll" = "Visa din första hand";
 "scan.showGesture" = "Visa gest";
 "scan.connectDots" = "Koppla ihop punkterna";
 "scan.almostDone" = "Nästan klart";

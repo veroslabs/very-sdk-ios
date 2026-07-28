@@ -80,8 +80,8 @@
 "scan.positionLeftHandAgain" = "Skenējiet kreiso plaukstu vēlreiz";
 "scan.positionRightHand" = "Skenējiet labo plaukstu";
 "scan.positionRightHandAgain" = "Gandrīz gatavs — pēdējā skenēšana";
-"scan.defaultStatus" = "Skenējiet savu roku";
-"scan.defaultStatusEnroll" = "Skenējiet savu pirmo roku";
+"scan.defaultStatus" = "Parādiet savu roku";
+"scan.defaultStatusEnroll" = "Parādiet savu pirmo roku";
 "scan.showGesture" = "Parādiet žestu";
 "scan.connectDots" = "Savienojiet punktus";
 "scan.almostDone" = "Gandrīz gatavs";
