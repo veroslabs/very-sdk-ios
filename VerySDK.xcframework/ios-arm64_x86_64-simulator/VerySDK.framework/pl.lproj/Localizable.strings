@@ -28,8 +28,8 @@
 /* Auth View Controller */
 "auth.cancel" = "Anuluj";
 "auth.termsText" = "Kontynuując, zgadzasz się z naszymi Warunkami świadczenia usług i Polityką prywatności.";
-"auth.termsOfService" = "Warunki świadczenia usług";
-"auth.privacyPolicy" = "Polityka prywatności";
+"auth.termsOfService" = "Warunkami świadczenia usług";
+"auth.privacyPolicy" = "Polityką prywatności";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Skonfiguruj skan dłoni";

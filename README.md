@@ -319,7 +319,7 @@ The SDK declares these permissions in its manifest (merged automatically):
 
 ## Supported Languages
 
-The SDK ships with **36 localizations**. Set the language via `config.language` using one of the codes below. Codes are case-insensitive, and BCP-47 region tags (e.g. `en-US`, `pt-BR`) are accepted as aliases. Unknown or empty codes fall back to English.
+The SDK ships with **38 localizations**. Set the language via `config.language` using one of the codes below. Codes are case-insensitive, and BCP-47 region tags (e.g. `en-US`, `pt-BR`) are accepted as aliases. Unknown or empty codes fall back to English.
 
 | Language               | Native name        | Code     | Accepted aliases          |
 |------------------------|--------------------|----------|---------------------------|
@@ -355,10 +355,12 @@ The SDK ships with **36 localizations**. Set the language via `config.language` 
 | Greek                  | Ελληνικά           | `el`     | `el-GR`                   |
 | Latvian                | Latviešu           | `lv`     | `lv-LV`                   |
 | Persian                | فارسی              | `fa`     | `fa-IR`                   |
+| Hebrew                 | עברית              | `he`     | `he-IL`, `iw`             |
 | Azerbaijani            | Azərbaycanca       | `az`     | `az-AZ`                   |
 | Kazakh                 | Қазақша            | `kk`     | `kk-KZ`                   |
 | Lao                    | ລາວ                | `lo`     | `lo-LA`                   |
 | Sinhala                | සිංහල              | `si`     | `si-LK`                   |
+| Bengali                | বাংলা               | `bn`     | `bn-BD`, `bn-IN`          |
 
 **Resource locations**
 
@@ -368,7 +370,7 @@ The SDK ships with **36 localizations**. Set the language via `config.language` 
 | iOS      | `ios/Resources/en.lproj/Localizable.strings` | `{lang}.lproj/Localizable.strings` (e.g. `zhTw.lproj`) |
 
 **Notes**
-- Android uses `snake_case` keys; iOS uses `camelCase.dotSeparated`. The English file is authoritative — any text change must update English plus all 35 other locale files on both platforms.
+- Android uses `snake_case` keys; iOS uses `camelCase.dotSeparated`. The English file is authoritative — any text change must update English plus all 37 other locale files on both platforms.
 - Language mapping is implemented in `LocalizationManager` on both platforms; add new aliases there, not at call sites.
 
 ## Requirements

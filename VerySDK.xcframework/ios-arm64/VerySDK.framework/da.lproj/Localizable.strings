@@ -29,7 +29,7 @@
 
 /* Auth View Controller */
 "auth.cancel" = "Annuller";
-"auth.termsText" = "Ved at fortsætte accepterer du vores servicevilkår og privatlivspolitik.";
+"auth.termsText" = "Ved at fortsætte accepterer du vores Servicevilkår og Privatlivspolitik.";
 "auth.termsOfService" = "Servicevilkår";
 "auth.privacyPolicy" = "Privatlivspolitik";
 

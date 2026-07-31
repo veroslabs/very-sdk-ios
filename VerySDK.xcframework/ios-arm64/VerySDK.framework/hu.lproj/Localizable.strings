@@ -30,8 +30,8 @@
 /* Auth View Controller */
 "auth.cancel" = "Mégse";
 "auth.termsText" = "A folytatással elfogadja a Szolgáltatási feltételeket és az Adatvédelmi szabályzatot.";
-"auth.termsOfService" = "Szolgáltatási feltételek";
-"auth.privacyPolicy" = "Adatvédelmi szabályzat";
+"auth.termsOfService" = "Szolgáltatási feltételeket";
+"auth.privacyPolicy" = "Adatvédelmi szabályzatot";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Tenyérszkenned beállítása";

@@ -30,8 +30,8 @@
 /* Auth View Controller */
 "auth.cancel" = "Atcelt";
 "auth.termsText" = "Turpinot jūs piekrītat mūsu Pakalpojumu noteikumiem un Privātuma politikai.";
-"auth.termsOfService" = "Pakalpojumu noteikumi";
-"auth.privacyPolicy" = "Privātuma politika";
+"auth.termsOfService" = "Pakalpojumu noteikumiem";
+"auth.privacyPolicy" = "Privātuma politikai";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Iestatiet plaukstas skenēšanu";

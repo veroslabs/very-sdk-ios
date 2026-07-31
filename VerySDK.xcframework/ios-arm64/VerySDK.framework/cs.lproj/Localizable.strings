@@ -30,8 +30,8 @@
 /* Auth View Controller */
 "auth.cancel" = "Zrušit";
 "auth.termsText" = "Pokračováním souhlasíte s našimi Podmínkami služby a Zásadami ochrany osobních údajů.";
-"auth.termsOfService" = "Podmínky služby";
-"auth.privacyPolicy" = "Zásady ochrany osobních údajů";
+"auth.termsOfService" = "Podmínkami služby";
+"auth.privacyPolicy" = "Zásadami ochrany osobních údajů";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Nastavte sken dlaně";

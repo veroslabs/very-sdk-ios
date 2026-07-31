@@ -28,8 +28,8 @@
 /* Auth View Controller */
 "auth.cancel" = "İptal";
 "auth.termsText" = "Devam ederek Hizmet Şartlarımızı ve Gizlilik Politikamızı kabul etmiş olursunuz.";
-"auth.termsOfService" = "Hizmet Şartları";
-"auth.privacyPolicy" = "Gizlilik Politikası";
+"auth.termsOfService" = "Hizmet Şartlarımızı";
+"auth.privacyPolicy" = "Gizlilik Politikamızı";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Avuç içi taramanızı ayarlayın";

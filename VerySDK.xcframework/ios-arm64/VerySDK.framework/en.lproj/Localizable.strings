@@ -29,6 +29,11 @@
 /* Auth View Controller */
 "auth.cancel" = "Cancel";
 "auth.termsText" = "By continuing, you agree to our Terms of Service and Privacy Policy.";
+/* Not standalone labels: ConsentViewController locates the links by searching
+   auth.termsText for these exact substrings, so each locale must hold the words
+   *as they are inflected inside its own sentence* (e.g. Russian instrumental
+   "Условиями использования"). A mismatch silently renders the sentence with no
+   links at all. TermsLinkSpanTests guards this for every locale. */
 "auth.termsOfService" = "Terms of Service";
 "auth.privacyPolicy" = "Privacy Policy";
 

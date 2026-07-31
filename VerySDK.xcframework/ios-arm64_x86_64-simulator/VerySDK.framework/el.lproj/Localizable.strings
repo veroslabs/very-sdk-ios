@@ -30,7 +30,7 @@
 /* Auth View Controller */
 "auth.cancel" = "Άκυρο";
 "auth.termsText" = "Συνεχίζοντας, αποδέχεστε τους Όρους Χρήσης και την Πολιτική Απορρήτου μας.";
-"auth.termsOfService" = "Όροι Χρήσης";
+"auth.termsOfService" = "Όρους Χρήσης";
 "auth.privacyPolicy" = "Πολιτική Απορρήτου";
 
 /* WorkThrough View Controller */

@@ -28,8 +28,8 @@
 /* Auth View Controller */
 "auth.cancel" = "Скасувати";
 "auth.termsText" = "Продовжуючи, ви погоджуєтеся з нашими Умовами використання та Політикою конфіденційності.";
-"auth.termsOfService" = "Умови використання";
-"auth.privacyPolicy" = "Політика конфіденційності";
+"auth.termsOfService" = "Умовами використання";
+"auth.privacyPolicy" = "Політикою конфіденційності";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Налаштуйте сканування долоні";

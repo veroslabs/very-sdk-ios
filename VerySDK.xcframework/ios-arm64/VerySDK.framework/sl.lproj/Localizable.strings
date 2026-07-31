@@ -31,7 +31,7 @@
 "auth.cancel" = "Prekliči";
 "auth.termsText" = "Z nadaljevanjem se strinjate z našimi Pogoji storitve in Pravilnikom o zasebnosti.";
 "auth.termsOfService" = "Pogoji storitve";
-"auth.privacyPolicy" = "Pravilnik o zasebnosti";
+"auth.privacyPolicy" = "Pravilnikom o zasebnosti";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Nastavite skeniranje dlani";

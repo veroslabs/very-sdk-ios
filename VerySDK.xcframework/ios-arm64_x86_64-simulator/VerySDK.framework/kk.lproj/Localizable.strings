@@ -30,8 +30,8 @@
 /* Auth View Controller */
 "auth.cancel" = "Бас тарту";
 "auth.termsText" = "Жалғастыра отырып, сіз біздің Қызмет көрсету шарттарымыз бен Құпиялылық саясатымызға келісесіз.";
-"auth.termsOfService" = "Қызмет көрсету шарттары";
-"auth.privacyPolicy" = "Құпиялылық саясаты";
+"auth.termsOfService" = "Қызмет көрсету шарттарымыз";
+"auth.privacyPolicy" = "Құпиялылық саясатымызға";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Алақан сканерін орнатыңыз";

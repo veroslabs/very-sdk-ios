@@ -31,7 +31,7 @@
 "auth.cancel" = "Ləğv et";
 "auth.termsText" = "Davam etməklə Xidmət Şərtləri və Məxfilik Siyasətimizlə razılaşırsınız.";
 "auth.termsOfService" = "Xidmət Şərtləri";
-"auth.privacyPolicy" = "Məxfilik Siyasəti";
+"auth.privacyPolicy" = "Məxfilik Siyasətimizlə";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Ovuc skanını qur";

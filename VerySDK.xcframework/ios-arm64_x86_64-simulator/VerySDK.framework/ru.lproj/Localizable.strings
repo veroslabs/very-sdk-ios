@@ -28,8 +28,8 @@
 /* Auth View Controller */
 "auth.cancel" = "Отмена";
 "auth.termsText" = "Продолжая, вы соглашаетесь с нашими Условиями использования и Политикой конфиденциальности.";
-"auth.termsOfService" = "Условия использования";
-"auth.privacyPolicy" = "Политика конфиденциальности";
+"auth.termsOfService" = "Условиями использования";
+"auth.privacyPolicy" = "Политикой конфиденциальности";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Настройте сканирование ладони";
