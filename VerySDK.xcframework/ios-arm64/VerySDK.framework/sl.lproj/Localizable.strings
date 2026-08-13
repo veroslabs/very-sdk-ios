@@ -36,14 +36,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Nastavite skeniranje dlani";
 "workthrough.subtitle" = "Za nastavitev skenirajte štirikrat. Nato skenirajte enkrat.";
-"workthrough.getStarted" = "Začni";
+"workthrough.startVerification" = "Začni preverjanje";
 
 /* Error Messages */
 "error.5001" = "Seja je potekla. Začnite znova.";
 "error.5002" = "Seje ni mogoče najti ali pa je že porabljena.";
 "error.5003" = "Poskusite znova.";
 "error.5004" = "Vsi poskusi preverjanja so bili porabljeni.";
-"error.5005" = "Vaše dlani ni bilo mogoče preveriti. Poskusite znova.";
+"error.5005" = "Ujemanja nismo našli. Poskusite znova pri boljši svetlobi ali z drugo roko.";
 "error.5006" = "Prišlo je do napake. Poskusite znova.";
 "error.5007" = "Vaša seja je potekla. Poskusite znova.";
 "error.5008" = "Prišlo je do napake. Obrnite se na podporo.";
@@ -153,8 +153,8 @@
 "error.body.checkAccount" = "Vaš zadnji poskus je morda že uspel.";
 "error.title.cameraPermission" = "Potrebujemo vašo kamero";
 "error.body.cameraPermission" = "V nastavitvah vklopite dostop do kamere.";
-"error.title.palmMismatch" = "Ni ujemanja";
-"error.body.palmMismatch" = "Vaše dlani ni bilo mogoče preveriti.";
+"error.title.palmMismatch" = "Ujemanja nismo našli";
+"error.body.palmMismatch" = "Poskusite znova pri boljši svetlobi ali z drugo roko.";
 "error.title.scanFailed" = "Poskusimo znova";
 "error.body.scanFailed" = "Premaknite se na bolje osvetljeno mesto in mirno držite roko.";
 "error.title.restrictive" = "Ne moremo nadaljevati";
@@ -179,12 +179,12 @@
 "email.inlineCodeExpired" = "Koda je potekla. Zahtevajte novo kodo.";
 "email.inlineCodeRateLimit" = "Preveč poskusov. Zahtevajte novo kodo.";
 "email.inlineCodeGeneric" = "Preverjanje ni uspelo.";
-"consent.startVerification" = "Začni preverjanje";
+"consent.getStarted" = "Začni";
 "consent.tip2" = "%@ bo imel dostop do omejenih [podatkov o preverjanju]";
 "consent.verifyIdentitySubtitle" = "%@ uporablja VeryAI za potrditev, da ste človek.";
 "consent.verifyIdentityTitle" = "%@ uporablja VeryAI za preverjanje dlani";
 "error.1001" = "Nekaj je šlo narobe. Poskusite znova.";
-"error.1002" = "Vaše dlani nismo mogli preveriti. Poskusite znova.";
+"error.1002" = "Ujemanja nismo našli. Poskusite znova pri boljši svetlobi ali z drugo roko.";
 "error.1003" = "Vaše dlani nismo mogli preveriti. Poskusite znova.";
 "error.1004" = "Nekaj je šlo narobe. Poskusite znova.";
 "error.1005" = "Nekaj je šlo narobe. Poskusite znova.";

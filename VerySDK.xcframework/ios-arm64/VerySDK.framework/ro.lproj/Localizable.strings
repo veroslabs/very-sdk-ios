@@ -36,14 +36,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Configurați scanarea palmei";
 "workthrough.subtitle" = "Scanați de patru ori pentru configurare. După aceea, scanați o dată.";
-"workthrough.getStarted" = "Începeți";
+"workthrough.startVerification" = "Începe verificarea";
 
 /* Error Messages */
 "error.5001" = "Sesiunea a expirat. Reia procesul.";
 "error.5002" = "Sesiunea nu a fost găsită sau a fost deja folosită.";
 "error.5003" = "Încearcă din nou.";
 "error.5004" = "Toate încercările de verificare au fost folosite.";
-"error.5005" = "Nu am putut verifica palma dumneavoastră. Vă rugăm să încercați din nou.";
+"error.5005" = "Nu am găsit o potrivire. Încercați din nou într-o lumină mai bună sau cu cealaltă mână.";
 "error.5006" = "Ceva nu a funcționat. Vă rugăm să încercați din nou.";
 "error.5007" = "Sesiunea dumneavoastră a expirat. Vă rugăm să încercați din nou.";
 "error.5008" = "Ceva nu a funcționat. Vă rugăm să contactați asistența.";
@@ -153,8 +153,8 @@
 "error.body.checkAccount" = "Este posibil ca ultima ta încercare să fi reușit deja.";
 "error.title.cameraPermission" = "Avem nevoie de camera ta";
 "error.body.cameraPermission" = "Activează accesul la cameră din setări.";
-"error.title.palmMismatch" = "Nu s-a potrivit";
-"error.body.palmMismatch" = "Nu am putut verifica palma.";
+"error.title.palmMismatch" = "Nu am găsit o potrivire";
+"error.body.palmMismatch" = "Încercați din nou într-o lumină mai bună sau cu cealaltă mână.";
 "error.title.scanFailed" = "Să încercăm din nou";
 "error.body.scanFailed" = "Mută-te într-un loc mai bine luminat și ține mâna nemișcată.";
 "error.title.restrictive" = "Nu putem continua";
@@ -179,12 +179,12 @@
 "email.inlineCodeExpired" = "Codul a expirat. Solicită un cod nou.";
 "email.inlineCodeRateLimit" = "Prea multe încercări. Solicită un cod nou.";
 "email.inlineCodeGeneric" = "Verificarea a eșuat.";
-"consent.startVerification" = "Începe verificarea";
+"consent.getStarted" = "Începeți";
 "consent.tip2" = "%@ va avea acces la [date de verificare] limitate";
 "consent.verifyIdentitySubtitle" = "%@ folosește VeryAI pentru a confirma că ești o persoană reală.";
 "consent.verifyIdentityTitle" = "%@ folosește VeryAI pentru verificarea palmei";
 "error.1001" = "Ceva nu a funcționat. Încearcă din nou.";
-"error.1002" = "Nu am putut verifica palma. Încearcă din nou.";
+"error.1002" = "Nu am găsit o potrivire. Încercați din nou într-o lumină mai bună sau cu cealaltă mână.";
 "error.1003" = "Nu am putut verifica palma. Încearcă din nou.";
 "error.1004" = "Ceva nu a funcționat. Încearcă din nou.";
 "error.1005" = "Ceva nu a funcționat. Încearcă din nou.";

@@ -34,14 +34,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "設置手掌掃描";
 "workthrough.subtitle" = "掃描四次進行設置。之後每次掃描一次即可。";
-"workthrough.getStarted" = "開始";
+"workthrough.startVerification" = "開始驗證";
 
 /* Error Messages */
 "error.5001" = "工作階段已過期。請重新開始。";
 "error.5002" = "找不到工作階段，或已被使用。";
 "error.5003" = "請再試一次。";
 "error.5004" = "所有驗證次數皆已用完。";
-"error.5005" = "無法驗證您的掌紋，請重試。";
+"error.5005" = "找不到相符的結果。請在光線較好的環境下重試，或換另一隻手。";
 "error.5006" = "出了點問題，請重試。";
 "error.5007" = "您的工作階段已過期，請重試。";
 "error.5008" = "出了點問題，請聯絡客服。";
@@ -149,8 +149,8 @@
 "error.body.checkAccount" = "你上次的嘗試可能已經成功。";
 "error.title.cameraPermission" = "我們需要使用相機";
 "error.body.cameraPermission" = "請在設定中開啟相機權限。";
-"error.title.palmMismatch" = "未能相符";
-"error.body.palmMismatch" = "我們無法驗證你的掌紋。";
+"error.title.palmMismatch" = "找不到相符的結果";
+"error.body.palmMismatch" = "請在光線較好的環境下重試，或換另一隻手。";
 "error.title.scanFailed" = "再試一次吧";
 "error.body.scanFailed" = "請移至光線較佳的位置，並保持手部穩定。";
 "error.title.restrictive" = "無法繼續";
@@ -175,12 +175,12 @@
 "email.inlineCodeExpired" = "驗證碼已過期。請重新取得驗證碼。";
 "email.inlineCodeRateLimit" = "嘗試次數過多。請重新取得驗證碼。";
 "email.inlineCodeGeneric" = "驗證失敗。";
-"consent.startVerification" = "開始驗證";
+"consent.getStarted" = "開始";
 "consent.tip2" = "%@ 將獲得有限[驗證資料]的存取權限";
 "consent.verifyIdentitySubtitle" = "%@ 使用 VeryAI 確認您是真人。";
 "consent.verifyIdentityTitle" = "%@ 使用 VeryAI 進行掌紋驗證";
 "error.1001" = "發生錯誤，請重試。";
-"error.1002" = "無法驗證您的掌紋，請重試。";
+"error.1002" = "找不到相符的結果。請在光線較好的環境下重試，或換另一隻手。";
 "error.1003" = "無法驗證您的掌紋，請重試。";
 "error.1004" = "發生錯誤，請重試。";
 "error.1005" = "發生錯誤，請重試。";

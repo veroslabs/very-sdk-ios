@@ -36,14 +36,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Nastavte sken dlaně";
 "workthrough.subtitle" = "Naskenujte čtyřikrát pro nastavení. Poté skenujte jednou.";
-"workthrough.getStarted" = "Začít";
+"workthrough.startVerification" = "Zahájit ověření";
 
 /* Error Messages */
 "error.5001" = "Platnost relace vypršela. Začněte znovu.";
 "error.5002" = "Relace nebyla nalezena nebo už byla použita.";
 "error.5003" = "Zkuste to znovu.";
 "error.5004" = "Všechny pokusy o ověření byly vyčerpány.";
-"error.5005" = "Nepodařilo se ověřit vaši dlaň. Zkuste to prosím znovu.";
+"error.5005" = "Nenašli jsme shodu. Zkuste to znovu při lepším osvětlení nebo použijte druhou ruku.";
 "error.5006" = "Něco se pokazilo. Zkuste to prosím znovu.";
 "error.5007" = "Vaše relace vypršela. Zkuste to prosím znovu.";
 "error.5008" = "Něco se pokazilo. Kontaktujte prosím podporu.";
@@ -153,8 +153,8 @@
 "error.body.checkAccount" = "Váš poslední pokus možná už proběhl.";
 "error.title.cameraPermission" = "Potřebujeme přístup ke kameře";
 "error.body.cameraPermission" = "Povolte přístup ke kameře v nastavení.";
-"error.title.palmMismatch" = "Nenalezena shoda";
-"error.body.palmMismatch" = "Nepodařilo se ověřit vaši dlaň.";
+"error.title.palmMismatch" = "Nenašli jsme shodu";
+"error.body.palmMismatch" = "Zkuste to znovu při lepším osvětlení nebo použijte druhou ruku.";
 "error.title.scanFailed" = "Zkusme to znovu";
 "error.body.scanFailed" = "Přejděte na lépe osvětlené místo a držte ruku v klidu.";
 "error.title.restrictive" = "Nemůžeme pokračovat";
@@ -179,12 +179,12 @@
 "email.inlineCodeExpired" = "Platnost kódu vypršela. Vyžádejte si nový kód.";
 "email.inlineCodeRateLimit" = "Příliš mnoho pokusů. Vyžádejte si nový kód.";
 "email.inlineCodeGeneric" = "Ověření se nezdařilo.";
-"consent.startVerification" = "Zahájit ověření";
+"consent.getStarted" = "Začít";
 "consent.tip2" = "%@ bude mít přístup k omezeným [údajům o ověření]";
 "consent.verifyIdentitySubtitle" = "%@ používá VeryAI k potvrzení, že jste člověk.";
 "consent.verifyIdentityTitle" = "%@ používá VeryAI k ověření dlaně";
 "error.1001" = "Něco se pokazilo. Zkuste to prosím znovu.";
-"error.1002" = "Nepodařilo se nám ověřit vaši dlaň. Zkuste to prosím znovu.";
+"error.1002" = "Nenašli jsme shodu. Zkuste to znovu při lepším osvětlení nebo použijte druhou ruku.";
 "error.1003" = "Nepodařilo se nám ověřit vaši dlaň. Zkuste to prosím znovu.";
 "error.1004" = "Něco se pokazilo. Zkuste to prosím znovu.";
 "error.1005" = "Něco se pokazilo. Zkuste to prosím znovu.";

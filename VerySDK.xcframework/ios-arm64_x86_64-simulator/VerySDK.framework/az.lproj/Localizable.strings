@@ -36,14 +36,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Ovuc skanını qur";
 "workthrough.subtitle" = "Qurmaq üçün dörd dəfə skan edin. Sonra bir dəfə skan edin.";
-"workthrough.getStarted" = "Başla";
+"workthrough.startVerification" = "Doğrulamağa başla";
 
 /* Error Messages */
 "error.5001" = "Sessiyanın vaxtı bitdi. Zəhmət olmasa yenidən başlayın.";
 "error.5002" = "Sessiya tapılmadı və ya artıq istifadə olunub.";
 "error.5003" = "Zəhmət olmasa yenidən cəhd edin.";
 "error.5004" = "Bütün doğrulama cəhdləri istifadə olunub.";
-"error.5005" = "Ovucunuzu doğrulaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.5005" = "Uyğunluq tapa bilmədik. Daha yaxşı işıqda yenidən cəhd edin və ya digər əlinizi yoxlayın.";
 "error.5006" = "Xəta baş verdi. Zəhmət olmasa, yenidən cəhd edin.";
 "error.5007" = "Seansınızın müddəti bitib. Zəhmət olmasa, yenidən cəhd edin.";
 "error.5008" = "Xəta baş verdi. Zəhmət olmasa, dəstək xidməti ilə əlaqə saxlayın.";
@@ -153,8 +153,8 @@
 "error.body.checkAccount" = "Son cəhdiniz artıq baş tutmuş ola bilər.";
 "error.title.cameraPermission" = "Kameranıza ehtiyacımız var";
 "error.body.cameraPermission" = "Ayarlarda kamera girişini aktiv edin.";
-"error.title.palmMismatch" = "Uyğun gəlmədi";
-"error.body.palmMismatch" = "Ovucunuzu doğrulaya bilmədik.";
+"error.title.palmMismatch" = "Uyğunluq tapa bilmədik";
+"error.body.palmMismatch" = "Daha yaxşı işıqda yenidən cəhd edin və ya digər əlinizi yoxlayın.";
 "error.title.scanFailed" = "Gəlin yenidən cəhd edək";
 "error.body.scanFailed" = "Daha yaxşı işıqlı yerə keçin və əlinizi sabit saxlayın.";
 "error.title.restrictive" = "Davam edə bilmirik";
@@ -179,12 +179,12 @@
 "email.inlineCodeExpired" = "Kodun vaxtı bitib. Yeni kod tələb edin.";
 "email.inlineCodeRateLimit" = "Çox sayda cəhd. Zəhmət olmasa yeni kod tələb edin.";
 "email.inlineCodeGeneric" = "Doğrulama uğursuz oldu.";
-"consent.startVerification" = "Doğrulamağa başla";
+"consent.getStarted" = "Başla";
 "consent.tip2" = "%@ məhdud [doğrulama məlumatlarına] giriş əldə edəcək";
 "consent.verifyIdentitySubtitle" = "%@ insan olduğunuzu təsdiqləmək üçün VeryAI-dan istifadə edir.";
 "consent.verifyIdentityTitle" = "%@ ovuc doğrulaması üçün VeryAI-dan istifadə edir";
 "error.1001" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
-"error.1002" = "Ovucunuzu doğrulaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
+"error.1002" = "Uyğunluq tapa bilmədik. Daha yaxşı işıqda yenidən cəhd edin və ya digər əlinizi yoxlayın.";
 "error.1003" = "Ovucunuzu doğrulaya bilmədik. Zəhmət olmasa, yenidən cəhd edin.";
 "error.1004" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";
 "error.1005" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";

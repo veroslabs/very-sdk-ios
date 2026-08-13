@@ -34,14 +34,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "手のひらスキャンを設定";
 "workthrough.subtitle" = "設定のため4回スキャンしてください。その後は1回スキャンです。";
-"workthrough.getStarted" = "開始";
+"workthrough.startVerification" = "認証を開始";
 
 /* Error Messages */
 "error.5001" = "セッションの有効期限が切れました。最初からやり直してください。";
 "error.5002" = "セッションが見つからないか、すでに使用されています。";
 "error.5003" = "もう一度お試しください。";
 "error.5004" = "認証の試行回数をすべて使い切りました。";
-"error.5005" = "手のひらを認証できませんでした。もう一度お試しください。";
+"error.5005" = "一致するものが見つかりませんでした。明るい場所でもう一度お試しいただくか、反対の手でお試しください。";
 "error.5006" = "問題が発生しました。もう一度お試しください。";
 "error.5007" = "セッションの有効期限が切れました。もう一度お試しください。";
 "error.5008" = "問題が発生しました。サポートにお問い合わせください。";
@@ -151,8 +151,8 @@
 "error.body.checkAccount" = "前回の試行がすでに完了している可能性があります。";
 "error.title.cameraPermission" = "カメラへのアクセスが必要です";
 "error.body.cameraPermission" = "設定でカメラへのアクセスを許可してください。";
-"error.title.palmMismatch" = "一致しませんでした";
-"error.body.palmMismatch" = "手のひらを認証できませんでした。";
+"error.title.palmMismatch" = "一致するものが見つかりませんでした";
+"error.body.palmMismatch" = "明るい場所でもう一度お試しいただくか、反対の手でお試しください。";
 "error.title.scanFailed" = "もう一度試してみましょう";
 "error.body.scanFailed" = "明るい場所に移動し、手を動かさないでください。";
 "error.title.restrictive" = "続行できません";
@@ -177,12 +177,12 @@
 "email.inlineCodeExpired" = "コードの有効期限が切れました。新しいコードをリクエストしてください。";
 "email.inlineCodeRateLimit" = "試行回数が多すぎます。新しいコードをリクエストしてください。";
 "email.inlineCodeGeneric" = "認証に失敗しました。";
-"consent.startVerification" = "認証を開始";
+"consent.getStarted" = "開始";
 "consent.tip2" = "%@ は限定的な[認証データ]にアクセスできます";
 "consent.verifyIdentitySubtitle" = "%@ は VeryAI を使用して、あなたが人間であることを確認します。";
 "consent.verifyIdentityTitle" = "%@ は手のひら認証に VeryAI を使用します";
 "error.1001" = "問題が発生しました。もう一度お試しください。";
-"error.1002" = "手のひらを認証できませんでした。もう一度お試しください。";
+"error.1002" = "一致するものが見つかりませんでした。明るい場所でもう一度お試しいただくか、反対の手でお試しください。";
 "error.1003" = "手のひらを認証できませんでした。もう一度お試しください。";
 "error.1004" = "問題が発生しました。もう一度お試しください。";
 "error.1005" = "問題が発生しました。もう一度お試しください。";

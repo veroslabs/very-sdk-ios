@@ -36,14 +36,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Tenyérszkenned beállítása";
 "workthrough.subtitle" = "Szkennelj négyszer a beállításhoz. Ezután szkennelj egyszer.";
-"workthrough.getStarted" = "Kezdés";
+"workthrough.startVerification" = "Ellenőrzés indítása";
 
 /* Error Messages */
 "error.5001" = "A munkamenet lejárt. Kezdje elölről.";
 "error.5002" = "A munkamenet nem található, vagy már felhasználták.";
 "error.5003" = "Próbálja újra.";
 "error.5004" = "Az összes ellenőrzési kísérlet elfogyott.";
-"error.5005" = "Nem sikerült ellenőrizni a tenyerét. Kérjük, próbálja újra.";
+"error.5005" = "Nem találtunk egyezést. Próbálja újra jobb megvilágításban, vagy a másik kezével.";
 "error.5006" = "Hiba történt. Kérjük, próbálja újra.";
 "error.5007" = "A munkamenet lejárt. Kérjük, próbálja újra.";
 "error.5008" = "Hiba történt. Kérjük, vegye fel a kapcsolatot az ügyfélszolgálattal.";
@@ -153,8 +153,8 @@
 "error.body.checkAccount" = "Lehetséges, hogy az utolsó kísérlete már sikerült.";
 "error.title.cameraPermission" = "Szükségünk van a kamerájára";
 "error.body.cameraPermission" = "Engedélyezze a kamera-hozzáférést a beállításokban.";
-"error.title.palmMismatch" = "Nem volt egyezés";
-"error.body.palmMismatch" = "Nem sikerült ellenőrizni a tenyerét.";
+"error.title.palmMismatch" = "Nem találtunk egyezést";
+"error.body.palmMismatch" = "Próbálja újra jobb megvilágításban, vagy a másik kezével.";
 "error.title.scanFailed" = "Próbáljuk meg újra";
 "error.body.scanFailed" = "Menjen jobb megvilágításba, és tartsa mozdulatlanul a kezét.";
 "error.title.restrictive" = "Nem tudjuk folytatni";
@@ -179,12 +179,12 @@
 "email.inlineCodeExpired" = "A kód lejárt. Kérjen új kódot.";
 "email.inlineCodeRateLimit" = "Túl sok kísérlet. Kérjen új kódot.";
 "email.inlineCodeGeneric" = "Az ellenőrzés sikertelen.";
-"consent.startVerification" = "Ellenőrzés indítása";
+"consent.getStarted" = "Kezdés";
 "consent.tip2" = "A(z) %@ korlátozott [ellenőrzési adatokhoz] fér hozzá";
 "consent.verifyIdentitySubtitle" = "A(z) %@ a VeryAI-t használja annak megerősítésére, hogy ember vagy.";
 "consent.verifyIdentityTitle" = "A(z) %@ a VeryAI-t használja a tenyér ellenőrzéséhez";
 "error.1001" = "Hiba történt. Kérjük, próbáld újra.";
-"error.1002" = "Nem sikerült ellenőriznünk a tenyeredet. Kérjük, próbáld újra.";
+"error.1002" = "Nem találtunk egyezést. Próbálja újra jobb megvilágításban, vagy a másik kezével.";
 "error.1003" = "Nem sikerült ellenőriznünk a tenyeredet. Kérjük, próbáld újra.";
 "error.1004" = "Hiba történt. Kérjük, próbáld újra.";
 "error.1005" = "Hiba történt. Kérjük, próbáld újra.";

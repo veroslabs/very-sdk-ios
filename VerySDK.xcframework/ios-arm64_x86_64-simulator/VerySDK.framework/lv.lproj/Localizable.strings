@@ -36,14 +36,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Iestatiet plaukstas skenēšanu";
 "workthrough.subtitle" = "Skenējiet četras reizes iestatīšanai. Pēc tam skenējiet vienu reizi.";
-"workthrough.getStarted" = "Sākt";
+"workthrough.startVerification" = "Sākt verifikāciju";
 
 /* Error Messages */
 "error.5001" = "Sesija beigusies. Lūdzu, sāciet no jauna.";
 "error.5002" = "Sesija nav atrasta vai jau ir izmantota.";
 "error.5003" = "Lūdzu, mēģiniet vēlreiz.";
 "error.5004" = "Visi verifikācijas mēģinājumi ir izmantoti.";
-"error.5005" = "Mēs nevarējām verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
+"error.5005" = "Neatradām atbilstību. Mēģiniet vēlreiz labākā apgaismojumā vai izmantojiet otru roku.";
 "error.5006" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
 "error.5007" = "Jūsu sesija ir beigusies. Lūdzu, mēģiniet vēlreiz.";
 "error.5008" = "Kaut kas nogāja greizi. Lūdzu, sazinieties ar atbalsta dienestu.";
@@ -153,8 +153,8 @@
 "error.body.checkAccount" = "Jūsu pēdējais mēģinājums, iespējams, jau ir izdevies.";
 "error.title.cameraPermission" = "Mums nepieciešama jūsu kamera";
 "error.body.cameraPermission" = "Iestatījumos ieslēdziet piekļuvi kamerai.";
-"error.title.palmMismatch" = "Neatbilda";
-"error.body.palmMismatch" = "Neizdevās verificēt jūsu plaukstu.";
+"error.title.palmMismatch" = "Neatradām atbilstību";
+"error.body.palmMismatch" = "Mēģiniet vēlreiz labākā apgaismojumā vai izmantojiet otru roku.";
 "error.title.scanFailed" = "Mēģināsim vēlreiz";
 "error.body.scanFailed" = "Pārvietojieties labākā apgaismojumā un turiet roku nekustīgi.";
 "error.title.restrictive" = "Mēs nevaram turpināt";
@@ -179,12 +179,12 @@
 "email.inlineCodeExpired" = "Kods ir beidzies. Pieprasiet jaunu kodu.";
 "email.inlineCodeRateLimit" = "Pārāk daudz mēģinājumu. Lūdzu, pieprasiet jaunu kodu.";
 "email.inlineCodeGeneric" = "Verifikācija neizdevās.";
-"consent.startVerification" = "Sākt verifikāciju";
+"consent.getStarted" = "Sākt";
 "consent.tip2" = "%@ būs piekļuve ierobežotiem [verifikācijas datiem]";
 "consent.verifyIdentitySubtitle" = "%@ izmanto VeryAI, lai apstiprinātu, ka esat cilvēks.";
 "consent.verifyIdentityTitle" = "%@ izmanto VeryAI plaukstas verifikācijai";
 "error.1001" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
-"error.1002" = "Neizdevās verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
+"error.1002" = "Neatradām atbilstību. Mēģiniet vēlreiz labākā apgaismojumā vai izmantojiet otru roku.";
 "error.1003" = "Neizdevās verificēt jūsu plaukstu. Lūdzu, mēģiniet vēlreiz.";
 "error.1004" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
 "error.1005" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";

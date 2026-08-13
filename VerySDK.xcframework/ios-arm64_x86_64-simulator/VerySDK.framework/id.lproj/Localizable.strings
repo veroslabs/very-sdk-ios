@@ -34,14 +34,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Atur pemindaian telapak tangan";
 "workthrough.subtitle" = "Pindai empat kali untuk mengatur. Setelah itu, pindai sekali.";
-"workthrough.getStarted" = "Mulai";
+"workthrough.startVerification" = "Mulai verifikasi";
 
 /* Error Messages */
 "error.5001" = "Sesi berakhir. Silakan mulai lagi.";
 "error.5002" = "Sesi tidak ditemukan atau sudah digunakan.";
 "error.5003" = "Silakan coba lagi.";
 "error.5004" = "Semua percobaan verifikasi telah digunakan.";
-"error.5005" = "Kami tidak dapat memverifikasi telapak tangan Anda. Silakan coba lagi.";
+"error.5005" = "Kami tidak menemukan kecocokan. Coba lagi dengan pencahayaan lebih baik, atau gunakan tangan Anda yang lain.";
 "error.5006" = "Terjadi kesalahan. Silakan coba lagi.";
 "error.5007" = "Sesi Anda telah berakhir. Silakan coba lagi.";
 "error.5008" = "Terjadi kesalahan. Silakan hubungi dukungan.";
@@ -151,8 +151,8 @@
 "error.body.checkAccount" = "Percobaan terakhir Anda mungkin sudah berhasil.";
 "error.title.cameraPermission" = "Kami memerlukan kamera Anda";
 "error.body.cameraPermission" = "Aktifkan akses kamera di pengaturan.";
-"error.title.palmMismatch" = "Tidak cocok";
-"error.body.palmMismatch" = "Kami tidak dapat memverifikasi telapak tangan Anda.";
+"error.title.palmMismatch" = "Kami tidak menemukan kecocokan";
+"error.body.palmMismatch" = "Coba lagi dengan pencahayaan lebih baik, atau gunakan tangan Anda yang lain.";
 "error.title.scanFailed" = "Mari coba lagi";
 "error.body.scanFailed" = "Pindah ke tempat dengan pencahayaan lebih baik dan tahan tangan Anda tetap stabil.";
 "error.title.restrictive" = "Kami tidak dapat melanjutkan";
@@ -177,12 +177,12 @@
 "email.inlineCodeExpired" = "Kode telah kedaluwarsa. Minta kode baru.";
 "email.inlineCodeRateLimit" = "Terlalu banyak percobaan. Silakan minta kode baru.";
 "email.inlineCodeGeneric" = "Verifikasi gagal.";
-"consent.startVerification" = "Mulai verifikasi";
+"consent.getStarted" = "Mulai";
 "consent.tip2" = "%@ akan memiliki akses ke [data verifikasi] terbatas";
 "consent.verifyIdentitySubtitle" = "%@ menggunakan VeryAI untuk memastikan Anda manusia.";
 "consent.verifyIdentityTitle" = "%@ menggunakan VeryAI untuk verifikasi telapak tangan";
 "error.1001" = "Terjadi kesalahan. Silakan coba lagi.";
-"error.1002" = "Kami tidak dapat memverifikasi telapak tangan Anda. Silakan coba lagi.";
+"error.1002" = "Kami tidak menemukan kecocokan. Coba lagi dengan pencahayaan lebih baik, atau gunakan tangan Anda yang lain.";
 "error.1003" = "Kami tidak dapat memverifikasi telapak tangan Anda. Silakan coba lagi.";
 "error.1004" = "Terjadi kesalahan. Silakan coba lagi.";
 "error.1005" = "Terjadi kesalahan. Silakan coba lagi.";

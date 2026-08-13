@@ -36,14 +36,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Nastavte skenovanie dlane";
 "workthrough.subtitle" = "Naskenujte štyrikrát na nastavenie. Potom skenujte raz.";
-"workthrough.getStarted" = "Začať";
+"workthrough.startVerification" = "Spustiť overenie";
 
 /* Error Messages */
 "error.5001" = "Platnosť relácie vypršala. Začnite znova.";
 "error.5002" = "Relácia sa nenašla alebo už bola použitá.";
 "error.5003" = "Skúste to znova.";
 "error.5004" = "Všetky pokusy o overenie boli vyčerpané.";
-"error.5005" = "Nepodarilo sa overiť vašu dlaň. Skúste to prosím znova.";
+"error.5005" = "Nenašli sme zhodu. Skúste to znova pri lepšom osvetlení alebo druhou rukou.";
 "error.5006" = "Niečo sa pokazilo. Skúste to prosím znova.";
 "error.5007" = "Vaša relácia vypršala. Skúste to prosím znova.";
 "error.5008" = "Niečo sa pokazilo. Kontaktujte prosím podporu.";
@@ -153,8 +153,8 @@
 "error.body.checkAccount" = "Váš posledný pokus už možno prebehol.";
 "error.title.cameraPermission" = "Potrebujeme prístup ku kamere";
 "error.body.cameraPermission" = "Povoľte prístup ku kamere v nastaveniach.";
-"error.title.palmMismatch" = "Nenájdená zhoda";
-"error.body.palmMismatch" = "Nepodarilo sa overiť vašu dlaň.";
+"error.title.palmMismatch" = "Nenašli sme zhodu";
+"error.body.palmMismatch" = "Skúste to znova pri lepšom osvetlení alebo druhou rukou.";
 "error.title.scanFailed" = "Skúsme to znova";
 "error.body.scanFailed" = "Prejdite na lepšie osvetlené miesto a držte ruku v pokoji.";
 "error.title.restrictive" = "Nemôžeme pokračovať";
@@ -179,12 +179,12 @@
 "email.inlineCodeExpired" = "Platnosť kódu vypršala. Vyžiadajte si nový kód.";
 "email.inlineCodeRateLimit" = "Príliš veľa pokusov. Vyžiadajte si nový kód.";
 "email.inlineCodeGeneric" = "Overenie zlyhalo.";
-"consent.startVerification" = "Spustiť overenie";
+"consent.getStarted" = "Začať";
 "consent.tip2" = "Aplikácia %@ bude mať prístup k obmedzeným [overovacím údajom]";
 "consent.verifyIdentitySubtitle" = "Aplikácia %@ používa VeryAI na potvrdenie, že ste človek.";
 "consent.verifyIdentityTitle" = "Aplikácia %@ používa VeryAI na overenie dlane";
 "error.1001" = "Niečo sa pokazilo. Skúste to znova.";
-"error.1002" = "Vašu dlaň sa nepodarilo overiť. Skúste to znova.";
+"error.1002" = "Nenašli sme zhodu. Skúste to znova pri lepšom osvetlení alebo druhou rukou.";
 "error.1003" = "Vašu dlaň sa nepodarilo overiť. Skúste to znova.";
 "error.1004" = "Niečo sa pokazilo. Skúste to znova.";
 "error.1005" = "Niečo sa pokazilo. Skúste to znova.";

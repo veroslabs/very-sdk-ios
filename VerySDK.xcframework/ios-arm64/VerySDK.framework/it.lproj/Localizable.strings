@@ -34,14 +34,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Configura la scansione del palmo";
 "workthrough.subtitle" = "Scansiona quattro volte per configurare. Poi scansiona una volta.";
-"workthrough.getStarted" = "Inizia";
+"workthrough.startVerification" = "Avvia verifica";
 
 /* Error Messages */
 "error.5001" = "Sessione scaduta. Ricomincia.";
 "error.5002" = "Sessione non trovata o già utilizzata.";
 "error.5003" = "Riprova.";
 "error.5004" = "Tutti i tentativi di verifica sono stati esauriti.";
-"error.5005" = "Non siamo riusciti a verificare il tuo palmo. Per favore riprova.";
+"error.5005" = "Nessuna corrispondenza trovata. Riprova con una luce migliore o con l'altra mano.";
 "error.5006" = "Qualcosa è andato storto. Per favore riprova.";
 "error.5007" = "La sessione è scaduta. Per favore riprova.";
 "error.5008" = "Qualcosa è andato storto. Per favore contatta l'assistenza.";
@@ -151,8 +151,8 @@
 "error.body.checkAccount" = "Il tuo ultimo tentativo potrebbe essere già andato a buon fine.";
 "error.title.cameraPermission" = "Ci serve la tua fotocamera";
 "error.body.cameraPermission" = "Attiva l'accesso alla fotocamera nelle impostazioni.";
-"error.title.palmMismatch" = "Non corrisponde";
-"error.body.palmMismatch" = "Non siamo riusciti a verificare il tuo palmo.";
+"error.title.palmMismatch" = "Nessuna corrispondenza trovata";
+"error.body.palmMismatch" = "Riprova con una luce migliore o con l'altra mano.";
 "error.title.scanFailed" = "Riproviamo";
 "error.body.scanFailed" = "Spostati in un punto più illuminato e tieni ferma la mano.";
 "error.title.restrictive" = "Impossibile continuare";
@@ -177,12 +177,12 @@
 "email.inlineCodeExpired" = "Il codice è scaduto. Richiedi un nuovo codice.";
 "email.inlineCodeRateLimit" = "Troppi tentativi. Richiedi un nuovo codice.";
 "email.inlineCodeGeneric" = "Verifica non riuscita.";
-"consent.startVerification" = "Avvia verifica";
+"consent.getStarted" = "Inizia";
 "consent.tip2" = "%@ avrà accesso a [dati di verifica] limitati";
 "consent.verifyIdentitySubtitle" = "%@ usa VeryAI per confermare che sei un essere umano.";
 "consent.verifyIdentityTitle" = "%@ usa VeryAI per la verifica del palmo";
 "error.1001" = "Si è verificato un errore. Riprova.";
-"error.1002" = "Non siamo riusciti a verificare il tuo palmo. Riprova.";
+"error.1002" = "Nessuna corrispondenza trovata. Riprova con una luce migliore o con l'altra mano.";
 "error.1003" = "Non siamo riusciti a verificare il tuo palmo. Riprova.";
 "error.1004" = "Si è verificato un errore. Riprova.";
 "error.1005" = "Si è verificato un errore. Riprova.";

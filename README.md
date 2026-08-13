@@ -196,6 +196,13 @@ VerySDK.authenticate(this, config, VeryPresentationStyle.FULL_SCREEN, result -> 
 | `language`  | String? | No       | `"en"`         | UI language code                                     |
 | `themeMode` | String  | No       | `"dark"`       | `"dark"` or `"light"`                                |
 
+> **Liveness mode is not configurable.** The scan page asks for the
+> connect-the-dots touch points, except on constrained Android setups — 3 GB of
+> RAM or less, or a 32-bit process — which get the hand-gesture prompts instead
+> (they cost less to run). The `livenessMode` field on `VeryConfig` /
+> `VeryLivenessConfig` is deprecated and ignored — it is kept only so existing
+> code keeps compiling.
+
 ### VeryLivenessConfig
 
 Used with `VeryAILiveness.check` (the liveness-only artifact — `VeryAILiveness` pod / `org.very:liveness`).
@@ -205,7 +212,7 @@ Used with `VeryAILiveness.check` (the liveness-only artifact — `VeryAILiveness
 | `sdkKey`      | String  | Yes      | —         | SDK API key provided by Very                                                                     |
 | `language`    | String? | No       | `"en"`    | UI language code                                                                                 |
 | `themeMode`   | String  | No       | `"dark"`  | `"dark"` or `"light"`                                                                            |
-| `livenessMode`| enum    | No       | `touch`   | Liveness detection mode: `touch` (default) or `gesture`                                          |
+| `livenessMode`| enum    | No       | `touch`   | **Deprecated — ignored.** The SDK picks the mode per device (see the note above)                 |
 | `showError`   | Bool    | No       | `false`   | When `true`, terminal errors show an in-SDK retry/close page instead of returning straight to the callback |
 | `showSuccess` | Bool    | No       | `true`    | When `true`, a successful capture shows the success page (~1.5s) before the callback fires; set `false` to return immediately |
 | `privacyMessage` | String? | No     | `nil`     | Partner disclosure shown below the native scan instruction. Supports an inline `<a href>` link (see below) |

@@ -34,14 +34,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Handflächenscan einrichten";
 "workthrough.subtitle" = "Scannen Sie viermal zur Einrichtung. Danach einmal scannen.";
-"workthrough.getStarted" = "Loslegen";
+"workthrough.startVerification" = "Verifizierung starten";
 
 /* Error Messages */
 "error.5001" = "Die Sitzung ist abgelaufen. Bitte beginnen Sie erneut.";
 "error.5002" = "Sitzung nicht gefunden oder bereits verbraucht.";
 "error.5003" = "Bitte versuchen Sie es erneut.";
 "error.5004" = "Alle Verifizierungsversuche wurden aufgebraucht.";
-"error.5005" = "Ihre Handfläche konnte nicht verifiziert werden. Bitte versuchen Sie es erneut.";
+"error.5005" = "Keine Übereinstimmung gefunden. Versuchen Sie es bei besserem Licht erneut oder mit der anderen Hand.";
 "error.5006" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
 "error.5007" = "Ihre Sitzung ist abgelaufen. Bitte versuchen Sie es erneut.";
 "error.5008" = "Etwas ist schiefgelaufen. Bitte kontaktieren Sie den Support.";
@@ -151,8 +151,8 @@
 "error.body.checkAccount" = "Ihr letzter Versuch wurde möglicherweise bereits verarbeitet.";
 "error.title.cameraPermission" = "Wir benötigen Ihre Kamera";
 "error.body.cameraPermission" = "Aktivieren Sie den Kamerazugriff in den Einstellungen.";
-"error.title.palmMismatch" = "Das hat nicht übereingestimmt";
-"error.body.palmMismatch" = "Wir konnten Ihre Handfläche nicht verifizieren.";
+"error.title.palmMismatch" = "Keine Übereinstimmung gefunden";
+"error.body.palmMismatch" = "Versuchen Sie es bei besserem Licht erneut oder mit der anderen Hand.";
 "error.title.scanFailed" = "Versuchen wir es noch einmal";
 "error.body.scanFailed" = "Sorgen Sie für bessere Beleuchtung und halten Sie Ihre Hand ruhig.";
 "error.title.restrictive" = "Wir können nicht fortfahren";
@@ -177,12 +177,12 @@
 "email.inlineCodeExpired" = "Der Code ist abgelaufen. Fordern Sie einen neuen Code an.";
 "email.inlineCodeRateLimit" = "Zu viele Versuche. Bitte fordern Sie einen neuen Code an.";
 "email.inlineCodeGeneric" = "Verifizierung fehlgeschlagen.";
-"consent.startVerification" = "Verifizierung starten";
+"consent.getStarted" = "Loslegen";
 "consent.tip2" = "%@ erhält Zugriff auf begrenzte [Verifizierungsdaten]";
 "consent.verifyIdentitySubtitle" = "%@ nutzt VeryAI, um zu bestätigen, dass Sie ein Mensch sind.";
 "consent.verifyIdentityTitle" = "%@ nutzt VeryAI zur Handflächenverifizierung";
 "error.1001" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
-"error.1002" = "Wir konnten Ihre Handfläche nicht verifizieren. Bitte versuchen Sie es erneut.";
+"error.1002" = "Keine Übereinstimmung gefunden. Versuchen Sie es bei besserem Licht erneut oder mit der anderen Hand.";
 "error.1003" = "Wir konnten Ihre Handfläche nicht verifizieren. Bitte versuchen Sie es erneut.";
 "error.1004" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
 "error.1005" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";

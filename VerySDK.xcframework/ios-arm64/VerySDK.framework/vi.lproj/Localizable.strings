@@ -34,14 +34,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Thiết lập quét lòng bàn tay";
 "workthrough.subtitle" = "Quét bốn lần để thiết lập. Sau đó, quét một lần.";
-"workthrough.getStarted" = "Bắt đầu";
+"workthrough.startVerification" = "Bắt đầu xác minh";
 
 /* Error Messages */
 "error.5001" = "Phiên đã hết hạn. Vui lòng bắt đầu lại.";
 "error.5002" = "Không tìm thấy phiên hoặc phiên đã được sử dụng.";
 "error.5003" = "Vui lòng thử lại.";
 "error.5004" = "Đã dùng hết mọi lần thử xác minh.";
-"error.5005" = "Chúng tôi không thể xác minh lòng bàn tay của bạn. Vui lòng thử lại.";
+"error.5005" = "Chúng tôi không tìm thấy kết quả khớp. Hãy thử lại ở nơi có ánh sáng tốt hơn hoặc dùng tay kia.";
 "error.5006" = "Đã xảy ra lỗi. Vui lòng thử lại.";
 "error.5007" = "Phiên của bạn đã hết hạn. Vui lòng thử lại.";
 "error.5008" = "Đã xảy ra lỗi. Vui lòng liên hệ bộ phận hỗ trợ.";
@@ -151,8 +151,8 @@
 "error.body.checkAccount" = "Lần thử gần nhất của bạn có thể đã thành công.";
 "error.title.cameraPermission" = "Chúng tôi cần camera của bạn";
 "error.body.cameraPermission" = "Bật quyền truy cập camera trong cài đặt.";
-"error.title.palmMismatch" = "Không khớp";
-"error.body.palmMismatch" = "Chúng tôi không thể xác minh lòng bàn tay của bạn.";
+"error.title.palmMismatch" = "Chúng tôi không tìm thấy kết quả khớp";
+"error.body.palmMismatch" = "Hãy thử lại ở nơi có ánh sáng tốt hơn hoặc dùng tay kia.";
 "error.title.scanFailed" = "Hãy thử lại nào";
 "error.body.scanFailed" = "Di chuyển đến nơi có ánh sáng tốt hơn và giữ tay ổn định.";
 "error.title.restrictive" = "Chúng tôi không thể tiếp tục";
@@ -177,12 +177,12 @@
 "email.inlineCodeExpired" = "Mã đã hết hạn. Hãy yêu cầu mã mới.";
 "email.inlineCodeRateLimit" = "Quá nhiều lần thử. Vui lòng yêu cầu mã mới.";
 "email.inlineCodeGeneric" = "Xác minh thất bại.";
-"consent.startVerification" = "Bắt đầu xác minh";
+"consent.getStarted" = "Bắt đầu";
 "consent.tip2" = "%@ sẽ có quyền truy cập vào [dữ liệu xác minh] giới hạn";
 "consent.verifyIdentitySubtitle" = "%@ sử dụng VeryAI để xác nhận bạn là con người.";
 "consent.verifyIdentityTitle" = "%@ sử dụng VeryAI để xác minh lòng bàn tay";
 "error.1001" = "Đã xảy ra lỗi. Vui lòng thử lại.";
-"error.1002" = "Chúng tôi không thể xác minh lòng bàn tay của bạn. Vui lòng thử lại.";
+"error.1002" = "Chúng tôi không tìm thấy kết quả khớp. Hãy thử lại ở nơi có ánh sáng tốt hơn hoặc dùng tay kia.";
 "error.1003" = "Chúng tôi không thể xác minh lòng bàn tay của bạn. Vui lòng thử lại.";
 "error.1004" = "Đã xảy ra lỗi. Vui lòng thử lại.";
 "error.1005" = "Đã xảy ra lỗi. Vui lòng thử lại.";

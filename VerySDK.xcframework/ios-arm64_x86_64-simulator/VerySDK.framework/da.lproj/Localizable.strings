@@ -36,14 +36,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Opsæt din håndfladesskanning";
 "workthrough.subtitle" = "Skan fire gange for at opsætte. Derefter skan én gang.";
-"workthrough.getStarted" = "Kom i gang";
+"workthrough.startVerification" = "Start verificering";
 
 /* Error Messages */
 "error.5001" = "Sessionen er udløbet. Start forfra.";
 "error.5002" = "Sessionen blev ikke fundet eller er allerede brugt.";
 "error.5003" = "Prøv igen.";
 "error.5004" = "Alle verificeringsforsøg er brugt.";
-"error.5005" = "Vi kunne ikke bekræfte din håndflade. Prøv venligst igen.";
+"error.5005" = "Vi kunne ikke finde et match. Prøv igen i bedre lys, eller prøv din anden hånd.";
 "error.5006" = "Noget gik galt. Prøv venligst igen.";
 "error.5007" = "Din session er udløbet. Prøv venligst igen.";
 "error.5008" = "Noget gik galt. Kontakt venligst support.";
@@ -153,8 +153,8 @@
 "error.body.checkAccount" = "Dit sidste forsøg er muligvis allerede gået igennem.";
 "error.title.cameraPermission" = "Vi har brug for dit kamera";
 "error.body.cameraPermission" = "Slå kameraadgang til i indstillingerne.";
-"error.title.palmMismatch" = "Det stemte ikke overens";
-"error.body.palmMismatch" = "Vi kunne ikke verificere din håndflade.";
+"error.title.palmMismatch" = "Vi kunne ikke finde et match";
+"error.body.palmMismatch" = "Prøv igen i bedre lys, eller prøv din anden hånd.";
 "error.title.scanFailed" = "Lad os prøve igen";
 "error.body.scanFailed" = "Find bedre belysning, og hold hånden i ro.";
 "error.title.restrictive" = "Vi kan ikke fortsætte";
@@ -179,12 +179,12 @@
 "email.inlineCodeExpired" = "Koden er udløbet. Anmod om en ny kode.";
 "email.inlineCodeRateLimit" = "For mange forsøg. Anmod om en ny kode.";
 "email.inlineCodeGeneric" = "Verificeringen mislykkedes.";
-"consent.startVerification" = "Start verificering";
+"consent.getStarted" = "Kom i gang";
 "consent.tip2" = "%@ får adgang til begrænsede [verificeringsdata]";
 "consent.verifyIdentitySubtitle" = "%@ bruger VeryAI til at bekræfte, at du er et menneske.";
 "consent.verifyIdentityTitle" = "%@ bruger VeryAI til håndfladeverificering";
 "error.1001" = "Noget gik galt. Prøv igen.";
-"error.1002" = "Vi kunne ikke verificere din håndflade. Prøv igen.";
+"error.1002" = "Vi kunne ikke finde et match. Prøv igen i bedre lys, eller prøv din anden hånd.";
 "error.1003" = "Vi kunne ikke verificere din håndflade. Prøv igen.";
 "error.1004" = "Noget gik galt. Prøv igen.";
 "error.1005" = "Noget gik galt. Prøv igen.";

@@ -34,14 +34,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Skonfiguruj skan dłoni";
 "workthrough.subtitle" = "Zeskanuj cztery razy, aby skonfigurować. Potem skanuj raz.";
-"workthrough.getStarted" = "Rozpocznij";
+"workthrough.startVerification" = "Rozpocznij weryfikację";
 
 /* Error Messages */
 "error.5001" = "Sesja wygasła. Zacznij od nowa.";
 "error.5002" = "Nie znaleziono sesji lub została już wykorzystana.";
 "error.5003" = "Spróbuj ponownie.";
 "error.5004" = "Wykorzystano wszystkie próby weryfikacji.";
-"error.5005" = "Nie udało się zweryfikować dłoni. Spróbuj ponownie.";
+"error.5005" = "Nie znaleźliśmy dopasowania. Spróbuj ponownie przy lepszym oświetleniu lub użyj drugiej ręki.";
 "error.5006" = "Coś poszło nie tak. Spróbuj ponownie.";
 "error.5007" = "Twoja sesja wygasła. Spróbuj ponownie.";
 "error.5008" = "Coś poszło nie tak. Skontaktuj się z pomocą techniczną.";
@@ -151,8 +151,8 @@
 "error.body.checkAccount" = "Twoja ostatnia próba mogła już zostać zrealizowana.";
 "error.title.cameraPermission" = "Potrzebujemy dostępu do aparatu";
 "error.body.cameraPermission" = "Włącz dostęp do aparatu w ustawieniach.";
-"error.title.palmMismatch" = "Brak dopasowania";
-"error.body.palmMismatch" = "Nie udało się zweryfikować Twojej dłoni.";
+"error.title.palmMismatch" = "Nie znaleźliśmy dopasowania";
+"error.body.palmMismatch" = "Spróbuj ponownie przy lepszym oświetleniu lub użyj drugiej ręki.";
 "error.title.scanFailed" = "Spróbujmy jeszcze raz";
 "error.body.scanFailed" = "Przejdź w lepiej oświetlone miejsce i trzymaj rękę nieruchomo.";
 "error.title.restrictive" = "Nie możemy kontynuować";
@@ -177,12 +177,12 @@
 "email.inlineCodeExpired" = "Kod wygasł. Poproś o nowy kod.";
 "email.inlineCodeRateLimit" = "Zbyt wiele prób. Poproś o nowy kod.";
 "email.inlineCodeGeneric" = "Weryfikacja nie powiodła się.";
-"consent.startVerification" = "Rozpocznij weryfikację";
+"consent.getStarted" = "Rozpocznij";
 "consent.tip2" = "%@ uzyska dostęp do ograniczonych [danych weryfikacyjnych]";
 "consent.verifyIdentitySubtitle" = "%@ korzysta z VeryAI, aby potwierdzić, że jesteś człowiekiem.";
 "consent.verifyIdentityTitle" = "%@ korzysta z VeryAI do weryfikacji dłoni";
 "error.1001" = "Coś poszło nie tak. Spróbuj ponownie.";
-"error.1002" = "Nie udało się zweryfikować Twojej dłoni. Spróbuj ponownie.";
+"error.1002" = "Nie znaleźliśmy dopasowania. Spróbuj ponownie przy lepszym oświetleniu lub użyj drugiej ręki.";
 "error.1003" = "Nie udało się zweryfikować Twojej dłoni. Spróbuj ponownie.";
 "error.1004" = "Coś poszło nie tak. Spróbuj ponownie.";
 "error.1005" = "Coś poszło nie tak. Spróbuj ponownie.";

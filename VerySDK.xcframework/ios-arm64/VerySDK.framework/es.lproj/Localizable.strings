@@ -34,14 +34,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Configura tu escaneo de palma";
 "workthrough.subtitle" = "Escanea cuatro veces para configurar. Después, escanea una vez.";
-"workthrough.getStarted" = "Comenzar";
+"workthrough.startVerification" = "Iniciar verificación";
 
 /* Error Messages */
 "error.5001" = "La sesión ha caducado. Empieza de nuevo.";
 "error.5002" = "Sesión no encontrada o ya utilizada.";
 "error.5003" = "Inténtalo de nuevo.";
 "error.5004" = "Se han agotado todos los intentos de verificación.";
-"error.5005" = "No pudimos verificar tu palma. Por favor, inténtalo de nuevo.";
+"error.5005" = "No encontramos una coincidencia. Vuelve a intentarlo con mejor luz o prueba con la otra mano.";
 "error.5006" = "Algo salió mal. Por favor, inténtalo de nuevo.";
 "error.5007" = "Tu sesión ha expirado. Por favor, inténtalo de nuevo.";
 "error.5008" = "Algo salió mal. Por favor, contacta con soporte.";
@@ -151,8 +151,8 @@
 "error.body.checkAccount" = "Puede que tu último intento ya se haya completado.";
 "error.title.cameraPermission" = "Necesitamos tu cámara";
 "error.body.cameraPermission" = "Activa el acceso a la cámara en los ajustes.";
-"error.title.palmMismatch" = "No coincide";
-"error.body.palmMismatch" = "No pudimos verificar tu palma.";
+"error.title.palmMismatch" = "No encontramos una coincidencia";
+"error.body.palmMismatch" = "Vuelve a intentarlo con mejor luz o prueba con la otra mano.";
 "error.title.scanFailed" = "Vamos a intentarlo de nuevo";
 "error.body.scanFailed" = "Colócate en un lugar con mejor iluminación y mantén la mano quieta.";
 "error.title.restrictive" = "No podemos continuar";
@@ -177,12 +177,12 @@
 "email.inlineCodeExpired" = "El código ha caducado. Solicita uno nuevo.";
 "email.inlineCodeRateLimit" = "Demasiados intentos. Solicita un nuevo código.";
 "email.inlineCodeGeneric" = "La verificación falló.";
-"consent.startVerification" = "Iniciar verificación";
+"consent.getStarted" = "Comenzar";
 "consent.tip2" = "%@ tendrá acceso a [datos de verificación] limitados";
 "consent.verifyIdentitySubtitle" = "%@ usa VeryAI para confirmar que eres una persona.";
 "consent.verifyIdentityTitle" = "%@ usa VeryAI para la verificación de palma";
 "error.1001" = "Algo salió mal. Inténtalo de nuevo.";
-"error.1002" = "No pudimos verificar tu palma. Inténtalo de nuevo.";
+"error.1002" = "No encontramos una coincidencia. Vuelve a intentarlo con mejor luz o prueba con la otra mano.";
 "error.1003" = "No pudimos verificar tu palma. Inténtalo de nuevo.";
 "error.1004" = "Algo salió mal. Inténtalo de nuevo.";
 "error.1005" = "Algo salió mal. Inténtalo de nuevo.";

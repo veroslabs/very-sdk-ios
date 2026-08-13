@@ -34,14 +34,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Ställ in din handflatesscanning";
 "workthrough.subtitle" = "Skanna fyra gånger för att ställa in. Sedan skanna en gång.";
-"workthrough.getStarted" = "Kom igång";
+"workthrough.startVerification" = "Starta verifiering";
 
 /* Error Messages */
 "error.5001" = "Sessionen har löpt ut. Börja om.";
 "error.5002" = "Sessionen hittades inte eller har redan använts.";
 "error.5003" = "Försök igen.";
 "error.5004" = "Alla verifieringsförsök har använts.";
-"error.5005" = "Vi kunde inte verifiera din handflata. Försök igen.";
+"error.5005" = "Vi hittade ingen matchning. Försök igen i bättre ljus eller med din andra hand.";
 "error.5006" = "Något gick fel. Försök igen.";
 "error.5007" = "Din session har löpt ut. Försök igen.";
 "error.5008" = "Något gick fel. Kontakta supporten.";
@@ -151,8 +151,8 @@
 "error.body.checkAccount" = "Ditt senaste försök kan redan ha gått igenom.";
 "error.title.cameraPermission" = "Vi behöver din kamera";
 "error.body.cameraPermission" = "Aktivera kameraåtkomst i inställningarna.";
-"error.title.palmMismatch" = "Det stämde inte";
-"error.body.palmMismatch" = "Vi kunde inte verifiera din handflata.";
+"error.title.palmMismatch" = "Vi hittade ingen matchning";
+"error.body.palmMismatch" = "Försök igen i bättre ljus eller med din andra hand.";
 "error.title.scanFailed" = "Vi försöker igen";
 "error.body.scanFailed" = "Gå till bättre ljus och håll handen stilla.";
 "error.title.restrictive" = "Vi kan inte fortsätta";
@@ -177,12 +177,12 @@
 "email.inlineCodeExpired" = "Koden har upphört att gälla. Begär en ny kod.";
 "email.inlineCodeRateLimit" = "För många försök. Begär en ny kod.";
 "email.inlineCodeGeneric" = "Verifieringen misslyckades.";
-"consent.startVerification" = "Starta verifiering";
+"consent.getStarted" = "Kom igång";
 "consent.tip2" = "%@ får tillgång till begränsade [verifieringsdata]";
 "consent.verifyIdentitySubtitle" = "%@ använder VeryAI för att bekräfta att du är en människa.";
 "consent.verifyIdentityTitle" = "%@ använder VeryAI för handflatsverifiering";
 "error.1001" = "Något gick fel. Försök igen.";
-"error.1002" = "Vi kunde inte verifiera din handflata. Försök igen.";
+"error.1002" = "Vi hittade ingen matchning. Försök igen i bättre ljus eller med din andra hand.";
 "error.1003" = "Vi kunde inte verifiera din handflata. Försök igen.";
 "error.1004" = "Något gick fel. Försök igen.";
 "error.1005" = "Något gick fel. Försök igen.";

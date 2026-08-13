@@ -36,14 +36,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "I-set up ang iyong palm scan";
 "workthrough.subtitle" = "Mag-scan ng apat na beses para i-set up. Pagkatapos, mag-scan ng isang beses.";
-"workthrough.getStarted" = "Magsimula";
+"workthrough.startVerification" = "Simulan ang pag-verify";
 
 /* Error Messages */
 "error.5001" = "Nag-expire ang session. Pakisimulan muli.";
 "error.5002" = "Hindi natagpuan ang session o nagamit na.";
 "error.5003" = "Pakisubukang muli.";
 "error.5004" = "Naubos na ang lahat ng pagsubok sa pag-verify.";
-"error.5005" = "Hindi namin ma-verify ang iyong palad. Pakisubukan muli.";
+"error.5005" = "Wala kaming nahanap na tugma. Subukan muli sa mas maliwanag na ilaw, o gamitin ang kabilang kamay.";
 "error.5006" = "May nangyaring mali. Pakisubukan muli.";
 "error.5007" = "Nag-expire na ang iyong session. Pakisubukan muli.";
 "error.5008" = "May nangyaring mali. Pakikontak ang support.";
@@ -153,8 +153,8 @@
 "error.body.checkAccount" = "Maaaring naipasa na ang iyong huling pagsubok.";
 "error.title.cameraPermission" = "Kailangan namin ang iyong camera";
 "error.body.cameraPermission" = "I-on ang access sa camera sa mga setting.";
-"error.title.palmMismatch" = "Hindi tumugma";
-"error.body.palmMismatch" = "Hindi namin ma-verify ang iyong palad.";
+"error.title.palmMismatch" = "Wala kaming nahanap na tugma";
+"error.body.palmMismatch" = "Subukan muli sa mas maliwanag na ilaw, o gamitin ang kabilang kamay.";
 "error.title.scanFailed" = "Subukan nating muli";
 "error.body.scanFailed" = "Lumipat sa mas maliwanag na lugar at panatilihing steady ang iyong kamay.";
 "error.title.restrictive" = "Hindi kami makakapagpatuloy";
@@ -179,12 +179,12 @@
 "email.inlineCodeExpired" = "Nag-expire na ang code. Humiling ng bagong code.";
 "email.inlineCodeRateLimit" = "Masyadong maraming pagsubok. Humiling ng bagong code.";
 "email.inlineCodeGeneric" = "Nabigo ang pag-verify.";
-"consent.startVerification" = "Simulan ang pag-verify";
+"consent.getStarted" = "Magsimula";
 "consent.tip2" = "Magkakaroon ang %@ ng limitadong access sa [data ng pag-verify]";
 "consent.verifyIdentitySubtitle" = "Ginagamit ng %@ ang VeryAI para kumpirmahing tao ka.";
 "consent.verifyIdentityTitle" = "Ginagamit ng %@ ang VeryAI para sa pag-verify ng palad";
 "error.1001" = "May nangyaring mali. Pakisubukan ulit.";
-"error.1002" = "Hindi namin na-verify ang iyong palad. Pakisubukan ulit.";
+"error.1002" = "Wala kaming nahanap na tugma. Subukan muli sa mas maliwanag na ilaw, o gamitin ang kabilang kamay.";
 "error.1003" = "Hindi namin na-verify ang iyong palad. Pakisubukan ulit.";
 "error.1004" = "May nangyaring mali. Pakisubukan ulit.";
 "error.1005" = "May nangyaring mali. Pakisubukan ulit.";

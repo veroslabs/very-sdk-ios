@@ -34,14 +34,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Avuç içi taramanızı ayarlayın";
 "workthrough.subtitle" = "Ayarlamak için dört kez tarayın. Sonra bir kez tarayın.";
-"workthrough.getStarted" = "Başla";
+"workthrough.startVerification" = "Doğrulamayı başlat";
 
 /* Error Messages */
 "error.5001" = "Oturumun süresi doldu. Lütfen yeniden başlayın.";
 "error.5002" = "Oturum bulunamadı veya zaten kullanıldı.";
 "error.5003" = "Lütfen tekrar deneyin.";
 "error.5004" = "Tüm doğrulama denemeleri kullanıldı.";
-"error.5005" = "Avuç içinizi doğrulayamadık. Lütfen tekrar deneyin.";
+"error.5005" = "Eşleşme bulamadık. Daha iyi ışıkta tekrar deneyin veya diğer elinizi kullanın.";
 "error.5006" = "Bir hata oluştu. Lütfen tekrar deneyin.";
 "error.5007" = "Oturumunuzun süresi doldu. Lütfen tekrar deneyin.";
 "error.5008" = "Bir hata oluştu. Lütfen destekle iletişime geçin.";
@@ -151,8 +151,8 @@
 "error.body.checkAccount" = "Son denemeniz zaten gerçekleşmiş olabilir.";
 "error.title.cameraPermission" = "Kameranıza ihtiyacımız var";
 "error.body.cameraPermission" = "Ayarlardan kamera erişimini açın.";
-"error.title.palmMismatch" = "Eşleşmedi";
-"error.body.palmMismatch" = "Avuç içinizi doğrulayamadık.";
+"error.title.palmMismatch" = "Eşleşme bulamadık";
+"error.body.palmMismatch" = "Daha iyi ışıkta tekrar deneyin veya diğer elinizi kullanın.";
 "error.title.scanFailed" = "Tekrar deneyelim";
 "error.body.scanFailed" = "Daha iyi ışık olan bir yere geçin ve elinizi sabit tutun.";
 "error.title.restrictive" = "Devam edemiyoruz";
@@ -177,12 +177,12 @@
 "email.inlineCodeExpired" = "Kodun süresi doldu. Yeni bir kod isteyin.";
 "email.inlineCodeRateLimit" = "Çok fazla deneme. Lütfen yeni bir kod isteyin.";
 "email.inlineCodeGeneric" = "Doğrulama başarısız oldu.";
-"consent.startVerification" = "Doğrulamayı başlat";
+"consent.getStarted" = "Başla";
 "consent.tip2" = "%@ sınırlı [doğrulama verilerine] erişebilecek";
 "consent.verifyIdentitySubtitle" = "%@, insan olduğunuzu doğrulamak için VeryAI kullanır.";
 "consent.verifyIdentityTitle" = "%@, avuç içi doğrulaması için VeryAI kullanır";
 "error.1001" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
-"error.1002" = "Avuç içinizi doğrulayamadık. Lütfen tekrar deneyin.";
+"error.1002" = "Eşleşme bulamadık. Daha iyi ışıkta tekrar deneyin veya diğer elinizi kullanın.";
 "error.1003" = "Avuç içinizi doğrulayamadık. Lütfen tekrar deneyin.";
 "error.1004" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
 "error.1005" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";

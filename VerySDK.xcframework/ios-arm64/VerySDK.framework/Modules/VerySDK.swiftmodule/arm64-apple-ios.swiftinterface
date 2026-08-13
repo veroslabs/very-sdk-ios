@@ -94,6 +94,7 @@ import _SwiftConcurrencyShims
   @objc public var userId: Swift.String?
   @objc public var language: Swift.String?
   @objc public var themeMode: Swift.String
+  @available(*, deprecated, message: "Ignored — the SDK picks the liveness mode itself.")
   @objc public var livenessMode: VeryLivenessMode
   @objc public var debugLogging: Swift.Bool
   @objc public var clientReferenceId: Swift.String?
@@ -159,6 +160,9 @@ public struct CameraAdjustmentState {
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class CameraPreviewView : UIKit.UIView, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate, AVFoundation.AVCapturePhotoCaptureDelegate {
   @_Concurrency.MainActor(unsafe) public var dropFramesDuringCameraAdjustment: Swift.Bool
   @_Concurrency.MainActor(unsafe) public var adjustmentState: CameraAdjustmentState {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var isTorchActive: Swift.Bool {
     get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)

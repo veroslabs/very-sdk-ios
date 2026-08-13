@@ -43,12 +43,12 @@
 "consent.tip1" = "Create account by scanning both palms. Re-verify with just one scan";
 "consent.tip2" = "%@ will have access to limited [verification data]";
 "consent.tip3" = "Your palm scan is only used to verify your identity — delete your data at any time";
-"consent.startVerification" = "Start verification";
+"consent.getStarted" = "Get started";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "Set up your palm scan";
 "workthrough.subtitle" = "Scan four times to set up. After that, scan once.";
-"workthrough.getStarted" = "Get started";
+"workthrough.startVerification" = "Start verification";
 
 /* Common UI */
 "common.poweredBy" = "Powered by";
@@ -115,7 +115,7 @@
 
 /* API Error Codes (message for each code) */
 "error.1001" = "Something went wrong. Please try again.";
-"error.1002" = "We couldn't verify your palm. Please try again.";
+"error.1002" = "We couldn't find a match. Try again in better lighting, or try your other hand.";
 "error.1003" = "We couldn't verify your palm. Please try again.";
 "error.1004" = "Something went wrong. Please try again.";
 "error.1005" = "Something went wrong. Please try again.";
@@ -171,7 +171,7 @@
 "error.5002" = "Session not found or already consumed.";
 "error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
-"error.5005" = "We couldn't verify your palm. Please try again.";
+"error.5005" = "We couldn't find a match. Try again in better lighting, or try your other hand.";
 "error.5006" = "Session expired, please try again.";
 "error.5007" = "Session expired, please try again.";
 "error.5008" = "Something went wrong. Please contact support.";
@@ -212,8 +212,8 @@
 "error.body.checkAccount" = "Your last attempt may have already gone through.";
 "error.title.cameraPermission" = "We need your camera";
 "error.body.cameraPermission" = "Turn on camera access in settings.";
-"error.title.palmMismatch" = "That didn't match";
-"error.body.palmMismatch" = "We couldn't verify your palm.";
+"error.title.palmMismatch" = "We couldn't find a match";
+"error.body.palmMismatch" = "Try again in better lighting, or try your other hand.";
 "error.title.scanFailed" = "Let's try that again";
 "error.body.scanFailed" = "Move to better lighting and keep your hand steady.";
 "error.title.restrictive" = "We can't continue";

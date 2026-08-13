@@ -37,13 +37,13 @@
 "consent.tip1" = "扫描双掌创建账户。只需扫描一次即可重新验证";
 "consent.tip2" = "%@ 将获得对有限[验证数据]的访问权限";
 "consent.tip3" = "Biometric technology is used to verify your identity — delete your data at any time";
-"consent.startVerification" = "开始验证";
+"consent.getStarted" = "开始";
 
 /* WorkThrough View Controller */
 
 /* API Error Codes */
 "error.1001" = "出了点问题，请重试。";
-"error.1002" = "无法验证您的掌纹，请重试。";
+"error.1002" = "未找到匹配结果。请在光线更好的环境中重试，或换另一只手。";
 "error.1003" = "无法验证您的掌纹，请重试。";
 "error.1004" = "出了点问题，请重试。";
 "error.1005" = "出了点问题，请重试。";
@@ -98,7 +98,7 @@
 "error.5002" = "会话不存在或已被使用。";
 "error.5003" = "请重试。";
 "error.5004" = "所有验证机会已用完。";
-"error.5005" = "无法验证您的掌纹，请重试。";
+"error.5005" = "未找到匹配结果。请在光线更好的环境中重试，或换另一只手。";
 "error.5006" = "出了点问题，请重试。";
 "error.5007" = "您的会话已过期，请重试。";
 "error.5008" = "出了点问题，请联系客服。";
@@ -204,8 +204,8 @@
 "error.body.checkAccount" = "你上次的尝试可能已经成功。";
 "error.title.cameraPermission" = "需要使用相机";
 "error.body.cameraPermission" = "请在设置中开启相机权限。";
-"error.title.palmMismatch" = "未能匹配";
-"error.body.palmMismatch" = "我们无法验证你的掌纹。";
+"error.title.palmMismatch" = "未找到匹配结果";
+"error.body.palmMismatch" = "请在光线更好的环境中重试，或换另一只手。";
 "error.title.scanFailed" = "再试一次吧";
 "error.body.scanFailed" = "请移到光线更好的地方，并保持手部稳定。";
 "error.title.restrictive" = "无法继续";
@@ -232,6 +232,6 @@
 "email.inlineCodeGeneric" = "验证失败。";
 "error.1040" = "我们无法为您登录。您的邮箱可能尚未注册，或者您的凭据有误。";
 "error.6107" = "活体检测超时，请重试。";
-"workthrough.getStarted" = "开始";
+"workthrough.startVerification" = "开始验证";
 "workthrough.subtitle" = "扫描四次进行设置。之后每次扫描一次即可。";
 "workthrough.title" = "设置手掌扫描";

@@ -34,14 +34,14 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Configure a leitura da palma";
 "workthrough.subtitle" = "Escaneie quatro vezes para configurar. Depois, escaneie uma vez.";
-"workthrough.getStarted" = "Começar";
+"workthrough.startVerification" = "Iniciar verificação";
 
 /* Error Messages */
 "error.5001" = "A sessão expirou. Comece novamente.";
 "error.5002" = "Sessão não encontrada ou já utilizada.";
 "error.5003" = "Tente novamente.";
 "error.5004" = "Todas as tentativas de verificação foram usadas.";
-"error.5005" = "Não foi possível verificar sua palma. Por favor, tente novamente.";
+"error.5005" = "Não encontramos correspondência. Tente novamente com melhor iluminação ou use a outra mão.";
 "error.5006" = "Algo deu errado. Por favor, tente novamente.";
 "error.5007" = "Sua sessão expirou. Por favor, tente novamente.";
 "error.5008" = "Algo deu errado. Por favor, entre em contato com o suporte.";
@@ -151,8 +151,8 @@
 "error.body.checkAccount" = "A sua última tentativa pode já ter sido concluída.";
 "error.title.cameraPermission" = "Precisamos da sua câmara";
 "error.body.cameraPermission" = "Ative o acesso à câmara nas definições.";
-"error.title.palmMismatch" = "Não correspondeu";
-"error.body.palmMismatch" = "Não foi possível verificar a sua palma.";
+"error.title.palmMismatch" = "Não encontramos correspondência";
+"error.body.palmMismatch" = "Tente novamente com melhor iluminação ou use a outra mão.";
 "error.title.scanFailed" = "Vamos tentar novamente";
 "error.body.scanFailed" = "Procure um local com melhor iluminação e mantenha a mão firme.";
 "error.title.restrictive" = "Não é possível continuar";
@@ -177,12 +177,12 @@
 "email.inlineCodeExpired" = "O código expirou. Solicite um novo código.";
 "email.inlineCodeRateLimit" = "Demasiadas tentativas. Solicite um novo código.";
 "email.inlineCodeGeneric" = "A verificação falhou.";
-"consent.startVerification" = "Iniciar verificação";
+"consent.getStarted" = "Começar";
 "consent.tip2" = "A %@ terá acesso a [dados de verificação] limitados";
 "consent.verifyIdentitySubtitle" = "A %@ usa a VeryAI para confirmar que é humano.";
 "consent.verifyIdentityTitle" = "A %@ usa a VeryAI para verificação da palma da mão";
 "error.1001" = "Algo correu mal. Tente novamente.";
-"error.1002" = "Não foi possível verificar a sua palma. Tente novamente.";
+"error.1002" = "Não encontramos correspondência. Tente novamente com melhor iluminação ou use a outra mão.";
 "error.1003" = "Não foi possível verificar a sua palma. Tente novamente.";
 "error.1004" = "Algo correu mal. Tente novamente.";
 "error.1005" = "Algo correu mal. Tente novamente.";
