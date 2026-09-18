@@ -134,7 +134,7 @@ VerySDK.authenticate(from: self, config: config) { result in
 VeryConfig *config = [[VeryConfig alloc] init];
 config.sdkKey = @"your_sdk_key";
 
-[VerySDK authenticateFrom:self config:config presentationStyle:VeryPresentationStyleModal completion:^(VeryResult *result) {
+[VerySDK authenticateFrom:self config:config presentationStyle:VeryPresentationStyleFullScreen completion:^(VeryResult *result) {
     if (result.isSuccess) {
         NSLog(@"userId: %@, signedToken: %@", result.userId, result.signedToken);
     } else {
@@ -158,7 +158,7 @@ val config = VeryConfig(
 VerySDK.authenticate(
     context = this,
     config = config,
-    presentationStyle = VeryPresentationStyle.FULL_SCREEN  // or BOTTOM_SHEET
+    presentationStyle = VeryPresentationStyle.FULL_SCREEN  // the default; omit to accept it
 ) { result ->
     if (result.isSuccess) {
         println("userId: ${result.userId}")
@@ -213,8 +213,8 @@ Used with `VeryAILiveness.check` (the liveness-only artifact — `VeryAILiveness
 | `language`    | String? | No       | `"en"`    | UI language code                                                                                 |
 | `themeMode`   | String  | No       | `"dark"`  | `"dark"` or `"light"`                                                                            |
 | `livenessMode`| enum    | No       | `touch`   | **Deprecated — ignored.** The SDK picks the mode per device (see the note above)                 |
-| `showError`   | Bool    | No       | `false`   | When `true`, terminal errors show an in-SDK retry/close page instead of returning straight to the callback |
-| `showSuccess` | Bool    | No       | `true`    | When `true`, a successful capture shows the success page (~1.5s) before the callback fires; set `false` to return immediately |
+| `showError`   | Bool    | No       | `false`   | When `true`, terminal errors show an in-SDK Retry / Close sheet over the camera instead of returning straight to the callback |
+| `showSuccess` | Bool    | No       | `true`    | When `true`, a successful capture shows a "Thanks for confirming" sheet with a Close button before the callback fires; set `false` to return immediately |
 | `privacyMessage` | String? | No     | `nil`     | Partner disclosure shown below the native scan instruction. Supports an inline `<a href>` link (see below) |
 | `privacyMessageFontSize` | CGFloat / Float | No | `0` | Disclosure font size (points on iOS, sp on Android); `0` uses the SDK default |
 | `privacyMessageColor` | UIColor? / Int? | No | `nil` | Disclosure text + link colour; `nil` uses the SDK's muted on-scrim colour |
@@ -239,12 +239,19 @@ The SDK renders `privacyMessage` verbatim, so the host app owns its localization
 
 ### VeryPresentationStyle
 
-| Style          | iOS                  | Android              |
-|----------------|----------------------|----------------------|
-| `modal` / `FULL_SCREEN` | PageSheet with blur  | Full-screen Activity |
-| `push`         | Push onto nav stack  | —                    |
-| `embed`        | Child view controller| —                    |
-| `BOTTOM_SHEET` | —                    | Bottom sheet with dimmed background, drag-to-dismiss |
+Full screen is the default on both platforms.
+
+| Style                        | iOS                   | Android              |
+|------------------------------|-----------------------|----------------------|
+| `fullScreen` / `FULL_SCREEN` | Full-screen cover     | Full-screen Activity |
+| `push`                       | Push onto nav stack   | —                    |
+| `embed`                      | Child view controller | —                    |
+| `modal` / `BOTTOM_SHEET`     | PageSheet with blur   | Bottom sheet with dimmed background, drag-to-dismiss |
+
+`modal` / `BOTTOM_SHEET` are **deprecated**. The sheet only ever showed one
+screenful of the consent page, so the flow is full screen on both platforms
+now. They are still honoured when passed explicitly, and will be removed in a
+future major.
 
 ### VeryResult
 
@@ -252,7 +259,7 @@ The SDK renders `privacyMessage` verbatim, so the host app owns its localization
 |---------------|---------|----------------------------------------------------------------|
 | `isSuccess`   | Bool    | `true` if enrollment or verification succeeded                 |
 | `code`        | String  | `"success"`, `"cancelled"`, or `"error"`                       |
-| `userId`      | String  | User's external ID (returned on success)                       |
+| `userId`      | String  | User's external ID (on success, and on a rejected result — see below) |
 | `signedToken` | String? | Ed25519-signed JWT proving the result                          |
 | `userStatus`  | String? | Consolidated account status: `"approved"`, `"pending"`, `"rejected"`, `"restricted"`, or `"unknown"`. `nil` when not applicable |
 | `error`       | String? | Error code (e.g. `"9004"` for user cancelled)                  |
@@ -282,6 +289,14 @@ To enable email bypass for your app, contact VeryAI. This is not self-serve.
 ## Account Restriction
 
 If a user's account has been flagged (e.g., due to fraud detection), SDK operations will return error code `5017` (`SDK_ACCOUNT_RESTRICTED`). The SDK should display an appropriate message and prevent further enrollment or verification attempts.
+
+## Account Rejection
+
+If a palm submission is enrolled but its review lands on **rejected**, the SDK
+returns a failure: `isSuccess = false`, `code = "error"`, `error = "5010"`
+(`SDK_ACCOUNT_REJECTED`) and `userStatus = "rejected"`. `userId` and
+`signedToken` are still populated — the account exists, it just didn't pass
+review — so don't treat a non-empty `userId` on its own as success.
 
 ## Signed Token
 

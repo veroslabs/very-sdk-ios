@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "Đưa tay lùi lại một chút";
 "status.rotateHandUpward" = "Nghiêng tay về phía bạn";
 "status.rotateHandParallel" = "Giữ tay phẳng";
-"status.flipHandOver" = "Đặt lòng bàn tay trước camera";
+"status.flipHandOver" = "Lật bàn tay lại";
 "status.spreadFingers" = "Mở rộng bàn tay";
 "status.straightenFingers" = "Duỗi thẳng các ngón tay";
 "status.spreadThumb" = "Đưa ngón cái ra ngoài";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Bàn tay đầu tiên hoàn thành";
-"switchPalm.proceedToSwitchHand" = "Bây giờ hãy quét bàn tay kia của bạn.";
 
 /* Auth View Controller */
 "auth.cancel" = "Hủy";
@@ -42,11 +41,11 @@
 "error.5003" = "Vui lòng thử lại.";
 "error.5004" = "Đã dùng hết mọi lần thử xác minh.";
 "error.5005" = "Chúng tôi không tìm thấy kết quả khớp. Hãy thử lại ở nơi có ánh sáng tốt hơn hoặc dùng tay kia.";
-"error.5006" = "Đã xảy ra lỗi. Vui lòng thử lại.";
+"error.5006" = "Phiên của bạn đã hết hạn. Vui lòng thử lại.";
 "error.5007" = "Phiên của bạn đã hết hạn. Vui lòng thử lại.";
 "error.5008" = "Đã xảy ra lỗi. Vui lòng liên hệ bộ phận hỗ trợ.";
 "error.5009" = "Đã xảy ra lỗi. Vui lòng liên hệ bộ phận hỗ trợ.";
-"error.5010" = "Việc xem xét tài khoản đã bị từ chối vĩnh viễn.";
+"error.5010" = "Việc xem xét tài khoản không được chấp thuận.";
 "error.5011" = "Việc đăng ký tài khoản vẫn đang được xem xét.";
 "error.5012" = "Chỉ được phép đăng ký lại khi trạng thái xem xét là bị từ chối.";
 "error.5013" = "Quá nhiều yêu cầu. Vui lòng thử lại sau.";
@@ -64,29 +63,27 @@
 "error.6106" = "Không thể tải thư viện quét lòng bàn tay. Hãy kiểm tra internet và thử lại.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Lòng bàn tay của bạn đã được xác minh.";
-"scan.successRegistered" = "Sinh trắc học lòng bàn tay đã được thiết lập.";
+"scan.finishingUp" = "Đang hoàn tất";
+"scan.identityVerified" = "Đã xác minh lòng bàn tay";
+"scan.awesome" = "Tuyệt vời";
 
 /* Common UI */
-"common.poweredBy" = "Được cung cấp bởi";
+"common.poweredByVeryAI" = "Được cung cấp bởi VeryAI";
 "common.retrying" = "Đang thử lại…";
 "common.done" = "Xong";
 "common.continue" = "Tiếp tục";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Quét lòng bàn tay trái";
-"scan.positionLeftHandAgain" = "Quét lại lòng bàn tay trái";
-"scan.positionRightHand" = "Quét lòng bàn tay phải";
-"scan.positionRightHandAgain" = "Sắp xong — lần quét cuối";
+"scan.positionFirstHandAgain" = "Tốt lắm — tiếp tục";
+"scan.positionOtherHand" = "Đưa bàn tay còn lại của bạn";
+"scan.positionOtherHandAgain" = "Sắp xong — lần quét cuối";
 "scan.defaultStatus" = "Giơ tay của bạn ra";
 "scan.defaultStatusEnroll" = "Giơ tay đầu tiên của bạn ra";
 "scan.showGesture" = "Hiển thị cử chỉ";
 "scan.connectDots" = "Nối các chấm";
 "scan.almostDone" = "Sắp xong";
-"scan.livenessThanks" = "Cảm ơn bạn đã xác minh";
-"scan.support" = "Hỗ trợ";
-"scan.registeringPalms" = "Đang đăng ký lòng bàn tay";
-"scan.verifyingPalm" = "Đang xác minh lòng bàn tay";
+"scan.livenessThanks" = "Cảm ơn bạn đã xác nhận";
+"scan.support" = "Trợ giúp";
 "scan.successTitleVerified" = "Đã xác minh";
 "scan.successTitleRegistered" = "Lòng bàn tay đã đăng ký";
 "scan.successVerified" = "Lòng bàn tay của bạn đã được xác minh.";
@@ -99,7 +96,7 @@
 "email.resendCode" = "Gửi lại mã";
 "email.resendInSeconds" = "Gửi lại sau %@ giây";
 "email.placeholder" = "Địa chỉ email";
-"consent.tip3" = "Quét lòng bàn tay của bạn chỉ được dùng để xác minh danh tính — xóa dữ liệu của bạn bất cứ lúc nào";
+"consent.tip3" = "Quét lòng bàn tay của bạn chỉ được dùng để xác minh đó là bạn; xóa dữ liệu của bạn bất cứ lúc nào.";
 "switchPalm.scanOtherHand" = "Quét bàn tay kia";
 "error.palmLinkedToEmail" = "Lòng bàn tay của bạn được liên kết với %@";
 
@@ -131,7 +128,7 @@
 "livenessError.captureFailedMessage" = "Không thể hoàn tất quét. Vui lòng thử lại.";
 "livenessError.retry" = "Thử lại";
 "livenessError.close" = "Đóng";
-"consent.tip1" = "Tạo tài khoản bằng cách quét cả hai lòng bàn tay. Xác minh lại chỉ với một lần quét";
+"consent.tip1" = "Tạo tài khoản bằng cách quét cả hai lòng bàn tay; xác minh lại chỉ với một lần quét.";
 "error.6001" = "Không thể kết nối. Hãy kiểm tra kết nối internet và thử lại.";
 "error.6002" = "Mất quá nhiều thời gian để nhận phản hồi. Hãy kiểm tra kết nối và thử lại.";
 "error.6003" = "Không thể tìm thấy máy chủ của chúng tôi. Hãy kiểm tra mạng hoặc thử mạng khác.";
@@ -162,7 +159,7 @@
 "error.title.serverTransient" = "Hãy thử lại nào";
 "error.body.serverTransient" = "Nếu vấn đề này tiếp diễn, vui lòng liên hệ hỗ trợ.";
 "error.title.enrollmentMismatch" = "Hãy thử lại nào";
-"error.body.enrollmentMismatch" = "Chúng tôi không thể xác minh ảnh quét lòng bàn tay. Vui lòng thử lại trong điều kiện ánh sáng tốt hơn";
+"error.body.enrollmentMismatch" = "Chúng tôi không thể xác minh ảnh quét lòng bàn tay. Vui lòng thử lại trong điều kiện ánh sáng tốt hơn.";
 "error.title.palmTooBlurry" = "Bản quét lòng bàn tay quá mờ";
 "error.body.palmTooBlurry" = "Giữ tay ổn định và quét lại trong điều kiện ánh sáng tốt hơn.";
 "error.cta.tryAgain" = "Thử lại";
@@ -177,8 +174,12 @@
 "email.inlineCodeExpired" = "Mã đã hết hạn. Hãy yêu cầu mã mới.";
 "email.inlineCodeRateLimit" = "Quá nhiều lần thử. Vui lòng yêu cầu mã mới.";
 "email.inlineCodeGeneric" = "Xác minh thất bại.";
-"consent.getStarted" = "Bắt đầu";
-"consent.tip2" = "%@ sẽ có quyền truy cập vào [dữ liệu xác minh] giới hạn";
+"consent.getVerified" = "Xác minh ngay";
+"onboarding.scanRearTitle" = "Quét tay bằng camera sau";
+"onboarding.scanRearCaption" = "Đảm bảo cả lòng bàn tay nằm trong khung hình.";
+"onboarding.connectDotsTitle" = "Nối các chấm khi chúng xuất hiện";
+"onboarding.connectDotsCaption" = "Giữ yên camera và quét ở nơi đủ sáng.";
+"consent.tip2" = "%@ sẽ có quyền truy cập vào [dữ liệu xác minh] giới hạn.";
 "consent.verifyIdentitySubtitle" = "%@ sử dụng VeryAI để xác nhận bạn là con người.";
 "consent.verifyIdentityTitle" = "%@ sử dụng VeryAI để xác minh lòng bàn tay";
 "error.1001" = "Đã xảy ra lỗi. Vui lòng thử lại.";

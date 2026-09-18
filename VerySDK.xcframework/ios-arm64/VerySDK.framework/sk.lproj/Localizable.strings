@@ -10,7 +10,7 @@
 "status.moveHandFarther" = "Posuňte ruku trochu dozadu";
 "status.rotateHandUpward" = "Nakloňte ruku k sebe";
 "status.rotateHandParallel" = "Držte ruku naplocho";
-"status.flipHandOver" = "Položte dlaň pred kameru";
+"status.flipHandOver" = "Otočte ruku";
 "status.spreadFingers" = "Otvorte ruku doširoka";
 "status.straightenFingers" = "Vystrite prsty";
 "status.spreadThumb" = "Odtiahnite palec nabok";
@@ -24,7 +24,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Prvá ruka dokončená";
-"switchPalm.proceedToSwitchHand" = "Teraz naskenujte svoju druhú ruku.";
 
 
 /* Auth View Controller */
@@ -44,11 +43,11 @@
 "error.5003" = "Skúste to znova.";
 "error.5004" = "Všetky pokusy o overenie boli vyčerpané.";
 "error.5005" = "Nenašli sme zhodu. Skúste to znova pri lepšom osvetlení alebo druhou rukou.";
-"error.5006" = "Niečo sa pokazilo. Skúste to prosím znova.";
+"error.5006" = "Vaša relácia vypršala. Skúste to prosím znova.";
 "error.5007" = "Vaša relácia vypršala. Skúste to prosím znova.";
 "error.5008" = "Niečo sa pokazilo. Kontaktujte prosím podporu.";
 "error.5009" = "Niečo sa pokazilo. Kontaktujte prosím podporu.";
-"error.5010" = "Kontrola účtu bola natrvalo zamietnutá.";
+"error.5010" = "Kontrola účtu nebola schválená.";
 "error.5011" = "Registrácia účtu sa stále kontroluje.";
 "error.5012" = "Opätovná registrácia je možná iba vtedy, keď je stav kontroly zamietnutý.";
 "error.5013" = "Príliš veľa požiadaviek. Skúste to neskôr.";
@@ -66,29 +65,27 @@
 "error.6106" = "Nepodarilo sa načítať knižnicu na skenovanie dlane. Skontrolujte internet a skúste to znova.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Vaša dlaň bola overená.";
-"scan.successRegistered" = "Biometria dlane bola nastavená.";
+"scan.finishingUp" = "Dokončovanie";
+"scan.identityVerified" = "Dlaň overená";
+"scan.awesome" = "Skvelé";
 
 /* Common UI */
-"common.poweredBy" = "Využíva technológiu";
+"common.poweredByVeryAI" = "Využíva technológiu VeryAI";
 "common.retrying" = "Opakujem pokus…";
 "common.done" = "Hotovo";
 "common.continue" = "Pokračovať";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Naskenujte ľavú dlaň";
-"scan.positionLeftHandAgain" = "Naskenujte ľavú dlaň znova";
-"scan.positionRightHand" = "Naskenujte pravú dlaň";
-"scan.positionRightHandAgain" = "Takmer hotovo — posledné skenovanie";
+"scan.positionFirstHandAgain" = "Výborne — pokračujte";
+"scan.positionOtherHand" = "Ukážte druhú ruku";
+"scan.positionOtherHandAgain" = "Takmer hotovo — posledné skenovanie";
 "scan.defaultStatus" = "Ukážte svoju ruku";
 "scan.defaultStatusEnroll" = "Ukážte svoju prvú ruku";
 "scan.showGesture" = "Ukážte gesto";
 "scan.connectDots" = "Spojte body";
 "scan.almostDone" = "Takmer hotové";
-"scan.livenessThanks" = "Ďakujeme za overenie";
-"scan.support" = "Podpora";
-"scan.registeringPalms" = "Registrácia dlaní";
-"scan.verifyingPalm" = "Overovanie dlane";
+"scan.livenessThanks" = "Ďakujeme za potvrdenie";
+"scan.support" = "Pomoc";
 "scan.successTitleVerified" = "Overené";
 "scan.successTitleRegistered" = "Dlane zaregistrované";
 "scan.successVerified" = "Vaša dlaň bola overená.";
@@ -101,7 +98,7 @@
 "email.resendCode" = "Znova odoslať kód";
 "email.resendInSeconds" = "Odoslať znova o %@ s";
 "email.placeholder" = "E-mailová adresa";
-"consent.tip3" = "Skenovanie vašej dlane sa používa iba na overenie vašej identity — vymažte svoje údaje kedykoľvek";
+"consent.tip3" = "Skenovanie vašej dlane sa používa iba na overenie, že ste to vy; vymažte svoje údaje kedykoľvek.";
 "switchPalm.scanOtherHand" = "Skenuj druhú ruku";
 "error.palmLinkedToEmail" = "Vaša dlaň je prepojená s %@";
 
@@ -133,7 +130,7 @@
 "livenessError.captureFailedMessage" = "Skenovanie sa nepodarilo dokončiť. Skúste to znova.";
 "livenessError.retry" = "Skúsiť znova";
 "livenessError.close" = "Zavrieť";
-"consent.tip1" = "Vytvorte účet naskenovaním oboch dlaní. Opätovné overenie jedným skenovaním";
+"consent.tip1" = "Vytvorte účet naskenovaním oboch dlaní; opätovné overenie jedným skenovaním.";
 "error.6001" = "Nepodarilo sa pripojiť. Skontrolujte pripojenie na internet a skúste to znova.";
 "error.6002" = "Odpoveď trvala príliš dlho. Skontrolujte pripojenie a skúste to znova.";
 "error.6003" = "Naše servery sa nedajú nájsť. Skontrolujte sieť alebo skúste inú.";
@@ -164,7 +161,7 @@
 "error.title.serverTransient" = "Skúsme to znova";
 "error.body.serverTransient" = "Ak problém pretrváva, kontaktujte podporu.";
 "error.title.enrollmentMismatch" = "Skúsme to znova";
-"error.body.enrollmentMismatch" = "Nepodarilo sa overiť skeny dlane. Skúste to znova pri lepšom osvetlení";
+"error.body.enrollmentMismatch" = "Nepodarilo sa overiť skeny dlane. Skúste to znova pri lepšom osvetlení.";
 "error.title.palmTooBlurry" = "Sken dlane je príliš rozmazaný";
 "error.body.palmTooBlurry" = "Držte ruku v pokoji a naskenujte znova pri lepšom osvetlení.";
 "error.cta.tryAgain" = "Skúsiť znova";
@@ -179,8 +176,12 @@
 "email.inlineCodeExpired" = "Platnosť kódu vypršala. Vyžiadajte si nový kód.";
 "email.inlineCodeRateLimit" = "Príliš veľa pokusov. Vyžiadajte si nový kód.";
 "email.inlineCodeGeneric" = "Overenie zlyhalo.";
-"consent.getStarted" = "Začať";
-"consent.tip2" = "Aplikácia %@ bude mať prístup k obmedzeným [overovacím údajom]";
+"consent.getVerified" = "Overiť sa";
+"onboarding.scanRearTitle" = "Naskenujte ruku zadnou kamerou";
+"onboarding.scanRearCaption" = "Uistite sa, že je celá dlaň v zábere.";
+"onboarding.connectDotsTitle" = "Spájajte body, keď sa objavia";
+"onboarding.connectDotsCaption" = "Držte kameru pokojne a skenujte pri jasnom svetle.";
+"consent.tip2" = "Aplikácia %@ bude mať prístup k obmedzeným [overovacím údajom].";
 "consent.verifyIdentitySubtitle" = "Aplikácia %@ používa VeryAI na potvrdenie, že ste človek.";
 "consent.verifyIdentityTitle" = "Aplikácia %@ používa VeryAI na overenie dlane";
 "error.1001" = "Niečo sa pokazilo. Skúste to znova.";

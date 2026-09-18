@@ -10,7 +10,7 @@
 "status.moveHandFarther" = "Iurong nang kaunti ang iyong kamay";
 "status.rotateHandUpward" = "Ikiling ang iyong kamay papunta sa iyo";
 "status.rotateHandParallel" = "Panatilihing patag ang iyong kamay";
-"status.flipHandOver" = "Ilagay ang palad sa harap ng camera";
+"status.flipHandOver" = "Baliktarin ang iyong kamay";
 "status.spreadFingers" = "Ibuka nang maluwang ang iyong kamay";
 "status.straightenFingers" = "Ituwid ang iyong mga daliri";
 "status.spreadThumb" = "Ibuka pahanay ang iyong hinlalaki";
@@ -24,7 +24,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Tapos na ang unang kamay";
-"switchPalm.proceedToSwitchHand" = "Ngayon i-scan ang iyong ibang kamay.";
 
 
 /* Auth View Controller */
@@ -44,11 +43,11 @@
 "error.5003" = "Pakisubukang muli.";
 "error.5004" = "Naubos na ang lahat ng pagsubok sa pag-verify.";
 "error.5005" = "Wala kaming nahanap na tugma. Subukan muli sa mas maliwanag na ilaw, o gamitin ang kabilang kamay.";
-"error.5006" = "May nangyaring mali. Pakisubukan muli.";
+"error.5006" = "Nag-expire na ang iyong session. Pakisubukan muli.";
 "error.5007" = "Nag-expire na ang iyong session. Pakisubukan muli.";
 "error.5008" = "May nangyaring mali. Pakikontak ang support.";
 "error.5009" = "May nangyaring mali. Pakikontak ang support.";
-"error.5010" = "Permanenteng tinanggihan ang pagsusuri ng account.";
+"error.5010" = "Hindi naaprubahan ang pagsusuri ng account.";
 "error.5011" = "Sinusuri pa ang pagpapatala ng account.";
 "error.5012" = "Pinapayagan lamang ang muling pagpapatala kapag tinanggihan ang status ng pagsusuri.";
 "error.5013" = "Masyadong maraming request. Pakisubukang muli mamaya.";
@@ -66,29 +65,27 @@
 "error.6106" = "Hindi ma-load ang library para sa pag-scan ng palad. Suriin ang iyong internet at subukang muli.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Na-verify na ang iyong palad.";
-"scan.successRegistered" = "Na-set up na ang palm biometrics.";
+"scan.finishingUp" = "Tinatapos na";
+"scan.identityVerified" = "Na-verify ang palad";
+"scan.awesome" = "Ayos";
 
 /* Common UI */
-"common.poweredBy" = "Pinapagana ng";
+"common.poweredByVeryAI" = "Pinapagana ng VeryAI";
 "common.retrying" = "Sinusubukan muli…";
 "common.done" = "Tapos na";
 "common.continue" = "Magpatuloy";
 
 /* Scan Status */
-"scan.positionLeftHand" = "I-scan ang kaliwang palad";
-"scan.positionLeftHandAgain" = "I-scan muli ang kaliwang palad";
-"scan.positionRightHand" = "I-scan ang kanang palad";
-"scan.positionRightHandAgain" = "Malapit na — huling pag-scan";
+"scan.positionFirstHandAgain" = "Magaling — ituloy";
+"scan.positionOtherHand" = "Ipakita ang kabilang kamay";
+"scan.positionOtherHandAgain" = "Malapit na — huling pag-scan";
 "scan.defaultStatus" = "Ipakita ang iyong kamay";
 "scan.defaultStatusEnroll" = "Ipakita ang iyong unang kamay";
 "scan.showGesture" = "Ipakita ang galaw";
 "scan.connectDots" = "Ikonekta ang mga tuldok";
 "scan.almostDone" = "Halos tapos na";
-"scan.livenessThanks" = "Salamat sa pag-verify";
-"scan.support" = "Suporta";
-"scan.registeringPalms" = "Inirerehistro ang mga palad";
-"scan.verifyingPalm" = "Vine-verify ang palad";
+"scan.livenessThanks" = "Salamat sa pagkumpirma";
+"scan.support" = "Tulong";
 "scan.successTitleVerified" = "Na-verify";
 "scan.successTitleRegistered" = "Nairehistro ang mga palad";
 "scan.successVerified" = "Na-verify na ang iyong palad.";
@@ -101,8 +98,8 @@
 "email.resendCode" = "Ipadala muli ang code";
 "email.resendInSeconds" = "I-resend sa %@ s";
 "email.placeholder" = "Email address";
-"consent.tip3" = "Ang scan ng iyong palad ay ginagamit lamang upang i-verify ang iyong pagkakakilanlan — tanggalin ang iyong data anumang oras";
-"switchPalm.scanOtherHand" = "I-scan ang ibang kamay";
+"consent.tip3" = "Ang scan ng iyong palad ay ginagamit lamang upang i-verify na ikaw nga ito; tanggalin ang iyong data anumang oras.";
+"switchPalm.scanOtherHand" = "I-scan ang kabilang kamay";
 "error.palmLinkedToEmail" = "Ang iyong palad ay naka-link sa %@";
 
 /* Account Restricted */
@@ -133,7 +130,7 @@
 "livenessError.captureFailedMessage" = "Hindi namin nakumpleto ang pag-scan. Pakisubukan muli.";
 "livenessError.retry" = "Subukan muli";
 "livenessError.close" = "Isara";
-"consent.tip1" = "Gumawa ng account sa pamamagitan ng pag-scan ng dalawang palad. Muling i-verify sa isang scan lang";
+"consent.tip1" = "Gumawa ng account sa pamamagitan ng pag-scan ng dalawang palad; muling i-verify sa isang scan lang.";
 "error.6001" = "Hindi makakonekta. Tingnan ang iyong internet at subukan muli.";
 "error.6002" = "Napakatagal bago makakuha ng sagot. Tingnan ang iyong koneksyon at subukan muli.";
 "error.6003" = "Hindi mahanap ang aming mga server. Tingnan ang network o subukan ang ibang network.";
@@ -164,7 +161,7 @@
 "error.title.serverTransient" = "Subukan nating muli";
 "error.body.serverTransient" = "Kung magpatuloy ang isyung ito, makipag-ugnayan sa suporta.";
 "error.title.enrollmentMismatch" = "Subukan nating muli";
-"error.body.enrollmentMismatch" = "Hindi namin ma-verify ang mga scan ng palad. Pakisubukang muli sa mas maayos na ilaw";
+"error.body.enrollmentMismatch" = "Hindi namin ma-verify ang mga scan ng palad. Pakisubukang muli sa mas maayos na ilaw.";
 "error.title.palmTooBlurry" = "Masyadong malabo ang pag-scan ng palad";
 "error.body.palmTooBlurry" = "Panatilihing nakatigil ang iyong kamay at mag-scan muli sa mas magandang ilaw.";
 "error.cta.tryAgain" = "Subukang muli";
@@ -179,8 +176,12 @@
 "email.inlineCodeExpired" = "Nag-expire na ang code. Humiling ng bagong code.";
 "email.inlineCodeRateLimit" = "Masyadong maraming pagsubok. Humiling ng bagong code.";
 "email.inlineCodeGeneric" = "Nabigo ang pag-verify.";
-"consent.getStarted" = "Magsimula";
-"consent.tip2" = "Magkakaroon ang %@ ng limitadong access sa [data ng pag-verify]";
+"consent.getVerified" = "Magpa-verify";
+"onboarding.scanRearTitle" = "I-scan ang kamay gamit ang likurang camera";
+"onboarding.scanRearCaption" = "Siguraduhing nasa loob ng frame ang buong palad.";
+"onboarding.connectDotsTitle" = "Pagdugtungin ang mga tuldok kapag lumitaw";
+"onboarding.connectDotsCaption" = "Panatilihing nakatigil ang camera at mag-scan sa maliwanag na ilaw.";
+"consent.tip2" = "Magkakaroon ang %@ ng limitadong access sa [data ng pag-verify].";
 "consent.verifyIdentitySubtitle" = "Ginagamit ng %@ ang VeryAI para kumpirmahing tao ka.";
 "consent.verifyIdentityTitle" = "Ginagamit ng %@ ang VeryAI para sa pag-verify ng palad";
 "error.1001" = "May nangyaring mali. Pakisubukan ulit.";

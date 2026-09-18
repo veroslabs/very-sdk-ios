@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "Allontana un po' la mano";
 "status.rotateHandUpward" = "Inclina la mano verso di te";
 "status.rotateHandParallel" = "Tieni la mano piatta";
-"status.flipHandOver" = "Posiziona il palmo davanti alla fotocamera";
+"status.flipHandOver" = "Gira la mano";
 "status.spreadFingers" = "Apri bene la mano";
 "status.straightenFingers" = "Raddrizza le dita";
 "status.spreadThumb" = "Sposta il pollice di lato";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Prima mano completata";
-"switchPalm.proceedToSwitchHand" = "Ora scansiona l'altra mano.";
 
 /* Auth View Controller */
 "auth.cancel" = "Annulla";
@@ -42,11 +41,11 @@
 "error.5003" = "Riprova.";
 "error.5004" = "Tutti i tentativi di verifica sono stati esauriti.";
 "error.5005" = "Nessuna corrispondenza trovata. Riprova con una luce migliore o con l'altra mano.";
-"error.5006" = "Qualcosa è andato storto. Per favore riprova.";
+"error.5006" = "La sessione è scaduta. Per favore riprova.";
 "error.5007" = "La sessione è scaduta. Per favore riprova.";
 "error.5008" = "Qualcosa è andato storto. Per favore contatta l'assistenza.";
 "error.5009" = "Qualcosa è andato storto. Per favore contatta l'assistenza.";
-"error.5010" = "La revisione dell'account è stata rifiutata definitivamente.";
+"error.5010" = "La revisione dell'account non è stata approvata.";
 "error.5011" = "La registrazione dell'account è ancora in fase di revisione.";
 "error.5012" = "La nuova registrazione è consentita solo quando lo stato della revisione è rifiutato.";
 "error.5013" = "Troppe richieste. Riprova più tardi.";
@@ -64,29 +63,27 @@
 "error.6106" = "Impossibile caricare la libreria di scansione del palmo. Controlla la connessione a Internet e riprova.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Il tuo palmo è stato verificato.";
-"scan.successRegistered" = "La biometria del palmo è stata configurata.";
+"scan.finishingUp" = "Completamento";
+"scan.identityVerified" = "Palmo verificato";
+"scan.awesome" = "Fantastico";
 
 /* Common UI */
-"common.poweredBy" = "Con tecnologia";
+"common.poweredByVeryAI" = "Con tecnologia VeryAI";
 "common.retrying" = "Nuovo tentativo…";
 "common.done" = "Fatto";
 "common.continue" = "Continua";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Scansiona il palmo sinistro";
-"scan.positionLeftHandAgain" = "Scansiona il palmo sinistro di nuovo";
-"scan.positionRightHand" = "Scansiona il palmo destro";
-"scan.positionRightHandAgain" = "Quasi fatto — ultima scansione";
+"scan.positionFirstHandAgain" = "Ottimo — continua";
+"scan.positionOtherHand" = "Mostra l'altra mano";
+"scan.positionOtherHandAgain" = "Quasi fatto — ultima scansione";
 "scan.defaultStatus" = "Mostra la tua mano";
 "scan.defaultStatusEnroll" = "Mostra la tua prima mano";
 "scan.showGesture" = "Mostra il gesto";
 "scan.connectDots" = "Collega i punti";
 "scan.almostDone" = "Quasi fatto";
-"scan.livenessThanks" = "Grazie per la verifica";
-"scan.support" = "Assistenza";
-"scan.registeringPalms" = "Registrazione palmi";
-"scan.verifyingPalm" = "Verifica del palmo";
+"scan.livenessThanks" = "Grazie per la conferma";
+"scan.support" = "Aiuto";
 "scan.successTitleVerified" = "Verificato";
 "scan.successTitleRegistered" = "Palmi registrati";
 "scan.successVerified" = "Il tuo palmo è stato verificato.";
@@ -99,7 +96,7 @@
 "email.resendCode" = "Rinvia codice";
 "email.resendInSeconds" = "Rinvia tra %@ s";
 "email.placeholder" = "Indirizzo email";
-"consent.tip3" = "La scansione del palmo viene utilizzata solo per verificare la tua identità — elimina i tuoi dati in qualsiasi momento";
+"consent.tip3" = "La scansione del palmo viene utilizzata solo per verificare che sei tu; elimina i tuoi dati in qualsiasi momento.";
 "switchPalm.scanOtherHand" = "Scansiona l'altra mano";
 "error.palmLinkedToEmail" = "Il tuo palmo è collegato a %@";
 
@@ -131,7 +128,7 @@
 "livenessError.captureFailedMessage" = "Non siamo riusciti a completare la scansione. Riprova.";
 "livenessError.retry" = "Riprova";
 "livenessError.close" = "Chiudi";
-"consent.tip1" = "Crea un account scansionando entrambi i palmi. Riverifica con una sola scansione";
+"consent.tip1" = "Crea un account scansionando entrambi i palmi; riverifica con una sola scansione.";
 "error.6001" = "Impossibile connettersi. Controlla la tua connessione Internet e riprova.";
 "error.6002" = "La risposta ha impiegato troppo tempo. Controlla la tua connessione e riprova.";
 "error.6003" = "Impossibile risolvere i nostri server. Controlla la tua rete o prova una diversa.";
@@ -162,7 +159,7 @@
 "error.title.serverTransient" = "Riproviamo";
 "error.body.serverTransient" = "Se il problema persiste, contatta l'assistenza.";
 "error.title.enrollmentMismatch" = "Riproviamo";
-"error.body.enrollmentMismatch" = "Non siamo riusciti a verificare le scansioni del palmo. Riprova in condizioni di illuminazione migliori";
+"error.body.enrollmentMismatch" = "Non siamo riusciti a verificare le scansioni del palmo. Riprova in condizioni di illuminazione migliori.";
 "error.title.palmTooBlurry" = "Scansione del palmo troppo sfocata";
 "error.body.palmTooBlurry" = "Tieni la mano ferma ed esegui di nuovo la scansione con una luce migliore.";
 "error.cta.tryAgain" = "Riprova";
@@ -177,8 +174,12 @@
 "email.inlineCodeExpired" = "Il codice è scaduto. Richiedi un nuovo codice.";
 "email.inlineCodeRateLimit" = "Troppi tentativi. Richiedi un nuovo codice.";
 "email.inlineCodeGeneric" = "Verifica non riuscita.";
-"consent.getStarted" = "Inizia";
-"consent.tip2" = "%@ avrà accesso a [dati di verifica] limitati";
+"consent.getVerified" = "Verifica ora";
+"onboarding.scanRearTitle" = "Scansiona la mano con la fotocamera posteriore";
+"onboarding.scanRearCaption" = "Assicurati che l'intero palmo sia nell'inquadratura.";
+"onboarding.connectDotsTitle" = "Collega i punti man mano che appaiono";
+"onboarding.connectDotsCaption" = "Tieni la fotocamera ferma e scansiona con una luce intensa.";
+"consent.tip2" = "%@ avrà accesso a [dati di verifica] limitati.";
 "consent.verifyIdentitySubtitle" = "%@ usa VeryAI per confermare che sei un essere umano.";
 "consent.verifyIdentityTitle" = "%@ usa VeryAI per la verifica del palmo";
 "error.1001" = "Si è verificato un errore. Riprova.";

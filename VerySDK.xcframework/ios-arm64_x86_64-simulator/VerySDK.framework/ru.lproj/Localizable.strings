@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "Отодвиньте руку немного назад";
 "status.rotateHandUpward" = "Наклоните руку к себе";
 "status.rotateHandParallel" = "Держите руку ровно";
-"status.flipHandOver" = "Поместите ладонь перед камерой";
+"status.flipHandOver" = "Переверните руку";
 "status.spreadFingers" = "Раскройте ладонь";
 "status.straightenFingers" = "Выпрямите пальцы";
 "status.spreadThumb" = "Отведите большой палец в сторону";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Первая рука завершена";
-"switchPalm.proceedToSwitchHand" = "Теперь отсканируйте другую руку.";
 
 /* Auth View Controller */
 "auth.cancel" = "Отмена";
@@ -42,11 +41,11 @@
 "error.5003" = "Попробуйте снова.";
 "error.5004" = "Все попытки проверки использованы.";
 "error.5005" = "Совпадение не найдено. Попробуйте снова при лучшем освещении или другой рукой.";
-"error.5006" = "Что-то пошло не так. Пожалуйста, попробуйте снова.";
+"error.5006" = "Срок вашей сессии истёк. Пожалуйста, попробуйте снова.";
 "error.5007" = "Срок вашей сессии истёк. Пожалуйста, попробуйте снова.";
 "error.5008" = "Что-то пошло не так. Пожалуйста, обратитесь в службу поддержки.";
 "error.5009" = "Что-то пошло не так. Пожалуйста, обратитесь в службу поддержки.";
-"error.5010" = "Проверка аккаунта окончательно отклонена.";
+"error.5010" = "Проверка аккаунта не одобрена.";
 "error.5011" = "Регистрация аккаунта ещё на рассмотрении.";
 "error.5012" = "Повторная регистрация возможна, только если статус проверки — отклонён.";
 "error.5013" = "Слишком много запросов. Повторите попытку позже.";
@@ -64,33 +63,31 @@
 "error.6106" = "Не удалось загрузить библиотеку сканирования ладони. Проверьте интернет и попробуйте снова.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Ваша ладонь подтверждена.";
-"scan.successRegistered" = "Биометрия ладони настроена.";
+"scan.finishingUp" = "Завершение";
+"scan.identityVerified" = "Ладонь подтверждена";
+"scan.awesome" = "Отлично";
 
 /* Common UI */
-"common.poweredBy" = "Работает на";
+"common.poweredByVeryAI" = "Работает на VeryAI";
 "common.retrying" = "Повторная попытка…";
 "common.done" = "Готово";
 "common.continue" = "Продолжить";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Сканируйте левую ладонь";
-"scan.positionLeftHandAgain" = "Сканируйте левую ладонь ещё раз";
-"scan.positionRightHand" = "Сканируйте правую ладонь";
-"scan.positionRightHandAgain" = "Почти готово — последнее сканирование";
+"scan.positionFirstHandAgain" = "Отлично — продолжайте";
+"scan.positionOtherHand" = "Покажите другую руку";
+"scan.positionOtherHandAgain" = "Почти готово — последнее сканирование";
 "scan.defaultStatus" = "Покажите руку";
 "scan.defaultStatusEnroll" = "Покажите первую руку";
 "scan.showGesture" = "Покажите жест";
 "scan.connectDots" = "Соедините точки";
 "scan.almostDone" = "Почти готово";
 "scan.livenessThanks" = "Спасибо за подтверждение";
-"scan.support" = "Поддержка";
-"scan.registeringPalms" = "Регистрация ладоней";
-"scan.verifyingPalm" = "Проверка ладони";
+"scan.support" = "Помощь";
 "scan.successTitleVerified" = "Подтверждено";
 "scan.successTitleRegistered" = "Ладони зарегистрированы";
 "scan.successVerified" = "Ваша ладонь подтверждена.";
-"scan.successRegistered" = "Теперь вы можете подтверждать личность с помощью ладоней.";
+"scan.successRegistered" = "Теперь вы можете проходить проверку с помощью ладоней.";
 
 /* Email Verification */
 "email.continueWithEmail" = "Введите ваш email";
@@ -99,7 +96,7 @@
 "email.resendCode" = "Отправить код повторно";
 "email.resendInSeconds" = "Отправить заново через %@ с";
 "email.placeholder" = "Адрес электронной почты";
-"consent.tip3" = "Сканирование ладони используется только для подтверждения вашей личности — удалите свои данные в любое время";
+"consent.tip3" = "Сканирование ладони используется только для подтверждения, что это вы; удалите свои данные в любое время.";
 "switchPalm.scanOtherHand" = "Отсканировать другую руку";
 "error.palmLinkedToEmail" = "Ваша ладонь привязана к %@";
 
@@ -131,7 +128,7 @@
 "livenessError.captureFailedMessage" = "Не удалось завершить сканирование. Попробуйте ещё раз.";
 "livenessError.retry" = "Повторить";
 "livenessError.close" = "Закрыть";
-"consent.tip1" = "Создайте аккаунт, отсканировав обе ладони. Повторная проверка — всего одно сканирование";
+"consent.tip1" = "Создайте аккаунт, отсканировав обе ладони; повторная проверка — всего одно сканирование.";
 "error.6001" = "Не удалось подключиться. Проверьте подключение к интернету и повторите попытку.";
 "error.6002" = "Ответ занял слишком много времени. Проверьте подключение и повторите попытку.";
 "error.6003" = "Не удаётся найти наши серверы. Проверьте сеть или попробуйте другую.";
@@ -162,7 +159,7 @@
 "error.title.serverTransient" = "Попробуем ещё раз";
 "error.body.serverTransient" = "Если проблема сохраняется, обратитесь в поддержку.";
 "error.title.enrollmentMismatch" = "Попробуем ещё раз";
-"error.body.enrollmentMismatch" = "Не удалось проверить сканы ладони. Попробуйте снова при лучшем освещении";
+"error.body.enrollmentMismatch" = "Не удалось проверить сканы ладони. Попробуйте снова при лучшем освещении.";
 "error.title.palmTooBlurry" = "Скан ладони слишком размыт";
 "error.body.palmTooBlurry" = "Держите руку неподвижно и отсканируйте снова при лучшем освещении.";
 "error.cta.tryAgain" = "Повторить";
@@ -177,8 +174,12 @@
 "email.inlineCodeExpired" = "Срок действия кода истёк. Запросите новый код.";
 "email.inlineCodeRateLimit" = "Слишком много попыток. Запросите новый код.";
 "email.inlineCodeGeneric" = "Проверка не удалась.";
-"consent.getStarted" = "Начать";
-"consent.tip2" = "%@ получит доступ к ограниченным [данным проверки]";
+"consent.getVerified" = "Пройти проверку";
+"onboarding.scanRearTitle" = "Сканируйте руку задней камерой";
+"onboarding.scanRearCaption" = "Убедитесь, что вся ладонь находится в кадре.";
+"onboarding.connectDotsTitle" = "Соединяйте точки по мере их появления";
+"onboarding.connectDotsCaption" = "Держите камеру неподвижно и сканируйте при ярком свете.";
+"consent.tip2" = "%@ получит доступ к ограниченным [данным проверки].";
 "consent.verifyIdentitySubtitle" = "%@ использует VeryAI, чтобы подтвердить, что вы человек.";
 "consent.verifyIdentityTitle" = "%@ использует VeryAI для проверки ладони";
 "error.1001" = "Что-то пошло не так. Повторите попытку.";

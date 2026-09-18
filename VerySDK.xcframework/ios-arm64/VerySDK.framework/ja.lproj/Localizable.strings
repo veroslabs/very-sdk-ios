@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "手を少し後ろに動かしてください";
 "status.rotateHandUpward" = "手を手前に傾けてください";
 "status.rotateHandParallel" = "手のひらを平らにしてください";
-"status.flipHandOver" = "カメラの前に手のひらを置いてください";
+"status.flipHandOver" = "手のひらを向けてください";
 "status.spreadFingers" = "指を広げてください";
 "status.straightenFingers" = "指を伸ばしてください";
 "status.spreadThumb" = "親指を横に動かしてください";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "最初の手が完了しました";
-"switchPalm.proceedToSwitchHand" = "もう一方の手をスキャンしてください。";
 
 /* Auth View Controller */
 "auth.cancel" = "キャンセル";
@@ -42,11 +41,11 @@
 "error.5003" = "もう一度お試しください。";
 "error.5004" = "認証の試行回数をすべて使い切りました。";
 "error.5005" = "一致するものが見つかりませんでした。明るい場所でもう一度お試しいただくか、反対の手でお試しください。";
-"error.5006" = "問題が発生しました。もう一度お試しください。";
+"error.5006" = "セッションの有効期限が切れました。もう一度お試しください。";
 "error.5007" = "セッションの有効期限が切れました。もう一度お試しください。";
 "error.5008" = "問題が発生しました。サポートにお問い合わせください。";
 "error.5009" = "問題が発生しました。サポートにお問い合わせください。";
-"error.5010" = "アカウント審査は恒久的に却下されました。";
+"error.5010" = "アカウント審査は承認されませんでした。";
 "error.5011" = "アカウントの登録は現在審査中です。";
 "error.5012" = "再登録は審査ステータスが却下の場合のみ可能です。";
 "error.5013" = "リクエストが多すぎます。しばらくしてからもう一度お試しください。";
@@ -64,29 +63,27 @@
 "error.6106" = "手のひらスキャン用ライブラリを読み込めませんでした。インターネット接続を確認してもう一度お試しください。";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "手のひらが認証されました。";
-"scan.successRegistered" = "手のひらの生体認証が設定されました。";
+"scan.finishingUp" = "仕上げ中";
+"scan.identityVerified" = "手のひらを認証しました";
+"scan.awesome" = "やった！";
 
 /* Common UI */
-"common.poweredBy" = "提供";
+"common.poweredByVeryAI" = "VeryAI 提供";
 "common.retrying" = "再試行しています…";
 "common.done" = "完了";
 "common.continue" = "続ける";
 
 /* Scan Status */
-"scan.positionLeftHand" = "左手のひらをスキャン";
-"scan.positionLeftHandAgain" = "左手のひらを再度スキャン";
-"scan.positionRightHand" = "右手のひらをスキャン";
-"scan.positionRightHandAgain" = "もう少しです——最後のスキャン";
+"scan.positionFirstHandAgain" = "いいですね——続けましょう";
+"scan.positionOtherHand" = "もう一方の手をかざしてください";
+"scan.positionOtherHandAgain" = "もう少しです——最後のスキャン";
 "scan.defaultStatus" = "手をかざしてください";
 "scan.defaultStatusEnroll" = "最初の手をかざしてください";
 "scan.showGesture" = "ジェスチャーを表示";
 "scan.connectDots" = "点をつなげる";
 "scan.almostDone" = "もう少しです";
-"scan.livenessThanks" = "認証ありがとうございました";
-"scan.support" = "サポート";
-"scan.registeringPalms" = "手のひらを登録中";
-"scan.verifyingPalm" = "手のひらを認証中";
+"scan.livenessThanks" = "ご確認ありがとうございました";
+"scan.support" = "ヘルプ";
 "scan.successTitleVerified" = "認証完了";
 "scan.successTitleRegistered" = "手のひら登録完了";
 "scan.successVerified" = "手のひらが認証されました。";
@@ -99,7 +96,7 @@
 "email.resendCode" = "コードを再送信";
 "email.resendInSeconds" = "%@秒後に再送信";
 "email.placeholder" = "メールアドレス";
-"consent.tip3" = "手のひらスキャンはお客様の本人確認のみに使用されます — いつでもデータを削除できます";
+"consent.tip3" = "手のひらスキャンはあなたであることの確認にのみ使用され、データはいつでも削除できます。";
 "switchPalm.scanOtherHand" = "もう一方の手をスキャン";
 "error.palmLinkedToEmail" = "手のひらは %@ に紐付けられています";
 
@@ -131,7 +128,7 @@
 "livenessError.captureFailedMessage" = "スキャンを完了できませんでした。もう一度お試しください。";
 "livenessError.retry" = "再試行";
 "livenessError.close" = "閉じる";
-"consent.tip1" = "両方の手のひらをスキャンしてアカウントを作成。再認証は片方のスキャンだけでOK";
+"consent.tip1" = "両方の手のひらをスキャンしてアカウントを作成し、再認証は片方のスキャンだけでOK。";
 "error.6001" = "接続できませんでした。インターネット接続を確認して、もう一度お試しください。";
 "error.6002" = "応答に時間がかかりすぎました。接続を確認して、もう一度お試しください。";
 "error.6003" = "サーバーに接続できません。ネットワークを確認するか、別のネットワークに切り替えてください。";
@@ -162,7 +159,7 @@
 "error.title.serverTransient" = "もう一度試してみましょう";
 "error.body.serverTransient" = "この問題が続く場合は、サポートにお問い合わせください。";
 "error.title.enrollmentMismatch" = "もう一度試してみましょう";
-"error.body.enrollmentMismatch" = "手のひらスキャンを認証できませんでした。明るい場所でもう一度お試しください";
+"error.body.enrollmentMismatch" = "手のひらスキャンを認証できませんでした。明るい場所でもう一度お試しください。";
 "error.title.palmTooBlurry" = "手のひらのスキャンがぼやけています";
 "error.body.palmTooBlurry" = "手を動かさずに、明るい場所でもう一度スキャンしてください。";
 "error.cta.tryAgain" = "もう一度試す";
@@ -177,8 +174,12 @@
 "email.inlineCodeExpired" = "コードの有効期限が切れました。新しいコードをリクエストしてください。";
 "email.inlineCodeRateLimit" = "試行回数が多すぎます。新しいコードをリクエストしてください。";
 "email.inlineCodeGeneric" = "認証に失敗しました。";
-"consent.getStarted" = "開始";
-"consent.tip2" = "%@ は限定的な[認証データ]にアクセスできます";
+"consent.getVerified" = "認証する";
+"onboarding.scanRearTitle" = "背面カメラで手をスキャン";
+"onboarding.scanRearCaption" = "手のひら全体がフレームに収まるようにしてください。";
+"onboarding.connectDotsTitle" = "表示されたドットをつなげてください";
+"onboarding.connectDotsCaption" = "カメラを動かさず、明るい場所でスキャンしてください。";
+"consent.tip2" = "%@ は限定的な[認証データ]にアクセスできます。";
 "consent.verifyIdentitySubtitle" = "%@ は VeryAI を使用して、あなたが人間であることを確認します。";
 "consent.verifyIdentityTitle" = "%@ は手のひら認証に VeryAI を使用します";
 "error.1001" = "問題が発生しました。もう一度お試しください。";

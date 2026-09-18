@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "把手往後移一點";
 "status.rotateHandUpward" = "把手朝自己傾斜";
 "status.rotateHandParallel" = "保持手掌放平";
-"status.flipHandOver" = "將手掌放在鏡頭前";
+"status.flipHandOver" = "把手翻過來";
 "status.spreadFingers" = "把手張開";
 "status.straightenFingers" = "伸直手指";
 "status.spreadThumb" = "將拇指移到側面";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "第一隻手完成";
-"switchPalm.proceedToSwitchHand" = "現在掃描您的另一隻手。";
 
 /* Auth View Controller */
 "auth.cancel" = "取消";
@@ -42,11 +41,11 @@
 "error.5003" = "請再試一次。";
 "error.5004" = "所有驗證次數皆已用完。";
 "error.5005" = "找不到相符的結果。請在光線較好的環境下重試，或換另一隻手。";
-"error.5006" = "出了點問題，請重試。";
+"error.5006" = "您的工作階段已過期，請重試。";
 "error.5007" = "您的工作階段已過期，請重試。";
 "error.5008" = "出了點問題，請聯絡客服。";
 "error.5009" = "出了點問題，請聯絡客服。";
-"error.5010" = "帳戶審核已遭永久拒絕。";
+"error.5010" = "帳戶審核未通過。";
 "error.5011" = "帳戶註冊仍在審核中。";
 "error.5012" = "僅在審核狀態為已拒絕時才能重新註冊。";
 "error.5013" = "請求過於頻繁。請稍後再試。";
@@ -66,29 +65,29 @@
 /* Success Bottom Sheet Messages */
 
 /* Common UI */
-"common.poweredBy" = "技術支援";
+"common.poweredByVeryAI" = "由 VeryAI 提供技術支援";
 "common.retrying" = "正在重試…";
 "common.done" = "完成";
 "common.continue" = "繼續";
 
 /* Scan Status */
-"scan.positionLeftHand" = "掃描左手掌";
-"scan.positionLeftHandAgain" = "再次掃描左手掌";
-"scan.positionRightHand" = "掃描右手掌";
-"scan.positionRightHandAgain" = "即將完成——最後一次掃描";
+"scan.positionFirstHandAgain" = "很好——繼續";
+"scan.positionOtherHand" = "出示您的另一隻手";
+"scan.positionOtherHandAgain" = "即將完成——最後一次掃描";
 "scan.defaultStatus" = "展示您的手";
 "scan.defaultStatusEnroll" = "展示您的第一隻手";
 "scan.showGesture" = "顯示手勢";
 "scan.connectDots" = "連接圓點";
 "scan.almostDone" = "即將完成";
-"scan.livenessThanks" = "感謝你的驗證";
-"scan.support" = "支援";
-"scan.registeringPalms" = "正在註冊手掌";
-"scan.verifyingPalm" = "正在驗證手掌";
+"scan.livenessThanks" = "感謝你的確認";
+"scan.support" = "說明";
 "scan.successTitleVerified" = "驗證成功";
 "scan.successTitleRegistered" = "手掌已註冊";
 "scan.successVerified" = "您的手掌已通過驗證。";
 "scan.successRegistered" = "您現在可以使用手掌進行驗證。";
+"scan.finishingUp" = "正在完成";
+"scan.identityVerified" = "手掌驗證成功";
+"scan.awesome" = "太棒了";
 
 /* Email Verification */
 "email.continueWithEmail" = "輸入您的電子郵件";
@@ -97,7 +96,7 @@
 "email.resendCode" = "重新發送";
 "email.resendInSeconds" = "%@ 秒後重新發送";
 "email.placeholder" = "電子郵件地址";
-"consent.tip3" = "您的掌紋掃描僅用於驗證您的身份 — 隨時刪除您的資料";
+"consent.tip3" = "您的掌紋掃描僅用於確認是您本人；隨時刪除您的資料。";
 "switchPalm.scanOtherHand" = "掃描另一隻手";
 "error.palmLinkedToEmail" = "您的手掌已關聯至 %@";
 
@@ -129,7 +128,7 @@
 "livenessError.captureFailedMessage" = "無法完成掃描，請重試。";
 "livenessError.retry" = "重試";
 "livenessError.close" = "關閉";
-"consent.tip1" = "掃描雙掌建立帳戶。只需掃描一次即可重新驗證";
+"consent.tip1" = "掃描雙掌建立帳戶；只需掃描一次即可重新驗證。";
 "error.6001" = "無法連線，請檢查網路後重試。";
 "error.6002" = "回應逾時，請檢查網路後重試。";
 "error.6003" = "無法解析伺服器位址，請檢查網路或切換網路後重試。";
@@ -160,7 +159,7 @@
 "error.title.serverTransient" = "再試一次吧";
 "error.body.serverTransient" = "若問題持續發生，請聯絡客服。";
 "error.title.enrollmentMismatch" = "再試一次吧";
-"error.body.enrollmentMismatch" = "我們無法驗證掌紋掃描結果。請在光線較佳的環境下再試一次";
+"error.body.enrollmentMismatch" = "我們無法驗證掌紋掃描結果。請在光線較佳的環境下再試一次。";
 "error.title.palmTooBlurry" = "手掌掃描太模糊";
 "error.body.palmTooBlurry" = "請保持手部穩定，並在光線更好的環境中重新掃描。";
 "error.cta.tryAgain" = "再試一次";
@@ -175,8 +174,12 @@
 "email.inlineCodeExpired" = "驗證碼已過期。請重新取得驗證碼。";
 "email.inlineCodeRateLimit" = "嘗試次數過多。請重新取得驗證碼。";
 "email.inlineCodeGeneric" = "驗證失敗。";
-"consent.getStarted" = "開始";
-"consent.tip2" = "%@ 將獲得有限[驗證資料]的存取權限";
+"consent.getVerified" = "開始驗證";
+"onboarding.scanRearTitle" = "用後置鏡頭掃描手掌";
+"onboarding.scanRearCaption" = "確保整個手掌都在取景框內。";
+"onboarding.connectDotsTitle" = "連接出現的圓點";
+"onboarding.connectDotsCaption" = "保持鏡頭不動，在明亮的光線下掃描。";
+"consent.tip2" = "%@ 將獲得有限[驗證資料]的存取權限。";
 "consent.verifyIdentitySubtitle" = "%@ 使用 VeryAI 確認您是真人。";
 "consent.verifyIdentityTitle" = "%@ 使用 VeryAI 進行掌紋驗證";
 "error.1001" = "發生錯誤，請重試。";

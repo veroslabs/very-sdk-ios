@@ -10,7 +10,7 @@
 "status.moveHandFarther" = "Əlinizi bir az geri çəkin";
 "status.rotateHandUpward" = "Əlinizi özünüzə tərəf əyin";
 "status.rotateHandParallel" = "Əlinizi düz saxlayın";
-"status.flipHandOver" = "Ovucunuzu kameranın qarşısına qoyun";
+"status.flipHandOver" = "Əlinizi çevirin";
 "status.spreadFingers" = "Əlinizi geniş açın";
 "status.straightenFingers" = "Barmaqlarınızı düzəldin";
 "status.spreadThumb" = "Baş barmağınızı yana açın";
@@ -24,7 +24,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Birinci əl tamamlandı";
-"switchPalm.proceedToSwitchHand" = "İndi digər əlinizi skan edin.";
 
 
 /* Auth View Controller */
@@ -44,11 +43,11 @@
 "error.5003" = "Zəhmət olmasa yenidən cəhd edin.";
 "error.5004" = "Bütün doğrulama cəhdləri istifadə olunub.";
 "error.5005" = "Uyğunluq tapa bilmədik. Daha yaxşı işıqda yenidən cəhd edin və ya digər əlinizi yoxlayın.";
-"error.5006" = "Xəta baş verdi. Zəhmət olmasa, yenidən cəhd edin.";
+"error.5006" = "Seansınızın müddəti bitib. Zəhmət olmasa, yenidən cəhd edin.";
 "error.5007" = "Seansınızın müddəti bitib. Zəhmət olmasa, yenidən cəhd edin.";
 "error.5008" = "Xəta baş verdi. Zəhmət olmasa, dəstək xidməti ilə əlaqə saxlayın.";
 "error.5009" = "Xəta baş verdi. Zəhmət olmasa, dəstək xidməti ilə əlaqə saxlayın.";
-"error.5010" = "Hesab yoxlaması qəti şəkildə rədd edildi.";
+"error.5010" = "Hesab yoxlaması təsdiqlənmədi.";
 "error.5011" = "Hesab qeydiyyatı hələ də nəzərdən keçirilir.";
 "error.5012" = "Təkrar qeydiyyata yalnız yoxlama statusu rədd edildikdə icazə verilir.";
 "error.5013" = "Çox sayda sorğu. Zəhmət olmasa sonra yenidən cəhd edin.";
@@ -66,29 +65,27 @@
 "error.6106" = "Ovuc skan kitabxanası yüklənə bilmədi. İnternetinizi yoxlayıb yenidən cəhd edin.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Ovucunuz doğrulandı.";
-"scan.successRegistered" = "Ovuc biometrikası quruldu.";
+"scan.finishingUp" = "Tamamlanır";
+"scan.identityVerified" = "Ovuc doğrulandı";
+"scan.awesome" = "Əla";
 
 /* Common UI */
-"common.poweredBy" = "Dəstəkləyən";
+"common.poweredByVeryAI" = "Dəstəkləyən: VeryAI";
 "common.retrying" = "Yenidən cəhd edilir…";
 "common.done" = "Hazır";
 "common.continue" = "Davam et";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Sol ovucu skan edin";
-"scan.positionLeftHandAgain" = "Sol ovucu yenidən skan edin";
-"scan.positionRightHand" = "Sağ ovucu skan edin";
-"scan.positionRightHandAgain" = "Demək olar ki, bitdi — son skan";
+"scan.positionFirstHandAgain" = "Əla — davam edin";
+"scan.positionOtherHand" = "Digər əlinizi göstərin";
+"scan.positionOtherHandAgain" = "Demək olar ki, bitdi — son skan";
 "scan.defaultStatus" = "Əlinizi göstərin";
 "scan.defaultStatusEnroll" = "İlk əlinizi göstərin";
 "scan.showGesture" = "Jesti göstərin";
 "scan.connectDots" = "Nöqtələri birləşdirin";
 "scan.almostDone" = "Demək olar ki hazırdır";
-"scan.livenessThanks" = "Doğruladığınız üçün təşəkkürlər";
-"scan.support" = "Dəstək";
-"scan.registeringPalms" = "Ovuclar qeydiyyat olunur";
-"scan.verifyingPalm" = "Ovuc doğrulanır";
+"scan.livenessThanks" = "Təsdiqlədiyiniz üçün təşəkkürlər";
+"scan.support" = "Yardım";
 "scan.successTitleVerified" = "Təsdiqləndi";
 "scan.successTitleRegistered" = "Ovuclar qeydiyyatdan keçdi";
 "scan.successVerified" = "Ovucunuz təsdiqləndi.";
@@ -101,7 +98,7 @@
 "email.resendCode" = "Kodu yenidən göndər";
 "email.resendInSeconds" = "%@ saniyə sonra təkrar göndər";
 "email.placeholder" = "E-poçt ünvanı";
-"consent.tip3" = "Ovuc iziniz yalnız kimliyinizi təsdiqləmək üçün istifadə olunur — məlumatlarınızı istənilən vaxt silin";
+"consent.tip3" = "Ovuc iziniz yalnız sizin olduğunuzu təsdiqləmək üçün istifadə olunur; məlumatlarınızı istənilən vaxt silin.";
 "switchPalm.scanOtherHand" = "Digər əli skan et";
 "error.palmLinkedToEmail" = "Ovucunuz %@ ilə bağlıdır";
 
@@ -133,7 +130,7 @@
 "livenessError.captureFailedMessage" = "Skanı tamamlaya bilmədik. Yenidən cəhd edin.";
 "livenessError.retry" = "Yenidən cəhd";
 "livenessError.close" = "Bağla";
-"consent.tip1" = "Hər iki ovucunuzu skan edərək hesab yaradın. Yalnız bir skan ilə yenidən doğrulayın";
+"consent.tip1" = "Hər iki ovucunuzu skan edərək hesab yaradın; yalnız bir skan ilə yenidən doğrulayın.";
 "error.6001" = "Bağlantı qurulmadı. İnternet bağlantınızı yoxlayın və yenidən cəhd edin.";
 "error.6002" = "Cavab almaq çox uzun çəkdi. Bağlantınızı yoxlayın və yenidən cəhd edin.";
 "error.6003" = "Serverlərimizə ünvan həlli mümkün olmadı. Şəbəkəni yoxlayın və ya başqa şəbəkəyə keçin.";
@@ -164,7 +161,7 @@
 "error.title.serverTransient" = "Gəlin yenidən cəhd edək";
 "error.body.serverTransient" = "Bu problem davam edərsə, zəhmət olmasa dəstəklə əlaqə saxlayın.";
 "error.title.enrollmentMismatch" = "Gəlin yenidən cəhd edək";
-"error.body.enrollmentMismatch" = "Ovuc skanlarını doğrulaya bilmədik. Zəhmət olmasa daha yaxşı işıqda yenidən cəhd edin";
+"error.body.enrollmentMismatch" = "Ovuc skanlarını doğrulaya bilmədik. Zəhmət olmasa daha yaxşı işıqda yenidən cəhd edin.";
 "error.title.palmTooBlurry" = "Ovuc taraması çox bulanıqdır";
 "error.body.palmTooBlurry" = "Əlinizi sabit saxlayın və daha yaxşı işıqda yenidən tarayın.";
 "error.cta.tryAgain" = "Yenidən cəhd et";
@@ -179,8 +176,12 @@
 "email.inlineCodeExpired" = "Kodun vaxtı bitib. Yeni kod tələb edin.";
 "email.inlineCodeRateLimit" = "Çox sayda cəhd. Zəhmət olmasa yeni kod tələb edin.";
 "email.inlineCodeGeneric" = "Doğrulama uğursuz oldu.";
-"consent.getStarted" = "Başla";
-"consent.tip2" = "%@ məhdud [doğrulama məlumatlarına] giriş əldə edəcək";
+"consent.getVerified" = "Təsdiqlənin";
+"onboarding.scanRearTitle" = "Əlinizi arxa kamera ilə skan edin";
+"onboarding.scanRearCaption" = "Bütün ovucunuzun kadrda olduğundan əmin olun.";
+"onboarding.connectDotsTitle" = "Nöqtələr görünəndə onları birləşdirin";
+"onboarding.connectDotsCaption" = "Kameranı tərpətməyin və parlaq işıqda skan edin.";
+"consent.tip2" = "%@ məhdud [doğrulama məlumatlarına] giriş əldə edəcək.";
 "consent.verifyIdentitySubtitle" = "%@ insan olduğunuzu təsdiqləmək üçün VeryAI-dan istifadə edir.";
 "consent.verifyIdentityTitle" = "%@ ovuc doğrulaması üçün VeryAI-dan istifadə edir";
 "error.1001" = "Nəsə səhv getdi. Zəhmət olmasa, yenidən cəhd edin.";

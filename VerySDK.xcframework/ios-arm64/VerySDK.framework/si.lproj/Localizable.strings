@@ -10,7 +10,7 @@
 "status.moveHandFarther" = "ඔබේ අත ටිකක් පසුපසට ගෙනයන්න";
 "status.rotateHandUpward" = "ඔබේ අත ඔබ දෙසට ඇල කරන්න";
 "status.rotateHandParallel" = "ඔබේ අත පැතලිව තබාගන්න";
-"status.flipHandOver" = "කැමරාව ඉදිරියේ අත්ල තබන්න";
+"status.flipHandOver" = "ඔබේ අත හරවන්න";
 "status.spreadFingers" = "ඔබේ අත පුළුල්ව විවෘත කරන්න";
 "status.straightenFingers" = "ඔබේ ඇඟිලි කෙළින් කරන්න";
 "status.spreadThumb" = "ඔබේ මාපටැඟිල්ල පැත්තට දිගු කරන්න";
@@ -24,7 +24,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "පළමු අත සම්පූර්ණ";
-"switchPalm.proceedToSwitchHand" = "දැන් ඔබේ අනෙක් අත ස්කෑන් කරන්න.";
 
 
 /* Auth View Controller */
@@ -44,11 +43,11 @@
 "error.5003" = "කරුණාකර නැවත උත්සාහ කරන්න.";
 "error.5004" = "සියලුම සත්‍යාපන උත්සාහයන් භාවිතා කර ඇත.";
 "error.5005" = "අපට ගැළපීමක් හමු නොවීය. වඩා හොඳ ආලෝකයේ නැවත උත්සාහ කරන්න, නැතහොත් අනෙක් අත උත්සාහ කරන්න.";
-"error.5006" = "යම් දෝෂයක් සිදු විය. කරුණාකර නැවත උත්සාහ කරන්න.";
+"error.5006" = "ඔබගේ සැසිය කල් ඉකුත් වී ඇත. කරුණාකර නැවත උත්සාහ කරන්න.";
 "error.5007" = "ඔබගේ සැසිය කල් ඉකුත් වී ඇත. කරුණාකර නැවත උත්සාහ කරන්න.";
 "error.5008" = "යම් දෝෂයක් සිදු විය. කරුණාකර සහාය සේවාව අමතන්න.";
 "error.5009" = "යම් දෝෂයක් සිදු විය. කරුණාකර සහාය සේවාව අමතන්න.";
-"error.5010" = "ගිණුම් සමාලෝචනය ස්ථිරව ප්‍රතික්ෂේප කරන ලදී.";
+"error.5010" = "ගිණුම් සමාලෝචනය අනුමත නොවීය.";
 "error.5011" = "ගිණුම් ලියාපදිංචිය තවමත් සමාලෝචනය වෙමින් පවතී.";
 "error.5012" = "සමාලෝචන තත්ත්වය ප්‍රතික්ෂේප වූ විට පමණක් නැවත ලියාපදිංචි වීමට අවසර ඇත.";
 "error.5013" = "ඉල්ලීම් ඉතා වැඩියි. කරුණාකර පසුව නැවත උත්සාහ කරන්න.";
@@ -66,29 +65,27 @@
 "error.6106" = "අත්ල පරිලෝකන පුස්තකාලය පූරණය කළ නොහැකි විය. ඔබේ අන්තර්ජාලය පරීක්ෂා කර නැවත උත්සාහ කරන්න.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "ඔබේ අත්ල සත්‍යාපනය කරන ලදී.";
-"scan.successRegistered" = "අත්ල ජීවමිතිය දැන් සකසා ඇත.";
+"scan.finishingUp" = "අවසන් කරමින්";
+"scan.identityVerified" = "අත්ල සත්‍යාපිතයි";
+"scan.awesome" = "නියමයි";
 
 /* Common UI */
-"common.poweredBy" = "බලගැන්වූයේ";
+"common.poweredByVeryAI" = "බලගැන්වූයේ VeryAI";
 "common.retrying" = "නැවත උත්සාහ කරමින්…";
 "common.done" = "හරි";
 "common.continue" = "ඉදිරියට";
 
 /* Scan Status */
-"scan.positionLeftHand" = "වම් අත්ල ස්කෑන් කරන්න";
-"scan.positionLeftHandAgain" = "වම් අත්ල නැවත ස්කෑන් කරන්න";
-"scan.positionRightHand" = "දකුණු අත්ල ස්කෑන් කරන්න";
-"scan.positionRightHandAgain" = "අවසානයට ළඟයි — අවසාන ස්කෑනය";
+"scan.positionFirstHandAgain" = "හොඳයි — දිගටම කරගෙන යන්න";
+"scan.positionOtherHand" = "ඔබේ අනෙක් අත පෙන්වන්න";
+"scan.positionOtherHandAgain" = "අවසානයට ළඟයි — අවසාන ස්කෑනය";
 "scan.defaultStatus" = "ඔබේ අත පෙන්වන්න";
 "scan.defaultStatusEnroll" = "ඔබේ පළමු අත පෙන්වන්න";
 "scan.showGesture" = "අභිනය පෙන්වන්න";
 "scan.connectDots" = "ලක්ෂ්‍ය සම්බන්ධ කරන්න";
 "scan.almostDone" = "බොහෝ දුරට සම්පූර්ණයි";
-"scan.livenessThanks" = "සත්‍යාපනය කිරීම ගැන ස්තූතියි";
-"scan.support" = "සහාය";
-"scan.registeringPalms" = "අත්ල ලියාපදිංචි කරමින්";
-"scan.verifyingPalm" = "අත්ල සත්‍යාපනය කරමින්";
+"scan.livenessThanks" = "තහවුරු කිරීම ගැන ස්තූතියි";
+"scan.support" = "උදවු";
 "scan.successTitleVerified" = "සත්‍යාපිතයි";
 "scan.successTitleRegistered" = "අත්ල ලියාපදිංචි විය";
 "scan.successVerified" = "ඔබේ අත්ල සත්‍යාපනය විය.";
@@ -101,7 +98,7 @@
 "email.resendCode" = "කේතය නැවත යවන්න";
 "email.resendInSeconds" = "%@ කින් නැවත යවන්න";
 "email.placeholder" = "ඊමේල් ලිපිනය";
-"consent.tip3" = "ඔබේ අතේ ස්කෑනය ඔබගේ අනන්‍යතාව තහවුරු කිරීමට පමණක් භාවිතා වේ — ඕනෑම වේලාවක ඔබේ දත්ත මකන්න";
+"consent.tip3" = "ඔබේ අතේ ස්කෑනය ඔබ ඔබම බව තහවුරු කිරීමට පමණක් භාවිතා වේ; ඕනෑම වේලාවක ඔබේ දත්ත මකන්න.";
 "switchPalm.scanOtherHand" = "අනෙක් අත ස්කෑන් කරන්න";
 "error.palmLinkedToEmail" = "ඔබේ අත්ල %@ සමඟ සම්බන්ධ වී ඇත";
 
@@ -133,7 +130,7 @@
 "livenessError.captureFailedMessage" = "පරිලෝකනය සම්පූර්ණ කළ නොහැකි විය. නැවත උත්සාහ කරන්න.";
 "livenessError.retry" = "නැවත උත්සාහ කරන්න";
 "livenessError.close" = "වසන්න";
-"consent.tip1" = "අත්ල දෙකම ස්කෑන් කර ගිණුමක් සාදන්න. එක් ස්කෑන් එකකින් නැවත තහවුරු කරන්න";
+"consent.tip1" = "අත්ල දෙකම ස්කෑන් කර ගිණුමක් සාදන්න; එක් ස්කෑන් එකකින් නැවත තහවුරු කරන්න.";
 "error.6001" = "සම්බන්ධ විය නොහැකි විය. ඔබේ අන්තර්ජාල සම්බන්ධතාවය පරීක්ෂා කර නැවත උත්සාහ කරන්න.";
 "error.6002" = "පිළිතුරක් ලබා ගැනීමට ඕනෑවට වඩා කාලය ගතවිය. ඔබේ සම්බන්ධතාවය පරීක්ෂා කර නැවත උත්සාහ කරන්න.";
 "error.6003" = "අපගේ සේවාදායක හඳුනා ගත නොහැක. ඔබේ ජාලය පරීක්ෂා කරන්න හෝ වෙනත් ජාලයකට මාරු වන්න.";
@@ -164,7 +161,7 @@
 "error.title.serverTransient" = "නැවත උත්සාහ කරමු";
 "error.body.serverTransient" = "මෙම ගැටලුව දිගටම පවතී නම්, කරුණාකර සහාය අමතන්න.";
 "error.title.enrollmentMismatch" = "නැවත උත්සාහ කරමු";
-"error.body.enrollmentMismatch" = "අපට අත්ල පරිලෝකන සත්‍යාපනය කළ නොහැකි විය. කරුණාකර වඩා හොඳ ආලෝක තත්ත්වයක් යටතේ නැවත උත්සාහ කරන්න";
+"error.body.enrollmentMismatch" = "අපට අත්ල පරිලෝකන සත්‍යාපනය කළ නොහැකි විය. කරුණාකර වඩා හොඳ ආලෝක තත්ත්වයක් යටතේ නැවත උත්සාහ කරන්න.";
 "error.title.palmTooBlurry" = "අත්ල පරිලෝකනය ඉතා බොඳයි";
 "error.body.palmTooBlurry" = "ඔබේ අත නිශ්චලව තබාගෙන වඩා හොඳ ආලෝකයක නැවත පරිලෝකනය කරන්න.";
 "error.cta.tryAgain" = "නැවත උත්සාහ කරන්න";
@@ -179,8 +176,12 @@
 "email.inlineCodeExpired" = "කේතය කල් ඉකුත් වී ඇත. නව කේතයක් ඉල්ලන්න.";
 "email.inlineCodeRateLimit" = "උත්සාහයන් ඉතා වැඩියි. කරුණාකර නව කේතයක් ඉල්ලන්න.";
 "email.inlineCodeGeneric" = "සත්‍යාපනය අසාර්ථක විය.";
-"consent.getStarted" = "ආරම්භ කරන්න";
-"consent.tip2" = "%@ හට සීමිත [සත්‍යාපන දත්ත] වෙත ප්‍රවේශය ලැබේ";
+"consent.getVerified" = "සත්‍යාපනය වන්න";
+"onboarding.scanRearTitle" = "පසුපස කැමරාවෙන් අත ස්කෑන් කරන්න";
+"onboarding.scanRearCaption" = "මුළු අත්ලම රාමුව තුළ ඇති බව සහතික කරගන්න.";
+"onboarding.connectDotsTitle" = "තිත් දිස්වන විට ඒවා සම්බන්ධ කරන්න";
+"onboarding.connectDotsCaption" = "කැමරාව නිශ්චලව තබාගෙන දීප්තිමත් ආලෝකයේ ස්කෑන් කරන්න.";
+"consent.tip2" = "%@ හට සීමිත [සත්‍යාපන දත්ත] වෙත ප්‍රවේශය ලැබේ.";
 "consent.verifyIdentitySubtitle" = "ඔබ මිනිසෙකු බව තහවුරු කිරීමට %@ VeryAI භාවිතා කරයි.";
 "consent.verifyIdentityTitle" = "අත්ල සත්‍යාපනය සඳහා %@ VeryAI භාවිතා කරයි";
 "error.1001" = "යම් දෝෂයක් සිදු විය. නැවත උත්සාහ කරන්න.";

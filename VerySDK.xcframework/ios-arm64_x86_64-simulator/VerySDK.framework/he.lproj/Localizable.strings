@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "הרחק מעט את ידך";
 "status.rotateHandUpward" = "הטה את ידך לכיוונך";
 "status.rotateHandParallel" = "החזק את ידך ישרה";
-"status.flipHandOver" = "הנח את כף היד מול המצלמה";
+"status.flipHandOver" = "הפוך את היד";
 "status.spreadFingers" = "פתח את ידך לרווחה";
 "status.straightenFingers" = "יישר את אצבעותיך";
 "status.spreadThumb" = "הרחק את האגודל הצידה";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "היד הראשונה הושלמה";
-"switchPalm.proceedToSwitchHand" = "כעת סרוק את ידך השנייה.";
 "switchPalm.scanOtherHand" = "סרוק את היד השנייה";
 
 /* Auth View Controller */
@@ -35,10 +34,14 @@
 /* Consent UI */
 "consent.verifyIdentityTitle" = "%@ משתמשת ב-VeryAI לאימות כף היד";
 "consent.verifyIdentitySubtitle" = "%@ משתמשת ב-VeryAI כדי לוודא שאתה אדם.";
-"consent.tip1" = "צור חשבון על ידי סריקת שתי כפות הידיים. אמת מחדש בסריקה אחת בלבד";
-"consent.tip2" = "ל-%@ תהיה גישה ל[נתוני אימות] מוגבלים";
-"consent.tip3" = "סריקת כף היד משמשת רק לאימות זהותך — מחק את הנתונים שלך בכל עת";
-"consent.getStarted" = "בוא נתחיל";
+"consent.tip1" = "צור חשבון על ידי סריקת שתי כפות הידיים; אמת מחדש בסריקה אחת בלבד.";
+"consent.tip2" = "ל-%@ תהיה גישה ל[נתוני אימות] מוגבלים.";
+"consent.tip3" = "סריקת כף היד משמשת רק לאימות שזה אכן אתה; מחק את הנתונים שלך בכל עת.";
+"consent.getVerified" = "לאימות";
+"onboarding.scanRearTitle" = "סרוק את היד עם המצלמה האחורית";
+"onboarding.scanRearCaption" = "ודא שכל כף היד נמצאת במסגרת.";
+"onboarding.connectDotsTitle" = "חבר את הנקודות כשהן מופיעות";
+"onboarding.connectDotsCaption" = "החזק את המצלמה יציבה וסרוק בתאורה חזקה.";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "הגדר את סריקת כף היד";
@@ -46,30 +49,30 @@
 "workthrough.startVerification" = "התחל אימות";
 
 /* Common UI */
-"common.poweredBy" = "מופעל על ידי";
+"common.poweredByVeryAI" = "מופעל על ידי VeryAI";
 "common.retrying" = "מנסה שוב…";
 "common.done" = "סיום";
 "common.continue" = "המשך";
 "error.palmLinkedToEmail" = "כף ידך מקושרת אל %@";
 
 /* Scan Status */
-"scan.positionLeftHand" = "סרוק את כף יד שמאל";
-"scan.positionLeftHandAgain" = "יפה — המשך כך";
-"scan.positionRightHand" = "סרוק את כף יד ימין";
-"scan.positionRightHandAgain" = "כמעט סיימת — הסריקה האחרונה";
+"scan.positionFirstHandAgain" = "יפה — המשך כך";
+"scan.positionOtherHand" = "הצג את היד השנייה";
+"scan.positionOtherHandAgain" = "כמעט סיימת — הסריקה האחרונה";
 "scan.defaultStatus" = "הצג את ידך";
 "scan.defaultStatusEnroll" = "הצג את היד הראשונה";
 "scan.showGesture" = "הצג את התנועה";
 "scan.connectDots" = "חבר את הנקודות";
 "scan.almostDone" = "כמעט סיימת";
-"scan.livenessThanks" = "תודה על האימות";
-"scan.support" = "תמיכה";
-"scan.registeringPalms" = "רושם כפות ידיים";
-"scan.verifyingPalm" = "מאמת כף יד";
+"scan.livenessThanks" = "תודה על האישור";
+"scan.support" = "עזרה";
 "scan.successTitleVerified" = "אומת";
 "scan.successTitleRegistered" = "כפות הידיים נרשמו";
 "scan.successVerified" = "כף ידך אומתה.";
 "scan.successRegistered" = "כעת תוכל לאמת באמצעות כפות ידיך.";
+"scan.finishingUp" = "מסיים";
+"scan.identityVerified" = "כף היד אומתה";
+"scan.awesome" = "מעולה";
 
 /* Email Verification */
 "email.continueWithEmail" = "הזן את כתובת האימייל שלך";
@@ -171,7 +174,7 @@
 "error.5007" = "תוקף ההפעלה פג, אנא נסה שוב.";
 "error.5008" = "משהו השתבש. אנא פנה לתמיכה.";
 "error.5009" = "משהו השתבש. אנא פנה לתמיכה.";
-"error.5010" = "סקירת החשבון נדחתה לצמיתות.";
+"error.5010" = "סקירת החשבון לא אושרה.";
 "error.5011" = "רישום החשבון עדיין בבדיקה.";
 "error.5012" = "רישום מחדש מותר רק כאשר סטטוס הסקירה הוא נדחה.";
 "error.5013" = "יותר מדי בקשות. אנא נסה שוב מאוחר יותר.";
@@ -218,7 +221,7 @@
 "error.title.serverTransient" = "בוא ננסה שוב";
 "error.body.serverTransient" = "אם הבעיה נמשכת, אנא פנה לתמיכה.";
 "error.title.enrollmentMismatch" = "בוא ננסה שוב";
-"error.body.enrollmentMismatch" = "לא הצלחנו לאמת את סריקות כף היד. אנא נסה שוב בתנאי תאורה טובים יותר";
+"error.body.enrollmentMismatch" = "לא הצלחנו לאמת את סריקות כף היד. אנא נסה שוב בתנאי תאורה טובים יותר.";
 "error.title.palmTooBlurry" = "סריקת כף היד מטושטשת מדי";
 "error.body.palmTooBlurry" = "החזק את היד ללא תנועה וסרוק שוב בתאורה טובה יותר.";
 "error.cta.tryAgain" = "נסה שוב";

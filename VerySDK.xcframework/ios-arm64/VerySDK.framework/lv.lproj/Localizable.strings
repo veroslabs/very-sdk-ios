@@ -10,7 +10,7 @@
 "status.moveHandFarther" = "Pavelciet roku nedaudz atpakaļ";
 "status.rotateHandUpward" = "Sasveriet roku pret sevi";
 "status.rotateHandParallel" = "Turiet roku plakani";
-"status.flipHandOver" = "Novietojiet plaukstu kameras priekšā";
+"status.flipHandOver" = "Apgrieziet roku otrādi";
 "status.spreadFingers" = "Plaši atveriet plaukstu";
 "status.straightenFingers" = "Iztaisnojiet pirkstus";
 "status.spreadThumb" = "Atvirziet īkšķi uz sāniem";
@@ -24,7 +24,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Pirmā roka pabeigta";
-"switchPalm.proceedToSwitchHand" = "Tagad skenējiet savu otru roku.";
 
 
 /* Auth View Controller */
@@ -44,11 +43,11 @@
 "error.5003" = "Lūdzu, mēģiniet vēlreiz.";
 "error.5004" = "Visi verifikācijas mēģinājumi ir izmantoti.";
 "error.5005" = "Neatradām atbilstību. Mēģiniet vēlreiz labākā apgaismojumā vai izmantojiet otru roku.";
-"error.5006" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";
+"error.5006" = "Jūsu sesija ir beigusies. Lūdzu, mēģiniet vēlreiz.";
 "error.5007" = "Jūsu sesija ir beigusies. Lūdzu, mēģiniet vēlreiz.";
 "error.5008" = "Kaut kas nogāja greizi. Lūdzu, sazinieties ar atbalsta dienestu.";
 "error.5009" = "Kaut kas nogāja greizi. Lūdzu, sazinieties ar atbalsta dienestu.";
-"error.5010" = "Konta pārbaude tika neatgriezeniski noraidīta.";
+"error.5010" = "Konta pārbaude netika apstiprināta.";
 "error.5011" = "Konta reģistrācija joprojām tiek pārbaudīta.";
 "error.5012" = "Atkārtota reģistrācija ir atļauta tikai tad, ja pārbaudes statuss ir noraidīts.";
 "error.5013" = "Pārāk daudz pieprasījumu. Lūdzu, mēģiniet vēlreiz vēlāk.";
@@ -66,29 +65,27 @@
 "error.6106" = "Neizdevās ielādēt plaukstas skenēšanas bibliotēku. Pārbaudiet interneta savienojumu un mēģiniet vēlreiz.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Jūsu plauksta ir verificēta.";
-"scan.successRegistered" = "Plaukstas biometrija ir iestatīta.";
+"scan.finishingUp" = "Pabeigšana";
+"scan.identityVerified" = "Plauksta verificēta";
+"scan.awesome" = "Lieliski";
 
 /* Common UI */
-"common.poweredBy" = "Nodrošina";
+"common.poweredByVeryAI" = "Nodrošina VeryAI";
 "common.retrying" = "Mēģinājums atkārtoti…";
 "common.done" = "Gatavs";
 "common.continue" = "Turpināt";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Skenējiet kreiso plaukstu";
-"scan.positionLeftHandAgain" = "Skenējiet kreiso plaukstu vēlreiz";
-"scan.positionRightHand" = "Skenējiet labo plaukstu";
-"scan.positionRightHandAgain" = "Gandrīz gatavs — pēdējā skenēšana";
+"scan.positionFirstHandAgain" = "Labi — turpiniet";
+"scan.positionOtherHand" = "Parādiet otru roku";
+"scan.positionOtherHandAgain" = "Gandrīz gatavs — pēdējā skenēšana";
 "scan.defaultStatus" = "Parādiet savu roku";
 "scan.defaultStatusEnroll" = "Parādiet savu pirmo roku";
 "scan.showGesture" = "Parādiet žestu";
 "scan.connectDots" = "Savienojiet punktus";
 "scan.almostDone" = "Gandrīz gatavs";
-"scan.livenessThanks" = "Paldies par verifikāciju";
-"scan.support" = "Atbalsts";
-"scan.registeringPalms" = "Plaukstu reģistrēšana";
-"scan.verifyingPalm" = "Plaukstas verificēšana";
+"scan.livenessThanks" = "Paldies par apstiprinājumu";
+"scan.support" = "Palīdzība";
 "scan.successTitleVerified" = "Verificēts";
 "scan.successTitleRegistered" = "Plaukstas reģistrētas";
 "scan.successVerified" = "Jūsu plauksta ir verificēta.";
@@ -101,7 +98,7 @@
 "email.resendCode" = "Nosūtīt kodu vēlreiz";
 "email.resendInSeconds" = "Sūtīt atkārtoti pēc %@ s";
 "email.placeholder" = "E-pasta adrese";
-"consent.tip3" = "Jūsu plaukstas skenēšana tiek izmantota tikai jūsu identitātes pārbaudei — dzēsiet savus datus jebkurā laikā";
+"consent.tip3" = "Jūsu plaukstas skenēšana tiek izmantota tikai tam, lai pārbaudītu, ka tas esat jūs; dzēsiet savus datus jebkurā laikā.";
 "switchPalm.scanOtherHand" = "Skenēt otru roku";
 "error.palmLinkedToEmail" = "Jūsu plauksta ir saistīta ar %@";
 
@@ -133,7 +130,7 @@
 "livenessError.captureFailedMessage" = "Neizdevās pabeigt skenēšanu. Lūdzu, mēģiniet vēlreiz.";
 "livenessError.retry" = "Mēģināt vēlreiz";
 "livenessError.close" = "Aizvērt";
-"consent.tip1" = "Izveidojiet kontu, skenējot abas plaukstas. Atkārtota verifikācija tikai ar vienu skenēšanu";
+"consent.tip1" = "Izveidojiet kontu, skenējot abas plaukstas; atkārtota verifikācija tikai ar vienu skenēšanu.";
 "error.6001" = "Neizdevās izveidot savienojumu. Pārbaudiet interneta savienojumu un mēģiniet vēlreiz.";
 "error.6002" = "Atbilde ilga pārāk ilgi. Pārbaudiet savienojumu un mēģiniet vēlreiz.";
 "error.6003" = "Nevar atrast mūsu serverus. Pārbaudiet tīklu vai mēģiniet citu.";
@@ -164,7 +161,7 @@
 "error.title.serverTransient" = "Mēģināsim vēlreiz";
 "error.body.serverTransient" = "Ja problēma turpinās, lūdzu, sazinieties ar atbalsta dienestu.";
 "error.title.enrollmentMismatch" = "Mēģināsim vēlreiz";
-"error.body.enrollmentMismatch" = "Neizdevās verificēt plaukstas skenējumus. Lūdzu, mēģiniet vēlreiz labākos apgaismojuma apstākļos";
+"error.body.enrollmentMismatch" = "Neizdevās verificēt plaukstas skenējumus. Lūdzu, mēģiniet vēlreiz labākos apgaismojuma apstākļos.";
 "error.title.palmTooBlurry" = "Plaukstas skenējums ir pārāk izplūdis";
 "error.body.palmTooBlurry" = "Turiet roku nekustīgi un skenējiet vēlreiz labākā apgaismojumā.";
 "error.cta.tryAgain" = "Mēģināt vēlreiz";
@@ -179,8 +176,12 @@
 "email.inlineCodeExpired" = "Kods ir beidzies. Pieprasiet jaunu kodu.";
 "email.inlineCodeRateLimit" = "Pārāk daudz mēģinājumu. Lūdzu, pieprasiet jaunu kodu.";
 "email.inlineCodeGeneric" = "Verifikācija neizdevās.";
-"consent.getStarted" = "Sākt";
-"consent.tip2" = "%@ būs piekļuve ierobežotiem [verifikācijas datiem]";
+"consent.getVerified" = "Verificēties";
+"onboarding.scanRearTitle" = "Skenējiet roku ar aizmugurējo kameru";
+"onboarding.scanRearCaption" = "Pārliecinieties, ka visa plauksta ir kadrā.";
+"onboarding.connectDotsTitle" = "Savienojiet punktus, tiklīdz tie parādās";
+"onboarding.connectDotsCaption" = "Turiet kameru nekustīgi un skenējiet spilgtā gaismā.";
+"consent.tip2" = "%@ būs piekļuve ierobežotiem [verifikācijas datiem].";
 "consent.verifyIdentitySubtitle" = "%@ izmanto VeryAI, lai apstiprinātu, ka esat cilvēks.";
 "consent.verifyIdentityTitle" = "%@ izmanto VeryAI plaukstas verifikācijai";
 "error.1001" = "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.";

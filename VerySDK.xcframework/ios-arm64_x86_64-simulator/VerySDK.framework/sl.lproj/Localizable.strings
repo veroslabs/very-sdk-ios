@@ -10,7 +10,7 @@
 "status.moveHandFarther" = "Roko premaknite malo nazaj";
 "status.rotateHandUpward" = "Nagnite roko proti sebi";
 "status.rotateHandParallel" = "Držite roko ravno";
-"status.flipHandOver" = "Položite dlan pred kamero";
+"status.flipHandOver" = "Obrnite roko";
 "status.spreadFingers" = "Široko odprite roko";
 "status.straightenFingers" = "Poravnajte prste";
 "status.spreadThumb" = "Palec odmaknite vstran";
@@ -24,7 +24,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Prva roka je končana";
-"switchPalm.proceedToSwitchHand" = "Sedaj skenirajte svojo drugo roko.";
 
 
 /* Auth View Controller */
@@ -44,11 +43,11 @@
 "error.5003" = "Poskusite znova.";
 "error.5004" = "Vsi poskusi preverjanja so bili porabljeni.";
 "error.5005" = "Ujemanja nismo našli. Poskusite znova pri boljši svetlobi ali z drugo roko.";
-"error.5006" = "Prišlo je do napake. Poskusite znova.";
+"error.5006" = "Vaša seja je potekla. Poskusite znova.";
 "error.5007" = "Vaša seja je potekla. Poskusite znova.";
 "error.5008" = "Prišlo je do napake. Obrnite se na podporo.";
 "error.5009" = "Prišlo je do napake. Obrnite se na podporo.";
-"error.5010" = "Pregled računa je bil dokončno zavrnjen.";
+"error.5010" = "Pregled računa ni bil odobren.";
 "error.5011" = "Registracija računa je še v pregledu.";
 "error.5012" = "Ponovna registracija je mogoča le, ko je stanje pregleda zavrnjeno.";
 "error.5013" = "Preveč zahtev. Poskusite znova pozneje.";
@@ -66,29 +65,27 @@
 "error.6106" = "Knjižnice za skeniranje dlani ni bilo mogoče naložiti. Preverite internet in poskusite znova.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Vaša dlan je bila preverjena.";
-"scan.successRegistered" = "Biometrija dlani je bila nastavljena.";
+"scan.finishingUp" = "Zaključevanje";
+"scan.identityVerified" = "Dlan potrjena";
+"scan.awesome" = "Odlično";
 
 /* Common UI */
-"common.poweredBy" = "Poganja";
+"common.poweredByVeryAI" = "Poganja VeryAI";
 "common.retrying" = "Ponoven poskus…";
 "common.done" = "Končano";
 "common.continue" = "Nadaljuj";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Skenirajte levo dlan";
-"scan.positionLeftHandAgain" = "Skenirajte levo dlan znova";
-"scan.positionRightHand" = "Skenirajte desno dlan";
-"scan.positionRightHandAgain" = "Skoraj končano — zadnje skeniranje";
+"scan.positionFirstHandAgain" = "Odlično — nadaljujte";
+"scan.positionOtherHand" = "Pokažite drugo roko";
+"scan.positionOtherHandAgain" = "Skoraj končano — zadnje skeniranje";
 "scan.defaultStatus" = "Pokažite svojo roko";
 "scan.defaultStatusEnroll" = "Pokažite svojo prvo roko";
 "scan.showGesture" = "Pokažite gesto";
 "scan.connectDots" = "Povežite pike";
 "scan.almostDone" = "Skoraj končano";
-"scan.livenessThanks" = "Hvala za preverjanje";
-"scan.support" = "Podpora";
-"scan.registeringPalms" = "Registriranje dlani";
-"scan.verifyingPalm" = "Preverjanje dlani";
+"scan.livenessThanks" = "Hvala za potrditev";
+"scan.support" = "Pomoč";
 "scan.successTitleVerified" = "Preverjeno";
 "scan.successTitleRegistered" = "Dlani registrirane";
 "scan.successVerified" = "Vaša dlan je bila preverjena.";
@@ -101,7 +98,7 @@
 "email.resendCode" = "Znova pošlji kodo";
 "email.resendInSeconds" = "Ponovno pošlji čez %@ s";
 "email.placeholder" = "E-poštni naslov";
-"consent.tip3" = "Skeniranje vaše dlani se uporablja samo za preverjanje vaše identitete — kadarkoli izbrišite svoje podatke";
+"consent.tip3" = "Skeniranje vaše dlani se uporablja samo za preverjanje, da ste to vi; kadarkoli izbrišite svoje podatke.";
 "switchPalm.scanOtherHand" = "Skeniraj drugo roko";
 "error.palmLinkedToEmail" = "Vaša dlan je povezana z %@";
 
@@ -133,7 +130,7 @@
 "livenessError.captureFailedMessage" = "Optičnega branja ni bilo mogoče dokončati. Poskusite znova.";
 "livenessError.retry" = "Poskusi znova";
 "livenessError.close" = "Zapri";
-"consent.tip1" = "Ustvarite račun s skeniranjem obeh dlani. Ponovno preverjanje z enim samim skeniranjem";
+"consent.tip1" = "Ustvarite račun s skeniranjem obeh dlani; ponovno preverjanje z enim samim skeniranjem.";
 "error.6001" = "Povezava ni uspela. Preverite internetno povezavo in poskusite znova.";
 "error.6002" = "Odgovor je trajal predolgo. Preverite povezavo in poskusite znova.";
 "error.6003" = "Naših strežnikov ni mogoče najti. Preverite omrežje ali poskusite drugega.";
@@ -164,7 +161,7 @@
 "error.title.serverTransient" = "Poskusimo znova";
 "error.body.serverTransient" = "Če težava ne izgine, se obrnite na podporo.";
 "error.title.enrollmentMismatch" = "Poskusimo znova";
-"error.body.enrollmentMismatch" = "Skenov dlani ni bilo mogoče preveriti. Poskusite znova pri boljši osvetlitvi";
+"error.body.enrollmentMismatch" = "Skenov dlani ni bilo mogoče preveriti. Poskusite znova pri boljši osvetlitvi.";
 "error.title.palmTooBlurry" = "Skeniranje dlani je premotno";
 "error.body.palmTooBlurry" = "Roko držite pri miru in znova skenirajte pri boljši svetlobi.";
 "error.cta.tryAgain" = "Poskusi znova";
@@ -179,8 +176,12 @@
 "email.inlineCodeExpired" = "Koda je potekla. Zahtevajte novo kodo.";
 "email.inlineCodeRateLimit" = "Preveč poskusov. Zahtevajte novo kodo.";
 "email.inlineCodeGeneric" = "Preverjanje ni uspelo.";
-"consent.getStarted" = "Začni";
-"consent.tip2" = "%@ bo imel dostop do omejenih [podatkov o preverjanju]";
+"consent.getVerified" = "Preverite se";
+"onboarding.scanRearTitle" = "Skenirajte roko z zadnjo kamero";
+"onboarding.scanRearCaption" = "Poskrbite, da je cela dlan v kadru.";
+"onboarding.connectDotsTitle" = "Povežite pike, ko se pojavijo";
+"onboarding.connectDotsCaption" = "Kamero držite pri miru in skenirajte pri močni svetlobi.";
+"consent.tip2" = "%@ bo imel dostop do omejenih [podatkov o preverjanju].";
 "consent.verifyIdentitySubtitle" = "%@ uporablja VeryAI za potrditev, da ste človek.";
 "consent.verifyIdentityTitle" = "%@ uporablja VeryAI za preverjanje dlani";
 "error.1001" = "Nekaj je šlo narobe. Poskusite znova.";

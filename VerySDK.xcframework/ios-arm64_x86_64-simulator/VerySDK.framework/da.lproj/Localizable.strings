@@ -10,7 +10,7 @@
 "status.moveHandFarther" = "Flyt hånden lidt tilbage";
 "status.rotateHandUpward" = "Vip hånden mod dig";
 "status.rotateHandParallel" = "Hold hånden flad";
-"status.flipHandOver" = "Placér håndfladen foran kameraet";
+"status.flipHandOver" = "Vend hånden om";
 "status.spreadFingers" = "Åbn hånden helt";
 "status.straightenFingers" = "Ret fingrene ud";
 "status.spreadThumb" = "Før tommelfingeren ud til siden";
@@ -24,7 +24,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Første hånd fuldført";
-"switchPalm.proceedToSwitchHand" = "Skan nu din anden hånd.";
 
 
 /* Auth View Controller */
@@ -44,11 +43,11 @@
 "error.5003" = "Prøv igen.";
 "error.5004" = "Alle verificeringsforsøg er brugt.";
 "error.5005" = "Vi kunne ikke finde et match. Prøv igen i bedre lys, eller prøv din anden hånd.";
-"error.5006" = "Noget gik galt. Prøv venligst igen.";
+"error.5006" = "Din session er udløbet. Prøv venligst igen.";
 "error.5007" = "Din session er udløbet. Prøv venligst igen.";
 "error.5008" = "Noget gik galt. Kontakt venligst support.";
 "error.5009" = "Noget gik galt. Kontakt venligst support.";
-"error.5010" = "Kontogennemgangen blev permanent afvist.";
+"error.5010" = "Kontogennemgangen blev ikke godkendt.";
 "error.5011" = "Kontoregistreringen er stadig under gennemgang.";
 "error.5012" = "Fornyet registrering er kun tilladt, når gennemgangsstatussen er afvist.";
 "error.5013" = "For mange anmodninger. Prøv igen senere.";
@@ -66,29 +65,27 @@
 "error.6106" = "Biblioteket til håndfladescanning kunne ikke indlæses. Tjek din internetforbindelse, og prøv igen.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Din håndflade er blevet bekræftet.";
-"scan.successRegistered" = "Håndfladebiometri er nu opsat.";
+"scan.finishingUp" = "Afslutter";
+"scan.identityVerified" = "Håndflade bekræftet";
+"scan.awesome" = "Fedt";
 
 /* Common UI */
-"common.poweredBy" = "Leveret af";
+"common.poweredByVeryAI" = "Leveret af VeryAI";
 "common.retrying" = "Prøver igen…";
 "common.done" = "Færdig";
 "common.continue" = "Fortsæt";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Skan venstre håndflade";
-"scan.positionLeftHandAgain" = "Skan venstre håndflade igen";
-"scan.positionRightHand" = "Skan højre håndflade";
-"scan.positionRightHandAgain" = "Næsten færdig — sidste scanning";
+"scan.positionFirstHandAgain" = "Fint — fortsæt";
+"scan.positionOtherHand" = "Vis din anden hånd";
+"scan.positionOtherHandAgain" = "Næsten færdig — sidste scanning";
 "scan.defaultStatus" = "Vis din hånd";
 "scan.defaultStatusEnroll" = "Vis din første hånd";
 "scan.showGesture" = "Vis gestus";
 "scan.connectDots" = "Forbind prikkerne";
 "scan.almostDone" = "Næsten færdig";
-"scan.livenessThanks" = "Tak for verificeringen";
-"scan.support" = "Support";
-"scan.registeringPalms" = "Registrerer håndflader";
-"scan.verifyingPalm" = "Verificerer håndflade";
+"scan.livenessThanks" = "Tak for bekræftelsen";
+"scan.support" = "Hjælp";
 "scan.successTitleVerified" = "Bekræftet";
 "scan.successTitleRegistered" = "Håndflader registreret";
 "scan.successVerified" = "Din håndflade er blevet bekræftet.";
@@ -101,7 +98,7 @@
 "email.resendCode" = "Send kode igen";
 "email.resendInSeconds" = "Send igen om %@ s";
 "email.placeholder" = "E-mailadresse";
-"consent.tip3" = "Dit håndfladeaftryk bruges kun til at bekræfte din identitet — slet dine data når som helst";
+"consent.tip3" = "Dit håndfladeaftryk bruges kun til at bekræfte, at det er dig; slet dine data når som helst.";
 "switchPalm.scanOtherHand" = "Skan anden hånd";
 "error.palmLinkedToEmail" = "Din håndflade er knyttet til %@";
 
@@ -133,7 +130,7 @@
 "livenessError.captureFailedMessage" = "Vi kunne ikke gennemføre scanningen. Prøv igen.";
 "livenessError.retry" = "Prøv igen";
 "livenessError.close" = "Luk";
-"consent.tip1" = "Opret konto ved at scanne begge håndflader. Genbekræft med kun én scanning";
+"consent.tip1" = "Opret konto ved at scanne begge håndflader; genbekræft med kun én scanning.";
 "error.6001" = "Kunne ikke oprette forbindelse. Tjek din internetforbindelse, og prøv igen.";
 "error.6002" = "Det tog for lang tid at få et svar. Tjek din forbindelse, og prøv igen.";
 "error.6003" = "Vores servere kan ikke findes. Tjek dit netværk, eller prøv et andet.";
@@ -164,7 +161,7 @@
 "error.title.serverTransient" = "Lad os prøve igen";
 "error.body.serverTransient" = "Hvis problemet fortsætter, bedes du kontakte support.";
 "error.title.enrollmentMismatch" = "Lad os prøve igen";
-"error.body.enrollmentMismatch" = "Vi kunne ikke verificere håndfladescanningerne. Prøv igen under bedre lysforhold";
+"error.body.enrollmentMismatch" = "Vi kunne ikke verificere håndfladescanningerne. Prøv igen under bedre lysforhold.";
 "error.title.palmTooBlurry" = "Håndfladescanningen er for sløret";
 "error.body.palmTooBlurry" = "Hold hånden stille, og scan igen i bedre lys.";
 "error.cta.tryAgain" = "Prøv igen";
@@ -179,8 +176,12 @@
 "email.inlineCodeExpired" = "Koden er udløbet. Anmod om en ny kode.";
 "email.inlineCodeRateLimit" = "For mange forsøg. Anmod om en ny kode.";
 "email.inlineCodeGeneric" = "Verificeringen mislykkedes.";
-"consent.getStarted" = "Kom i gang";
-"consent.tip2" = "%@ får adgang til begrænsede [verificeringsdata]";
+"consent.getVerified" = "Bliv verificeret";
+"onboarding.scanRearTitle" = "Scan din hånd med bagkameraet";
+"onboarding.scanRearCaption" = "Sørg for, at hele håndfladen er i billedet.";
+"onboarding.connectDotsTitle" = "Forbind prikkerne, når de vises";
+"onboarding.connectDotsCaption" = "Hold kameraet stille, og scan i godt lys.";
+"consent.tip2" = "%@ får adgang til begrænsede [verificeringsdata].";
 "consent.verifyIdentitySubtitle" = "%@ bruger VeryAI til at bekræfte, at du er et menneske.";
 "consent.verifyIdentityTitle" = "%@ bruger VeryAI til håndfladeverificering";
 "error.1001" = "Noget gik galt. Prøv igen.";

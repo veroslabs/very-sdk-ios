@@ -10,7 +10,7 @@
 "status.moveHandFarther" = "Қолыңызды сәл артқа жылжытыңыз";
 "status.rotateHandUpward" = "Қолыңызды өзіңізге қарай еңкейтіңіз";
 "status.rotateHandParallel" = "Қолыңызды тегіс ұстаңыз";
-"status.flipHandOver" = "Алақаныңызды камера алдына қойыңыз";
+"status.flipHandOver" = "Қолыңызды аударыңыз";
 "status.spreadFingers" = "Қолыңызды кең ашыңыз";
 "status.straightenFingers" = "Саусақтарыңызды түзетіңіз";
 "status.spreadThumb" = "Бас бармағыңызды шетке қарай ашыңыз";
@@ -24,7 +24,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Бірінші қол аяқталды";
-"switchPalm.proceedToSwitchHand" = "Енді басқа қолыңызды сканерлеңіз.";
 
 
 /* Auth View Controller */
@@ -44,11 +43,11 @@
 "error.5003" = "Қайталап көріңіз.";
 "error.5004" = "Растаудың барлық әрекеті пайдаланылды.";
 "error.5005" = "Сәйкестік табылмады. Жарығы жақсы жерде қайта көріңіз немесе басқа қолыңызды пайдаланыңыз.";
-"error.5006" = "Бірдеңе дұрыс болмады. Қайталап көріңіз.";
+"error.5006" = "Сеансыңыздың мерзімі аяқталды. Қайталап көріңіз.";
 "error.5007" = "Сеансыңыздың мерзімі аяқталды. Қайталап көріңіз.";
 "error.5008" = "Бірдеңе дұрыс болмады. Қолдау қызметіне хабарласыңыз.";
 "error.5009" = "Бірдеңе дұрыс болмады. Қолдау қызметіне хабарласыңыз.";
-"error.5010" = "Тіркелу біржола қабылданбады.";
+"error.5010" = "Тіркелгіні тексеру мақұлданбады.";
 "error.5011" = "Тіркелу әлі қарастырылуда.";
 "error.5012" = "Қайта тіркелуге тек қарастыру мәртебесі қабылданбаған кезде ғана рұқсат етіледі.";
 "error.5013" = "Тым көп сұрау. Кейінірек қайталап көріңіз.";
@@ -66,29 +65,27 @@
 "error.6106" = "Алақанды сканерлеу кітапханасын жүктеу мүмкін болмады. Интернетті тексеріп, қайта көріңіз.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Алақаныңыз расталды.";
-"scan.successRegistered" = "Алақан биометриясы орнатылды.";
+"scan.finishingUp" = "Аяқталуда";
+"scan.identityVerified" = "Алақан расталды";
+"scan.awesome" = "Керемет";
 
 /* Common UI */
-"common.poweredBy" = "Қолдаушысы";
+"common.poweredByVeryAI" = "VeryAI қолдауымен";
 "common.retrying" = "Қайта әрекет жасалуда…";
 "common.done" = "Дайын";
 "common.continue" = "Жалғастыру";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Сол алақанды сканерлеңіз";
-"scan.positionLeftHandAgain" = "Сол алақанды қайта сканерлеңіз";
-"scan.positionRightHand" = "Оң алақанды сканерлеңіз";
-"scan.positionRightHandAgain" = "Дерлік дайын — соңғы сканерлеу";
+"scan.positionFirstHandAgain" = "Жақсы — жалғастырыңыз";
+"scan.positionOtherHand" = "Басқа қолыңызды көрсетіңіз";
+"scan.positionOtherHandAgain" = "Дерлік дайын — соңғы сканерлеу";
 "scan.defaultStatus" = "Қолыңызды көрсетіңіз";
 "scan.defaultStatusEnroll" = "Бірінші қолыңызды көрсетіңіз";
 "scan.showGesture" = "Қимылды көрсетіңіз";
 "scan.connectDots" = "Нүктелерді қосыңыз";
 "scan.almostDone" = "Аяқталуға жақын";
 "scan.livenessThanks" = "Растағаныңызға рахмет";
-"scan.support" = "Қолдау";
-"scan.registeringPalms" = "Алақандар тіркелуде";
-"scan.verifyingPalm" = "Алақан расталуда";
+"scan.support" = "Көмек";
 "scan.successTitleVerified" = "Расталды";
 "scan.successTitleRegistered" = "Алақандар тіркелді";
 "scan.successVerified" = "Алақаныңыз расталды.";
@@ -101,7 +98,7 @@
 "email.resendCode" = "Кодты қайта жіберу";
 "email.resendInSeconds" = "%@ с кейін қайта жіберу";
 "email.placeholder" = "Электрондық пошта мекенжайы";
-"consent.tip3" = "Алақан сканері тек жеке басыңызды растау үшін пайдаланылады — деректеріңізді кез келген уақытта жойыңыз";
+"consent.tip3" = "Алақан сканері тек сіздің өзіңіз екеніңізді растау үшін пайдаланылады; деректеріңізді кез келген уақытта жойыңыз.";
 "switchPalm.scanOtherHand" = "Басқа қолды сканерлеңіз";
 "error.palmLinkedToEmail" = "Алақаныңыз %@-мен байланысты";
 
@@ -133,7 +130,7 @@
 "livenessError.captureFailedMessage" = "Сканерлеуді аяқтай алмадық. Қайталап көріңіз.";
 "livenessError.retry" = "Қайта көру";
 "livenessError.close" = "Жабу";
-"consent.tip1" = "Екі алақанды сканерлеп тіркелгі жасаңыз. Тек бір сканерлеумен қайта растаңыз";
+"consent.tip1" = "Екі алақанды сканерлеп тіркелгі жасаңыз; тек бір сканерлеумен қайта растаңыз.";
 "error.6001" = "Қосылу мүмкін болмады. Интернет байланысын тексеріп, қайталап көріңіз.";
 "error.6002" = "Жауап алу ұзақ уақытты қажет етті. Байланысты тексеріп, қайталап көріңіз.";
 "error.6003" = "Серверлерімізді анықтау мүмкін емес. Желіні тексеріңіз немесе басқа желіге қосылыңыз.";
@@ -164,7 +161,7 @@
 "error.title.serverTransient" = "Қайта көрейік";
 "error.body.serverTransient" = "Егер бұл мәселе жалғаса берсе, қолдау қызметіне хабарласыңыз.";
 "error.title.enrollmentMismatch" = "Қайта көрейік";
-"error.body.enrollmentMismatch" = "Алақан сканерлерін растай алмадық. Жарығы жақсырақ жағдайда қайталап көріңіз";
+"error.body.enrollmentMismatch" = "Алақан сканерлерін растай алмадық. Жарығы жақсырақ жағдайда қайталап көріңіз.";
 "error.title.palmTooBlurry" = "Алақан сканері тым бұлыңғыр";
 "error.body.palmTooBlurry" = "Қолыңызды қозғалтпай, жақсырақ жарықта қайта сканерлеңіз.";
 "error.cta.tryAgain" = "Қайталап көру";
@@ -179,8 +176,12 @@
 "email.inlineCodeExpired" = "Кодтың мерзімі бітті. Жаңа код сұраңыз.";
 "email.inlineCodeRateLimit" = "Тым көп әрекет. Жаңа код сұраңыз.";
 "email.inlineCodeGeneric" = "Растау сәтсіз аяқталды.";
-"consent.getStarted" = "Бастау";
-"consent.tip2" = "%@ шектеулі [растау деректеріне] қол жеткізе алады";
+"consent.getVerified" = "Тексеруден өту";
+"onboarding.scanRearTitle" = "Қолыңызды артқы камерамен сканерлеңіз";
+"onboarding.scanRearCaption" = "Алақаныңыз түгел кадрда болуын қадағалаңыз.";
+"onboarding.connectDotsTitle" = "Нүктелер пайда болғанда оларды қосыңыз";
+"onboarding.connectDotsCaption" = "Камераны қозғалтпай, жарық жерде сканерлеңіз.";
+"consent.tip2" = "%@ шектеулі [растау деректеріне] қол жеткізе алады.";
 "consent.verifyIdentitySubtitle" = "%@ сіздің адам екеніңізді растау үшін VeryAI қолданады.";
 "consent.verifyIdentityTitle" = "%@ алақан арқылы растау үшін VeryAI қолданады";
 "error.1001" = "Бірдеңе дұрыс болмады. Қайталап көріңіз.";

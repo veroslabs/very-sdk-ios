@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "Beweeg uw hand iets terug";
 "status.rotateHandUpward" = "Kantel uw hand naar u toe";
 "status.rotateHandParallel" = "Houd uw hand vlak";
-"status.flipHandOver" = "Plaats uw handpalm voor de camera";
+"status.flipHandOver" = "Draai uw hand om";
 "status.spreadFingers" = "Open uw hand wijd";
 "status.straightenFingers" = "Strek uw vingers";
 "status.spreadThumb" = "Beweeg uw duim naar de zijkant";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Eerste hand voltooid";
-"switchPalm.proceedToSwitchHand" = "Scan nu uw andere hand.";
 
 /* Auth View Controller */
 "auth.cancel" = "Annuleren";
@@ -42,11 +41,11 @@
 "error.5003" = "Probeer het opnieuw.";
 "error.5004" = "Alle verificatiepogingen zijn gebruikt.";
 "error.5005" = "We hebben geen overeenkomst gevonden. Probeer het opnieuw bij beter licht of met uw andere hand.";
-"error.5006" = "Er is iets misgegaan. Probeer het opnieuw.";
+"error.5006" = "Uw sessie is verlopen. Probeer het opnieuw.";
 "error.5007" = "Uw sessie is verlopen. Probeer het opnieuw.";
 "error.5008" = "Er is iets misgegaan. Neem contact op met ondersteuning.";
 "error.5009" = "Er is iets misgegaan. Neem contact op met ondersteuning.";
-"error.5010" = "De accountbeoordeling is definitief afgewezen.";
+"error.5010" = "De accountbeoordeling is niet goedgekeurd.";
 "error.5011" = "De accountregistratie wordt nog beoordeeld.";
 "error.5012" = "Opnieuw registreren is alleen toegestaan wanneer de beoordelingsstatus afgewezen is.";
 "error.5013" = "Te veel verzoeken. Probeer het later opnieuw.";
@@ -64,29 +63,27 @@
 "error.6106" = "Kan de bibliotheek voor handpalmscans niet laden. Controleer je internetverbinding en probeer het opnieuw.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Uw handpalm is geverifieerd.";
-"scan.successRegistered" = "Handpalmbiometrie is nu ingesteld.";
+"scan.finishingUp" = "Afronden";
+"scan.identityVerified" = "Handpalm geverifieerd";
+"scan.awesome" = "Geweldig";
 
 /* Common UI */
-"common.poweredBy" = "Mogelijk gemaakt door";
+"common.poweredByVeryAI" = "Mogelijk gemaakt door VeryAI";
 "common.retrying" = "Opnieuw proberen…";
 "common.done" = "Klaar";
 "common.continue" = "Doorgaan";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Scan linkerhandpalm";
-"scan.positionLeftHandAgain" = "Scan linkerhandpalm opnieuw";
-"scan.positionRightHand" = "Scan rechterhandpalm";
-"scan.positionRightHandAgain" = "Bijna klaar — laatste scan";
+"scan.positionFirstHandAgain" = "Goed zo — ga door";
+"scan.positionOtherHand" = "Toon uw andere hand";
+"scan.positionOtherHandAgain" = "Bijna klaar — laatste scan";
 "scan.defaultStatus" = "Toon uw hand";
 "scan.defaultStatusEnroll" = "Toon uw eerste hand";
 "scan.showGesture" = "Toon gebaar";
 "scan.connectDots" = "Verbind de punten";
 "scan.almostDone" = "Bijna klaar";
-"scan.livenessThanks" = "Bedankt voor het verifiëren";
-"scan.support" = "Support";
-"scan.registeringPalms" = "Handpalmen registreren";
-"scan.verifyingPalm" = "Handpalm verifiëren";
+"scan.livenessThanks" = "Bedankt voor het bevestigen";
+"scan.support" = "Help";
 "scan.successTitleVerified" = "Geverifieerd";
 "scan.successTitleRegistered" = "Handpalmen geregistreerd";
 "scan.successVerified" = "Uw handpalm is geverifieerd.";
@@ -99,7 +96,7 @@
 "email.resendCode" = "Code opnieuw verzenden";
 "email.resendInSeconds" = "Opnieuw verzenden over %@ s";
 "email.placeholder" = "E-mailadres";
-"consent.tip3" = "Uw handscan wordt alleen gebruikt om uw identiteit te verifiëren — verwijder uw gegevens op elk gewenst moment";
+"consent.tip3" = "Uw handscan wordt alleen gebruikt om te verifiëren dat u het bent; verwijder uw gegevens op elk gewenst moment.";
 "switchPalm.scanOtherHand" = "Andere hand scannen";
 "error.palmLinkedToEmail" = "Uw handpalm is gekoppeld aan %@";
 
@@ -131,7 +128,7 @@
 "livenessError.captureFailedMessage" = "We konden de scan niet voltooien. Probeer het opnieuw.";
 "livenessError.retry" = "Opnieuw proberen";
 "livenessError.close" = "Sluiten";
-"consent.tip1" = "Maak een account aan door beide handpalmen te scannen. Herverifieer met slechts één scan";
+"consent.tip1" = "Maak een account aan door beide handpalmen te scannen; herverifieer met slechts één scan.";
 "error.6001" = "Kan geen verbinding maken. Controleer je internetverbinding en probeer het opnieuw.";
 "error.6002" = "Het duurde te lang om een reactie te krijgen. Controleer je verbinding en probeer het opnieuw.";
 "error.6003" = "Kan onze servers niet vinden. Controleer je netwerk of probeer een ander netwerk.";
@@ -162,7 +159,7 @@
 "error.title.serverTransient" = "Laten we het opnieuw proberen";
 "error.body.serverTransient" = "Als dit probleem aanhoudt, neem dan contact op met support.";
 "error.title.enrollmentMismatch" = "Laten we het opnieuw proberen";
-"error.body.enrollmentMismatch" = "We konden de handpalmscans niet verifiëren. Probeer het opnieuw bij betere lichtomstandigheden";
+"error.body.enrollmentMismatch" = "We konden de handpalmscans niet verifiëren. Probeer het opnieuw bij betere lichtomstandigheden.";
 "error.title.palmTooBlurry" = "Handpalmscan te wazig";
 "error.body.palmTooBlurry" = "Houd je hand stil en scan opnieuw bij beter licht.";
 "error.cta.tryAgain" = "Opnieuw proberen";
@@ -177,8 +174,12 @@
 "email.inlineCodeExpired" = "De code is verlopen. Vraag een nieuwe code aan.";
 "email.inlineCodeRateLimit" = "Te veel pogingen. Vraag een nieuwe code aan.";
 "email.inlineCodeGeneric" = "Verificatie mislukt.";
-"consent.getStarted" = "Aan de slag";
-"consent.tip2" = "%@ krijgt toegang tot beperkte [verificatiegegevens]";
+"consent.getVerified" = "Verifiëren";
+"onboarding.scanRearTitle" = "Scan uw hand met de achtercamera";
+"onboarding.scanRearCaption" = "Zorg dat uw hele handpalm in het kader staat.";
+"onboarding.connectDotsTitle" = "Verbind de stippen zodra ze verschijnen";
+"onboarding.connectDotsCaption" = "Houd uw camera stil en scan bij helder licht.";
+"consent.tip2" = "%@ krijgt toegang tot beperkte [verificatiegegevens].";
 "consent.verifyIdentitySubtitle" = "%@ gebruikt VeryAI om te bevestigen dat je een mens bent.";
 "consent.verifyIdentityTitle" = "%@ gebruikt VeryAI voor handpalmverificatie";
 "error.1001" = "Er is iets misgegaan. Probeer het opnieuw.";

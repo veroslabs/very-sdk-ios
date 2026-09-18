@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "আপনার হাত একটু পিছনে সরান";
 "status.rotateHandUpward" = "আপনার হাত নিজের দিকে হেলান";
 "status.rotateHandParallel" = "আপনার হাত সমান রাখুন";
-"status.flipHandOver" = "ক্যামেরার সামনে হাতের তালু রাখুন";
+"status.flipHandOver" = "হাত উল্টে ধরুন";
 "status.spreadFingers" = "আপনার হাত বড় করে খুলুন";
 "status.straightenFingers" = "আপনার আঙুলগুলো সোজা করুন";
 "status.spreadThumb" = "আপনার বুড়ো আঙুল পাশে সরান";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "প্রথম হাত সম্পন্ন";
-"switchPalm.proceedToSwitchHand" = "এখন আপনার অন্য হাত স্ক্যান করুন।";
 "switchPalm.scanOtherHand" = "অন্য হাত স্ক্যান করুন";
 
 /* Auth View Controller */
@@ -35,10 +34,14 @@
 /* Consent UI */
 "consent.verifyIdentityTitle" = "হাতের তালু যাচাইয়ের জন্য %@ VeryAI ব্যবহার করে";
 "consent.verifyIdentitySubtitle" = "আপনি মানুষ কিনা তা নিশ্চিত করতে %@ VeryAI ব্যবহার করে।";
-"consent.tip1" = "দুই হাতের তালু স্ক্যান করে অ্যাকাউন্ট তৈরি করুন। পরে শুধু একবার স্ক্যান করেই যাচাই করুন";
-"consent.tip2" = "%@ সীমিত [যাচাইকরণ তথ্য] অ্যাক্সেস করতে পারবে";
-"consent.tip3" = "আপনার হাতের তালুর স্ক্যান শুধুমাত্র পরিচয় যাচাইয়ের জন্য ব্যবহার করা হয় — যেকোনো সময় আপনার তথ্য মুছে ফেলুন";
-"consent.getStarted" = "শুরু করুন";
+"consent.tip1" = "দুই হাতের তালু স্ক্যান করে অ্যাকাউন্ট তৈরি করুন; পরে শুধু একবার স্ক্যান করেই যাচাই করুন।";
+"consent.tip2" = "%@ সীমিত [যাচাইকরণ তথ্য] অ্যাক্সেস করতে পারবে।";
+"consent.tip3" = "আপনার হাতের তালুর স্ক্যান শুধুমাত্র এটি আপনিই কিনা তা যাচাই করতে ব্যবহার করা হয়; যেকোনো সময় আপনার তথ্য মুছে ফেলুন।";
+"consent.getVerified" = "যাচাই করুন";
+"onboarding.scanRearTitle" = "পেছনের ক্যামেরা দিয়ে হাত স্ক্যান করুন";
+"onboarding.scanRearCaption" = "আপনার পুরো তালু ফ্রেমে আছে কিনা নিশ্চিত করুন।";
+"onboarding.connectDotsTitle" = "বিন্দুগুলো দেখা মাত্র সংযুক্ত করুন";
+"onboarding.connectDotsCaption" = "ক্যামেরা স্থির রাখুন এবং উজ্জ্বল আলোতে স্ক্যান করুন।";
 
 /* WorkThrough View Controller */
 "workthrough.title" = "আপনার হাতের তালুর স্ক্যান সেট আপ করুন";
@@ -46,30 +49,30 @@
 "workthrough.startVerification" = "যাচাই শুরু করুন";
 
 /* Common UI */
-"common.poweredBy" = "পরিচালনায়";
+"common.poweredByVeryAI" = "পরিচালনায় VeryAI";
 "common.retrying" = "আবার চেষ্টা করা হচ্ছে…";
 "common.done" = "সম্পন্ন";
 "common.continue" = "চালিয়ে যান";
 "error.palmLinkedToEmail" = "আপনার হাতের তালু %@-এর সাথে সংযুক্ত";
 
 /* Scan Status */
-"scan.positionLeftHand" = "বাঁ হাতের তালু স্ক্যান করুন";
-"scan.positionLeftHandAgain" = "দারুণ — চালিয়ে যান";
-"scan.positionRightHand" = "ডান হাতের তালু স্ক্যান করুন";
-"scan.positionRightHandAgain" = "প্রায় শেষ — শেষ স্ক্যান";
+"scan.positionFirstHandAgain" = "দারুণ — চালিয়ে যান";
+"scan.positionOtherHand" = "আপনার অন্য হাত দেখান";
+"scan.positionOtherHandAgain" = "প্রায় শেষ — শেষ স্ক্যান";
 "scan.defaultStatus" = "আপনার হাত দেখান";
 "scan.defaultStatusEnroll" = "আপনার প্রথম হাত দেখান";
 "scan.showGesture" = "ভঙ্গি দেখান";
 "scan.connectDots" = "বিন্দুগুলো সংযুক্ত করুন";
 "scan.almostDone" = "প্রায় শেষ";
-"scan.livenessThanks" = "যাচাই করার জন্য ধন্যবাদ";
-"scan.support" = "সহায়তা";
-"scan.registeringPalms" = "হাতের তালু নিবন্ধন করা হচ্ছে";
-"scan.verifyingPalm" = "হাতের তালু যাচাই করা হচ্ছে";
+"scan.livenessThanks" = "নিশ্চিত করার জন্য ধন্যবাদ";
+"scan.support" = "সাহায্য";
 "scan.successTitleVerified" = "যাচাই হয়েছে";
 "scan.successTitleRegistered" = "হাতের তালু নিবন্ধিত হয়েছে";
 "scan.successVerified" = "আপনার হাতের তালু যাচাই করা হয়েছে।";
 "scan.successRegistered" = "এখন আপনি আপনার হাতের তালু দিয়ে যাচাই করতে পারবেন।";
+"scan.finishingUp" = "শেষ করা হচ্ছে";
+"scan.identityVerified" = "হাতের তালু যাচাই হয়েছে";
+"scan.awesome" = "দারুণ";
 
 /* Email Verification */
 "email.continueWithEmail" = "আপনার ইমেল লিখুন";
@@ -171,7 +174,7 @@
 "error.5007" = "সেশনের সময় শেষ হয়েছে, আবার চেষ্টা করুন।";
 "error.5008" = "কিছু ভুল হয়েছে। সহায়তার সাথে যোগাযোগ করুন।";
 "error.5009" = "কিছু ভুল হয়েছে। সহায়তার সাথে যোগাযোগ করুন।";
-"error.5010" = "অ্যাকাউন্ট পর্যালোচনা স্থায়ীভাবে প্রত্যাখ্যান করা হয়েছে।";
+"error.5010" = "অ্যাকাউন্ট পর্যালোচনা অনুমোদিত হয়নি।";
 "error.5011" = "অ্যাকাউন্ট নিবন্ধন এখনও পর্যালোচনাধীন।";
 "error.5012" = "পর্যালোচনার স্থিতি প্রত্যাখ্যাত হলেই কেবল পুনরায় নিবন্ধন করা যায়।";
 "error.5013" = "অনেক বেশি অনুরোধ। পরে আবার চেষ্টা করুন।";
@@ -218,7 +221,7 @@
 "error.title.serverTransient" = "আবার চেষ্টা করি";
 "error.body.serverTransient" = "এই সমস্যা চলতে থাকলে সহায়তার সাথে যোগাযোগ করুন।";
 "error.title.enrollmentMismatch" = "আবার চেষ্টা করি";
-"error.body.enrollmentMismatch" = "আমরা হাতের তালুর স্ক্যানগুলো যাচাই করতে পারিনি। ভালো আলোয় আবার চেষ্টা করুন";
+"error.body.enrollmentMismatch" = "আমরা হাতের তালুর স্ক্যানগুলো যাচাই করতে পারিনি। ভালো আলোয় আবার চেষ্টা করুন।";
 "error.title.palmTooBlurry" = "হাতের তালুর স্ক্যান খুব ঝাপসা";
 "error.body.palmTooBlurry" = "আপনার হাত স্থির রাখুন এবং ভালো আলোয় আবার স্ক্যান করুন।";
 "error.cta.tryAgain" = "আবার চেষ্টা করুন";

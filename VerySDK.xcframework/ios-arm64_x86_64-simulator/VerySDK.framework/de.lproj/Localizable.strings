@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "Bewegen Sie die Hand etwas zurück";
 "status.rotateHandUpward" = "Neigen Sie die Hand zu sich";
 "status.rotateHandParallel" = "Halten Sie die Hand flach";
-"status.flipHandOver" = "Halten Sie die Handfläche vor die Kamera";
+"status.flipHandOver" = "Drehen Sie die Hand um";
 "status.spreadFingers" = "Öffnen Sie die Hand weit";
 "status.straightenFingers" = "Strecken Sie die Finger";
 "status.spreadThumb" = "Bewegen Sie den Daumen zur Seite";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Erste Hand abgeschlossen";
-"switchPalm.proceedToSwitchHand" = "Scannen Sie jetzt Ihre andere Hand.";
 
 /* Auth View Controller */
 "auth.cancel" = "Abbrechen";
@@ -42,11 +41,11 @@
 "error.5003" = "Bitte versuchen Sie es erneut.";
 "error.5004" = "Alle Verifizierungsversuche wurden aufgebraucht.";
 "error.5005" = "Keine Übereinstimmung gefunden. Versuchen Sie es bei besserem Licht erneut oder mit der anderen Hand.";
-"error.5006" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";
+"error.5006" = "Ihre Sitzung ist abgelaufen. Bitte versuchen Sie es erneut.";
 "error.5007" = "Ihre Sitzung ist abgelaufen. Bitte versuchen Sie es erneut.";
 "error.5008" = "Etwas ist schiefgelaufen. Bitte kontaktieren Sie den Support.";
 "error.5009" = "Etwas ist schiefgelaufen. Bitte kontaktieren Sie den Support.";
-"error.5010" = "Die Kontoprüfung wurde endgültig abgelehnt.";
+"error.5010" = "Die Kontoprüfung wurde nicht genehmigt.";
 "error.5011" = "Die Kontoregistrierung wird noch geprüft.";
 "error.5012" = "Eine erneute Registrierung ist nur möglich, wenn der Prüfstatus „abgelehnt“ ist.";
 "error.5013" = "Zu viele Anfragen. Bitte versuchen Sie es später erneut.";
@@ -64,29 +63,27 @@
 "error.6106" = "Die Handflächen-Scan-Bibliothek konnte nicht geladen werden. Prüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Ihre Handfläche wurde verifiziert.";
-"scan.successRegistered" = "Die Handflächenbiometrie wurde eingerichtet.";
+"scan.finishingUp" = "Wird abgeschlossen";
+"scan.identityVerified" = "Handfläche verifiziert";
+"scan.awesome" = "Super";
 
 /* Common UI */
-"common.poweredBy" = "Bereitgestellt von";
+"common.poweredByVeryAI" = "Bereitgestellt von VeryAI";
 "common.retrying" = "Erneuter Versuch…";
 "common.done" = "Fertig";
 "common.continue" = "Weiter";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Linke Handfläche scannen";
-"scan.positionLeftHandAgain" = "Linke Handfläche erneut scannen";
-"scan.positionRightHand" = "Rechte Handfläche scannen";
-"scan.positionRightHandAgain" = "Fast geschafft – letzter Scan";
+"scan.positionFirstHandAgain" = "Gut so – weiter";
+"scan.positionOtherHand" = "Zeigen Sie Ihre andere Hand";
+"scan.positionOtherHandAgain" = "Fast geschafft – letzter Scan";
 "scan.defaultStatus" = "Zeigen Sie Ihre Hand";
 "scan.defaultStatusEnroll" = "Zeigen Sie Ihre erste Hand";
 "scan.showGesture" = "Geste zeigen";
 "scan.connectDots" = "Punkte verbinden";
 "scan.almostDone" = "Fast fertig";
-"scan.livenessThanks" = "Danke für die Verifizierung";
-"scan.support" = "Support";
-"scan.registeringPalms" = "Handflächen werden registriert";
-"scan.verifyingPalm" = "Handfläche wird verifiziert";
+"scan.livenessThanks" = "Danke für die Bestätigung";
+"scan.support" = "Hilfe";
 "scan.successTitleVerified" = "Verifiziert";
 "scan.successTitleRegistered" = "Handflächen registriert";
 "scan.successVerified" = "Ihre Handfläche wurde verifiziert.";
@@ -99,7 +96,7 @@
 "email.resendCode" = "Code erneut senden";
 "email.resendInSeconds" = "Erneut senden in %@ s";
 "email.placeholder" = "E-Mail-Adresse";
-"consent.tip3" = "Ihr Handflächen-Scan dient nur zur Bestätigung Ihrer Identität — löschen Sie Ihre Daten jederzeit";
+"consent.tip3" = "Ihr Handflächen-Scan dient nur der Bestätigung, dass es wirklich Sie sind; löschen Sie Ihre Daten jederzeit.";
 "switchPalm.scanOtherHand" = "Andere Hand scannen";
 "error.palmLinkedToEmail" = "Ihre Handfläche ist mit %@ verknüpft";
 
@@ -131,7 +128,7 @@
 "livenessError.captureFailedMessage" = "Der Scan konnte nicht abgeschlossen werden. Bitte versuchen Sie es erneut.";
 "livenessError.retry" = "Erneut versuchen";
 "livenessError.close" = "Schließen";
-"consent.tip1" = "Erstellen Sie ein Konto durch Scannen beider Handflächen. Erneute Verifizierung mit nur einem Scan";
+"consent.tip1" = "Erstellen Sie ein Konto durch Scannen beider Handflächen; erneute Verifizierung mit nur einem Scan.";
 "error.6001" = "Verbindung fehlgeschlagen. Überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.";
 "error.6002" = "Die Antwort hat zu lange gedauert. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.";
 "error.6003" = "Unsere Server können nicht aufgelöst werden. Überprüfen Sie Ihr Netzwerk oder wechseln Sie zu einem anderen.";
@@ -162,7 +159,7 @@
 "error.title.serverTransient" = "Versuchen wir es noch einmal";
 "error.body.serverTransient" = "Wenn das Problem weiterhin besteht, wenden Sie sich bitte an den Support.";
 "error.title.enrollmentMismatch" = "Versuchen wir es noch einmal";
-"error.body.enrollmentMismatch" = "Wir konnten die Handflächen-Scans nicht verifizieren. Bitte versuchen Sie es bei besseren Lichtverhältnissen erneut";
+"error.body.enrollmentMismatch" = "Wir konnten die Handflächen-Scans nicht verifizieren. Bitte versuchen Sie es bei besseren Lichtverhältnissen erneut.";
 "error.title.palmTooBlurry" = "Handflächen-Scan zu unscharf";
 "error.body.palmTooBlurry" = "Halte deine Hand ruhig und scanne bei besserem Licht erneut.";
 "error.cta.tryAgain" = "Erneut versuchen";
@@ -177,8 +174,12 @@
 "email.inlineCodeExpired" = "Der Code ist abgelaufen. Fordern Sie einen neuen Code an.";
 "email.inlineCodeRateLimit" = "Zu viele Versuche. Bitte fordern Sie einen neuen Code an.";
 "email.inlineCodeGeneric" = "Verifizierung fehlgeschlagen.";
-"consent.getStarted" = "Loslegen";
-"consent.tip2" = "%@ erhält Zugriff auf begrenzte [Verifizierungsdaten]";
+"consent.getVerified" = "Jetzt verifizieren";
+"onboarding.scanRearTitle" = "Scannen Sie Ihre Hand mit der Rückkamera";
+"onboarding.scanRearCaption" = "Achten Sie darauf, dass die ganze Handfläche im Bild ist.";
+"onboarding.connectDotsTitle" = "Verbinden Sie die Punkte, sobald sie erscheinen";
+"onboarding.connectDotsCaption" = "Halten Sie die Kamera still und scannen Sie bei hellem Licht.";
+"consent.tip2" = "%@ erhält Zugriff auf begrenzte [Verifizierungsdaten].";
 "consent.verifyIdentitySubtitle" = "%@ nutzt VeryAI, um zu bestätigen, dass Sie ein Mensch sind.";
 "consent.verifyIdentityTitle" = "%@ nutzt VeryAI zur Handflächenverifizierung";
 "error.1001" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.";

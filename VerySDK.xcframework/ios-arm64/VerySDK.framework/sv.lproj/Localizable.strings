@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "Flytta handen lite tillbaka";
 "status.rotateHandUpward" = "Luta handen mot dig";
 "status.rotateHandParallel" = "Håll handen platt";
-"status.flipHandOver" = "Placera handflatan framför kameran";
+"status.flipHandOver" = "Vänd på handen";
 "status.spreadFingers" = "Öppna handen ordentligt";
 "status.straightenFingers" = "Sträck fingrarna";
 "status.spreadThumb" = "Flytta tummen åt sidan";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Första handen slutförd";
-"switchPalm.proceedToSwitchHand" = "Skanna nu din andra hand.";
 
 /* Auth View Controller */
 "auth.cancel" = "Avbryt";
@@ -42,11 +41,11 @@
 "error.5003" = "Försök igen.";
 "error.5004" = "Alla verifieringsförsök har använts.";
 "error.5005" = "Vi hittade ingen matchning. Försök igen i bättre ljus eller med din andra hand.";
-"error.5006" = "Något gick fel. Försök igen.";
+"error.5006" = "Din session har löpt ut. Försök igen.";
 "error.5007" = "Din session har löpt ut. Försök igen.";
 "error.5008" = "Något gick fel. Kontakta supporten.";
 "error.5009" = "Något gick fel. Kontakta supporten.";
-"error.5010" = "Kontogranskningen avvisades permanent.";
+"error.5010" = "Kontogranskningen godkändes inte.";
 "error.5011" = "Kontoregistreringen granskas fortfarande.";
 "error.5012" = "Omregistrering tillåts endast när granskningsstatusen är avvisad.";
 "error.5013" = "För många förfrågningar. Försök igen senare.";
@@ -64,29 +63,27 @@
 "error.6106" = "Det gick inte att läsa in biblioteket för handflatsskanning. Kontrollera din internetanslutning och försök igen.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Din handflata har verifierats.";
-"scan.successRegistered" = "Handflatebiometri har nu ställts in.";
+"scan.finishingUp" = "Slutför";
+"scan.identityVerified" = "Handflata verifierad";
+"scan.awesome" = "Toppen";
 
 /* Common UI */
-"common.poweredBy" = "Drivs av";
+"common.poweredByVeryAI" = "Drivs av VeryAI";
 "common.retrying" = "Försöker igen…";
 "common.done" = "Klar";
 "common.continue" = "Fortsätt";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Skanna vänster handflata";
-"scan.positionLeftHandAgain" = "Skanna vänster handflata igen";
-"scan.positionRightHand" = "Skanna höger handflata";
-"scan.positionRightHandAgain" = "Nästan klart — sista skanningen";
+"scan.positionFirstHandAgain" = "Bra — fortsätt";
+"scan.positionOtherHand" = "Visa din andra hand";
+"scan.positionOtherHandAgain" = "Nästan klart — sista skanningen";
 "scan.defaultStatus" = "Visa din hand";
 "scan.defaultStatusEnroll" = "Visa din första hand";
 "scan.showGesture" = "Visa gest";
 "scan.connectDots" = "Koppla ihop punkterna";
 "scan.almostDone" = "Nästan klart";
-"scan.livenessThanks" = "Tack för verifieringen";
-"scan.support" = "Support";
-"scan.registeringPalms" = "Registrerar handflator";
-"scan.verifyingPalm" = "Verifierar handflata";
+"scan.livenessThanks" = "Tack för bekräftelsen";
+"scan.support" = "Hjälp";
 "scan.successTitleVerified" = "Verifierad";
 "scan.successTitleRegistered" = "Handflator registrerade";
 "scan.successVerified" = "Din handflata har verifierats.";
@@ -99,8 +96,8 @@
 "email.resendCode" = "Skicka kod igen";
 "email.resendInSeconds" = "Skicka igen om %@ s";
 "email.placeholder" = "E-postadress";
-"consent.tip3" = "Din handflatteskanningen används bara för att verifiera din identitet — radera dina uppgifter när som helst";
-"switchPalm.scanOtherHand" = "Skanna andra hand";
+"consent.tip3" = "Din handflatsskanning används bara för att verifiera att det är du; radera dina uppgifter när som helst.";
+"switchPalm.scanOtherHand" = "Skanna andra handen";
 "error.palmLinkedToEmail" = "Din handflata är länkad till %@";
 
 /* Account Restricted */
@@ -131,7 +128,7 @@
 "livenessError.captureFailedMessage" = "Vi kunde inte slutföra skanningen. Försök igen.";
 "livenessError.retry" = "Försök igen";
 "livenessError.close" = "Stäng";
-"consent.tip1" = "Skapa konto genom att skanna båda handflatorna. Verifiera igen med bara en skanning";
+"consent.tip1" = "Skapa konto genom att skanna båda handflatorna; verifiera igen med bara en skanning.";
 "error.6001" = "Det gick inte att ansluta. Kontrollera din internetanslutning och försök igen.";
 "error.6002" = "Det tog för lång tid att få svar. Kontrollera din anslutning och försök igen.";
 "error.6003" = "Det går inte att hitta våra servrar. Kontrollera nätverket eller prova ett annat.";
@@ -162,7 +159,7 @@
 "error.title.serverTransient" = "Vi försöker igen";
 "error.body.serverTransient" = "Om problemet kvarstår, kontakta supporten.";
 "error.title.enrollmentMismatch" = "Vi försöker igen";
-"error.body.enrollmentMismatch" = "Vi kunde inte verifiera handflatsskanningarna. Försök igen under bättre ljusförhållanden";
+"error.body.enrollmentMismatch" = "Vi kunde inte verifiera handflatsskanningarna. Försök igen under bättre ljusförhållanden.";
 "error.title.palmTooBlurry" = "Handflatsskanningen är för suddig";
 "error.body.palmTooBlurry" = "Håll handen stilla och skanna igen i bättre ljus.";
 "error.cta.tryAgain" = "Försök igen";
@@ -177,8 +174,12 @@
 "email.inlineCodeExpired" = "Koden har upphört att gälla. Begär en ny kod.";
 "email.inlineCodeRateLimit" = "För många försök. Begär en ny kod.";
 "email.inlineCodeGeneric" = "Verifieringen misslyckades.";
-"consent.getStarted" = "Kom igång";
-"consent.tip2" = "%@ får tillgång till begränsade [verifieringsdata]";
+"consent.getVerified" = "Verifiera dig";
+"onboarding.scanRearTitle" = "Skanna handen med den bakre kameran";
+"onboarding.scanRearCaption" = "Se till att hela handflatan är i bild.";
+"onboarding.connectDotsTitle" = "Koppla ihop punkterna när de visas";
+"onboarding.connectDotsCaption" = "Håll kameran stilla och skanna i starkt ljus.";
+"consent.tip2" = "%@ får tillgång till begränsade [verifieringsdata].";
 "consent.verifyIdentitySubtitle" = "%@ använder VeryAI för att bekräfta att du är en människa.";
 "consent.verifyIdentityTitle" = "%@ använder VeryAI för handflatsverifiering";
 "error.1001" = "Något gick fel. Försök igen.";

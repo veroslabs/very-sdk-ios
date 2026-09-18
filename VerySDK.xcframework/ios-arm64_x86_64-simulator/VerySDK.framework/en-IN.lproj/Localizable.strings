@@ -10,7 +10,7 @@
 "status.moveHandFarther" = "Move your hand back a bit";
 "status.rotateHandUpward" = "Tilt your hand toward you";
 "status.rotateHandParallel" = "Keep your hand flat";
-"status.flipHandOver" = "Place palm in front of camera";
+"status.flipHandOver" = "Flip your hand over";
 "status.spreadFingers" = "Open your hand wide";
 "status.straightenFingers" = "Straighten your fingers";
 "status.spreadThumb" = "Move your thumb out to the side";
@@ -24,7 +24,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "First hand complete";
-"switchPalm.proceedToSwitchHand" = "Now scan your other hand.";
 
 
 /* Auth View Controller */
@@ -36,7 +35,6 @@
 /* WorkThrough View Controller */
 "workthrough.title" = "Set up your palm scan";
 "workthrough.subtitle" = "Scan four times to set up. After that, scan once.";
-"consent.getStarted" = "Get started";
 
 /* Error Messages */
 "error.5001" = "Session expired. Please start again.";
@@ -44,11 +42,11 @@
 "error.5003" = "Please try again.";
 "error.5004" = "All verification attempts have been used.";
 "error.5005" = "We couldn't find a match. Try again in better lighting, or try your other hand.";
-"error.5006" = "Session expired, please try again.";
+"error.5006" = "Your session has expired. Please try again.";
 "error.5007" = "Your session has expired. Please try again.";
 "error.5008" = "Something went wrong. Please contact support.";
 "error.5009" = "Something went wrong. Please contact support.";
-"error.5010" = "Account review was permanently rejected.";
+"error.5010" = "Account review wasn't approved.";
 "error.5011" = "Account enrollment is still under review.";
 "error.5012" = "Re-enrollment is only allowed when review status is rejected.";
 "error.5013" = "Too many requests. Please try again later.";
@@ -66,28 +64,23 @@
 "error.6106" = "Could not load the palm scanning library. Check your internet and try again.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Your palm has been verified.";
-"scan.successRegistered" = "Palm biometrics have now been set up.";
 
 /* Common UI */
-"common.poweredBy" = "Powered by";
+"common.poweredByVeryAI" = "Powered by VeryAI";
 "common.done" = "Done";
 "common.continue" = "Continue";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Scan left palm";
-"scan.positionLeftHandAgain" = "Nice — keep going";
-"scan.positionRightHand" = "Scan right palm";
-"scan.positionRightHandAgain" = "Almost done — last scan";
+"scan.positionFirstHandAgain" = "Nice — keep going";
+"scan.positionOtherHand" = "Show your other hand";
+"scan.positionOtherHandAgain" = "Almost done — last scan";
 "scan.defaultStatus" = "Show your hand";
 "scan.defaultStatusEnroll" = "Show your first hand";
 "scan.showGesture" = "Show gesture";
 "scan.connectDots" = "Connect the dots";
 "scan.almostDone" = "Almost done";
-"scan.livenessThanks" = "Thanks for verifying";
-"scan.support" = "Support";
-"scan.registeringPalms" = "Registering palms";
-"scan.verifyingPalm" = "Verifying palm";
+"scan.livenessThanks" = "Thanks for confirming";
+"scan.support" = "Help";
 "scan.successTitleVerified" = "Verified";
 "scan.successTitleRegistered" = "Palms registered";
 "scan.successVerified" = "Your palm has been verified.";
@@ -100,7 +93,7 @@
 "email.resendCode" = "Resend code";
 "email.resendInSeconds" = "Resend in %@s";
 "email.placeholder" = "Email address";
-"consent.tip3" = "Your palm scan is only used to verify your identity — delete your data at any time";
+"consent.tip3" = "Your palm scan is only used to verify it's you; delete your data at any time.";
 "switchPalm.scanOtherHand" = "Scan other hand";
 "error.palmLinkedToEmail" = "Your palm is linked to %@";
 
@@ -132,7 +125,7 @@
 "livenessError.captureFailedMessage" = "We couldn't complete the scan. Please try again.";
 "livenessError.retry" = "Retry";
 "livenessError.close" = "Close";
-"consent.tip1" = "Create account by scanning both palms. Re-verify with just one scan";
+"consent.tip1" = "Create account by scanning both palms; reverify with just one scan.";
 "error.6001" = "Couldn't connect. Check your internet and try again.";
 "error.6002" = "Took too long to get a response. Check your connection and try again.";
 "error.6003" = "Can't resolve our servers. Check your network or try switching networks.";
@@ -163,7 +156,7 @@
 "error.title.serverTransient" = "Let's try that again";
 "error.body.serverTransient" = "If this issue continues, please contact support.";
 "error.title.enrollmentMismatch" = "Let's try that again";
-"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition";
+"error.body.enrollmentMismatch" = "We couldn't verify the palm scans. Please try again under a better lighting condition.";
 "error.title.palmTooBlurry" = "Palm scan too blurry";
 "error.body.palmTooBlurry" = "Keep your hand steady and scan again in better lighting.";
 "error.cta.tryAgain" = "Try again";

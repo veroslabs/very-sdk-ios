@@ -10,7 +10,7 @@
 "status.moveHandFarther" = "ຖອຍມືກັບໜ້ອຍໜຶ່ງ";
 "status.rotateHandUpward" = "ອຽງມືເຂົ້າຫາຕົວທ່ານ";
 "status.rotateHandParallel" = "ວາງມືໃຫ້ຮາບພຽງ";
-"status.flipHandOver" = "ວາງຝາມືຢູ່ໜ້າກ້ອງ";
+"status.flipHandOver" = "ປີ້ນມືຂອງທ່ານ";
 "status.spreadFingers" = "ແບມືອອກໃຫ້ກວ້າງ";
 "status.straightenFingers" = "ຢຽດນິ້ວມືໃຫ້ຊື່";
 "status.spreadThumb" = "ກາງໂປ້ອອກໄປຂ້າງ";
@@ -24,7 +24,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "ມືທຳອິດສຳເລັດ";
-"switchPalm.proceedToSwitchHand" = "ຕອນນີ້ສະແກນມືອື່ນຂອງທ່ານ.";
 
 
 /* Auth View Controller */
@@ -44,11 +43,11 @@
 "error.5003" = "ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
 "error.5004" = "ໃຊ້ຄັ້ງການຢືນຢັນທັງໝົດແລ້ວ.";
 "error.5005" = "ພວກເຮົາບໍ່ພົບຂໍ້ມູນທີ່ຕົງກັນ. ລອງໃໝ່ໃນທີ່ມີແສງດີກວ່າ ຫຼື ລອງໃຊ້ມືອີກຂ້າງ.";
-"error.5006" = "ມີບາງຢ່າງຜິດພາດ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
+"error.5006" = "ເຊດຊັນຂອງທ່ານໝົດອາຍຸແລ້ວ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
 "error.5007" = "ເຊດຊັນຂອງທ່ານໝົດອາຍຸແລ້ວ. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.";
 "error.5008" = "ມີບາງຢ່າງຜິດພາດ. ກະລຸນາຕິດຕໍ່ຝ່າຍສະໜັບສະໜູນ.";
 "error.5009" = "ມີບາງຢ່າງຜິດພາດ. ກະລຸນາຕິດຕໍ່ຝ່າຍສະໜັບສະໜູນ.";
-"error.5010" = "ການກວດສອບບັນຊີຖືກປະຕິເສດຖາວອນ.";
+"error.5010" = "ການກວດສອບບັນຊີບໍ່ໄດ້ຮັບການອະນຸມັດ.";
 "error.5011" = "ການລົງທະບຽນບັນຊີຍັງຢູ່ໃນລະຫວ່າງການກວດສອບ.";
 "error.5012" = "ອະນຸຍາດໃຫ້ລົງທະບຽນຄືນໄດ້ສະເພາະເມື່ອສະຖານະການກວດສອບຖືກປະຕິເສດ.";
 "error.5013" = "ຄຳຮ້ອງຂໍຫຼາຍເກີນໄປ. ກະລຸນາລອງໃໝ່ພາຍຫຼັງ.";
@@ -66,20 +65,20 @@
 "error.6106" = "ບໍ່ສາມາດໂຫຼດໄລບຣາຣີສະແກນຝ່າມືໄດ້. ກວດເບິ່ງອິນເຕີເນັດຂອງທ່ານແລ້ວລອງໃໝ່.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "ຝ່າມືຂອງທ່ານໄດ້ຮັບການຢືນຢັນແລ້ວ.";
-"scan.successRegistered" = "ການກວດສອບລາຍມືໄດ້ຖືກຕັ້ງຄ່າແລ້ວ.";
+"scan.finishingUp" = "ກຳລັງສຳເລັດ";
+"scan.identityVerified" = "ຢືນຢັນຝ່າມືແລ້ວ";
+"scan.awesome" = "ດີເລີດ";
 
 /* Common UI */
-"common.poweredBy" = "ຂັບເຄື່ອນໂດຍ";
+"common.poweredByVeryAI" = "ຂັບເຄື່ອນໂດຍ VeryAI";
 "common.retrying" = "ກຳລັງລອງໃໝ່…";
 "common.done" = "ແລ້ວ";
 "common.continue" = "ສືບຕໍ່";
 
 /* Scan Status */
-"scan.positionLeftHand" = "ສະແກນຝາມືຊ້າຍ";
-"scan.positionLeftHandAgain" = "ສະແກນຝາມືຊ້າຍອີກຄັ້ງ";
-"scan.positionRightHand" = "ສະແກນຝາມືຂວາ";
-"scan.positionRightHandAgain" = "ເກືອບສຳເລັດ — ການສະແກນຄັ້ງສຸດທ້າຍ";
+"scan.positionFirstHandAgain" = "ດີແລ້ວ — ສືບຕໍ່";
+"scan.positionOtherHand" = "ສະແດງມືອື່ນຂອງທ່ານ";
+"scan.positionOtherHandAgain" = "ເກືອບສຳເລັດ — ການສະແກນຄັ້ງສຸດທ້າຍ";
 "scan.defaultStatus" = "ສະແດງມືຂອງທ່ານ";
 "scan.defaultStatusEnroll" = "ສະແດງມືທຳອິດຂອງທ່ານ";
 "scan.showGesture" = "ສະແດງທ່າທາງ";
@@ -87,8 +86,6 @@
 "scan.almostDone" = "ເກືອບສຳເລັດແລ້ວ";
 "scan.livenessThanks" = "ຂອບໃຈທີ່ຢືນຢັນ";
 "scan.support" = "ຊ່ວຍເຫຼືອ";
-"scan.registeringPalms" = "ກຳລັງລົງທະບຽນຝາມື";
-"scan.verifyingPalm" = "ກຳລັງຢືນຢັນຝາມື";
 "scan.successTitleVerified" = "ຢືນຢັນແລ້ວ";
 "scan.successTitleRegistered" = "ຝາມືລົງທະບຽນແລ້ວ";
 "scan.successVerified" = "ຝາມືຂອງທ່ານຖືກຢືນຢັນແລ້ວ.";
@@ -101,8 +98,8 @@
 "email.resendCode" = "ສົ່ງລະຫັດໃໝ່";
 "email.resendInSeconds" = "ສົ່ງໃໝ່ໃນ %@ ວິນາທີ";
 "email.placeholder" = "ທີ່ຢູ່ອີເມວ";
-"consent.tip3" = "ການສະແກນຝ່າມືຂອງທ່ານໃຊ້ເພື່ອຢືນຢັນຕົວຕົນຂອງທ່ານເທົ່ານັ້ນ — ລຶບຂໍ້ມູນຂອງທ່ານໄດ້ທຸກເວລາ";
-"switchPalm.scanOtherHand" = "ສະແກນມືອື່ນ";
+"consent.tip3" = "ການສະແກນຝ່າມືຂອງທ່ານໃຊ້ເພື່ອຢືນຢັນວ່າເປັນທ່ານເທົ່ານັ້ນ; ລຶບຂໍ້ມູນຂອງທ່ານໄດ້ທຸກເວລາ.";
+"switchPalm.scanOtherHand" = "ສະແກນມືອີກຂ້າງ";
 "error.palmLinkedToEmail" = "ຝາມືຂອງທ່ານເຊື່ອມຕໍ່ກັບ %@";
 
 /* Account Restricted */
@@ -133,7 +130,7 @@
 "livenessError.captureFailedMessage" = "ບໍ່ສາມາດດຳເນີນການສະແກນໃຫ້ສຳເລັດ. ກະລຸນາລອງໃໝ່.";
 "livenessError.retry" = "ລອງໃໝ່";
 "livenessError.close" = "ປິດ";
-"consent.tip1" = "ສ້າງບັນຊີໂດຍການສະແກນຝ່າມືທັງສອງ. ຢືນຢັນຄືນດ້ວຍການສະແກນພຽງຄັ້ງດຽວ";
+"consent.tip1" = "ສ້າງບັນຊີໂດຍການສະແກນຝ່າມືທັງສອງ; ຢືນຢັນຄືນດ້ວຍການສະແກນພຽງຄັ້ງດຽວ.";
 "error.6001" = "ບໍ່ສາມາດເຊື່ອມຕໍ່ໄດ້. ກວດສອບອິນເຕີເນັດຂອງທ່ານແລະລອງໃໝ່.";
 "error.6002" = "ການຕອບສະໜອງໃຊ້ເວລາດົນເກີນໄປ. ກວດສອບການເຊື່ອມຕໍ່ແລະລອງໃໝ່.";
 "error.6003" = "ບໍ່ສາມາດຫາເຊີບເວີຂອງພວກເຮົາໄດ້. ກວດສອບເຄືອຂ່າຍຫຼືລອງສະຫຼັບເຄືອຂ່າຍ.";
@@ -164,7 +161,7 @@
 "error.title.serverTransient" = "ມາລອງໃໝ່ອີກຄັ້ງ";
 "error.body.serverTransient" = "ຫາກບັນຫານີ້ຍັງສືບຕໍ່, ກະລຸນາຕິດຕໍ່ຝ່າຍຊ່ວຍເຫຼືອ.";
 "error.title.enrollmentMismatch" = "ມາລອງໃໝ່ອີກຄັ້ງ";
-"error.body.enrollmentMismatch" = "ພວກເຮົາບໍ່ສາມາດຢືນຢັນການສະແກນຝ່າມືໄດ້. ກະລຸນາລອງໃໝ່ໃນສະພາບແສງທີ່ດີກວ່າ";
+"error.body.enrollmentMismatch" = "ພວກເຮົາບໍ່ສາມາດຢືນຢັນການສະແກນຝ່າມືໄດ້. ກະລຸນາລອງໃໝ່ໃນສະພາບແສງທີ່ດີກວ່າ.";
 "error.title.palmTooBlurry" = "ການສະແກນຝ່າມືມົວເກີນໄປ";
 "error.body.palmTooBlurry" = "ຖືມືຂອງທ່ານໃຫ້ໝັ້ນ ແລະ ສະແກນໃໝ່ໃນທີ່ມີແສງດີກວ່າ.";
 "error.cta.tryAgain" = "ລອງໃໝ່";
@@ -179,8 +176,12 @@
 "email.inlineCodeExpired" = "ລະຫັດໝົດອາຍຸແລ້ວ. ຂໍລະຫັດໃໝ່.";
 "email.inlineCodeRateLimit" = "ພະຍາຍາມຫຼາຍຄັ້ງເກີນໄປ. ກະລຸນາຂໍລະຫັດໃໝ່.";
 "email.inlineCodeGeneric" = "ການຢືນຢັນລົ້ມເຫຼວ.";
-"consent.getStarted" = "ເລີ່ມຕົ້ນ";
-"consent.tip2" = "%@ ຈະສາມາດເຂົ້າເຖິງ [ຂໍ້ມູນການຢືນຢັນ] ທີ່ຈຳກັດໄດ້";
+"consent.getVerified" = "ຮັບການຢືນຢັນ";
+"onboarding.scanRearTitle" = "ສະແກນມືດ້ວຍກ້ອງຫຼັງ";
+"onboarding.scanRearCaption" = "ໃຫ້ແນ່ໃຈວ່າຝາມືທັງໝົດຢູ່ໃນກອບ.";
+"onboarding.connectDotsTitle" = "ເຊື່ອມຈຸດເມື່ອປາກົດຂຶ້ນ";
+"onboarding.connectDotsCaption" = "ຮັກສາກ້ອງໃຫ້ນິ້ງ ແລະສະແກນໃນບ່ອນທີ່ມີແສງສະຫວ່າງ.";
+"consent.tip2" = "%@ ຈະສາມາດເຂົ້າເຖິງ [ຂໍ້ມູນການຢືນຢັນ] ທີ່ຈຳກັດໄດ້.";
 "consent.verifyIdentitySubtitle" = "%@ ໃຊ້ VeryAI ເພື່ອຢືນຢັນວ່າທ່ານເປັນມະນຸດ.";
 "consent.verifyIdentityTitle" = "%@ ໃຊ້ VeryAI ສຳລັບການຢືນຢັນຝາມື";
 "error.1001" = "ມີບາງຢ່າງຜິດພາດ. ກະລຸນາລອງໃໝ່.";

@@ -10,7 +10,7 @@
 "status.moveHandFarther" = "Отдръпнете ръката си малко назад";
 "status.rotateHandUpward" = "Наклонете ръката си към себе си";
 "status.rotateHandParallel" = "Дръжте ръката си изправена";
-"status.flipHandOver" = "Поставете дланта пред камерата";
+"status.flipHandOver" = "Обърнете ръката";
 "status.spreadFingers" = "Разтворете ръката си широко";
 "status.straightenFingers" = "Изправете пръстите си";
 "status.spreadThumb" = "Отдалечете палеца си настрани";
@@ -24,7 +24,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Първата ръка е завършена";
-"switchPalm.proceedToSwitchHand" = "Сега сканирайте другата си ръка.";
 
 
 /* Auth View Controller */
@@ -44,11 +43,11 @@
 "error.5003" = "Моля, опитайте отново.";
 "error.5004" = "Всички опити за проверка са изчерпани.";
 "error.5005" = "Не намерихме съвпадение. Опитайте отново при по-добра светлина или с другата ръка.";
-"error.5006" = "Нещо се обърка. Моля, опитайте отново.";
+"error.5006" = "Сесията ви е изтекла. Моля, опитайте отново.";
 "error.5007" = "Сесията ви е изтекла. Моля, опитайте отново.";
 "error.5008" = "Нещо се обърка. Моля, свържете се с поддръжката.";
 "error.5009" = "Нещо се обърка. Моля, свържете се с поддръжката.";
-"error.5010" = "Прегледът на акаунта беше окончателно отхвърлен.";
+"error.5010" = "Прегледът на акаунта не беше одобрен.";
 "error.5011" = "Регистрацията на акаунта все още се преглежда.";
 "error.5012" = "Повторна регистрация е възможна само когато статусът на прегледа е отхвърлен.";
 "error.5013" = "Твърде много заявки. Моля, опитайте отново по-късно.";
@@ -66,29 +65,27 @@
 "error.6106" = "Библиотеката за сканиране на длан не можа да се зареди. Проверете интернет връзката и опитайте отново.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Дланта ви е потвърдена.";
-"scan.successRegistered" = "Биометрията на дланта е настроена.";
+"scan.finishingUp" = "Завършване";
+"scan.identityVerified" = "Дланта е потвърдена";
+"scan.awesome" = "Чудесно";
 
 /* Common UI */
-"common.poweredBy" = "Създадено с";
+"common.poweredByVeryAI" = "Създадено с VeryAI";
 "common.retrying" = "Повторен опит…";
 "common.done" = "Готово";
 "common.continue" = "Продължи";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Сканирайте лявата длан";
-"scan.positionLeftHandAgain" = "Сканирайте лявата длан отново";
-"scan.positionRightHand" = "Сканирайте дясната длан";
-"scan.positionRightHandAgain" = "Почти готово — последно сканиране";
+"scan.positionFirstHandAgain" = "Чудесно — продължете";
+"scan.positionOtherHand" = "Покажете другата си ръка";
+"scan.positionOtherHandAgain" = "Почти готово — последно сканиране";
 "scan.defaultStatus" = "Покажете ръката си";
 "scan.defaultStatusEnroll" = "Покажете първата си ръка";
 "scan.showGesture" = "Покажете жест";
 "scan.connectDots" = "Свържете точките";
 "scan.almostDone" = "Почти готово";
 "scan.livenessThanks" = "Благодарим за потвърждението";
-"scan.support" = "Поддръжка";
-"scan.registeringPalms" = "Регистриране на длани";
-"scan.verifyingPalm" = "Потвърждаване на длан";
+"scan.support" = "Помощ";
 "scan.successTitleVerified" = "Потвърдено";
 "scan.successTitleRegistered" = "Длани регистрирани";
 "scan.successVerified" = "Дланта ви е потвърдена.";
@@ -101,7 +98,7 @@
 "email.resendCode" = "Изпрати кода отново";
 "email.resendInSeconds" = "Повторно изпращане след %@ с";
 "email.placeholder" = "Имейл адрес";
-"consent.tip3" = "Сканирането на дланта ви се използва само за потвърждаване на самоличността ви — изтрийте данните си по всяко време";
+"consent.tip3" = "Сканирането на дланта ви се използва само за да потвърди, че това сте вие; изтрийте данните си по всяко време.";
 "switchPalm.scanOtherHand" = "Сканирайте другата ръка";
 "error.palmLinkedToEmail" = "Дланта ви е свързана с %@";
 
@@ -133,7 +130,7 @@
 "livenessError.captureFailedMessage" = "Не успяхме да завършим сканирането. Моля, опитайте отново.";
 "livenessError.retry" = "Опитайте отново";
 "livenessError.close" = "Затваряне";
-"consent.tip1" = "Създайте акаунт, като сканирате двете си длани. Повторна проверка само с едно сканиране";
+"consent.tip1" = "Създайте акаунт, като сканирате двете си длани; повторна проверка само с едно сканиране.";
 "error.6001" = "Неуспешно свързване. Проверете интернет връзката си и опитайте отново.";
 "error.6002" = "Отговорът отнема твърде много време. Проверете връзката си и опитайте отново.";
 "error.6003" = "Не могат да се разрешат сървърите ни. Проверете мрежата или опитайте с друга.";
@@ -164,7 +161,7 @@
 "error.title.serverTransient" = "Да опитаме отново";
 "error.body.serverTransient" = "Ако проблемът продължава, свържете се с поддръжката.";
 "error.title.enrollmentMismatch" = "Да опитаме отново";
-"error.body.enrollmentMismatch" = "Не успяхме да проверим сканиранията на дланта. Моля, опитайте отново при по-добро осветление";
+"error.body.enrollmentMismatch" = "Не успяхме да проверим сканиранията на дланта. Моля, опитайте отново при по-добро осветление.";
 "error.title.palmTooBlurry" = "Сканирането на дланта е твърде размазано";
 "error.body.palmTooBlurry" = "Дръжте ръката си неподвижна и сканирайте отново при по-добро осветление.";
 "error.cta.tryAgain" = "Опитай отново";
@@ -179,8 +176,12 @@
 "email.inlineCodeExpired" = "Кодът е изтекъл. Заявете нов код.";
 "email.inlineCodeRateLimit" = "Твърде много опити. Моля, заявете нов код.";
 "email.inlineCodeGeneric" = "Проверката е неуспешна.";
-"consent.getStarted" = "Започнете";
-"consent.tip2" = "%@ ще има достъп до ограничени [данни за проверка]";
+"consent.getVerified" = "Потвърдете се";
+"onboarding.scanRearTitle" = "Сканирайте ръката си със задната камера";
+"onboarding.scanRearCaption" = "Уверете се, че цялата ви длан е в кадъра.";
+"onboarding.connectDotsTitle" = "Свързвайте точките, когато се появят";
+"onboarding.connectDotsCaption" = "Дръжте камерата неподвижна и сканирайте на ярка светлина.";
+"consent.tip2" = "%@ ще има достъп до ограничени [данни за проверка].";
 "consent.verifyIdentitySubtitle" = "%@ използва VeryAI, за да потвърди, че сте човек.";
 "consent.verifyIdentityTitle" = "%@ използва VeryAI за проверка на дланта";
 "error.1001" = "Нещо се обърка. Моля, опитайте отново.";

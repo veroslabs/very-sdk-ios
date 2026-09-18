@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "Reculez un peu la main";
 "status.rotateHandUpward" = "Inclinez la main vers vous";
 "status.rotateHandParallel" = "Gardez la main à plat";
-"status.flipHandOver" = "Placez la paume devant la caméra";
+"status.flipHandOver" = "Retournez la main";
 "status.spreadFingers" = "Ouvrez bien la main";
 "status.straightenFingers" = "Tendez les doigts";
 "status.spreadThumb" = "Écartez le pouce sur le côté";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Première main terminée";
-"switchPalm.proceedToSwitchHand" = "Scannez maintenant votre autre main.";
 
 /* Auth View Controller */
 "auth.cancel" = "Annuler";
@@ -42,11 +41,11 @@
 "error.5003" = "Veuillez réessayer.";
 "error.5004" = "Toutes les tentatives de vérification ont été utilisées.";
 "error.5005" = "Aucune correspondance trouvée. Réessayez avec un meilleur éclairage ou avec votre autre main.";
-"error.5006" = "Une erreur s'est produite. Veuillez réessayer.";
+"error.5006" = "Votre session a expiré. Veuillez réessayer.";
 "error.5007" = "Votre session a expiré. Veuillez réessayer.";
 "error.5008" = "Une erreur s'est produite. Veuillez contacter le support.";
 "error.5009" = "Une erreur s'est produite. Veuillez contacter le support.";
-"error.5010" = "L'examen du compte a été définitivement rejeté.";
+"error.5010" = "L'examen du compte n'a pas été approuvé.";
 "error.5011" = "L'inscription du compte est toujours en cours d'examen.";
 "error.5012" = "La réinscription n'est autorisée que lorsque le statut de l'examen est rejeté.";
 "error.5013" = "Trop de requêtes. Veuillez réessayer plus tard.";
@@ -64,29 +63,27 @@
 "error.6106" = "Impossible de charger la bibliothèque de scan de paume. Vérifiez votre connexion Internet et réessayez.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Votre paume a été vérifiée.";
-"scan.successRegistered" = "La biométrie palmaire est maintenant configurée.";
+"scan.finishingUp" = "Finalisation";
+"scan.identityVerified" = "Paume vérifiée";
+"scan.awesome" = "Super";
 
 /* Common UI */
-"common.poweredBy" = "Propulsé par";
+"common.poweredByVeryAI" = "Propulsé par VeryAI";
 "common.retrying" = "Nouvelle tentative…";
 "common.done" = "Terminé";
 "common.continue" = "Continuer";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Scannez la paume gauche";
-"scan.positionLeftHandAgain" = "Scannez la paume gauche à nouveau";
-"scan.positionRightHand" = "Scannez la paume droite";
-"scan.positionRightHandAgain" = "Presque terminé — dernier scan";
+"scan.positionFirstHandAgain" = "Très bien — continuez";
+"scan.positionOtherHand" = "Montrez votre autre main";
+"scan.positionOtherHandAgain" = "Presque terminé — dernier scan";
 "scan.defaultStatus" = "Montrez votre main";
 "scan.defaultStatusEnroll" = "Montrez votre première main";
 "scan.showGesture" = "Montrez le geste";
 "scan.connectDots" = "Reliez les points";
 "scan.almostDone" = "Presque terminé";
-"scan.livenessThanks" = "Merci pour la vérification";
-"scan.support" = "Assistance";
-"scan.registeringPalms" = "Enregistrement des paumes";
-"scan.verifyingPalm" = "Vérification de la paume";
+"scan.livenessThanks" = "Merci pour la confirmation";
+"scan.support" = "Aide";
 "scan.successTitleVerified" = "Vérifié";
 "scan.successTitleRegistered" = "Paumes enregistrées";
 "scan.successVerified" = "Votre paume a été vérifiée.";
@@ -99,7 +96,7 @@
 "email.resendCode" = "Renvoyer le code";
 "email.resendInSeconds" = "Renvoyer dans %@ s";
 "email.placeholder" = "Adresse e-mail";
-"consent.tip3" = "Le scan de votre paume n'est utilisé que pour vérifier votre identité — supprimez vos données à tout moment";
+"consent.tip3" = "Le scan de votre paume n'est utilisé que pour vérifier qu'il s'agit bien de vous ; supprimez vos données à tout moment.";
 "switchPalm.scanOtherHand" = "Scanner l'autre main";
 "error.palmLinkedToEmail" = "Votre paume est liée à %@";
 
@@ -131,7 +128,7 @@
 "livenessError.captureFailedMessage" = "Nous n'avons pas pu terminer le scan. Veuillez réessayer.";
 "livenessError.retry" = "Réessayer";
 "livenessError.close" = "Fermer";
-"consent.tip1" = "Créez un compte en scannant vos deux paumes. Revérifiez avec un seul scan";
+"consent.tip1" = "Créez un compte en scannant vos deux paumes ; revérifiez avec un seul scan.";
 "error.6001" = "Impossible de se connecter. Vérifiez votre connexion Internet et réessayez.";
 "error.6002" = "La réponse a pris trop de temps. Vérifiez votre connexion et réessayez.";
 "error.6003" = "Impossible de résoudre nos serveurs. Vérifiez votre réseau ou essayez-en un autre.";
@@ -162,7 +159,7 @@
 "error.title.serverTransient" = "Réessayons";
 "error.body.serverTransient" = "Si ce problème persiste, veuillez contacter le support.";
 "error.title.enrollmentMismatch" = "Réessayons";
-"error.body.enrollmentMismatch" = "Nous n'avons pas pu vérifier les scans de paume. Veuillez réessayer dans de meilleures conditions d'éclairage";
+"error.body.enrollmentMismatch" = "Nous n'avons pas pu vérifier les scans de paume. Veuillez réessayer dans de meilleures conditions d'éclairage.";
 "error.title.palmTooBlurry" = "Scan de la paume trop flou";
 "error.body.palmTooBlurry" = "Gardez votre main immobile et rescannez dans de meilleures conditions d'éclairage.";
 "error.cta.tryAgain" = "Réessayer";
@@ -177,8 +174,12 @@
 "email.inlineCodeExpired" = "Le code a expiré. Demandez un nouveau code.";
 "email.inlineCodeRateLimit" = "Trop de tentatives. Veuillez demander un nouveau code.";
 "email.inlineCodeGeneric" = "Échec de la vérification.";
-"consent.getStarted" = "Commencer";
-"consent.tip2" = "%@ aura accès à des [données de vérification] limitées";
+"consent.getVerified" = "Se faire vérifier";
+"onboarding.scanRearTitle" = "Scannez votre main avec la caméra arrière";
+"onboarding.scanRearCaption" = "Assurez-vous que toute votre paume est dans le cadre.";
+"onboarding.connectDotsTitle" = "Reliez les points dès qu'ils apparaissent";
+"onboarding.connectDotsCaption" = "Gardez la caméra immobile et scannez sous une bonne lumière.";
+"consent.tip2" = "%@ aura accès à des [données de vérification] limitées.";
 "consent.verifyIdentitySubtitle" = "%@ utilise VeryAI pour confirmer que vous êtes humain.";
 "consent.verifyIdentityTitle" = "%@ utilise VeryAI pour la vérification de la paume";
 "error.1001" = "Une erreur est survenue. Veuillez réessayer.";

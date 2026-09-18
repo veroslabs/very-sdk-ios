@@ -10,7 +10,7 @@
 "status.moveHandFarther" = "Trage mâna puțin înapoi";
 "status.rotateHandUpward" = "Înclină mâna spre tine";
 "status.rotateHandParallel" = "Ține mâna întinsă";
-"status.flipHandOver" = "Plasați palma în fața camerei";
+"status.flipHandOver" = "Întoarceți mâna";
 "status.spreadFingers" = "Deschide larg mâna";
 "status.straightenFingers" = "Îndreaptă degetele";
 "status.spreadThumb" = "Depărtează degetul mare în lateral";
@@ -24,7 +24,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Prima mână completă";
-"switchPalm.proceedToSwitchHand" = "Acum scanează-ți cealaltă mână.";
 
 
 /* Auth View Controller */
@@ -44,11 +43,11 @@
 "error.5003" = "Încearcă din nou.";
 "error.5004" = "Toate încercările de verificare au fost folosite.";
 "error.5005" = "Nu am găsit o potrivire. Încercați din nou într-o lumină mai bună sau cu cealaltă mână.";
-"error.5006" = "Ceva nu a funcționat. Vă rugăm să încercați din nou.";
+"error.5006" = "Sesiunea dumneavoastră a expirat. Vă rugăm să încercați din nou.";
 "error.5007" = "Sesiunea dumneavoastră a expirat. Vă rugăm să încercați din nou.";
 "error.5008" = "Ceva nu a funcționat. Vă rugăm să contactați asistența.";
 "error.5009" = "Ceva nu a funcționat. Vă rugăm să contactați asistența.";
-"error.5010" = "Examinarea contului a fost respinsă definitiv.";
+"error.5010" = "Examinarea contului nu a fost aprobată.";
 "error.5011" = "Înscrierea contului este încă în curs de examinare.";
 "error.5012" = "Reînscrierea este permisă doar când starea examinării este respinsă.";
 "error.5013" = "Prea multe solicitări. Încearcă din nou mai târziu.";
@@ -66,29 +65,27 @@
 "error.6106" = "Nu s-a putut încărca biblioteca de scanare a palmei. Verifică conexiunea la internet și încearcă din nou.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Palma dumneavoastră a fost verificată.";
-"scan.successRegistered" = "Biometria palmei a fost configurată.";
+"scan.finishingUp" = "Se finalizează";
+"scan.identityVerified" = "Palmă verificată";
+"scan.awesome" = "Excelent";
 
 /* Common UI */
-"common.poweredBy" = "Susținut de";
+"common.poweredByVeryAI" = "Susținut de VeryAI";
 "common.retrying" = "Se reîncearcă…";
 "common.done" = "Gata";
 "common.continue" = "Continuă";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Scanați palma stângă";
-"scan.positionLeftHandAgain" = "Scanați palma stângă din nou";
-"scan.positionRightHand" = "Scanați palma dreaptă";
-"scan.positionRightHandAgain" = "Aproape gata — ultima scanare";
+"scan.positionFirstHandAgain" = "Bine — continuă";
+"scan.positionOtherHand" = "Arătați cealaltă mână";
+"scan.positionOtherHandAgain" = "Aproape gata — ultima scanare";
 "scan.defaultStatus" = "Arătați-vă mâna";
 "scan.defaultStatusEnroll" = "Arătați-vă prima mână";
 "scan.showGesture" = "Arătați gestul";
 "scan.connectDots" = "Conectați punctele";
 "scan.almostDone" = "Aproape gata";
-"scan.livenessThanks" = "Mulțumim pentru verificare";
-"scan.support" = "Asistență";
-"scan.registeringPalms" = "Înregistrare palme";
-"scan.verifyingPalm" = "Verificare palmă";
+"scan.livenessThanks" = "Mulțumim pentru confirmare";
+"scan.support" = "Ajutor";
 "scan.successTitleVerified" = "Verificat";
 "scan.successTitleRegistered" = "Palme înregistrate";
 "scan.successVerified" = "Palma ta a fost verificată.";
@@ -101,7 +98,7 @@
 "email.resendCode" = "Retrimiteți codul";
 "email.resendInSeconds" = "Retrimite în %@ s";
 "email.placeholder" = "Adresă de email";
-"consent.tip3" = "Scanarea palmei dvs. este utilizată doar pentru a vă verifica identitatea — ștergeți datele oricând";
+"consent.tip3" = "Scanarea palmei dvs. este utilizată doar pentru a verifica că sunteți dvs.; ștergeți datele oricând.";
 "switchPalm.scanOtherHand" = "Scanează cealaltă mână";
 "error.palmLinkedToEmail" = "Palma ta este legată de %@";
 
@@ -118,11 +115,11 @@
 
 /* Liveness Error (shown when VeryLivenessConfig.showError = true) */
 "livenessError.title" = "Ceva nu a mers bine";
-"livenessError.message" = "Nu am putut finaliza verificarea identității vii. Încearcă din nou.";
+"livenessError.message" = "Nu am putut finaliza verificarea de vivacitate. Încearcă din nou.";
 "livenessError.timeoutTitle" = "Verificarea a expirat";
 "livenessError.timeoutMessage" = "Nu am putut finaliza verificarea înainte de încheierea sesiunii. Încearcă din nou.";
 "livenessError.cameraPermissionTitle" = "Acces la cameră necesar";
-"livenessError.cameraPermissionMessage" = "Pentru verificarea identității vii, permite accesul la cameră în setările telefonului.";
+"livenessError.cameraPermissionMessage" = "Pentru verificarea de vivacitate, permite accesul la cameră în setările telefonului.";
 "livenessError.networkTitle" = "Problemă de conexiune";
 "livenessError.networkMessage" = "Nu am putut contacta serverele noastre. Verifică conexiunea și încearcă din nou.";
 "livenessError.sessionExpiredTitle" = "Sesiune expirată";
@@ -133,7 +130,7 @@
 "livenessError.captureFailedMessage" = "Nu am putut finaliza scanarea. Încearcă din nou.";
 "livenessError.retry" = "Reîncearcă";
 "livenessError.close" = "Închide";
-"consent.tip1" = "Creați un cont scanând ambele palme. Reverificați cu o singură scanare";
+"consent.tip1" = "Creați un cont scanând ambele palme; reverificați cu o singură scanare.";
 "error.6001" = "Nu s-a putut conecta. Verifică conexiunea la internet și încearcă din nou.";
 "error.6002" = "Răspunsul a durat prea mult. Verifică conexiunea și încearcă din nou.";
 "error.6003" = "Nu putem găsi serverele noastre. Verifică rețeaua sau încearcă altă rețea.";
@@ -164,7 +161,7 @@
 "error.title.serverTransient" = "Să încercăm din nou";
 "error.body.serverTransient" = "Dacă problema persistă, contactează asistența.";
 "error.title.enrollmentMismatch" = "Să încercăm din nou";
-"error.body.enrollmentMismatch" = "Nu am putut verifica scanările palmei. Încearcă din nou în condiții de iluminare mai bune";
+"error.body.enrollmentMismatch" = "Nu am putut verifica scanările palmei. Încearcă din nou în condiții de iluminare mai bune.";
 "error.title.palmTooBlurry" = "Scanarea palmei este prea neclară";
 "error.body.palmTooBlurry" = "Ține mâna nemișcată și scanează din nou la o lumină mai bună.";
 "error.cta.tryAgain" = "Încearcă din nou";
@@ -179,8 +176,12 @@
 "email.inlineCodeExpired" = "Codul a expirat. Solicită un cod nou.";
 "email.inlineCodeRateLimit" = "Prea multe încercări. Solicită un cod nou.";
 "email.inlineCodeGeneric" = "Verificarea a eșuat.";
-"consent.getStarted" = "Începeți";
-"consent.tip2" = "%@ va avea acces la [date de verificare] limitate";
+"consent.getVerified" = "Verificați-vă";
+"onboarding.scanRearTitle" = "Scanați mâna cu camera din spate";
+"onboarding.scanRearCaption" = "Asigurați-vă că întreaga palmă este în cadru.";
+"onboarding.connectDotsTitle" = "Uniți punctele pe măsură ce apar";
+"onboarding.connectDotsCaption" = "Țineți camera nemișcată și scanați la lumină puternică.";
+"consent.tip2" = "%@ va avea acces la [date de verificare] limitate.";
 "consent.verifyIdentitySubtitle" = "%@ folosește VeryAI pentru a confirma că ești o persoană reală.";
 "consent.verifyIdentityTitle" = "%@ folosește VeryAI pentru verificarea palmei";
 "error.1001" = "Ceva nu a funcționat. Încearcă din nou.";

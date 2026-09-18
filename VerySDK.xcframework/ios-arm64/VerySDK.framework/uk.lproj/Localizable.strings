@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "Віддаліть руку трохи назад";
 "status.rotateHandUpward" = "Нахиліть руку до себе";
 "status.rotateHandParallel" = "Тримайте руку плоско";
-"status.flipHandOver" = "Помістіть долоню перед камерою";
+"status.flipHandOver" = "Переверніть руку";
 "status.spreadFingers" = "Розкрийте долоню";
 "status.straightenFingers" = "Випрямте пальці";
 "status.spreadThumb" = "Відведіть великий палець убік";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Першу руку завершено";
-"switchPalm.proceedToSwitchHand" = "Тепер відскануйте свою іншу руку.";
 
 /* Auth View Controller */
 "auth.cancel" = "Скасувати";
@@ -42,11 +41,11 @@
 "error.5003" = "Спробуйте ще раз.";
 "error.5004" = "Усі спроби перевірки використано.";
 "error.5005" = "Ми не знайшли відповідності. Спробуйте ще раз за кращого освітлення або іншою рукою.";
-"error.5006" = "Щось пішло не так. Будь ласка, спробуйте ще раз.";
+"error.5006" = "Термін вашої сесії закінчився. Будь ласка, спробуйте ще раз.";
 "error.5007" = "Термін вашої сесії закінчився. Будь ласка, спробуйте ще раз.";
 "error.5008" = "Щось пішло не так. Будь ласка, зверніться до служби підтримки.";
 "error.5009" = "Щось пішло не так. Будь ласка, зверніться до служби підтримки.";
-"error.5010" = "Перевірку акаунта остаточно відхилено.";
+"error.5010" = "Перевірку акаунта не схвалено.";
 "error.5011" = "Реєстрація акаунта ще на розгляді.";
 "error.5012" = "Повторна реєстрація можлива, лише коли статус перевірки — відхилено.";
 "error.5013" = "Забагато запитів. Спробуйте пізніше.";
@@ -64,29 +63,27 @@
 "error.6106" = "Не вдалося завантажити бібліотеку сканування долоні. Перевірте інтернет і спробуйте ще раз.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Вашу долоню підтверджено.";
-"scan.successRegistered" = "Біометрію долоні налаштовано.";
+"scan.finishingUp" = "Завершення";
+"scan.identityVerified" = "Долоню підтверджено";
+"scan.awesome" = "Чудово";
 
 /* Common UI */
-"common.poweredBy" = "Працює на";
+"common.poweredByVeryAI" = "Працює на VeryAI";
 "common.retrying" = "Повторна спроба…";
 "common.done" = "Готово";
 "common.continue" = "Продовжити";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Скануйте ліву долоню";
-"scan.positionLeftHandAgain" = "Скануйте ліву долоню ще раз";
-"scan.positionRightHand" = "Скануйте праву долоню";
-"scan.positionRightHandAgain" = "Майже готово — останнє сканування";
+"scan.positionFirstHandAgain" = "Чудово — продовжуйте";
+"scan.positionOtherHand" = "Покажіть другу руку";
+"scan.positionOtherHandAgain" = "Майже готово — останнє сканування";
 "scan.defaultStatus" = "Покажіть свою руку";
 "scan.defaultStatusEnroll" = "Покажіть свою першу руку";
 "scan.showGesture" = "Покажіть жест";
 "scan.connectDots" = "З'єднайте точки";
 "scan.almostDone" = "Майже готово";
 "scan.livenessThanks" = "Дякуємо за підтвердження";
-"scan.support" = "Підтримка";
-"scan.registeringPalms" = "Реєстрація долонь";
-"scan.verifyingPalm" = "Перевірка долоні";
+"scan.support" = "Довідка";
 "scan.successTitleVerified" = "Підтверджено";
 "scan.successTitleRegistered" = "Долоні зареєстровані";
 "scan.successVerified" = "Вашу долоню підтверджено.";
@@ -99,7 +96,7 @@
 "email.resendCode" = "Надіслати код повторно";
 "email.resendInSeconds" = "Надіслати знову через %@ с";
 "email.placeholder" = "Адреса електронної пошти";
-"consent.tip3" = "Сканування долоні використовується лише для підтвердження вашої особистості — видаліть свої дані будь-коли";
+"consent.tip3" = "Сканування долоні використовується лише для підтвердження, що це ви; видаліть свої дані будь-коли.";
 "switchPalm.scanOtherHand" = "Відсканувати іншу руку";
 "error.palmLinkedToEmail" = "Ваша долоня прив’язана до %@";
 
@@ -131,7 +128,7 @@
 "livenessError.captureFailedMessage" = "Не вдалося завершити сканування. Спробуйте ще раз.";
 "livenessError.retry" = "Повторити";
 "livenessError.close" = "Закрити";
-"consent.tip1" = "Створіть обліковий запис, відсканувавши обидві долоні. Повторна перевірка лише одним скануванням";
+"consent.tip1" = "Створіть обліковий запис, відсканувавши обидві долоні; повторна перевірка лише одним скануванням.";
 "error.6001" = "Не вдалося підключитися. Перевірте підключення до Інтернету та спробуйте ще раз.";
 "error.6002" = "Відповідь тривала занадто довго. Перевірте підключення та спробуйте ще раз.";
 "error.6003" = "Не вдається знайти наші сервери. Перевірте мережу або спробуйте іншу.";
@@ -162,7 +159,7 @@
 "error.title.serverTransient" = "Спробуймо ще раз";
 "error.body.serverTransient" = "Якщо проблема не зникає, зверніться до підтримки.";
 "error.title.enrollmentMismatch" = "Спробуймо ще раз";
-"error.body.enrollmentMismatch" = "Не вдалося перевірити скани долоні. Спробуйте ще раз за кращого освітлення";
+"error.body.enrollmentMismatch" = "Не вдалося перевірити скани долоні. Спробуйте ще раз за кращого освітлення.";
 "error.title.palmTooBlurry" = "Скан долоні надто розмитий";
 "error.body.palmTooBlurry" = "Тримайте руку нерухомо та відскануйте ще раз за кращого освітлення.";
 "error.cta.tryAgain" = "Спробувати ще раз";
@@ -177,8 +174,12 @@
 "email.inlineCodeExpired" = "Термін дії коду минув. Запросіть новий код.";
 "email.inlineCodeRateLimit" = "Забагато спроб. Запросіть новий код.";
 "email.inlineCodeGeneric" = "Перевірку не пройдено.";
-"consent.getStarted" = "Почати";
-"consent.tip2" = "%@ матиме доступ до обмежених [даних перевірки]";
+"consent.getVerified" = "Пройти перевірку";
+"onboarding.scanRearTitle" = "Скануйте руку задньою камерою";
+"onboarding.scanRearCaption" = "Переконайтеся, що вся долоня в кадрі.";
+"onboarding.connectDotsTitle" = "З'єднуйте точки, щойно вони з'являються";
+"onboarding.connectDotsCaption" = "Тримайте камеру нерухомо та скануйте при яскравому світлі.";
+"consent.tip2" = "%@ матиме доступ до обмежених [даних перевірки].";
 "consent.verifyIdentitySubtitle" = "%@ використовує VeryAI, щоб підтвердити, що ви людина.";
 "consent.verifyIdentityTitle" = "%@ використовує VeryAI для перевірки долоні";
 "error.1001" = "Щось пішло не так. Спробуйте ще раз.";

@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "把手往后移一点";
 "status.rotateHandUpward" = "把手朝自己倾斜";
 "status.rotateHandParallel" = "保持手掌放平";
-"status.flipHandOver" = "将手掌放在摄像头前";
+"status.flipHandOver" = "把手翻过来";
 "status.spreadFingers" = "把手张开";
 "status.straightenFingers" = "伸直手指";
 "status.spreadThumb" = "将拇指移到侧面";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "第一只手完成";
-"switchPalm.proceedToSwitchHand" = "现在扫描您的另一只手。";
 
 /* Auth View Controller */
 "auth.cancel" = "取消";
@@ -34,10 +33,14 @@
 /* Consent UI */
 "consent.verifyIdentityTitle" = "%@ 使用 VeryAI 进行手掌验证";
 "consent.verifyIdentitySubtitle" = "%@ 使用 VeryAI 确认您是真人。";
-"consent.tip1" = "扫描双掌创建账户。只需扫描一次即可重新验证";
-"consent.tip2" = "%@ 将获得对有限[验证数据]的访问权限";
-"consent.tip3" = "Biometric technology is used to verify your identity — delete your data at any time";
-"consent.getStarted" = "开始";
+"consent.tip1" = "扫描双掌创建账户；只需扫描一次即可重新验证。";
+"consent.tip2" = "%@ 将获得对有限[验证数据]的访问权限。";
+"consent.tip3" = "您的掌纹扫描仅用于确认是您本人；随时删除您的数据。";
+"consent.getVerified" = "开始验证";
+"onboarding.scanRearTitle" = "用后置摄像头扫描手掌";
+"onboarding.scanRearCaption" = "确保整个手掌都在取景框内。";
+"onboarding.connectDotsTitle" = "连接出现的圆点";
+"onboarding.connectDotsCaption" = "保持摄像头不动，在明亮的光线下扫描。";
 
 /* WorkThrough View Controller */
 
@@ -60,7 +63,7 @@
 "error.1016" = "出了点问题，请重试。";
 "error.1017" = "出了点问题，请重试。";
 "error.1018" = "出了点问题，请重试。";
-"error.1019" = "需要双手掌纹。";
+"error.1019" = "需要双手手掌。";
 "error.1020" = "出了点问题，请重试。";
 "error.1021" = "出了点问题，请重试。";
 "error.1022" = "出了点问题，请重试。";
@@ -77,7 +80,7 @@
 "error.1033" = "未能找到您的账户，请重试。";
 "error.1034" = "未能找到您的账户，请重试。";
 "error.1035" = "未找到用户掌纹。";
-"error.1036" = "审核未找到。";
+"error.1036" = "未找到审核记录。";
 "error.1037" = "无法验证您的掌纹，请重试。";
 "error.1038" = "无法验证您的掌纹，请重试。";
 "error.1039" = "无法验证您的掌纹，请重试。";
@@ -90,7 +93,7 @@
 "error.2007" = "验证码已过期。";
 "error.2008" = "验证请求过于频繁。";
 "error.2009" = "未能找到您的账户，请重试。";
-"error.2010" = "审核未找到。";
+"error.2010" = "未找到审核记录。";
 "error.2011" = "出了点问题，请重试。";
 "error.3000" = "出了点问题，请重试。";
 "error.4000" = "出了点问题，请重试。";
@@ -99,11 +102,11 @@
 "error.5003" = "请重试。";
 "error.5004" = "所有验证机会已用完。";
 "error.5005" = "未找到匹配结果。请在光线更好的环境中重试，或换另一只手。";
-"error.5006" = "出了点问题，请重试。";
+"error.5006" = "您的会话已过期，请重试。";
 "error.5007" = "您的会话已过期，请重试。";
 "error.5008" = "出了点问题，请联系客服。";
 "error.5009" = "出了点问题，请联系客服。";
-"error.5010" = "账户审核已被永久拒绝。";
+"error.5010" = "账户审核未通过。";
 "error.5011" = "账户注册仍在审核中。";
 "error.5012" = "只有当审核状态为已拒绝时才能重新注册。";
 "error.5013" = "请求过于频繁。请稍后重试。";
@@ -123,29 +126,29 @@
 /* Success Bottom Sheet Messages */
 
 /* Common UI */
-"common.poweredBy" = "技术支持";
+"common.poweredByVeryAI" = "由 VeryAI 提供技术支持";
 "common.retrying" = "正在重试…";
 "common.done" = "完成";
 "common.continue" = "继续";
 
 /* Scan Status */
-"scan.positionLeftHand" = "扫描左手掌";
-"scan.positionLeftHandAgain" = "再次扫描左手掌";
-"scan.positionRightHand" = "扫描右手掌";
-"scan.positionRightHandAgain" = "即将完成——最后一次扫描";
+"scan.positionFirstHandAgain" = "很好——继续";
+"scan.positionOtherHand" = "出示您的另一只手";
+"scan.positionOtherHandAgain" = "即将完成——最后一次扫描";
 "scan.defaultStatus" = "展示您的手";
 "scan.defaultStatusEnroll" = "展示您的第一只手";
 "scan.showGesture" = "显示手势";
 "scan.connectDots" = "连接圆点";
 "scan.almostDone" = "即将完成";
-"scan.livenessThanks" = "感谢验证";
-"scan.support" = "支持";
-"scan.registeringPalms" = "正在注册手掌";
-"scan.verifyingPalm" = "正在验证手掌";
+"scan.livenessThanks" = "感谢确认";
+"scan.support" = "帮助";
 "scan.successTitleVerified" = "验证成功";
 "scan.successTitleRegistered" = "手掌已注册";
 "scan.successVerified" = "您的手掌已通过验证。";
 "scan.successRegistered" = "您现在可以使用手掌进行验证。";
+"scan.finishingUp" = "正在完成";
+"scan.identityVerified" = "手掌验证成功";
+"scan.awesome" = "太棒了";
 
 /* Email Verification */
 "email.continueWithEmail" = "输入您的邮箱";
@@ -215,7 +218,7 @@
 "error.title.serverTransient" = "再试一次吧";
 "error.body.serverTransient" = "如果问题持续，请联系客服。";
 "error.title.enrollmentMismatch" = "再试一次吧";
-"error.body.enrollmentMismatch" = "我们无法验证掌纹扫描结果。请在光线更好的环境下重试";
+"error.body.enrollmentMismatch" = "我们无法验证掌纹扫描结果。请在光线更好的环境下重试。";
 "error.title.palmTooBlurry" = "手掌扫描太模糊";
 "error.body.palmTooBlurry" = "请保持手部稳定，并在光线更好的环境中重新扫描。";
 "error.cta.tryAgain" = "重试";

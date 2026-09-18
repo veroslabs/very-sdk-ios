@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "Pindahkan tangan Anda sedikit ke belakang";
 "status.rotateHandUpward" = "Miringkan tangan Anda ke arah Anda";
 "status.rotateHandParallel" = "Jaga tangan Anda tetap rata";
-"status.flipHandOver" = "Letakkan telapak tangan di depan kamera";
+"status.flipHandOver" = "Balikkan tangan Anda";
 "status.spreadFingers" = "Buka lebar tangan Anda";
 "status.straightenFingers" = "Luruskan jari Anda";
 "status.spreadThumb" = "Pindahkan jempol Anda ke samping";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "Tangan pertama selesai";
-"switchPalm.proceedToSwitchHand" = "Sekarang pindai tangan lainnya.";
 
 /* Auth View Controller */
 "auth.cancel" = "Batal";
@@ -42,11 +41,11 @@
 "error.5003" = "Silakan coba lagi.";
 "error.5004" = "Semua percobaan verifikasi telah digunakan.";
 "error.5005" = "Kami tidak menemukan kecocokan. Coba lagi dengan pencahayaan lebih baik, atau gunakan tangan Anda yang lain.";
-"error.5006" = "Terjadi kesalahan. Silakan coba lagi.";
+"error.5006" = "Sesi Anda telah berakhir. Silakan coba lagi.";
 "error.5007" = "Sesi Anda telah berakhir. Silakan coba lagi.";
 "error.5008" = "Terjadi kesalahan. Silakan hubungi dukungan.";
 "error.5009" = "Terjadi kesalahan. Silakan hubungi dukungan.";
-"error.5010" = "Peninjauan akun ditolak secara permanen.";
+"error.5010" = "Peninjauan akun tidak disetujui.";
 "error.5011" = "Pendaftaran akun masih ditinjau.";
 "error.5012" = "Pendaftaran ulang hanya diizinkan jika status peninjauan ditolak.";
 "error.5013" = "Terlalu banyak permintaan. Silakan coba lagi nanti.";
@@ -64,29 +63,27 @@
 "error.6106" = "Tidak dapat memuat pustaka pemindaian telapak tangan. Periksa internet Anda dan coba lagi.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Telapak tangan Anda telah diverifikasi.";
-"scan.successRegistered" = "Biometrik telapak tangan telah disiapkan.";
+"scan.finishingUp" = "Menyelesaikan";
+"scan.identityVerified" = "Telapak tangan terverifikasi";
+"scan.awesome" = "Keren";
 
 /* Common UI */
-"common.poweredBy" = "Didukung oleh";
+"common.poweredByVeryAI" = "Didukung oleh VeryAI";
 "common.retrying" = "Mencoba lagi…";
 "common.done" = "Selesai";
 "common.continue" = "Lanjutkan";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Pindai telapak tangan kiri";
-"scan.positionLeftHandAgain" = "Pindai telapak tangan kiri lagi";
-"scan.positionRightHand" = "Pindai telapak tangan kanan";
-"scan.positionRightHandAgain" = "Hampir selesai — pemindaian terakhir";
+"scan.positionFirstHandAgain" = "Bagus — lanjutkan";
+"scan.positionOtherHand" = "Tunjukkan tangan lainnya";
+"scan.positionOtherHandAgain" = "Hampir selesai — pemindaian terakhir";
 "scan.defaultStatus" = "Tunjukkan tangan Anda";
 "scan.defaultStatusEnroll" = "Tunjukkan tangan pertama Anda";
 "scan.showGesture" = "Tampilkan gerakan";
 "scan.connectDots" = "Hubungkan titik-titik";
 "scan.almostDone" = "Hampir selesai";
-"scan.livenessThanks" = "Terima kasih telah memverifikasi";
-"scan.support" = "Dukungan";
-"scan.registeringPalms" = "Mendaftarkan telapak tangan";
-"scan.verifyingPalm" = "Memverifikasi telapak tangan";
+"scan.livenessThanks" = "Terima kasih telah mengonfirmasi";
+"scan.support" = "Bantuan";
 "scan.successTitleVerified" = "Terverifikasi";
 "scan.successTitleRegistered" = "Telapak tangan terdaftar";
 "scan.successVerified" = "Telapak tangan Anda telah diverifikasi.";
@@ -99,7 +96,7 @@
 "email.resendCode" = "Kirim ulang kode";
 "email.resendInSeconds" = "Kirim ulang dalam %@ d";
 "email.placeholder" = "Alamat email";
-"consent.tip3" = "Pemindaian telapak tangan Anda hanya digunakan untuk memverifikasi identitas Anda — hapus data Anda kapan saja";
+"consent.tip3" = "Pemindaian telapak tangan Anda hanya digunakan untuk memverifikasi bahwa itu benar Anda; hapus data Anda kapan saja.";
 "switchPalm.scanOtherHand" = "Pindai tangan lainnya";
 "error.palmLinkedToEmail" = "Telapak tangan Anda terhubung ke %@";
 
@@ -131,7 +128,7 @@
 "livenessError.captureFailedMessage" = "Pemindaian tidak dapat diselesaikan. Silakan coba lagi.";
 "livenessError.retry" = "Coba lagi";
 "livenessError.close" = "Tutup";
-"consent.tip1" = "Buat akun dengan memindai kedua telapak tangan. Verifikasi ulang cukup dengan satu pemindaian";
+"consent.tip1" = "Buat akun dengan memindai kedua telapak tangan; verifikasi ulang cukup dengan satu pemindaian.";
 "error.6001" = "Tidak dapat terhubung. Periksa koneksi internet Anda dan coba lagi.";
 "error.6002" = "Butuh waktu terlalu lama untuk menerima respons. Periksa koneksi Anda dan coba lagi.";
 "error.6003" = "Tidak dapat menemukan server kami. Periksa jaringan atau coba jaringan lain.";
@@ -162,7 +159,7 @@
 "error.title.serverTransient" = "Mari coba lagi";
 "error.body.serverTransient" = "Jika masalah ini berlanjut, hubungi dukungan.";
 "error.title.enrollmentMismatch" = "Mari coba lagi";
-"error.body.enrollmentMismatch" = "Kami tidak dapat memverifikasi pemindaian telapak tangan. Silakan coba lagi dengan pencahayaan yang lebih baik";
+"error.body.enrollmentMismatch" = "Kami tidak dapat memverifikasi pemindaian telapak tangan. Silakan coba lagi dengan pencahayaan yang lebih baik.";
 "error.title.palmTooBlurry" = "Pemindaian telapak tangan terlalu buram";
 "error.body.palmTooBlurry" = "Jaga tangan Anda tetap stabil dan pindai lagi dengan pencahayaan yang lebih baik.";
 "error.cta.tryAgain" = "Coba lagi";
@@ -177,8 +174,12 @@
 "email.inlineCodeExpired" = "Kode telah kedaluwarsa. Minta kode baru.";
 "email.inlineCodeRateLimit" = "Terlalu banyak percobaan. Silakan minta kode baru.";
 "email.inlineCodeGeneric" = "Verifikasi gagal.";
-"consent.getStarted" = "Mulai";
-"consent.tip2" = "%@ akan memiliki akses ke [data verifikasi] terbatas";
+"consent.getVerified" = "Verifikasi sekarang";
+"onboarding.scanRearTitle" = "Pindai tangan dengan kamera belakang";
+"onboarding.scanRearCaption" = "Pastikan seluruh telapak tangan berada dalam bingkai.";
+"onboarding.connectDotsTitle" = "Hubungkan titik-titik saat muncul";
+"onboarding.connectDotsCaption" = "Jaga kamera tetap diam dan pindai di cahaya terang.";
+"consent.tip2" = "%@ akan memiliki akses ke [data verifikasi] terbatas.";
 "consent.verifyIdentitySubtitle" = "%@ menggunakan VeryAI untuk memastikan Anda manusia.";
 "consent.verifyIdentityTitle" = "%@ menggunakan VeryAI untuk verifikasi telapak tangan";
 "error.1001" = "Terjadi kesalahan. Silakan coba lagi.";

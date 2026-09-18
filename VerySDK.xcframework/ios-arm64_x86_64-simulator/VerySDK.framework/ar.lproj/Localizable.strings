@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "أبعد يدك قليلاً";
 "status.rotateHandUpward" = "امِل يدك نحوك";
 "status.rotateHandParallel" = "أبقِ يدك مسطحة";
-"status.flipHandOver" = "ضع راحة يدك أمام الكاميرا";
+"status.flipHandOver" = "اقلب يدك";
 "status.spreadFingers" = "افتح يدك جيداً";
 "status.straightenFingers" = "قوّم أصابعك";
 "status.spreadThumb" = "حرّك إبهامك إلى الجانب";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "تم إكمال اليد الأولى";
-"switchPalm.proceedToSwitchHand" = "الآن امسح يدك الأخرى.";
 
 /* Auth View Controller */
 "auth.cancel" = "إلغاء";
@@ -42,11 +41,11 @@
 "error.5003" = "يُرجى المحاولة مرة أخرى.";
 "error.5004" = "تم استخدام جميع محاولات التحقق.";
 "error.5005" = "لم نتمكن من العثور على تطابق. حاول مرة أخرى في إضاءة أفضل، أو جرّب يدك الأخرى.";
-"error.5006" = "حدث خطأ ما. يرجى المحاولة مرة أخرى.";
+"error.5006" = "انتهت صلاحية جلستك. يرجى المحاولة مرة أخرى.";
 "error.5007" = "انتهت صلاحية جلستك. يرجى المحاولة مرة أخرى.";
 "error.5008" = "حدث خطأ ما. يرجى التواصل مع الدعم.";
 "error.5009" = "حدث خطأ ما. يرجى التواصل مع الدعم.";
-"error.5010" = "تم رفض مراجعة الحساب نهائيًا.";
+"error.5010" = "لم تتم الموافقة على مراجعة الحساب.";
 "error.5011" = "لا يزال تسجيل الحساب قيد المراجعة.";
 "error.5012" = "لا يُسمح بإعادة التسجيل إلا عندما تكون حالة المراجعة مرفوضة.";
 "error.5013" = "طلبات كثيرة جدًا. يُرجى المحاولة لاحقًا.";
@@ -64,29 +63,29 @@
 "error.6106" = "تعذّر تحميل مكتبة مسح راحة اليد. تحقق من اتصالك بالإنترنت وحاول مرة أخرى.";
 
 /* Common UI */
-"common.poweredBy" = "مشغّل بواسطة";
+"common.poweredByVeryAI" = "مشغّل بواسطة VeryAI";
 "common.retrying" = "جارٍ إعادة المحاولة…";
 "common.done" = "تم";
 "common.continue" = "متابعة";
 
 /* Scan Status */
-"scan.positionLeftHand" = "امسح كف اليد اليسرى";
-"scan.positionLeftHandAgain" = "امسح كف اليد اليسرى مرة أخرى";
-"scan.positionRightHand" = "امسح كف اليد اليمنى";
-"scan.positionRightHandAgain" = "أوشكت على الانتهاء — المسح الأخير";
+"scan.positionFirstHandAgain" = "أحسنت — تابع";
+"scan.positionOtherHand" = "أظهر يدك الأخرى";
+"scan.positionOtherHandAgain" = "أوشكت على الانتهاء — المسح الأخير";
 "scan.defaultStatus" = "أظهر يدك";
 "scan.defaultStatusEnroll" = "أظهر يدك الأولى";
 "scan.showGesture" = "أظهر الإيماءة";
 "scan.connectDots" = "صل النقاط";
 "scan.almostDone" = "أوشك على الانتهاء";
-"scan.livenessThanks" = "شكرًا على التحقق";
-"scan.support" = "الدعم";
-"scan.registeringPalms" = "جارٍ تسجيل الكفوف";
-"scan.verifyingPalm" = "جارٍ التحقق من الكف";
+"scan.livenessThanks" = "شكرًا على التأكيد";
+"scan.support" = "مساعدة";
 "scan.successTitleVerified" = "تم التحقق";
 "scan.successTitleRegistered" = "تم تسجيل الكفوف";
 "scan.successVerified" = "تم التحقق من كفك.";
 "scan.successRegistered" = "يمكنك الآن التحقق باستخدام كفوفك.";
+"scan.finishingUp" = "جارٍ الإنهاء";
+"scan.identityVerified" = "تم التحقق من كف اليد";
+"scan.awesome" = "رائع";
 
 /* Email Verification */
 "email.continueWithEmail" = "أدخل بريدك الإلكتروني";
@@ -95,7 +94,7 @@
 "email.resendCode" = "إعادة إرسال الرمز";
 "email.resendInSeconds" = "إعادة الإرسال خلال %@ ثانية";
 "email.placeholder" = "البريد الإلكتروني";
-"consent.tip3" = "مسح راحة يدك يُستخدم فقط للتحقق من هويتك — احذف بياناتك في أي وقت";
+"consent.tip3" = "مسح راحة يدك يُستخدم فقط للتحقق من أنك أنت؛ احذف بياناتك في أي وقت.";
 "switchPalm.scanOtherHand" = "امسح اليد الأخرى";
 "error.palmLinkedToEmail" = "كف يدك مرتبط بـ %@";
 
@@ -127,7 +126,7 @@
 "livenessError.captureFailedMessage" = "تعذّر إكمال المسح. حاول مرة أخرى.";
 "livenessError.retry" = "إعادة المحاولة";
 "livenessError.close" = "إغلاق";
-"consent.tip1" = "أنشئ حسابك بمسح كلتا راحتيك. أعد التحقق بمسح واحد فقط";
+"consent.tip1" = "أنشئ حسابك بمسح كلتا راحتيك؛ أعد التحقق بمسح واحد فقط.";
 "error.6001" = "تعذّر الاتصال. تحقق من اتصالك بالإنترنت وأعد المحاولة.";
 "error.6002" = "استغرقت الاستجابة وقتًا طويلاً. تحقق من اتصالك وأعد المحاولة.";
 "error.6003" = "تعذّر تحليل عنوان خوادمنا. تحقق من الشبكة أو جرّب التبديل إلى شبكة أخرى.";
@@ -158,7 +157,7 @@
 "error.title.serverTransient" = "لنحاول مرة أخرى";
 "error.body.serverTransient" = "إذا استمرت هذه المشكلة، يُرجى التواصل مع الدعم.";
 "error.title.enrollmentMismatch" = "لنحاول مرة أخرى";
-"error.body.enrollmentMismatch" = "تعذّر علينا التحقق من مسح راحة اليد. يُرجى المحاولة مرة أخرى في ظروف إضاءة أفضل";
+"error.body.enrollmentMismatch" = "تعذّر علينا التحقق من مسح راحة اليد. يُرجى المحاولة مرة أخرى في ظروف إضاءة أفضل.";
 "error.title.palmTooBlurry" = "مسح راحة اليد ضبابي جدًا";
 "error.body.palmTooBlurry" = "حافظ على ثبات يدك وأعد المسح في إضاءة أفضل.";
 "error.cta.tryAgain" = "المحاولة مرة أخرى";
@@ -173,8 +172,12 @@
 "email.inlineCodeExpired" = "انتهت صلاحية الرمز. اطلب رمزًا جديدًا.";
 "email.inlineCodeRateLimit" = "محاولات كثيرة جدًا. يُرجى طلب رمز جديد.";
 "email.inlineCodeGeneric" = "فشل التحقق.";
-"consent.getStarted" = "ابدأ";
-"consent.tip2" = "سيتمكن %@ من الوصول إلى [بيانات التحقق] المحدودة";
+"consent.getVerified" = "ابدأ التحقق";
+"onboarding.scanRearTitle" = "امسح يدك بالكاميرا الخلفية";
+"onboarding.scanRearCaption" = "تأكد من ظهور راحة يدك كاملة في الإطار.";
+"onboarding.connectDotsTitle" = "صِل النقاط عند ظهورها";
+"onboarding.connectDotsCaption" = "أبقِ الكاميرا ثابتة وامسح في إضاءة ساطعة.";
+"consent.tip2" = "سيتمكن %@ من الوصول إلى [بيانات التحقق] المحدودة.";
 "consent.verifyIdentitySubtitle" = "يستخدم %@ تقنية VeryAI للتأكد من أنك إنسان.";
 "consent.verifyIdentityTitle" = "يستخدم %@ تقنية VeryAI للتحقق من راحة اليد";
 "error.1001" = "حدث خطأ ما. يرجى المحاولة مرة أخرى.";

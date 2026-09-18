@@ -9,7 +9,7 @@
 "status.moveHandFarther" = "Elinizi biraz geri çekin";
 "status.rotateHandUpward" = "Elinizi kendinize doğru eğin";
 "status.rotateHandParallel" = "Elinizi düz tutun";
-"status.flipHandOver" = "Avucunuzu kameranın önüne yerleştirin";
+"status.flipHandOver" = "Elinizi çevirin";
 "status.spreadFingers" = "Elinizi açın";
 "status.straightenFingers" = "Parmaklarınızı düzeltin";
 "status.spreadThumb" = "Başparmağınızı yana doğru hareket ettirin";
@@ -23,7 +23,6 @@
 
 /* Switch Palm View */
 "switchPalm.scanComplete" = "İlk el tamamlandı";
-"switchPalm.proceedToSwitchHand" = "Şimdi diğer elinizi tarayın.";
 
 /* Auth View Controller */
 "auth.cancel" = "İptal";
@@ -42,11 +41,11 @@
 "error.5003" = "Lütfen tekrar deneyin.";
 "error.5004" = "Tüm doğrulama denemeleri kullanıldı.";
 "error.5005" = "Eşleşme bulamadık. Daha iyi ışıkta tekrar deneyin veya diğer elinizi kullanın.";
-"error.5006" = "Bir hata oluştu. Lütfen tekrar deneyin.";
+"error.5006" = "Oturumunuzun süresi doldu. Lütfen tekrar deneyin.";
 "error.5007" = "Oturumunuzun süresi doldu. Lütfen tekrar deneyin.";
 "error.5008" = "Bir hata oluştu. Lütfen destekle iletişime geçin.";
 "error.5009" = "Bir hata oluştu. Lütfen destekle iletişime geçin.";
-"error.5010" = "Hesap incelemesi kalıcı olarak reddedildi.";
+"error.5010" = "Hesap incelemesi onaylanmadı.";
 "error.5011" = "Hesap kaydı hâlâ inceleniyor.";
 "error.5012" = "Yeniden kayıt yalnızca inceleme durumu reddedildiğinde yapılabilir.";
 "error.5013" = "Çok fazla istek. Lütfen daha sonra tekrar deneyin.";
@@ -64,29 +63,27 @@
 "error.6106" = "Avuç içi tarama kitaplığı yüklenemedi. İnternetinizi kontrol edip yeniden deneyin.";
 
 /* Success Bottom Sheet Messages */
-"scan.successVerified" = "Avuç içiniz doğrulandı.";
-"scan.successRegistered" = "Avuç içi biyometrisi ayarlandı.";
+"scan.finishingUp" = "Tamamlanıyor";
+"scan.identityVerified" = "Avuç içi doğrulandı";
+"scan.awesome" = "Harika";
 
 /* Common UI */
-"common.poweredBy" = "Destekleyen";
+"common.poweredByVeryAI" = "Destekleyen: VeryAI";
 "common.retrying" = "Yeniden deneniyor…";
 "common.done" = "Tamam";
 "common.continue" = "Devam";
 
 /* Scan Status */
-"scan.positionLeftHand" = "Sol avuç içini tarayın";
-"scan.positionLeftHandAgain" = "Sol avuç içini tekrar tarayın";
-"scan.positionRightHand" = "Sağ avuç içini tarayın";
-"scan.positionRightHandAgain" = "Neredeyse bitti — son tarama";
+"scan.positionFirstHandAgain" = "Güzel — devam edin";
+"scan.positionOtherHand" = "Diğer elinizi gösterin";
+"scan.positionOtherHandAgain" = "Neredeyse bitti — son tarama";
 "scan.defaultStatus" = "Elinizi gösterin";
 "scan.defaultStatusEnroll" = "İlk elinizi gösterin";
 "scan.showGesture" = "Jesti gösterin";
 "scan.connectDots" = "Noktaları birleştirin";
 "scan.almostDone" = "Neredeyse bitti";
-"scan.livenessThanks" = "Doğruladığınız için teşekkürler";
-"scan.support" = "Destek";
-"scan.registeringPalms" = "Avuç içleri kaydediliyor";
-"scan.verifyingPalm" = "Avuç içi doğrulanıyor";
+"scan.livenessThanks" = "Onayladığınız için teşekkürler";
+"scan.support" = "Yardım";
 "scan.successTitleVerified" = "Doğrulandı";
 "scan.successTitleRegistered" = "Avuç içleri kaydedildi";
 "scan.successVerified" = "Avuç içiniz doğrulandı.";
@@ -99,8 +96,8 @@
 "email.resendCode" = "Kodu tekrar gönder";
 "email.resendInSeconds" = "%@ sn sonra yeniden gönder";
 "email.placeholder" = "E-posta adresi";
-"consent.tip3" = "Avuç içi taramanız yalnızca kimliğinizi doğrulamak için kullanılır — verilerinizi istediğiniz zaman silin";
-"switchPalm.scanOtherHand" = "Diğer eli tara";
+"consent.tip3" = "Avuç içi taramanız yalnızca sizin olduğunuzu doğrulamak için kullanılır; verilerinizi istediğiniz zaman silin.";
+"switchPalm.scanOtherHand" = "Diğer eli tarayın";
 "error.palmLinkedToEmail" = "Avuç içiniz %@ ile bağlantılı";
 
 /* Account Restricted */
@@ -131,7 +128,7 @@
 "livenessError.captureFailedMessage" = "Tarama tamamlanamadı. Lütfen tekrar deneyin.";
 "livenessError.retry" = "Tekrar dene";
 "livenessError.close" = "Kapat";
-"consent.tip1" = "Her iki avucunuzu tarayarak hesap oluşturun. Tek bir tarama ile yeniden doğrulayın";
+"consent.tip1" = "Her iki avucunuzu tarayarak hesap oluşturun; tek bir tarama ile yeniden doğrulayın.";
 "error.6001" = "Bağlanılamadı. İnternet bağlantınızı kontrol edip tekrar deneyin.";
 "error.6002" = "Yanıt çok uzun sürdü. Bağlantınızı kontrol edip tekrar deneyin.";
 "error.6003" = "Sunucularımıza ulaşılamıyor. Ağınızı kontrol edin veya başka bir ağı deneyin.";
@@ -162,7 +159,7 @@
 "error.title.serverTransient" = "Tekrar deneyelim";
 "error.body.serverTransient" = "Bu sorun devam ederse lütfen destekle iletişime geçin.";
 "error.title.enrollmentMismatch" = "Tekrar deneyelim";
-"error.body.enrollmentMismatch" = "Avuç içi taramalarını doğrulayamadık. Lütfen daha iyi ışık koşullarında tekrar deneyin";
+"error.body.enrollmentMismatch" = "Avuç içi taramalarını doğrulayamadık. Lütfen daha iyi ışık koşullarında tekrar deneyin.";
 "error.title.palmTooBlurry" = "Avuç içi taraması çok bulanık";
 "error.body.palmTooBlurry" = "Elinizi sabit tutun ve daha iyi ışıkta yeniden tarayın.";
 "error.cta.tryAgain" = "Tekrar dene";
@@ -177,8 +174,12 @@
 "email.inlineCodeExpired" = "Kodun süresi doldu. Yeni bir kod isteyin.";
 "email.inlineCodeRateLimit" = "Çok fazla deneme. Lütfen yeni bir kod isteyin.";
 "email.inlineCodeGeneric" = "Doğrulama başarısız oldu.";
-"consent.getStarted" = "Başla";
-"consent.tip2" = "%@ sınırlı [doğrulama verilerine] erişebilecek";
+"consent.getVerified" = "Doğrulanın";
+"onboarding.scanRearTitle" = "Elinizi arka kamerayla tarayın";
+"onboarding.scanRearCaption" = "Tüm avucunuzun çerçevede olduğundan emin olun.";
+"onboarding.connectDotsTitle" = "Noktalar belirdikçe birleştirin";
+"onboarding.connectDotsCaption" = "Kamerayı sabit tutun ve parlak ışıkta tarayın.";
+"consent.tip2" = "%@ sınırlı [doğrulama verilerine] erişebilecek.";
 "consent.verifyIdentitySubtitle" = "%@, insan olduğunuzu doğrulamak için VeryAI kullanır.";
 "consent.verifyIdentityTitle" = "%@, avuç içi doğrulaması için VeryAI kullanır";
 "error.1001" = "Bir şeyler ters gitti. Lütfen tekrar deneyin.";
