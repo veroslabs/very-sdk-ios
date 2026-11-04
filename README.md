@@ -284,7 +284,7 @@ When email bypass is enabled for your app:
 - The SDK skips the email input and OTP verification screens, going directly to consent and palm scan
 - Calling the email endpoints returns error code `5018`
 
-To enable email bypass for your app, contact VeryAI. This is not self-serve.
+To enable email bypass for your app, contact Very. This is not self-serve.
 
 ## Account Restriction
 
