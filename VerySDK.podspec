@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     b.dependency 'VerySDK/Core'
     # No source_files here — adding Swift sources creates a Pod target module
     # named 'VerySDK' that shadows the vendored xcframework module, breaking
-    # all downstream 'import VerySDK' (VER-485 / Zar iOS compilation failure).
+    # all downstream 'import VerySDK'.
     b.resource_bundle = { 'VerySDK_BundledModel' => ['BundledModel/packed_data.bin'] }
   end
 end
